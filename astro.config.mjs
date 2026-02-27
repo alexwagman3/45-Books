@@ -4,6 +4,7 @@ import sentry from '@sentry/astro';
 
 export default defineConfig({
   output: 'static',
+  site: 'https://45booksummaries.com',
   integrations: [
     mdx(),
     sentry({
