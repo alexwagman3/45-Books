@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'how-to-win-friends-and-influence-people', title: 'How to Win Friends and Influence People' },
+  { slug: 'the-art-of-neighboring',                  title: 'The Art of Neighboring' },
+  { slug: 'find-your-people',                        title: 'Find Your People' },
+];
+---
+
+<BaseLayout
+  title="Love Your Neighbors — Personal Takeaways"
+  description="Personal takeaways from the Love Your Neighbors shelf: How to Win Friends, The Art of Neighboring, and Find Your People."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Love Your Neighbors</span>
+    <h1 class="takeaways-title">Loving Your Neighbors Well</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="dd-topic-list" style="margin-top:1.5rem">
+    <a class="dd-topic-link" href="#tk-acts">Acts of Service</a>
+    <a class="dd-topic-link" href="#tk-difficult">Dealing with Difficult People</a>
+    <a class="dd-topic-link" href="#tk-fivefives">The Five Fives</a>
+    <a class="dd-topic-link" href="#tk-culdesac">Cul-de-Sac Gatherings</a>
+    <a class="dd-topic-link" href="#tk-compliments">Compliments</a>
+    <a class="dd-topic-link" href="#tk-words">Showing Up with Words</a>
+    <a class="dd-topic-link" href="#tk-questions">Asking Good Questions</a>
+    <a class="dd-topic-link" href="#tk-listening">Loud Listening</a>
+    <a class="dd-topic-link" href="#tk-gifts">Gifts</a>
+    <a class="dd-topic-link" href="#tk-groups">Groups God Wants Me to Love</a>
+    <a class="dd-topic-link" href="#tk-circles">Building My Inner Circles</a>
+    </div>
+    
+    <div class="tk-section" id="tk-acts">
+    <div class="tk-section-title">Acts of Service: How I Show Up</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Carnegie wrote that you can make more friends in two months by becoming genuinely interested in other people than you can in two years by trying to get other people interested in you. The Art of Neighboring showed that the most powerful acts of service aren\u2019t grand \u2014 they\u2019re timely, specific, and often invisible. Allen emphasized that real community requires showing up in tangible ways, not just with words. The principle I live by now: remember the details of people\u2019s lives. Any time there is noticeable emotion around an upcoming event \u2014 excitement, dread, confusion \u2014 I follow up about that event. If my memory is bad, I set a recurring reminder in my calendar. The world is full of people who are nice; there are many fewer who are effectively kind. I also learned that predictability makes kind gestures less effective, so I mix up the how, when, and what. I try to be interruptible \u2014 when someone needs my time unexpectedly, I give it, because the planned dinner can wait but a friend in crisis can\u2019t. Below is a comprehensive library of over 90 specific ways to serve the people around you \u2014 from when to call, to what to drop off, to how to get someone to actually accept your help.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See All Acts of Service &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-difficult">
+    <div class="tk-section-title">Dealing with Difficult People</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">One of the most important distinctions I\u2019ve learned is the difference between forgiveness and reconciliation. Forgiveness is unilateral \u2014 I choose it regardless of whether the other person changes. Reconciliation requires both parties to show up. The \u2018person of peace\u2019 concept from Luke 10 gave me permission to be friendly with everyone and close to a few, because not everyone will receive you. I\u2019ve started setting boundaries that help people get back in charge of their own lives \u2014 boundaries aren\u2019t walls, they\u2019re guidelines. In practice, I\u2019ve adopted specific phrases that keep difficult conversations productive: \u201cI noticed X\u2026 Help me understand what happened?\u201d opens without accusation. \u201cI understand your perspective, and here\u2019s mine\u201d validates without surrendering. \u201cDid you mean?\u201d gives someone a chance to clarify or retract a comment before I react to it. And sometimes the best response is silence \u2014 a 4-second pause communicates that a comment was heard but isn\u2019t worth engaging with. Carnegie\u2019s advice reshaped how I give feedback at work too: I lead with what I genuinely appreciate before raising concerns, and I reframe complaints into actionable asks \u2014 instead of \u201cyou never follow up,\u201d I say \u201cwould it help if we set a recurring reminder together?\u201d</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See De-Escalation Phrases &amp; Techniques &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-fivefives">
+    <div class="tk-section-title">The Five Fives</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">The Art of Neighboring taught that your immediate vicinity dominates your life more than anywhere else \u2014 most neighborhoods in your city you might never step foot in. After reading it, I mapped out our eight closest neighbors and could only name three. Wake-up call. We started small \u2014 waving, chatting, bringing over leftover food. Within months we knew every family on our cul-de-sac. The problems we call the government or church to fix often start with relationships never built, and community isn\u2019t something you drive to \u2014 it starts at your front door. So I created a \u2018Five Fives\u2019 framework: 5 neighbor friends, 5 nearby trails, 5 go-to dinners to host, 5 conversation topics, and 5 low-effort hangout formats \u2014 all within 5 miles of home. If you can\u2019t name five people within walking distance you\u2019d call in a crisis, your neighborhood infrastructure isn\u2019t built yet. I removed barriers to interaction: doing yardwork during peak neighbor hours, keeping the garage door open, switching to the front yard, and walking more instead of driving. I share activities I already do \u2014 cooking together, working out together, walking the neighborhood \u2014 because the goal is authentic connection, not performance hospitality.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See My Five Fives &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-culdesac">
+    <div class="tk-section-title">Cul-de-Sac Gatherings</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">The biggest barrier to neighboring isn\u2019t hostility \u2014 it\u2019s the absence of a natural excuse to connect. So I started organizing cul-de-sac gatherings tied to events: March Madness brackets, crawfish boils, pumpkin carving, Friendsgiving. The calendar does the heavy lifting \u2014 every month there\u2019s already a cultural moment you can build a low-effort hangout around. The single most important habit I\u2019ve adopted is scheduling the next gathering before the current one ends. I prepare food in advance so I can focus on the guests, always find a moment to make a unique toast or say a thoughtful prayer, and end on a sweet note. I also learned that meaningful conversation naturally maxes out at about 4 people \u2014 beyond that, dynamics shift and depth disappears. So at larger gatherings I separate food, drinks, and desserts into three distinct locations to force movement, and I remove excess seating so guests don\u2019t settle in with familiar faces. Below is a year-round calendar of 26 event-themed ideas, TV finale watch parties, and 12 neighborhood initiatives so there\u2019s never a month without something on the books.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Full Calendar &amp; Ideas &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-compliments">
+    <div class="tk-section-title">The Art of Giving Better Compliments</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Carnegie taught that the deepest craving in human nature is the desire to feel important \u2014 and that a sincere compliment is one of the most powerful tools we have to meet that need. But most compliments fall flat because they\u2019re generic. \u201cYou\u2019re awesome\u201d doesn\u2019t land the way \u201cI admire how you stick to your values even when it\u2019s hard\u201d does. The key principles I practice: be specific (it proves I was paying attention), be sincere (people detect flattery instantly), and compliment the traits people spend their whole life honing \u2014 character, effort, perseverance \u2014 not just appearance. I use moderate language and reserve superlatives for truly exceptional occasions. I brag about someone when introducing them to others, framing them as impressive before they even speak. I toast small wins at group dinners because publicly celebrating people creates loyalty that private praise can\u2019t match. I use the \u2018overheard compliment\u2019 technique: I ask someone what their favorite thing about a nearby friend is, and make sure that friend overhears it. I intentionally give compliments to people who may not receive them often \u2014 the people who need encouragement most rarely ask for it. I also built a compliment journal organized by category so I always have something genuine to offer, not generic flattery. The goal isn\u2019t to be a flatterer \u2014 it\u2019s to become the kind of person who notices the good in others and has the courage to say it out loud.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Examples &amp; Templates &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-words">
+    <div class="tk-section-title">The Art of Showing Up with Words</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Allen wrote that most people disappear after the initial text \u2014 they send \u201cthinking of you\u201d once and move on. Carnegie taught us to talk in terms of the other person\u2019s interests and make them feel important. The Art of Neighboring showed that consistent presence matters more than grand gestures. I combine these principles into a practice of showing up with words at the moments that matter most: birthdays, new jobs, new babies, loss, weddings, holidays, and the ordinary Tuesdays in between. The best messages aren\u2019t long or eloquent \u2014 they\u2019re timely, specific, and personal. They reference details only someone paying attention would know. I follow up weeks later when everyone else has forgotten. I call or text someone\u2019s family and deliver secondhand compliments through their spouse, sibling, or best friend. I give positive feedback to someone at work and send it to their boss. I send voice messages occasionally for a more personal touch than text. I respond meaningfully to people\u2019s social media with genuine comments rather than just likes. The goal: make people feel seen during life\u2019s biggest chapters. Below is a library of real messages across every major life event \u2014 not to copy, but to use as blueprints for your own voice.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Examples &amp; Templates &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-questions">
+    <div class="tk-section-title">Asking Good Questions</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Carnegie wrote to ask questions that other people will enjoy answering and to talk in terms of the other person’s interests. But the real magic happens when you ask questions that make everyone just uncomfortable enough that you might actually get to know them. Most conversations stay in the shallows — work updates, weekend plans, weather. The questions below are designed to bypass all of that. Some are fun and absurd enough to break the ice at any dinner party. Others are sincere enough to build the kind of vulnerability that turns acquaintances into real friends. I keep a running list of both and rotate them into group dinners, road trips, date nights, and one-on-one conversations. The goal isn’t to interrogate — it’s to signal that this is a space where real conversation is welcome, and that I’m genuinely curious about who you are beneath the surface.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See All Questions &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-listening">
+    <div class="tk-section-title">Loud Listening</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Carnegie wrote that being a good listener is one of the highest compliments you can pay someone. Allen described how vulnerability requires safety \u2014 and safety starts with someone who is fully present. \u201cLoud listening\u201d takes this further: it\u2019s giving someone such obvious, unmistakable attention that they can physically feel it. Phones facedown, eyes locked in, a steady rhythm of nods and \u201cno way!\u201d cues that say I\u2019m all here for you. David Brooks sums it up as 100 percent attention or nothing \u2014 no half-scrolling while they pour their heart out. I\u2019ve learned to become genuinely interested in other people and ask questions I\u2019m actually curious about, not just polite ones \u2014 people can tell the difference. I remember their name and use it in conversation. I encourage others to talk about themselves because the formula for conversations others are interested in is simple: their thoughts plus one. I repeat their stories back but add a little something extra. I talk in terms of the other person\u2019s interests, and I never criticize, condemn, or complain \u2014 I reframe complaints into actionable asks. Brain-imaging studies show that being on the receiving end of active listening lights up the reward circuitry and leaves people with warmer feelings toward the listener. Stress levels drop. Trust deepens. The quick-start checklist: park distractions, nod with a one-word affirmation every ten seconds, reflect a detail (\u201cSo your boss actually said that?\u201d), invite more (\u201cWhat happened next?\u201d), and seal it with a recap.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Loud Listening Techniques &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-gifts">
+    <div class="tk-section-title">The Art of Giving Gifts</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Carnegie taught that making someone feel important is the foundation of every strong relationship. The Art of Neighboring showed that small, practical acts of service \u2014 like lending a tool or dropping off a meal \u2014 open doors that words alone can\u2019t. Allen emphasized that real community requires showing up in tangible ways. I combine these into a gift-giving philosophy: focus on something useful rather than flashy, prioritize experiences over things, give when it\u2019s least expected, and pay close attention to what people buy for themselves. The best gifts aren\u2019t expensive \u2014 they\u2019re evidence that you were paying attention. A local care package for a friend who moved away. A meal train for a family with a sick parent. Calling ahead to a restaurant to send a bottle to someone\u2019s table on their anniversary. Below is a full library of gift-giving principles, situation-specific ideas for every life event, and a ChatGPT prompt to help you brainstorm the perfect gift every time.</p>
+    <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Gift Ideas &amp; Principles &rarr;</button>
+    </div>
+    
+    <div class="tk-section" id="tk-groups">
+    <div class="tk-section-title">Groups God Wants Me to Love</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">The hungry, the orphan, the widow, the poor, the addicted, the exploited, the prisoner, the vulnerable, the unreached, and the nation of Israel. Every week I ask myself: Who is down and needs to be lifted up? Who is going through a major life event? Who have I not reached out to in a while? Who has helped me that I can thank?</p>
+    <div class="tk-quote">Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as you ever can.</div>
+    </div>
+    
+    <div class="tk-section" id="tk-circles">
+    <div class="tk-section-title">Building My Inner Circles</div>
+    <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Anthropologist Robin Dunbar taught that the human brain hits a hard cognitive limit at roughly 150 meaningful relationships. Trying to treat everyone as a close friend doesn't just dilute your focus&mdash;it leads to inevitable social burnout. The principle to adopt here is structure: stop letting casual acquaintances steal time and energy from your inner circle. By mapping your network into concentric rings&mdash;an Inner 10, a Second 25, a Third 40, and an Outer 75&mdash;you move from passive socializing to deliberate relationship management. This map becomes a diagnostic tool. It ensures you have the right mix of reliable neighbors to share life with, while fiercely protecting the intimacy of your core group. The goal isn't to become transactional; it&rsquo;s to systematically invest your highest-value resource into your highest-value relationships, while releasing the guilt of letting the outer rings remain just friendly acquaintances.</p>
+    <div class="tk-subsection">
+    <div class="tk-sub-title">Concentric Circles of Connection</div>
+    <div style="max-width:82ch;display:flex;justify-content:flex-start;align-items:center;margin:1.5rem 0 1rem">
+    <div style="width:320px;height:320px;border-radius:50%;border:2px solid rgba(183,156,92,.2);background:rgba(183,156,92,.03);display:flex;align-items:center;justify-content:center;position:relative">
+    <span style="position:absolute;top:12px;font-family:'DM Sans';font-size:.55rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9E8C78">Fourth Circle \u2014 75</span>
+    <span style="position:absolute;bottom:12px;font-family:'EB Garamond';font-size:.72rem;color:#7A7368;font-style:italic">Friendly acquaintances &amp; occasional contacts</span>
+    <div style="width:240px;height:240px;border-radius:50%;border:2px solid rgba(183,156,92,.3);background:rgba(183,156,92,.05);display:flex;align-items:center;justify-content:center;position:relative">
+    <span style="position:absolute;top:10px;font-family:'DM Sans';font-size:.55rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9E8C78">Third Circle \u2014 40</span>
+    <span style="position:absolute;bottom:10px;font-family:'EB Garamond';font-size:.7rem;color:#7A7368;font-style:italic;text-align:center;padding:0 1rem">Meaningfully connected</span>
+    <div style="width:165px;height:165px;border-radius:50%;border:2px solid rgba(183,156,92,.4);background:rgba(183,156,92,.08);display:flex;align-items:center;justify-content:center;position:relative">
+    <span style="position:absolute;top:8px;font-family:'DM Sans';font-size:.55rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9E8C78">Second \u2014 25</span>
+    <span style="position:absolute;bottom:8px;font-family:'EB Garamond';font-size:.65rem;color:#7A7368;font-style:italic">Reliable &amp; regular</span>
+    <div style="width:85px;height:85px;border-radius:50%;border:2px solid #C2A86D;background:rgba(183,156,92,.15);display:flex;align-items:center;justify-content:center;flex-direction:column">
+    <span style="font-family:'DM Sans';font-size:.5rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6A6156">Inner</span>
+    <span style="font-family:'Playfair Display';font-size:1.1rem;font-weight:700;color:#4F4A44">10</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <p style="max-width:82ch;font-family:'EB Garamond',serif;font-size:.88rem;color:#7A7368;font-style:italic;text-align:left;margin-bottom:.5rem">\u2018Dunbar\u2019s Number\u2019 \u2014 ~150 total meaningful relationships</p>
+    </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Smooth scroll on anchor jumps within this page */
+  html { scroll-behavior: smooth; }
+</style>

@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'how-to-cook-everything',  title: 'How to Cook Everything' },
+  { slug: 'everything-fat-loss',     title: 'Everything Fat Loss' },
+  { slug: 'the-whole-foods-diet',    title: 'The Whole Foods Diet' },
+];
+---
+
+<BaseLayout
+  title="Feed Your Body — Personal Takeaways"
+  description="Personal takeaways from the Feed Your Body shelf: weekly dinner plan, healthy eating systems, and real-food habits."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Feed Your Body</span>
+    <h1 class="takeaways-title">Feed Your Body</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="dd-topic-list" style="margin-top:1.5rem">
+      <a class="dd-topic-link" href="#fyb-weekly-plan">Weekly Dinner Plan</a>
+    </div>
+
+    <div class="tk-section" id="fyb-weekly-plan" style="margin-top:2rem">
+      <div class="tk-section-title">Weekly Dinner Plan</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">This weekly dinner plan is my antidote to chaos eating. It's a simple system for getting real food on the table — healthy, tasty, cheap, and fast — without living in the kitchen. Each night centers on a solid protein, a couple of vegetables, and an easy carb, built from ingredients you can recognize and buy anywhere. Most meals use the same repeatable methods (sheet pan, sauté, Instant Pot, air fryer), so prep stays light and cleanup stays reasonable. The ingredients overlap on purpose — garlic, onion, lemon, olive oil, spices — so you're not wasting money or letting produce rot in the fridge. It's minimally processed, high-satiety food that still feels like comfort: tacos, soup, shrimp gumbo, salmon, spaghetti — just made at home with better inputs. The point isn't perfection; it's rhythm. Decision fatigue drops, grocery trips get simpler, and "what's for dinner?" stops being a nightly problem.</p>
+      <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">View Weekly Dinner Plan &rarr;</button>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>

@@ -1,0 +1,36 @@
+/* ─── Book spine color classes ──────────────────────────────── */
+/* All bc-* classes used by BookSpine component                  */
+
+.bc-warm-linen       { background: linear-gradient(170deg, #f3efe9, #e1ddd7); color: #463d34; }
+.bc-soft-parchment   { background: linear-gradient(170deg, #e9e3d8, #d7d1c6); color: #463d34; }
+.bc-light-sand       { background: linear-gradient(170deg, #d9d1c4, #c7bfb2); color: #463d34; }
+.bc-weathered-canvas { background: linear-gradient(170deg, #d2cabf, #c0b8ad); color: #463d34; }
+.bc-driftwood        { background: linear-gradient(170deg, #c7bbaa, #b5a998); color: #463d34; }
+.bc-stone-wash       { background: linear-gradient(170deg, #beb5a8, #aca396); color: #463d34; }
+.bc-fogged-ivory     { background: linear-gradient(170deg, #f6f4f0, #e4e2de); color: #463d34; }
+.bc-muted-cream      { background: linear-gradient(170deg, #eee8de, #dcd6cc); color: #463d34; }
+.bc-natural-oak      { background: linear-gradient(170deg, #c4b29a, #b2a088); color: #463d34; }
+.bc-pale-walnut      { background: linear-gradient(170deg, #b8a48c, #a6927a); color: #463d34; }
+.bc-dusty-timber     { background: linear-gradient(170deg, #a8947d, #96826b); color: #f3efe9; }
+.bc-soft-taupe-wood  { background: linear-gradient(170deg, #9e8c78, #8c7a66); color: #f3efe9; }
+.bc-ash-wood         { background: linear-gradient(170deg, #8e8172, #7c6f60); color: #f3efe9; }
+.bc-light-greige     { background: linear-gradient(170deg, #afa79b, #9d9589); color: #463d34; }
+.bc-warm-charcoal    { background: linear-gradient(170deg, #6a6156, #584f44); color: #f3efe9; }
+.bc-ink-taupe        { background: linear-gradient(170deg, #5e554b, #4c4339); color: #f3efe9; }
+.bc-soft-graphite    { background: linear-gradient(170deg, #4f4a44, #3d3832); color: #f3efe9; }
+.bc-muted-espresso   { background: linear-gradient(170deg, #463d34, #342b22); color: #f3efe9; }
+.bc-stone-ink        { background: linear-gradient(170deg, #7a7368, #686156); color: #f3efe9; }
+.bc-slate-blue       { background: linear-gradient(170deg, #6e7e8b, #5c6c79); color: #f3efe9; }
+.bc-dusty-navy       { background: linear-gradient(170deg, #4e5f6f, #3c4d5d); color: #f3efe9; }
+.bc-steel-blue-grey  { background: linear-gradient(170deg, #758693, #637481); color: #f3efe9; }
+.bc-muted-sage       { background: linear-gradient(170deg, #8fa593, #7d9381); color: #f3efe9; }
+.bc-moss-green       { background: linear-gradient(170deg, #7e8c74, #6c7a62); color: #f3efe9; }
+.bc-olive-linen      { background: linear-gradient(170deg, #9aa282, #889070); color: #463d34; }
+.bc-forest-mist      { background: linear-gradient(170deg, #6f8175, #5d6f63); color: #f3efe9; }
+.bc-antique-gold     { background: linear-gradient(170deg, #c2a86d, #b0965b); color: #463d34; }
+.bc-faded-ochre      { background: linear-gradient(170deg, #b79c5c, #a58a4a); color: #463d34; }
+.bc-muted-terracotta { background: linear-gradient(170deg, #b5896d, #a3775b); color: #f3efe9; }
+.bc-soft-clay-rose   { background: linear-gradient(170deg, #c5a29f, #b3908d); color: #463d34; }
+.bc-deep-espresso    { background: linear-gradient(170deg, #4a3f35, #382d23); color: #f3efe9; }
+.bc-smoked-walnut    { background: linear-gradient(170deg, #3e372f, #2c251d); color: #f3efe9; }
+.bc-warm-graphite    { background: linear-gradient(170deg, #3a342e, #28221c); color: #f3efe9; }

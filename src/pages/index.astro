@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import PillarSection from '../components/PillarSection.astro';
+import { getCollection } from 'astro:content';
+import { SHELVES } from '../data/shelves';
+
+const allBooks = await getCollection('books');
+const booksBySlug = Object.fromEntries(allBooks.map((b) => [b.slug, b]));
+---
+
+<BaseLayout>
+  <Nav />
+  {SHELVES.map((pillar) => (
+    <PillarSection pillar={pillar} booksBySlug={booksBySlug} />
+  ))}
+  <footer>
+    <p>Wisdom translated into action.</p>
+  </footer>
+</BaseLayout>

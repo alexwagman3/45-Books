@@ -1,0 +1,34 @@
+---
+const pillars = [
+  { label: 'Money',         id: 'pillar-money' },
+  { label: 'Health',        id: 'pillar-health' },
+  { label: 'Character',     id: 'pillar-character' },
+  { label: 'Relationships', id: 'pillar-relationships' },
+  { label: 'Faith',         id: 'pillar-faith' },
+];
+---
+
+<nav id="mainNav">
+  <div class="nav-top">
+    <a class="nav-title" href="/">Life-Changing Book Summaries</a>
+  </div>
+  <div class="nav-links">
+    {pillars.map((p) => (
+      <a class="nav-link" href={`/#${p.id}`}>{p.label}</a>
+    ))}
+  </div>
+</nav>
+
+<script>
+  // Smooth-scroll pillar anchors on the index page
+  document.querySelectorAll('.nav-link').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      const href = (link as HTMLAnchorElement).getAttribute('href') ?? '';
+      if (href.startsWith('/#') && window.location.pathname === '/') {
+        e.preventDefault();
+        const id = href.slice(2);
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>

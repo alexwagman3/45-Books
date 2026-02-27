@@ -1,0 +1,28 @@
+---
+import ShelfCase from './ShelfCase.astro';
+import type { CollectionEntry } from 'astro:content';
+import type { PillarDef } from '../data/shelves';
+
+interface Props {
+  pillar: PillarDef;
+  booksBySlug: Record<string, CollectionEntry<'books'>>;
+}
+
+const { pillar, booksBySlug } = Astro.props;
+---
+
+<section class="shelf-section" id={pillar.pillarId}>
+  <div class="pillar-label">
+    <span>{pillar.pillarLabel}</span>
+  </div>
+  <div class="shelves-container">
+    {pillar.shelves.map((shelf) => (
+      <ShelfCase
+        label={shelf.label}
+        books={shelf.books
+          .map((slug) => booksBySlug[slug])
+          .filter((b): b is CollectionEntry<'books'> => Boolean(b))}
+      />
+    ))}
+  </div>
+</section>

@@ -1,0 +1,31 @@
+---
+import BookSpine from './BookSpine.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  label: string;
+  books: CollectionEntry<'books'>[];
+}
+
+const { label, books } = Astro.props;
+---
+
+<div class="shelf-case">
+  <div class="shelf-header">{label}</div>
+  <div class="shelf-books-row">
+    <div class="shelf-group">
+      {books.map((b) => (
+        <BookSpine
+          title={b.data.title}
+          author={b.data.author}
+          slug={b.slug}
+          bookColor={b.data.bookColor}
+          bookSize={b.data.bookSize}
+          titleSize={b.data.titleSize}
+        />
+      ))}
+    </div>
+  </div>
+  <div class="shelf-ledge"></div>
+  <div class="shelf-frame-bottom"></div>
+</div>

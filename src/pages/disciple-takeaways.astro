@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'master-plan-of-evangelism',       title: 'The Master Plan of Evangelism' },
+  { slug: 'evidence-for-jesus',              title: 'Evidence for Jesus' },
+  { slug: 'instruments-in-the-redeemers-hands', title: "Instruments in the Redeemer's Hands" },
+];
+---
+
+<BaseLayout
+  title="Disciple — Personal Takeaways"
+  description="Personal takeaways from the Disciple shelf: how to help someone change using the Love, Know, Speak, Do rhythm."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Disciple</span>
+    <h1 class="takeaways-title">How to Help Someone Change</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="tk-section" id="tk-change-core">
+      <div class="tk-section-title">How to Help Someone Change</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Helping someone change means influencing thoughts, feelings, beliefs, and behaviors, not just giving advice. I use a simple rhythm: Love, Know, Speak, Do. Love with patience and kindness, resisting rudeness and resentment. Know their inner life by asking deeper questions, listening well, and following up through highs and lows. Speak by helping them rewrite a better story, balancing empathy with logic, and applying gospel truth to their specific moment. Do by lowering practical hurdles, asking for one small commitment, and sustaining momentum through accountability. Heart change is more than information transfer; it captures imagination, moves affections, and strengthens the will to act. As Paul says, we must speak truth in love. Truth without love turns harsh and self-serving; love without truth turns soft and directionless. My aim is that message, method, and character work together so God changes the person from the inside out.</p>
+      <button class="go-deeper-btn" title="Deep dive coming soon" style="opacity:0.4;cursor:default;pointer-events:none">See Framework &rarr;</button>
+    </div>
+  </div>
+</BaseLayout>

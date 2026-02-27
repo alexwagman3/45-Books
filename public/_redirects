@@ -1,0 +1,5 @@
+# Hash-based routes (from original site) cannot be redirected server-side.
+# The hash-shim script in BaseLayout handles #book/* → /books/*/ at runtime.
+#
+# Add permanent redirects here as slugs change:
+# /old-path  /new-path  301

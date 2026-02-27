@@ -1,0 +1,32 @@
+---
+interface Props {
+  title: string;
+  author: string;
+  slug: string;
+  bookColor: string;
+  bookSize: 'tall' | 'med' | 'short';
+  titleSize: 'default' | 'sm' | 'xs';
+}
+
+const { title, author, slug, bookColor, bookSize, titleSize } = Astro.props;
+
+const titleClass =
+  titleSize === 'sm' ? 'book-title book-title-sm'
+  : titleSize === 'xs' ? 'book-title book-title-xs'
+  : 'book-title';
+---
+
+<div class="book-wrap">
+  <a
+    class={`book book-${bookSize} ${bookColor}`}
+    href={`/books/${slug}/`}
+    aria-label={`${title} by ${author}`}
+  >
+    <div class="book-pages-top"></div>
+    <div class="book-inner">
+      <span class={titleClass}>{title}</span>
+      <span class="book-divider"></span>
+      <span class="book-author">{author}</span>
+    </div>
+  </a>
+</div>

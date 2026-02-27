@@ -1,0 +1,151 @@
+---
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import BookLayout from '../../../layouts/BookLayout.astro';
+import QuoteBlock from '../../../components/content/QuoteBlock.astro';
+import PrincipleHeading from '../../../components/content/PrincipleHeading.astro';
+import SectionTitle from '../../../components/content/SectionTitle.astro';
+import TakeawayList from '../../../components/content/TakeawayList.astro';
+import TakeawayItem from '../../../components/content/TakeawayItem.astro';
+import TkQuote from '../../../components/content/TkQuote.astro';
+import DeepDiveCard from '../../../components/content/DeepDiveCard.astro';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books.map((book) => ({
+    params: { slug: book.slug },
+    props: { book },
+  }));
+}
+
+type Props = { book: CollectionEntry<'books'> };
+const { book } = Astro.props;
+const { Content } = await book.render();
+
+// Reading notes: highlighted excerpts from the book (shown below the summary)
+// These live in src/content/takeaways/<slug>.md (35 books have this content)
+const notesEntry = await getEntry('takeaways', book.slug);
+const hasNotes = !!notesEntry;
+const { Content: NotesContent } = hasNotes
+  ? await notesEntry!.render()
+  : { Content: null };
+
+// HTML excerpts: raw quoted passages from the book (6 books)
+// Kept in src/content/excerpts/<slug>.md so class="" attributes pass through
+const excerptsEntry = await getEntry('excerpts', book.slug);
+const hasExcerpts = !!excerptsEntry;
+const { Content: ExcerptsContent } = hasExcerpts
+  ? await excerptsEntry!.render()
+  : { Content: null };
+
+const components = {
+  QuoteBlock,
+  PrincipleHeading,
+  SectionTitle,
+  TakeawayList,
+  TakeawayItem,
+  TkQuote,
+  DeepDiveCard,
+};
+---
+
+<BookLayout
+  title={book.data.title}
+  author={book.data.author}
+  tag={book.data.shelfLabel}
+  slug={book.slug}
+  hasTakeaways={book.data.hasTakeaways}
+  hasDeepDive={book.data.hasDeepDive}
+  metaDescription={book.data.metaDescription}
+>
+  <!-- Motivation / Summary section -->
+  <div class="overlay-summary-label excerpts-label" style="margin-top: 2rem;">
+    Motivation for Reading &amp; Implementing the Book
+  </div>
+  <div class="overlay-summary" id="overlaySummary">
+    <Content components={components} />
+  </div>
+
+  <!-- TABLE OF CONTENTS (populated by script below if headings are found) -->
+  <!-- Using <div> not <nav> — global nav{} CSS rule is position:fixed which would steal this element -->
+  <div class="book-chapter-heading" id="bookChapterHeading" style="display:none">
+    <span>Table of Contents</span>
+  </div>
+  <div class="book-chapter-nav" id="bookChapterNav" style="display:none" role="navigation" aria-label="Chapter navigation"></div>
+
+  <!-- HTML Excerpts section (6 excerpt books — raw HTML passed through .md) -->
+  {hasExcerpts && ExcerptsContent && (
+    <div class="excerpts-section" id="excerptsSection">
+      <div class="overlay-summary-label excerpts-label">
+        Direct Quotes &amp; Excerpts From The Book
+      </div>
+      <div class="excerpts-body" id="excerptsFullBody">
+        <ExcerptsContent />
+      </div>
+    </div>
+  )}
+
+  <!-- Reading notes section (35 books with extracted markdown content) -->
+  {hasNotes && NotesContent && (
+    <div class="excerpts-section" id="notesSection">
+      <div class="overlay-summary-label excerpts-label">
+        Direct Quotes &amp; Excerpts From The Book
+      </div>
+      <div class="takeaways-body" id="overlayFullBody">
+        <NotesContent />
+      </div>
+    </div>
+  )}
+</BookLayout>
+
+<script>
+  /**
+   * Rebuild the TABLE OF CONTENTS nav from section headings.
+   * Scans for headings in three places:
+   *   1. h3.excerpt-section-title inside #excerptsFullBody (6 HTML-excerpt books)
+   *   2. h1, h2 inside #overlayFullBody (35 reading-notes books)
+   * Then populates #bookChapterNav and reveals #bookChapterHeading.
+   */
+  (function () {
+    const navEl     = document.getElementById('bookChapterNav') as HTMLElement | null;
+    const headingEl = document.getElementById('bookChapterHeading') as HTMLElement | null;
+    if (!navEl || !headingEl) return;
+
+    interface NavEntry { el: HTMLElement; isSection: boolean; label: string }
+    const entries: NavEntry[] = [];
+
+    // Case 1: HTML excerpt books — scan h3.excerpt-section-title in the excerpts body
+    const excerptsBodyEl = document.getElementById('excerptsFullBody');
+    if (excerptsBodyEl) {
+      excerptsBodyEl.querySelectorAll<HTMLElement>('h3.excerpt-section-title').forEach((h, i) => {
+        if (!h.id) h.id = 'exc-section-' + i;
+        entries.push({ el: h, isSection: true, label: h.textContent?.trim() || '' });
+      });
+    }
+
+    // Case 2: Reading-notes books — scan h1 and h2 inside the notes body
+    const bodyEl = document.getElementById('overlayFullBody');
+    if (bodyEl) {
+      bodyEl.querySelectorAll<HTMLElement>('h1, h2').forEach((h, i) => {
+        if (!h.id) h.id = 'note-section-' + i;
+        const isSection = h.tagName === 'H1';
+        entries.push({ el: h, isSection, label: h.textContent?.trim() || '' });
+      });
+    }
+
+    if (entries.length === 0) return;
+
+    // Build nav buttons
+    entries.forEach(({ el, isSection, label }) => {
+      const btn = document.createElement('button');
+      btn.className = 'book-chapter-nav-item' + (isSection ? ' is-section' : '');
+      btn.textContent = label;
+      btn.addEventListener('click', () => {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      navEl.appendChild(btn);
+    });
+
+    headingEl.style.display = 'flex';
+    navEl.style.display     = 'flex';
+  })();
+</script>

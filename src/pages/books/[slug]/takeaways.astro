@@ -1,0 +1,70 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books
+    .filter((b) => b.data.hasTakeaways)
+    .map((book) => ({
+      params: { slug: book.slug },
+      props: { book },
+    }));
+}
+
+type Props = { book: CollectionEntry<'books'> };
+const { book } = Astro.props;
+
+// ─── Shelf-level shared takeaway pages ───────────────────────────────────────
+// These three shelves combine takeaways across all three books in the shelf.
+// Books in each shelf redirect to their shared page via immediate JS redirect.
+
+const LOVE_NEIGHBORS_SLUGS = new Set([
+  'how-to-win-friends-and-influence-people',
+  'find-your-people',
+  'the-art-of-neighboring',
+]);
+
+const DISCIPLE_SLUGS = new Set([
+  'master-plan-of-evangelism',
+  'evidence-for-jesus',
+  'instruments-in-the-redeemers-hands',
+]);
+
+const FEED_YOUR_BODY_SLUGS = new Set([
+  'how-to-cook-everything',
+  'everything-fat-loss',
+  'the-whole-foods-diet',
+]);
+
+const redirectTo =
+  LOVE_NEIGHBORS_SLUGS.has(book.slug) ? '/love-your-neighbors-takeaways/' :
+  DISCIPLE_SLUGS.has(book.slug)       ? '/disciple-takeaways/' :
+  FEED_YOUR_BODY_SLUGS.has(book.slug) ? '/feed-your-body-takeaways/' :
+  null;
+---
+
+<BaseLayout
+  title={`${book.data.title} — Takeaways`}
+  description={`Personal takeaways from ${book.data.title} by ${book.data.author}`}
+>
+  {redirectTo && (
+    <!-- Immediate JS redirect — runs before paint, no flash -->
+    <script is:inline define:vars={{ redirectTo }}>window.location.replace(redirectTo);</script>
+  )}
+
+  <a class="overlay-back" href={`/books/${book.slug}/`}>&#8592; Back to Book</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">{book.data.shelfLabel}</span>
+    <h1 class="takeaways-title">{book.data.title}</h1>
+    <p class="takeaways-author">By {book.data.author}</p>
+
+    {!redirectTo && (
+      <div class="overlay-coming-soon">
+        Personal takeaways haven't been added for this book yet. Check back soon.
+      </div>
+    )}
+  </div>
+</BaseLayout>
