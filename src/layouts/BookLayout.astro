@@ -12,9 +12,38 @@ interface Props {
 }
 
 const { title, author, tag, slug, hasTakeaways, hasDeepDive, metaDescription } = Astro.props;
+
+// Auto-generate a description when the frontmatter doesn't supply one
+const description = metaDescription
+  ?? `${title} by ${author} — ${tag} shelf. Book summary, key takeaways, and direct quotes.`;
+
+const siteBase = 'https://45booksummaries.com';
+
+// JSON-LD structured data — schema.org/Book
+// Tells Google this is a book page; enables potential rich results in search.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  'name': title,
+  'author': { '@type': 'Person', 'name': author },
+  'url': `${siteBase}/books/${slug}/`,
+  'description': description,
+  'genre': tag,
+  'mainEntityOfPage': {
+    '@type': 'WebPage',
+    '@id': `${siteBase}/books/${slug}/`,
+  },
+};
 ---
 
-<BaseLayout title={`${title} — Bookshelf`} description={metaDescription}>
+<BaseLayout
+  title={`${title} — ${author}`}
+  description={description}
+  ogType="article"
+  canonicalPath={`/books/${slug}/`}
+>
+  <!-- JSON-LD Book schema — parsed by Google at crawl time, not executed as JS -->
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
   <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
   <a class="overlay-close" href="/" aria-label="Close">&times;</a>
 

@@ -2,12 +2,23 @@
 interface Props {
   title?: string;
   description?: string;
+  ogType?: 'website' | 'article';
+  canonicalPath?: string;   // e.g. '/books/atomic-habits/' — if omitted uses Astro.url.pathname
 }
 
 const {
   title = 'Life-Changing Book Summaries',
   description = 'Wisdom translated into action. 45 book summaries across money, health, character, relationships, and faith.',
+  ogType = 'website',
+  canonicalPath,
 } = Astro.props;
+
+const siteBase  = Astro.site?.toString().replace(/\/$/, '') ?? 'https://45booksummaries.com';
+const pagePath  = canonicalPath ?? Astro.url.pathname;
+const canonical = siteBase + pagePath;
+const fullTitle = title === 'Life-Changing Book Summaries'
+  ? 'Life-Changing Book Summaries | 45 Books'
+  : `${title} | 45 Book Summaries`;
 ---
 
 <!DOCTYPE html>
@@ -15,21 +26,78 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Primary -->
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph (used by LinkedIn, Slack, iMessage, Discord, etc.) -->
+    <meta property="og:site_name"   content="45 Book Summaries" />
+    <meta property="og:type"        content={ogType} />
+    <meta property="og:title"       content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url"         content={canonical} />
+
+    <!-- Twitter / X card — only type needed; title + description fall back to OG -->
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Favicon: book emoji as inline SVG — no separate file asset needed -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+
+    <!-- Self-hosted fonts — served from same domain, no external DNS lookup needed -->
+    <!-- Font files live in public/fonts/; @font-face rules in src/styles/fonts.css -->
   </head>
   <body>
     <slot />
   </body>
 </html>
 
+<!-- ─── Hash redirect shim ──────────────────────────────────────────────────
+     The original site used hash-based SPA routing: #book/<slug>,
+     #book/<slug>/takeaways/<key>, #book/<slug>/deep-dive/<type>.
+     Browsers never send hashes to the server, so we handle them client-side
+     by reading window.location.hash on load and calling replace() to navigate
+     to the equivalent new URL (replace() avoids polluting history).
+──────────────────────────────────────────────────────────────────────── -->
+<script is:inline>
+  (function () {
+    var hash = window.location.hash;
+    if (!hash || hash === '#') return;
+
+    var route = hash.slice(1); // strip leading #
+
+    // Pattern: book/<slug>/takeaways/<key>
+    var tkMatch = route.match(/^book\/([^/]+)\/takeaways\/([^/]+)/);
+    if (tkMatch) {
+      var key = tkMatch[2];
+      var dest =
+        key === 'love-neighbors'  ? '/love-your-neighbors-takeaways/' :
+        key === 'disciple'        ? '/disciple-takeaways/'            :
+        key === 'feed-your-body'  ? '/feed-your-body-takeaways/'      :
+        '/books/' + tkMatch[1] + '/takeaways/';
+      window.location.replace(dest);
+      return;
+    }
+
+    // Pattern: book/<slug>/deep-dive/<type>
+    var ddMatch = route.match(/^book\/([^/]+)\/deep-dive/);
+    if (ddMatch) {
+      window.location.replace('/books/' + ddMatch[1] + '/deep-dive/');
+      return;
+    }
+
+    // Pattern: book/<slug>
+    var bookMatch = route.match(/^book\/([^/]+)/);
+    if (bookMatch) {
+      window.location.replace('/books/' + bookMatch[1] + '/');
+      return;
+    }
+  })();
+</script>
+
 <style is:global>
+  @import '../styles/fonts.css';
   @import '../styles/global.css';
   @import '../styles/book-colors.css';
   @import '../styles/overlays.css';
