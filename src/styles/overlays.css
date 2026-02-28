@@ -789,6 +789,98 @@
   text-decoration: underline;
 }
 
+/* ─── Feed Your Body — dinner plan table ────────────────────── */
+.fyb-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+
+.fyb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #4f4a44;
+}
+
+.fyb-table th {
+  background: rgba(183, 156, 92, 0.12);
+  color: #6a6156;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(183, 156, 92, 0.25);
+}
+
+.fyb-table td {
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.3);
+  vertical-align: top;
+}
+
+.fyb-table tr:last-child td {
+  border-bottom: none;
+}
+
+.fyb-table tr:nth-child(even) td {
+  background: rgba(233, 227, 216, 0.35);
+}
+
+.fyb-day {
+  font-weight: 600;
+  color: #b79c5c;
+  white-space: nowrap;
+  min-width: 90px;
+}
+
+.fyb-table ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  line-height: 1.65;
+}
+
+.fyb-table li {
+  margin-bottom: 0.25rem;
+}
+
+/* ─── Feed Your Body — lunch options grid ───────────────────── */
+.fyb-lunch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.fyb-card {
+  background: rgba(233, 227, 216, 0.5);
+  border: 1px solid rgba(199, 187, 170, 0.4);
+  border-radius: 4px;
+  padding: 1rem 1.1rem;
+}
+
+.fyb-card-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.6rem;
+}
+
+.fyb-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: #5e554b;
+}
+
 /* Hide the redundant title heading at the top of extracted markdown */
 .takeaways-body > h1:first-child {
   display: none;
