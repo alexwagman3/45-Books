@@ -6,12 +6,11 @@ interface Props {
   author: string;
   tag: string;
   slug: string;
-  hasTakeaways: boolean;
   hasDeepDive: boolean;
   metaDescription?: string;
 }
 
-const { title, author, tag, slug, hasTakeaways, hasDeepDive, metaDescription } = Astro.props;
+const { title, author, tag, slug, hasDeepDive, metaDescription } = Astro.props;
 
 // Auto-generate a description when the frontmatter doesn't supply one
 const description = metaDescription
@@ -53,12 +52,6 @@ const jsonLd = {
     <p class="overlay-book-author">By {author}</p>
 
     <slot />
-
-    {hasTakeaways && (
-      <a class="overlay-takeaways-btn" href={`/books/${slug}/takeaways/`}>
-        My Personal Takeaways &rarr;
-      </a>
-    )}
 
     {hasDeepDive && (
       <a class="go-deeper-btn" href={`/books/${slug}/deep-dive/`}>
