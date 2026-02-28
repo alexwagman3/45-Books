@@ -53,7 +53,6 @@ const components = {
   author={book.data.author}
   tag={book.data.shelfLabel}
   slug={book.slug}
-  hasTakeaways={book.data.hasTakeaways}
   hasDeepDive={book.data.hasDeepDive}
   metaDescription={book.data.metaDescription}
 >
@@ -64,6 +63,12 @@ const components = {
   <div class="overlay-summary" id="overlaySummary">
     <Content components={components} />
   </div>
+
+  {book.data.hasTakeaways && (
+    <a class="overlay-takeaways-btn" href={`/books/${book.slug}/takeaways/`}>
+      My Personal Takeaways &rarr;
+    </a>
+  )}
 
   <!-- TABLE OF CONTENTS (populated by script below if headings are found) -->
   <!-- Using <div> not <nav> — global nav{} CSS rule is position:fixed which would steal this element -->
@@ -125,6 +130,24 @@ const components = {
     // Case 2: Reading-notes books — scan h1 and h2 inside the notes body
     const bodyEl = document.getElementById('overlayFullBody');
     if (bodyEl) {
+      // Strip the leading book-title h1, author bold-paragraph, and divider hr
+      // that appear at the top of every takeaways/*.md file.
+      const firstEl = bodyEl.firstElementChild;
+      if (firstEl && firstEl.tagName === 'H1') {
+        let next = firstEl.nextElementSibling;
+        firstEl.remove();
+        // Remove the "**By Author**" paragraph immediately after
+        if (next && next.tagName === 'P' && next.querySelector('strong') && next.children.length === 1) {
+          const authorEl = next;
+          next = authorEl.nextElementSibling;
+          authorEl.remove();
+        }
+        // Remove the horizontal rule divider immediately after
+        if (next && next.tagName === 'HR') {
+          next.remove();
+        }
+      }
+
       bodyEl.querySelectorAll<HTMLElement>('h1, h2').forEach((h, i) => {
         if (!h.id) h.id = 'note-section-' + i;
         const isSection = h.tagName === 'H1';
