@@ -555,21 +555,6 @@
   line-height: 1.7;
 }
 
-/* ─── Deep dive overlay (layer 3) ───────────────────────────── */
-.deep-dive-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  z-index: 400;
-  background: rgba(233, 227, 216, 0.98);
-  overflow-y: auto;
-}
-
-.deep-dive-overlay.active {
-  display: block;
-  animation: fadeIn 0.3s ease;
-}
-
 .go-deeper-btn {
   display: inline-flex;
   align-items: center;
@@ -915,3 +900,4 @@
   border-color: rgba(183,156,92,0.6);
 }
 .dd-nav-next { margin-left: auto; }
+

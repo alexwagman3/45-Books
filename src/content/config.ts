@@ -18,7 +18,6 @@ const books = defineCollection({
     titleSize: TitleSizeEnum.default('default'),
     hasExcerpts: z.boolean().default(false),
     hasTakeaways: z.boolean().default(false),
-    hasDeepDive: z.boolean().default(false),
     metaDescription: z.string().optional(),
   }),
 });
