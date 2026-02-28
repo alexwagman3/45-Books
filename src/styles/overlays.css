@@ -885,3 +885,32 @@
 .takeaways-body > h1:first-child {
   display: none;
 }
+
+/* ── Deep-dive page nav (prev / next) ──────────────────────────────────────── */
+.dd-page-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(199,187,170,0.4);
+}
+.dd-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #b79c5c;
+  text-decoration: none;
+  padding: 0.45rem 1rem;
+  border: 1px solid rgba(183,156,92,0.35);
+  border-radius: 3px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.dd-nav-btn:hover {
+  background: rgba(183,156,92,0.08);
+  border-color: rgba(183,156,92,0.6);
+}
+.dd-nav-next { margin-left: auto; }
