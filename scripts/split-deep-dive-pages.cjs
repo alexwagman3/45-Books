@@ -123,7 +123,7 @@ function buildSectionPage(sec, idx) {
   const prev = SECTIONS[idx - 1];
   const next = SECTIONS[idx + 1];
 
-  const backLink = `<a class="overlay-back" href="/love-your-neighbors-deep-dive/">&#8592; Back to Reference Library</a>`;
+  const backLink = `<a class="overlay-back" href="/love-your-neighbors-takeaways/">&#8592; Back to Takeaways</a>`;
   const closeLink = `<a class="overlay-close" href="/" aria-label="Close">&times;</a>`;
 
   // Prev / Next nav
