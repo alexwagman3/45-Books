@@ -110,11 +110,12 @@
 }
 
 .overlay-summary {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: #5e554b;
-  line-height: 1.85;
+  line-height: 1.9;
   margin-bottom: 1rem;
-  font-family: 'EB Garamond', serif;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.01em;
 }
 
 .overlay-summary-label {
