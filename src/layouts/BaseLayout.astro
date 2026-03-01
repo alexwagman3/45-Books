@@ -72,9 +72,9 @@ const fullTitle = title === 'Life-Changing Book Summaries'
     if (tkMatch) {
       var key = tkMatch[2];
       var dest =
-        key === 'love-neighbors'  ? '/love-your-neighbors-takeaways/' :
-        key === 'disciple'        ? '/disciple-takeaways/'            :
-        key === 'feed-your-body'  ? '/feed-your-body-takeaways/'      :
+        key === 'love-neighbors'  ? '/love-your-neighbors/takeaways/' :
+        key === 'disciple'        ? '/disciple/takeaways/'            :
+        key === 'feed-your-body'  ? '/feed-your-body/takeaways/'      :
         '/books/' + tkMatch[1] + '/takeaways/';
       window.location.replace(dest);
       return;
