@@ -43,11 +43,18 @@ const WORSHIP_SLUGS = new Set([
   'the-battle-plan-for-prayer',
 ]);
 
+const LOVE_YOUR_FAMILY_SLUGS = new Set([
+  'good-inside',
+  'cribsheet',
+  'the-5-love-languages-of-teenagers',
+]);
+
 const redirectTo =
-  LOVE_NEIGHBORS_SLUGS.has(book.slug) ? '/love-your-neighbors/takeaways/' :
-  DISCIPLE_SLUGS.has(book.slug)       ? '/disciple/takeaways/' :
-  FEED_YOUR_BODY_SLUGS.has(book.slug) ? '/feed-your-body/takeaways/' :
-  WORSHIP_SLUGS.has(book.slug)        ? '/worship/takeaways/' :
+  LOVE_NEIGHBORS_SLUGS.has(book.slug)     ? '/love-your-neighbors/takeaways/' :
+  DISCIPLE_SLUGS.has(book.slug)           ? '/disciple/takeaways/' :
+  FEED_YOUR_BODY_SLUGS.has(book.slug)     ? '/feed-your-body/takeaways/' :
+  WORSHIP_SLUGS.has(book.slug)            ? '/worship/takeaways/' :
+  LOVE_YOUR_FAMILY_SLUGS.has(book.slug)   ? '/love-your-family/takeaways/' :
   null;
 
 // ─── Individual book takeaways ────────────────────────────────────────────────

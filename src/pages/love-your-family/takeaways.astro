@@ -1,0 +1,131 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'good-inside',                    title: 'Good Inside' },
+  { slug: 'cribsheet',                      title: 'Cribsheet' },
+  { slug: 'the-5-love-languages-of-teenagers', title: 'The 5 Love Languages of Teenagers' },
+];
+---
+
+<BaseLayout
+  title="Love Your Family — Personal Takeaways"
+  description="Personal takeaways from the Love Your Family shelf: a daily plan for intentional connection with your kids across seven windows of the day."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Love Your Family</span>
+    <h1 class="takeaways-title">The Daily Dad Plan</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="tk-section">
+      <div class="tk-section-title">The Daily Dad Plan</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1.5rem">Kennedy showed that what children need most is a parent who is a secure base — someone whose presence communicates safety, delight, and unconditional belonging. Love without a plan defaults to whatever's easiest after a long day, which is usually screens and distance. So I built a daily outline for the day to help me remember where there are unique opportunities to love my kids. Each window takes ten to thirty minutes. None of it requires a special occasion. The goal isn't compliance — it's connection. When children feel deeply connected to their father, everything else — behavior, emotional regulation, resilience — follows from that. The plan doesn't make fatherhood perfect. It makes it intentional, which is most of the difference.</p>
+
+      <div class="fyb-table-wrap">
+        <table class="fyb-table" style="min-width:700px">
+          <thead>
+            <tr>
+              <th style="width:16%">Window</th>
+              <th style="width:20%">Focus</th>
+              <th>Reflection Questions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="fyb-day">Morning<br/>Wake-Up</td>
+              <td>Be the first thing they feel — warmth before demands</td>
+              <td>
+                <ul>
+                  <li>Did you greet them before asking anything of them?</li>
+                  <li>Did your face show you were genuinely glad to see them?</li>
+                  <li>Did you get down to their eye level?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Breakfast</td>
+              <td>Sit together; ask about them, not about logistics</td>
+              <td>
+                <ul>
+                  <li>Was your phone down and out of sight?</li>
+                  <li>Did you ask something curious, not corrective?</li>
+                  <li>Did you let the conversation go where they took it?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Drop-Off /<br/>Send-Off</td>
+              <td>End with connection, not a checklist</td>
+              <td>
+                <ul>
+                  <li>Did you name something good that was ahead for them?</li>
+                  <li>Did you end with physical touch — hug, fist bump, a phrase that's yours?</li>
+                  <li>Did they leave feeling seen, not managed?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">After-School<br/>Pickup</td>
+              <td>Connect before correcting — the first 15 minutes matter most</td>
+              <td>
+                <ul>
+                  <li>Did you ask how they felt, not just what happened?</li>
+                  <li>Did you resist asking about homework or grades immediately?</li>
+                  <li>Did you match their emotional energy before redirecting it?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Dinner</td>
+              <td>Phones off; let them lead the conversation at least once</td>
+              <td>
+                <ul>
+                  <li>Was everyone at the table without a device?</li>
+                  <li>Did you ask something other than "how was school?"</li>
+                  <li>Did you listen more than you talked?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Wind-Down /<br/>Evening</td>
+              <td>Slow your pace — they regulate to you</td>
+              <td>
+                <ul>
+                  <li>Did you lower your voice and reduce stimulation?</li>
+                  <li>Did you choose to be near them rather than in another room?</li>
+                  <li>Did you follow their lead on how to spend the time?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Bedtime</td>
+              <td>This is when they open up — slow down here</td>
+              <td>
+                <ul>
+                  <li>Did you ask about the best and hardest part of their day?</li>
+                  <li>Did you linger, or rush to end the conversation?</li>
+                  <li>Did you say something true about who they are?</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
