@@ -35,4 +35,12 @@ const excerpts = defineCollection({
   schema: z.object({}),
 });
 
-export const collections = { books, takeaways, excerpts };
+// Personal takeaways collection: one .md file per book slug, written by the site
+// owner. Shown on /books/<slug>/takeaways/. Separate from the `takeaways`
+// collection (which holds extracted book notes shown on the main book page).
+const personalTakeaways = defineCollection({
+  type: 'content',
+  schema: z.object({}),
+});
+
+export const collections = { books, takeaways, excerpts, 'personal-takeaways': personalTakeaways };
