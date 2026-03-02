@@ -1,5 +1,5 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
@@ -42,6 +42,13 @@ const redirectTo =
   DISCIPLE_SLUGS.has(book.slug)       ? '/disciple/takeaways/' :
   FEED_YOUR_BODY_SLUGS.has(book.slug) ? '/feed-your-body/takeaways/' :
   null;
+
+// ─── Individual book takeaways ────────────────────────────────────────────────
+const notesEntry = !redirectTo ? await getEntry('takeaways', book.slug) : null;
+const hasNotes = !!notesEntry;
+const { Content: NotesContent } = hasNotes
+  ? await notesEntry!.render()
+  : { Content: null };
 ---
 
 <BaseLayout
@@ -61,10 +68,81 @@ const redirectTo =
     <h1 class="takeaways-title">{book.data.title}</h1>
     <p class="takeaways-author">By {book.data.author}</p>
 
-    {!redirectTo && (
+    {!redirectTo && !hasNotes && (
       <div class="overlay-coming-soon">
         Personal takeaways haven't been added for this book yet. Check back soon.
       </div>
     )}
+
+    {hasNotes && (
+      <>
+        <!-- TABLE OF CONTENTS (populated by script below) -->
+        <div class="book-chapter-heading" id="bookChapterHeading" style="display:none">
+          <span>Table of Contents</span>
+        </div>
+        <div class="book-chapter-nav" id="bookChapterNav" style="display:none" role="navigation" aria-label="Chapter navigation"></div>
+
+        <div class="excerpts-section" id="notesSection">
+          <div class="overlay-summary-label excerpts-label">
+            Direct Quotes &amp; Excerpts From The Book
+          </div>
+          <div class="takeaways-body" id="overlayFullBody">
+            <NotesContent />
+          </div>
+        </div>
+      </>
+    )}
   </div>
 </BaseLayout>
+
+<script>
+  /**
+   * Rebuild the TABLE OF CONTENTS nav from h1/h2 headings in the notes body.
+   * Strips the leading book-title h1, author paragraph, and hr divider that
+   * appear at the top of every takeaways/*.md file.
+   */
+  (function () {
+    const navEl     = document.getElementById('bookChapterNav') as HTMLElement | null;
+    const headingEl = document.getElementById('bookChapterHeading') as HTMLElement | null;
+    const bodyEl    = document.getElementById('overlayFullBody') as HTMLElement | null;
+    if (!navEl || !headingEl || !bodyEl) return;
+
+    // Strip the leading book-title h1, author bold-paragraph, and divider hr
+    const firstEl = bodyEl.firstElementChild;
+    if (firstEl && firstEl.tagName === 'H1') {
+      let next = firstEl.nextElementSibling;
+      firstEl.remove();
+      if (next && next.tagName === 'P' && next.querySelector('strong') && next.children.length === 1) {
+        const authorEl = next;
+        next = authorEl.nextElementSibling;
+        authorEl.remove();
+      }
+      if (next && next.tagName === 'HR') {
+        next.remove();
+      }
+    }
+
+    interface NavEntry { el: HTMLElement; isSection: boolean; label: string }
+    const entries: NavEntry[] = [];
+
+    bodyEl.querySelectorAll<HTMLElement>('h1, h2').forEach((h, i) => {
+      if (!h.id) h.id = 'note-section-' + i;
+      entries.push({ el: h, isSection: h.tagName === 'H1', label: h.textContent?.trim() || '' });
+    });
+
+    if (entries.length === 0) return;
+
+    entries.forEach(({ el, isSection, label }) => {
+      const btn = document.createElement('button');
+      btn.className = 'book-chapter-nav-item' + (isSection ? ' is-section' : '');
+      btn.textContent = label;
+      btn.addEventListener('click', () => {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      navEl.appendChild(btn);
+    });
+
+    headingEl.style.display = 'flex';
+    navEl.style.display     = 'flex';
+  })();
+</script>
