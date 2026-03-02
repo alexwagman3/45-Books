@@ -44,7 +44,7 @@ const redirectTo =
   null;
 
 // ─── Individual book takeaways ────────────────────────────────────────────────
-const notesEntry = !redirectTo ? await getEntry('takeaways', book.slug) : null;
+const notesEntry = !redirectTo ? await getEntry('personal-takeaways', book.slug) : null;
 const hasNotes = !!notesEntry;
 const { Content: NotesContent } = hasNotes
   ? await notesEntry!.render()
