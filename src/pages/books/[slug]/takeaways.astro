@@ -37,10 +37,17 @@ const FEED_YOUR_BODY_SLUGS = new Set([
   'the-whole-foods-diet',
 ]);
 
+const WORSHIP_SLUGS = new Set([
+  'called-to-worship',
+  'sacred-pathways',
+  'the-battle-plan-for-prayer',
+]);
+
 const redirectTo =
   LOVE_NEIGHBORS_SLUGS.has(book.slug) ? '/love-your-neighbors/takeaways/' :
   DISCIPLE_SLUGS.has(book.slug)       ? '/disciple/takeaways/' :
   FEED_YOUR_BODY_SLUGS.has(book.slug) ? '/feed-your-body/takeaways/' :
+  WORSHIP_SLUGS.has(book.slug)        ? '/worship/takeaways/' :
   null;
 
 // ─── Individual book takeaways ────────────────────────────────────────────────

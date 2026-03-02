@@ -1,0 +1,131 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'called-to-worship',          title: 'Called to Worship' },
+  { slug: 'sacred-pathways',            title: 'Sacred Pathways' },
+  { slug: 'the-battle-plan-for-prayer', title: 'The Battle Plan for Prayer' },
+];
+---
+
+<BaseLayout
+  title="Worship — Personal Takeaways"
+  description="Personal takeaways from the Worship shelf: a weekly prayer plan that rotates through seven distinct postures to build a complete prayer life."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Worship</span>
+    <h1 class="takeaways-title">Weekly Prayer Plan</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="tk-section">
+      <div class="tk-section-title">Weekly Prayer Plan</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1.5rem">Most people pray when they feel like it, about what's front of mind, in whatever form comes naturally. Thomas showed me that different postures of worship feed different parts of the soul. So I built a weekly plan that rotates through seven distinct modes: Monday to ask, Tuesday to study, Wednesday to intercede, Thursday to bless, Friday to repent, Saturday to praise, and Sunday to meditate. Each day carries a different orientation — not because God requires variety, but because I do. Asking alone produces neediness. Praise alone produces sentimentality. Repentance alone produces shame. Intercession alone produces exhaustion. Together, across a week, they produce a complete prayer life that engages the mind, humbles the heart, and expands your view of God beyond what any single posture can accomplish on its own. The plan takes about 15 minutes a day. The reflection questions keep it engaging. The structure keeps it consistent. The goal isn't to complete the plan — it's to show up to God every day in a posture that makes you more available to Him.</p>
+
+      <div class="fyb-table-wrap">
+        <table class="fyb-table" style="min-width:700px">
+          <thead>
+            <tr>
+              <th style="width:9%">Day</th>
+              <th style="width:13%">Mode</th>
+              <th>Reflection Questions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="fyb-day">Monday</td>
+              <td><strong>Ask</strong></td>
+              <td>
+                <ul>
+                  <li>What do you want from God that you haven't brought to Him yet?</li>
+                  <li>What are you afraid to ask for — and why?</li>
+                  <li>What would bold, specific faith look like in your prayer today?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Tuesday</td>
+              <td><strong>Study</strong></td>
+              <td>
+                <ul>
+                  <li>What are you currently reading in Scripture?</li>
+                  <li>What is God showing you — even if it's uncomfortable?</li>
+                  <li>What do you need to understand before you can obey?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Wednesday</td>
+              <td><strong>Intercede</strong></td>
+              <td>
+                <ul>
+                  <li>Who is on your heart that needs prayer right now?</li>
+                  <li>What do they specifically need — beyond the surface?</li>
+                  <li>Who have you neglected to pray for recently?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Thursday</td>
+              <td><strong>Bless</strong></td>
+              <td>
+                <ul>
+                  <li>Who or what has been a gift to you this week?</li>
+                  <li>Who needs a specific word of encouragement or thanks from you?</li>
+                  <li>How can you bless someone today without any agenda?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Friday</td>
+              <td><strong>Repent</strong></td>
+              <td>
+                <ul>
+                  <li>What do you need to confess — thought, word, or action?</li>
+                  <li>Where have you been driven by pride, fear, or resentment?</li>
+                  <li>What does receiving forgiveness require you to believe about God?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Saturday</td>
+              <td><strong>Praise</strong></td>
+              <td>
+                <ul>
+                  <li>What one attribute of God are you most grateful for right now?</li>
+                  <li>What has He done recently that deserves acknowledgment?</li>
+                  <li>How can you express praise out loud — in speech, song, or writing?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="fyb-day">Sunday</td>
+              <td><strong>Meditate</strong></td>
+              <td>
+                <ul>
+                  <li>What one truth about God do you want to carry into the week?</li>
+                  <li>Where have you been too busy or distracted to really listen?</li>
+                  <li>What is God inviting you to release so you can receive more of Him?</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
