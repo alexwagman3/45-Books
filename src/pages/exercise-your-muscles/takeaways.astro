@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'spark',                 title: 'Spark' },
+  { slug: 'playing-with-movement', title: 'Playing with Movement' },
+  { slug: 'the-barbell-prescription', title: 'The Barbell Prescription' },
+];
+---
+
+<BaseLayout
+  title="Exercise Your Muscles — Personal Takeaways"
+  description="Personal takeaways from the Exercise Your Muscles shelf: a 7-day weekly workout plan built on compound barbell lifts, VO2 max intervals, and Zone 2 cardio."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Exercise Your Muscles</span>
+    <h1 class="takeaways-title">Exercise Your Muscles</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="dd-topic-list" style="margin-top:1.5rem">
+      <a class="dd-topic-link" href="#eym-weekly-plan">Weekly Workout Plan</a>
+    </div>
+
+    <div class="tk-section" id="eym-weekly-plan" style="margin-top:2rem">
+      <div class="tk-section-title">Weekly Workout Plan</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Ratey's research is unambiguous: exercise is the single most powerful tool for optimizing brain function — elevating mood, sharpening focus, and producing BDNF, the growth factor he calls "Miracle-Gro for the brain." Sullivan adds the structural argument — compound barbell lifts are the most effective intervention against muscle loss, bone density decline, and metabolic disease. Hargrove rounds it out: movement variety isn't optional, it's how the nervous system stays adaptive and injury-resistant. This plan is the answer to every recommendation these three books make — compressed into 30 minutes a day. Four days of compound barbell lifts in push-pull supersets, structured at 6–8 heavy reps to maximize the Type II muscle fibers Sullivan identifies as the primary driver of strength and longevity. One day of VO2 max rowing intervals to spike BDNF and HGH the way Ratey's research demands. One day of Zone 2 cardio for cardiovascular adaptation without interfering with strength gains. And one full recovery day, because as Sullivan makes clear, you don't get stronger by lifting — you get stronger by recovering from it. Every session has a purpose. Nothing is wasted. Everything is backed by research.</p>
+      <a class="go-deeper-btn" href="/exercise-your-muscles/takeaways-workout-plan/">See the Full Weekly Workout Plan &rarr;</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
