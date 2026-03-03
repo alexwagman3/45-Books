@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'in-his-image',              title: 'In His Image' },
+  { slug: 'the-purpose-driven-life',   title: 'The Purpose Driven Life' },
+  { slug: 'the-power-of-a-humble-life', title: 'The Power of a Humble Life' },
+];
+---
+
+<BaseLayout
+  title="Grow in Wisdom — Personal Takeaways"
+  description="Personal takeaways from the Grow in Wisdom shelf: a weekly character formation plan built around eight traits — Loving, Humble, Self-Controlled, Hopeful, Wise, Joyful, Peaceful, Courageous."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Grow in Wisdom</span>
+    <h1 class="takeaways-title">Grow in Wisdom</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="dd-topic-list" style="margin-top:1.5rem">
+      <a class="dd-topic-link" href="#giw-character-plan">Weekly Character Plan</a>
+    </div>
+
+    <div class="tk-section" id="giw-character-plan" style="margin-top:2rem">
+      <div class="tk-section-title">Weekly Character Plan</div>
+      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:.75rem">Wilkin argued that the most important work of a Christian is being conformed to the image of Christ. The problem is that character formation doesn't happen by accident or through good intentions. It requires honest self-examination on a regular cadence. I built a weekly plan structured around eight character traits — Loving, Humble, Self-Controlled, Hopeful, Wise, Joyful, Peaceful, Courageous — one per day, each with a four-step reflection framework that moves from recalling a specific moment to examining your internal state to applying a concrete change. Warren was right that your character is ultimately what you will take into eternity. The weekly plan is the daily mechanism for building it.</p>
+      <a class="go-deeper-btn" href="/grow-in-wisdom/takeaways-character-plan/">See the Full Weekly Character Plan &rarr;</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
