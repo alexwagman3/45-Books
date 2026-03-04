@@ -43,11 +43,25 @@ const WORSHIP_SLUGS = new Set([
   'the-battle-plan-for-prayer',
 ]);
 
+const EXERCISE_YOUR_MUSCLES_SLUGS = new Set([
+  'spark',
+  'playing-with-movement',
+  'the-barbell-prescription',
+]);
+
+const GROW_IN_WISDOM_SLUGS = new Set([
+  'in-his-image',
+  'the-purpose-driven-life',
+  'the-power-of-a-humble-life',
+]);
+
 const redirectTo =
-  LOVE_NEIGHBORS_SLUGS.has(book.slug) ? '/love-your-neighbors/takeaways/' :
-  DISCIPLE_SLUGS.has(book.slug)       ? '/disciple/takeaways/' :
-  FEED_YOUR_BODY_SLUGS.has(book.slug) ? '/feed-your-body/takeaways/' :
-  WORSHIP_SLUGS.has(book.slug)        ? '/worship/takeaways/' :
+  LOVE_NEIGHBORS_SLUGS.has(book.slug)        ? '/love-your-neighbors/takeaways/' :
+  DISCIPLE_SLUGS.has(book.slug)              ? '/disciple/takeaways/' :
+  FEED_YOUR_BODY_SLUGS.has(book.slug)        ? '/feed-your-body/takeaways/' :
+  WORSHIP_SLUGS.has(book.slug)               ? '/worship/takeaways/' :
+  EXERCISE_YOUR_MUSCLES_SLUGS.has(book.slug) ? '/exercise-your-muscles/takeaways/' :
+  GROW_IN_WISDOM_SLUGS.has(book.slug)        ? '/grow-in-wisdom/takeaways/' :
   null;
 
 // ─── Individual book takeaways ────────────────────────────────────────────────
