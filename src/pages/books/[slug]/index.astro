@@ -145,6 +145,16 @@ const components = {
         if (next && next.tagName === 'HR') {
           next.remove();
         }
+
+        // After stripping the title/author/hr, the CSS rule
+        // `.takeaways-body > h1:first-child { display: none }` may
+        // accidentally hide a subsequent Introduction heading that is
+        // now the first child.  Explicitly show it so the heading is
+        // visible in the content and the TOC link scrolls to it.
+        const newFirstEl = bodyEl.firstElementChild as HTMLElement | null;
+        if (newFirstEl && newFirstEl.tagName === 'H1') {
+          newFirstEl.style.display = 'block';
+        }
       }
 
       bodyEl.querySelectorAll<HTMLElement>('h1, h2').forEach((h, i) => {
