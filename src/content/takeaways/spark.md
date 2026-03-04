@@ -520,14 +520,3 @@
 
 
 - Back in Naperville, Zientarski teaches cooperation, not competition, but for some adults being part of a team can get them hooked, whether it’s a three-on-three city basketball program, an adult soccer league, or Masters swimming. Maybe walking with the one you love will turn out to be the key, or maybe you’ve always wanted to learn tae kwon do, or maybe, like Naperville Central graduate Jessie Wolfrum, you’ll discover a passion for the infinite challenge of rock climbing (which requires a partner).
-
-
-
-## Actionable Takeaways:
-- Top Tips: 
-
-Numbered list of actionable takeaways. 
-
-1.  Remind yourself of the benefits of exercise on the brain to motivate yourself into action. 
-2.  
-3.
