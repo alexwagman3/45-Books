@@ -11,6 +11,703 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <a class="overlay-close" href="/" aria-label="Close">&times;</a>
 
   <div class="takeaways-content">
-    <Fragment set:html={"<span class=\"takeaways-tag\">Feed Your Body</span>\n<h1 class=\"takeaways-title\">Weekly Dinner Plan</h1>\n\n<div class=\"dd-topic-list\">\n  <a class=\"dd-topic-link\" href=\"#fyb-week1-table\">Week 1</a>\n  <a class=\"dd-topic-link\" href=\"#fyb-week2-table\">Week 2</a>\n  <a class=\"dd-topic-link\" href=\"#fyb-lunch-options\">Lunch Options</a>\n</div>\n\n<div class=\"tk-section\" id=\"fyb-week1-table\">\n  <div class=\"tk-section-title\">Week 1 — Dinner Plan</div>\n  <div class=\"fyb-table-wrap\">\n    <table class=\"fyb-table\">\n      <thead>\n        <tr>\n          <th>Day</th>\n          <th>Dinner</th>\n          <th>Prep Time</th>\n          <th>Calories</th>\n          <th>Macros</th>\n          <th>Cost / Serving</th>\n          <th>Ingredients</th>\n          <th>Steps</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td class=\"fyb-day\">Monday</td>\n          <td>Chicken + Broccoli + Sweet Potato</td>\n          <td class=\"fyb-stat\">~10–15 min</td>\n          <td class=\"fyb-stat\">550 kcal</td>\n          <td class=\"fyb-stat\">40g P | 35g C | 25g F</td>\n          <td class=\"fyb-stat\">$4–$6</td>\n          <td><ul><li>Chicken thighs, broccoli, sweet potato fries</li><li>Mexican cheese, breadcrumbs, garlic</li><li>Cumin, onion powder, smoked paprika, lemon pepper</li><li>EVOO, salt, pepper</li></ul></td>\n          <td><ul><li>Prep: Grill + oven 425F. Season chicken. Toss broccoli with EVOO + seasonings.</li><li>Grill chicken ~18 min (flip once) to 165F.</li><li>Roast broccoli 22 min at 425F; add cheese + crumbs, 2 min more. (Alt: air-fry 390F, 6 min.)</li><li>Air-fry fries 400F, 10-12 min, shake halfway.</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Tuesday</td>\n          <td>Chicken Tortilla Soup</td>\n          <td class=\"fyb-stat\">~15–20 min</td>\n          <td class=\"fyb-stat\">450 kcal</td>\n          <td class=\"fyb-stat\">35g P | 45g C | 15g F</td>\n          <td class=\"fyb-stat\">$4–$5</td>\n          <td><ul><li>Chicken, broth, fire-roasted tomatoes</li><li>Beans, corn, green chilies, onion, garlic</li><li>Avocado, tortilla strips, cilantro, cheese</li><li>Jalapenos, sour cream, lime, cumin, chili, paprika</li></ul></td>\n          <td><ul><li>Saute onion + garlic; add cumin/chili/paprika.</li><li>Add tomatoes + broth; simmer 10 min. Add chicken + beans + corn + chilies; 10-15 min.</li><li>Serve with tortilla, avocado, cheese, jalapeno, cilantro, sour cream, lime.</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Wednesday</td>\n          <td>Salmon + Asparagus + Zucchini</td>\n          <td class=\"fyb-stat\">~15 min</td>\n          <td class=\"fyb-stat\">500 kcal</td>\n          <td class=\"fyb-stat\">35g P | 10g C | 30g F</td>\n          <td class=\"fyb-stat\">$8–$12</td>\n          <td><ul><li>Salmon, asparagus, zucchini</li><li>Garlic, butter, lemon, EVOO</li><li>Tony&#x27;s Cajun, red pepper flakes, salt/pepper</li></ul></td>\n          <td><ul><li>Salmon: Pan sear (skin-down) 4-5 min, then flip 1-3 min more. (Alt: bake at 375F for 16 min if thawed or 29 min if frozen; target 135F.)</li><li>Asparagus: roast 425F, 12 min; lemon + optional parmesan for 1 min.</li><li>Zucchini: hot cast iron; sear 3-5 min/side; finish with butter + lemon.</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Thursday</td>\n          <td>Spaghetti + Green Beans</td>\n          <td class=\"fyb-stat\">~15–20 min</td>\n          <td class=\"fyb-stat\">600 kcal</td>\n          <td class=\"fyb-stat\">35g P | 65g C | 20g F</td>\n          <td class=\"fyb-stat\">$3–$5</td>\n          <td><ul><li>Whole wheat thin spaghetti, 93/7 lean ground beef</li><li>Marinara sauce, garlic, onion (optional), EVOO</li><li>Green beans, butter, salt/pepper, garlic powder (optional)</li></ul></td>\n          <td><ul><li>Pasta: boil salted water, cook 7-9 min, drain.</li><li>Saute onion 3-4 min, add garlic 30 sec. Brown beef 6-8 min; add marinara, simmer 5-10 min.</li><li>Green beans (Instant Pot): steam 3 min high pressure, quick release. Toss with butter + salt/pepper.</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Friday</td>\n          <td>Tilapia + Peas + Carrots</td>\n          <td class=\"fyb-stat\">~10 min</td>\n          <td class=\"fyb-stat\">350 kcal</td>\n          <td class=\"fyb-stat\">30g P | 30g C | 10g F</td>\n          <td class=\"fyb-stat\">$4–$6</td>\n          <td><ul><li>Tilapia, peas, carrots</li><li>Honey, thyme, garlic, lemon</li><li>Butter, olive oil, salt/pepper</li></ul></td>\n          <td><ul><li>Fish: thaw, dry, season; air-fry 360F for 12 min to 145F. Rest 2 min.</li><li>Carrots: bake 425F ~18 min; finish with honey + butter; add peas for last 4 min. (Alt: Instant Pot 1 min.)</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Saturday</td>\n          <td>Shrimp + Okra Gumbo</td>\n          <td class=\"fyb-stat\">~20–25 min</td>\n          <td class=\"fyb-stat\">450 kcal</td>\n          <td class=\"fyb-stat\">30g P | 55g C | 12g F</td>\n          <td class=\"fyb-stat\">$6–$8</td>\n          <td><ul><li>Shrimp, smoked sausage (optional), okra, bell pepper, onion, celery, garlic, brown rice</li><li>Diced tomatoes, chicken broth, Worcestershire, bay leaf</li><li>EVOO, smoked paprika, thyme, oregano, cayenne, salt/pepper</li></ul></td>\n          <td><ul><li>Brown rice (Instant Pot): 1 cup rice + 1&frac14; cups water + salt. High pressure 22 min, release then fluff.</li><li>Saute onion + pepper + celery 5-7 min; add garlic + spices 1 min.</li><li>Add okra + tomatoes 5 min; add broth + Worcestershire; simmer 15-20 min. Add shrimp 3-4 min until pink.</li></ul></td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Sunday</td>\n          <td>Carne Asada Street Tacos</td>\n          <td class=\"fyb-stat\">~20–25 min</td>\n          <td class=\"fyb-stat\">650 kcal</td>\n          <td class=\"fyb-stat\">40g P | 50g C | 30g F</td>\n          <td class=\"fyb-stat\">$8–$10</td>\n          <td><ul><li>NY strip (or flat iron) steak (~1 lb), small corn tortillas, charro beans</li><li>Lime, orange, soy sauce, EVOO, garlic, cilantro, cumin, chili powder, paprika, salt/pepper</li><li>Onion, jalapeno, salsa verde, queso fresco</li></ul></td>\n          <td><ul><li>Marinate: lime + orange juice, soy sauce, oil, garlic, cilantro + dry spices. 30 min to 2 hrs.</li><li>Sous vide at 128F for 2 hours, then grill steak 3 min each side to 135F; rest 5 min, then chop.</li><li>Warm tortillas; top with steak, onion, jalapeno, cilantro, salsa, cheese. Serve with beans.</li></ul></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n\n<div class=\"tk-section\" id=\"fyb-week2-table\">\n  <div class=\"tk-section-title\">Week 2 — Dinner Plan</div>\n  <div class=\"fyb-table-wrap\">\n    <table class=\"fyb-table\">\n      <thead>\n        <tr>\n          <th>Day</th>\n          <th>Dinner</th>\n          <th>Prep Time</th>\n          <th>Calories</th>\n          <th>Macros</th>\n          <th>Cost / Serving</th>\n          <th>Ingredients</th>\n          <th>Steps</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td class=\"fyb-day\">Monday</td>\n          <td>Beef &amp; Vegetable Stir Fry</td>\n          <td class=\"fyb-stat\">~20–25 min</td>\n          <td class=\"fyb-stat\">450 kcal</td>\n          <td class=\"fyb-stat\">35g P | 50g C | 15g F</td>\n          <td class=\"fyb-stat\">$5–$7</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Tuesday</td>\n          <td>Salsa Verde Chicken Bowl</td>\n          <td class=\"fyb-stat\">~10–15 min</td>\n          <td class=\"fyb-stat\">500 kcal</td>\n          <td class=\"fyb-stat\">40g P | 55g C | 15g F</td>\n          <td class=\"fyb-stat\">$3–$5</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Wednesday</td>\n          <td>Beef Barley Stew</td>\n          <td class=\"fyb-stat\">~15–20 min</td>\n          <td class=\"fyb-stat\">400 kcal</td>\n          <td class=\"fyb-stat\">30g P | 50g C | 12g F</td>\n          <td class=\"fyb-stat\">$4–$6</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Thursday</td>\n          <td>Greek Chickpea Salad</td>\n          <td class=\"fyb-stat\">~15 min</td>\n          <td class=\"fyb-stat\">400 kcal</td>\n          <td class=\"fyb-stat\">15g P | 45g C | 20g F</td>\n          <td class=\"fyb-stat\">$3–$4</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Friday</td>\n          <td>Sweet Potato Turkey Skillet</td>\n          <td class=\"fyb-stat\">~20 min</td>\n          <td class=\"fyb-stat\">450 kcal</td>\n          <td class=\"fyb-stat\">30g P | 40g C | 18g F</td>\n          <td class=\"fyb-stat\">$3–$5</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Saturday</td>\n          <td>Shrimp Fried Rice</td>\n          <td class=\"fyb-stat\">~20 min</td>\n          <td class=\"fyb-stat\">450 kcal</td>\n          <td class=\"fyb-stat\">30g P | 50g C | 12g F</td>\n          <td class=\"fyb-stat\">$5–$7</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n        <tr>\n          <td class=\"fyb-day\">Sunday</td>\n          <td>White Bean Pasta</td>\n          <td class=\"fyb-stat\">~15–20 min</td>\n          <td class=\"fyb-stat\">480 kcal</td>\n          <td class=\"fyb-stat\">20g P | 70g C | 15g F</td>\n          <td class=\"fyb-stat\">$2–$4</td>\n          <td>—</td>\n          <td>—</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n\n<div class=\"tk-section\" id=\"fyb-lunch-options\">\n  <div class=\"tk-section-title\">Lunch Options</div>\n  <div class=\"fyb-lunch-grid\">\n    <div class=\"fyb-card\">\n      <div class=\"fyb-card-title\">Go-To Picks</div>\n      <ul>\n        <li>Fruit (apple/berries/citrus/kiwi)</li>\n        <li>Veg + hummus</li>\n        <li>Kimchi, kefir</li>\n        <li>Prepared salads (orzo/kale)</li>\n        <li>Nuggets/wings/dumplings</li>\n        <li>Avocado turkey sandwich</li>\n      </ul>\n    </div>\n    <div class=\"fyb-card\">\n      <div class=\"fyb-card-title\">Grab &amp; Go</div>\n      <ul>\n        <li>Turkey slices, summer sausage, turkey sticks</li>\n        <li>Tuna + crackers</li>\n        <li>Pumpkin seeds, pistachios, trail mix</li>\n        <li>IQBar, Alyssa&#x27;s bites</li>\n        <li>Poshi olives</li>\n      </ul>\n    </div>\n    <div class=\"fyb-card\">\n      <div class=\"fyb-card-title\">Pre-Dinner Protein</div>\n      <ul>\n        <li>Momentous 20g protein in water</li>\n      </ul>\n    </div>\n  </div>\n</div>"} />
+    <span class="takeaways-tag">Feed Your Body</span>
+    <h1 class="takeaways-title">Weekly Dinner Plan</h1>
+
+    <div class="dd-topic-list">
+      <a class="dd-topic-link" href="#fyb-week1">Week 1</a>
+      <a class="dd-topic-link" href="#fyb-week2">Week 2</a>
+      <a class="dd-topic-link" href="#fyb-lunch-options">Lunch Options</a>
+    </div>
+
+    <!-- ── WEEK 1 ─────────────────────────────────────────────── -->
+    <div class="tk-section" id="fyb-week1">
+      <div class="tk-section-title">Week 1 — Dinner Plan</div>
+      <div class="fyb-recipe-stack">
+
+        <!-- Monday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Monday</span>
+            <span class="fyb-recipe-name">Chicken + Broccoli + Sweet Potato</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~10–15 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">550 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">40g P · 35g C · 25g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$4–$6</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Chicken thighs, broccoli, sweet potato fries</li>
+                <li>Mexican cheese, breadcrumbs, garlic</li>
+                <li>Cumin, onion powder, smoked paprika, lemon pepper</li>
+                <li>EVOO, salt, pepper</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Grill + oven 425°F. Season chicken. Toss broccoli with EVOO + seasonings.</li>
+                <li>Grill chicken ~18 min (flip once) to 165°F.</li>
+                <li>Roast broccoli 22 min at 425°F; add cheese + crumbs, 2 min more. (Alt: air-fry 390°F, 6 min.)</li>
+                <li>Air-fry fries 400°F, 10–12 min, shake halfway.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tuesday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Tuesday</span>
+            <span class="fyb-recipe-name">Chicken Tortilla Soup</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15–20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">450 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">35g P · 45g C · 15g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$4–$5</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Chicken, broth, fire-roasted tomatoes</li>
+                <li>Beans, corn, green chilies, onion, garlic</li>
+                <li>Avocado, tortilla strips, cilantro, cheese</li>
+                <li>Jalapeños, sour cream, lime, cumin, chili, paprika</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Sauté onion + garlic; add cumin, chili, paprika.</li>
+                <li>Add tomatoes + broth; simmer 10 min. Add chicken + beans + corn + chilies; 10–15 min.</li>
+                <li>Serve with tortilla, avocado, cheese, jalapeño, cilantro, sour cream, lime.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wednesday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Wednesday</span>
+            <span class="fyb-recipe-name">Salmon + Asparagus + Zucchini</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">500 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">35g P · 10g C · 30g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$8–$12</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Salmon, asparagus, zucchini</li>
+                <li>Garlic, butter, lemon, EVOO</li>
+                <li>Tony's Cajun, red pepper flakes, salt/pepper</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Salmon: pan sear skin-down 4–5 min, flip 1–3 min more. (Alt: bake 375°F, 16 min thawed or 29 min frozen; target 135°F.)</li>
+                <li>Asparagus: roast 425°F, 12 min; finish with lemon + optional parmesan 1 min.</li>
+                <li>Zucchini: hot cast iron; sear 3–5 min/side; finish with butter + lemon.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thursday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Thursday</span>
+            <span class="fyb-recipe-name">Spaghetti + Green Beans</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15–20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">600 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">35g P · 65g C · 20g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$3–$5</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Whole wheat thin spaghetti, 93/7 lean ground beef</li>
+                <li>Marinara sauce, garlic, onion (optional), EVOO</li>
+                <li>Green beans, butter, salt/pepper, garlic powder (optional)</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Pasta: boil salted water, cook 7–9 min, drain.</li>
+                <li>Sauté onion 3–4 min, add garlic 30 sec. Brown beef 6–8 min; add marinara, simmer 5–10 min.</li>
+                <li>Green beans (Instant Pot): steam 3 min high pressure, quick release. Toss with butter + salt/pepper.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Friday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Friday</span>
+            <span class="fyb-recipe-name">Tilapia + Peas + Carrots</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~10 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">350 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">30g P · 30g C · 10g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$4–$6</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Tilapia, peas, carrots</li>
+                <li>Honey, thyme, garlic, lemon</li>
+                <li>Butter, olive oil, salt/pepper</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Fish: thaw, dry, season; air-fry 360°F for 12 min to 145°F. Rest 2 min.</li>
+                <li>Carrots: bake 425°F ~18 min; finish with honey + butter; add peas for last 4 min. (Alt: Instant Pot 1 min.)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Saturday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Saturday</span>
+            <span class="fyb-recipe-name">Shrimp + Okra Gumbo</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~20–25 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">450 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">30g P · 55g C · 12g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$6–$8</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Shrimp, smoked sausage (optional), okra, bell pepper, onion, celery, garlic, brown rice</li>
+                <li>Diced tomatoes, chicken broth, Worcestershire, bay leaf</li>
+                <li>EVOO, smoked paprika, thyme, oregano, cayenne, salt/pepper</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Brown rice (Instant Pot): 1 cup rice + 1¼ cups water + salt. High pressure 22 min, release then fluff.</li>
+                <li>Sauté onion + pepper + celery 5–7 min; add garlic + spices 1 min.</li>
+                <li>Add okra + tomatoes 5 min; add broth + Worcestershire; simmer 15–20 min.</li>
+                <li>Add shrimp 3–4 min until pink. Serve over rice.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sunday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Sunday</span>
+            <span class="fyb-recipe-name">Carne Asada Street Tacos</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~20–25 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">650 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">40g P · 50g C · 30g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$8–$10</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>NY strip (or flat iron) steak (~1 lb), small corn tortillas, charro beans</li>
+                <li>Lime, orange, soy sauce, EVOO, garlic, cilantro, cumin, chili powder, paprika, salt/pepper</li>
+                <li>Onion, jalapeño, salsa verde, queso fresco</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Marinate: lime + orange juice, soy sauce, oil, garlic, cilantro + dry spices. 30 min to 2 hrs.</li>
+                <li>Sous vide at 128°F for 2 hours, then grill steak 3 min each side to 135°F; rest 5 min, then chop.</li>
+                <li>Warm tortillas; top with steak, onion, jalapeño, cilantro, salsa, cheese. Serve with beans.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── WEEK 2 ─────────────────────────────────────────────── -->
+    <div class="tk-section" id="fyb-week2">
+      <div class="tk-section-title">Week 2 — Dinner Plan</div>
+      <div class="fyb-recipe-stack">
+
+        <!-- Monday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Monday</span>
+            <span class="fyb-recipe-name">Beef &amp; Vegetable Stir Fry</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~20–25 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">450 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">35g P · 50g C · 15g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$5–$7</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>1 lb flank or sirloin steak, thinly sliced</li>
+                <li>Broccoli, snap peas, bell pepper, mushrooms</li>
+                <li>Garlic, ginger, green onion</li>
+                <li>Soy sauce, hoisin, sesame oil, cornstarch</li>
+                <li>Brown rice for serving</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Toss sliced beef with 1 tbsp soy sauce + 1 tsp cornstarch; marinate 10 min.</li>
+                <li>Whisk sauce: 3 tbsp soy sauce, 2 tbsp hoisin, 1 tsp sesame oil, 1 tbsp water.</li>
+                <li>Sear beef in very hot skillet 1–2 min; set aside. Cook vegetables 4–5 min.</li>
+                <li>Return beef; add sauce + garlic + ginger; toss 1 min. Serve over rice, top with green onion.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tuesday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Tuesday</span>
+            <span class="fyb-recipe-name">Salsa Verde Chicken Bowl</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~10–15 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">500 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">40g P · 55g C · 15g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$3–$5</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>1.5 lbs chicken thighs or breasts</li>
+                <li>1 large jar salsa verde (green salsa)</li>
+                <li>Brown rice, canned black beans</li>
+                <li>Avocado, sour cream (opt), cilantro</li>
+                <li>Salt/pepper, lime</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Add chicken + entire jar of salsa verde to slow cooker. Cook on low 6–8 hrs or high 3–4 hrs.</li>
+                <li>Shred chicken directly in pot; stir to coat with sauce.</li>
+                <li>Cook brown rice per package instructions. Warm drained black beans in a small pot.</li>
+                <li>Build bowl: rice → beans → chicken → avocado. Squeeze lime, top with cilantro.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wednesday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Wednesday</span>
+            <span class="fyb-recipe-name">Beef Barley Stew</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15–20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">400 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">30g P · 50g C · 12g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$4–$6</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>1.5 lbs beef stew meat, cubed</li>
+                <li>Pearl barley (¾ cup), carrots, celery, onion</li>
+                <li>Mushrooms, garlic, diced tomatoes (1 can)</li>
+                <li>Beef broth (4 cups), Worcestershire, tomato paste</li>
+                <li>Thyme, rosemary, bay leaf, salt/pepper, EVOO</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Season and sear beef in EVOO until browned on all sides; set aside.</li>
+                <li>Sauté onion, carrots, celery 5 min. Add garlic + tomato paste 1 min.</li>
+                <li>Return beef; add broth, tomatoes, barley, Worcestershire, herbs. Bring to boil.</li>
+                <li>Simmer covered 45–55 min until barley is tender and beef is fork-soft. Remove bay leaf; adjust seasoning.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thursday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Thursday</span>
+            <span class="fyb-recipe-name">Greek Chickpea Salad</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">400 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">15g P · 45g C · 20g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$3–$4</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>2 cans chickpeas, drained &amp; rinsed</li>
+                <li>Cucumber, cherry tomatoes, red onion</li>
+                <li>Kalamata olives, feta cheese</li>
+                <li>Fresh parsley or mint</li>
+                <li>EVOO, red wine vinegar, lemon, dried oregano, salt/pepper</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Dice cucumber, halve tomatoes, thinly slice red onion. Combine in large bowl with chickpeas, olives, and parsley.</li>
+                <li>Whisk together 3 tbsp EVOO, 2 tbsp red wine vinegar, juice of 1 lemon, 1 tsp oregano, salt + pepper.</li>
+                <li>Pour dressing over salad; toss well. Crumble feta on top. Refrigerate 15 min before serving.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Friday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Friday</span>
+            <span class="fyb-recipe-name">Sweet Potato Turkey Skillet</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">450 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">30g P · 40g C · 18g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$3–$5</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>1 lb ground turkey (93/7)</li>
+                <li>2 medium sweet potatoes, cubed small</li>
+                <li>Bell pepper, onion, baby spinach</li>
+                <li>Garlic, smoked paprika, cumin, chili powder</li>
+                <li>EVOO, chicken broth (¼ cup), salt/pepper, hot sauce (opt)</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Microwave cubed sweet potato 4–5 min to par-cook. Season turkey with spices.</li>
+                <li>Brown turkey in skillet over medium-high heat 6–8 min, breaking apart; set aside.</li>
+                <li>Sauté onion + bell pepper 3–4 min. Add garlic 30 sec. Add sweet potato + broth; cover 5 min until tender.</li>
+                <li>Return turkey; fold in spinach until wilted. Adjust seasoning. Serve with hot sauce if desired.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Saturday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Saturday</span>
+            <span class="fyb-recipe-name">Shrimp Fried Rice</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">450 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">30g P · 50g C · 12g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$5–$7</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>1 lb shrimp, peeled &amp; deveined</li>
+                <li>1 cup cooked brown rice (day-old preferred)</li>
+                <li>Broccoli, bell pepper, snap peas, carrots</li>
+                <li>3 eggs, garlic, ginger (fresh or paste)</li>
+                <li>Soy sauce, sesame oil, oyster sauce (opt), green onion</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Season shrimp with salt + pepper. Sauté in hot wok/skillet 1–2 min per side; set aside.</li>
+                <li>Add garlic + ginger; stir 30 sec. Add vegetables; cook 4–5 min until tender-crisp.</li>
+                <li>Push veggies aside; scramble eggs in the pan. Combine.</li>
+                <li>Add rice; stir-fry 2–3 min. Add shrimp back. Season with soy sauce + sesame oil. Top with green onion.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sunday -->
+        <div class="fyb-recipe-card">
+          <div class="fyb-recipe-header">
+            <span class="fyb-recipe-day-badge">Sunday</span>
+            <span class="fyb-recipe-name">White Bean Pasta</span>
+          </div>
+          <div class="fyb-recipe-stats-row">
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Prep</span>
+              <span class="fyb-stat-chip-value">~15–20 min</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Calories</span>
+              <span class="fyb-stat-chip-value">480 kcal</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Macros</span>
+              <span class="fyb-stat-chip-value">20g P · 70g C · 15g F</span>
+            </div>
+            <div class="fyb-stat-chip">
+              <span class="fyb-stat-chip-label">Cost / serving</span>
+              <span class="fyb-stat-chip-value">$2–$4</span>
+            </div>
+          </div>
+          <div class="fyb-recipe-body">
+            <div class="fyb-recipe-ingredients">
+              <div class="fyb-col-label">Ingredients</div>
+              <ul>
+                <li>Whole wheat pasta (8 oz)</li>
+                <li>2 cans white cannellini beans, drained</li>
+                <li>Baby spinach or kale, cherry tomatoes</li>
+                <li>Garlic (4–5 cloves), red pepper flakes</li>
+                <li>EVOO, lemon, parmesan, salt/pepper, fresh basil (opt)</li>
+              </ul>
+            </div>
+            <div class="fyb-recipe-steps">
+              <div class="fyb-col-label">Steps</div>
+              <ol>
+                <li>Cook pasta per package instructions; reserve ½ cup pasta water before draining.</li>
+                <li>Sauté garlic + red pepper flakes in generous EVOO 1–2 min. Add tomatoes; cook until blistered, 4–5 min.</li>
+                <li>Add beans; mash about ¼ of them for creaminess. Add spinach; wilt 1–2 min.</li>
+                <li>Toss in pasta + splash of pasta water; squeeze lemon. Finish with parmesan + basil.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── LUNCH OPTIONS ──────────────────────────────────────── -->
+    <div class="tk-section" id="fyb-lunch-options">
+      <div class="tk-section-title">Lunch Options</div>
+      <div class="fyb-lunch-grid">
+        <div class="fyb-card">
+          <div class="fyb-card-title">Go-To Picks</div>
+          <ul>
+            <li>Fruit (apple/berries/citrus/kiwi)</li>
+            <li>Veg + hummus</li>
+            <li>Kimchi, kefir</li>
+            <li>Prepared salads (orzo/kale)</li>
+            <li>Nuggets/wings/dumplings</li>
+            <li>Avocado turkey sandwich</li>
+          </ul>
+        </div>
+        <div class="fyb-card">
+          <div class="fyb-card-title">Grab &amp; Go</div>
+          <ul>
+            <li>Turkey slices, summer sausage, turkey sticks</li>
+            <li>Tuna + crackers</li>
+            <li>Pumpkin seeds, pistachios, trail mix</li>
+            <li>IQBar, Alyssa's bites</li>
+            <li>Poshi olives</li>
+          </ul>
+        </div>
+        <div class="fyb-card">
+          <div class="fyb-card-title">Pre-Dinner Protein</div>
+          <ul>
+            <li>Momentous 20g protein in water</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 </BaseLayout>

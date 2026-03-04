@@ -775,67 +775,187 @@
   text-decoration: underline;
 }
 
-/* ─── Feed Your Body — dinner plan table ────────────────────── */
-.fyb-table-wrap {
-  overflow-x: auto;
+/* ─── Feed Your Body — recipe cards ─────────────────────────── */
+.fyb-recipe-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-bottom: 2rem;
-  border-radius: 4px;
 }
 
-.fyb-table {
-  width: 100%;
-  border-collapse: collapse;
+.fyb-recipe-card {
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(199, 187, 170, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header: day badge + meal name */
+.fyb-recipe-header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1.1rem;
+  background: rgba(243, 239, 233, 0.7);
+  border-bottom: 1px solid rgba(199, 187, 170, 0.35);
+}
+
+.fyb-recipe-day-badge {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #b79c5c;
+  padding: 0.22rem 0.7rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.fyb-recipe-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4f4a44;
+  line-height: 1.25;
+}
+
+/* Stats row */
+.fyb-recipe-stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.3);
+  background: rgba(183, 156, 92, 0.04);
+}
+
+.fyb-stat-chip {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  border-right: 1px solid rgba(199, 187, 170, 0.25);
+}
+
+.fyb-stat-chip:last-child {
+  border-right: none;
+}
+
+.fyb-stat-chip-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.52rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.12rem;
+}
+
+.fyb-stat-chip-value {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
   color: #4f4a44;
 }
 
-.fyb-table th {
-  background: rgba(183, 156, 92, 0.12);
-  color: #6a6156;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+/* Two-column body: ingredients | steps */
+.fyb-recipe-body {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.fyb-recipe-ingredients,
+.fyb-recipe-steps {
+  padding: 0.9rem 1.1rem;
+}
+
+.fyb-recipe-ingredients {
+  border-right: 1px solid rgba(199, 187, 170, 0.3);
+}
+
+.fyb-col-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 0.65rem;
-  padding: 0.6rem 0.9rem;
-  text-align: left;
-  border-bottom: 2px solid rgba(183, 156, 92, 0.25);
-}
-
-.fyb-table td {
-  padding: 0.7rem 0.9rem;
-  border-bottom: 1px solid rgba(199, 187, 170, 0.3);
-  vertical-align: top;
-}
-
-.fyb-table tr:last-child td {
-  border-bottom: none;
-}
-
-.fyb-table tr:nth-child(even) td {
-  background: rgba(233, 227, 216, 0.35);
-}
-
-.fyb-day {
-  font-weight: 600;
   color: #b79c5c;
-  white-space: nowrap;
-  min-width: 90px;
+  margin-bottom: 0.55rem;
 }
 
-.fyb-stat {
-  white-space: nowrap;
-  color: #6a6156;
-}
-
-.fyb-table ul {
+.fyb-recipe-ingredients ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding-left: 1.1rem;
-  line-height: 1.65;
 }
 
-.fyb-table li {
-  margin-bottom: 0.25rem;
+.fyb-recipe-ingredients ul li {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.91rem;
+  color: #5e554b;
+  line-height: 1.6;
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.18rem;
+}
+
+.fyb-recipe-ingredients ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: #b79c5c;
+  font-weight: 300;
+}
+
+.fyb-recipe-steps ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step-counter;
+}
+
+.fyb-recipe-steps ol li {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.91rem;
+  color: #5e554b;
+  line-height: 1.6;
+  padding-left: 1.85rem;
+  position: relative;
+  margin-bottom: 0.45rem;
+  counter-increment: step-counter;
+}
+
+.fyb-recipe-steps ol li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0.12em;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: rgba(183, 156, 92, 0.14);
+  border-radius: 50%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: #b79c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .fyb-recipe-body {
+    grid-template-columns: 1fr;
+  }
+
+  .fyb-recipe-ingredients {
+    border-right: none;
+    border-bottom: 1px solid rgba(199, 187, 170, 0.3);
+  }
+
+  .fyb-stat-chip {
+    flex: 1 1 auto;
+  }
 }
 
 /* ─── Feed Your Body — lunch options grid ───────────────────── */
