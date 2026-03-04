@@ -823,6 +823,11 @@
   min-width: 90px;
 }
 
+.fyb-stat {
+  white-space: nowrap;
+  color: #6a6156;
+}
+
 .fyb-table ul {
   margin: 0;
   padding-left: 1.1rem;
