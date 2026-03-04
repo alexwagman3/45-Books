@@ -651,8 +651,8 @@ EXPLORE OTHERS’ PATHS:
     - Compare. When you do differ significantly, don’t suggest others are wrong. Compare your two views.
 
 RETAKE YOUR PEN: 
-Then use four skills to manage how you address the information others share: 
 
+- Use four skills to manage how you address the information others share: 
     - Collect yourself. Breathe deeply, name your emotions, and present yourself with soothing truths that establish your safety and worth. 
     - Understand. Be curious. Ask questions and ask for examples. And then just listen. Detach yourself from what is being said as though it is being said about a third person. 
     - Recover. Take a time-out if needed to recover emotionally and process what you’ve heard. 
