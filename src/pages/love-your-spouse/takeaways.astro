@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const books = [
+  { slug: 'the-meaning-of-marriage',           title: 'The Meaning of Marriage' },
+  { slug: '7-principles-for-making-marriage-work', title: '7 Principles for Making Marriage Work' },
+  { slug: 'intended-for-pleasure',             title: 'Intended for Pleasure' },
+];
+---
+
+<BaseLayout
+  title="Love Your Spouse — Personal Takeaways"
+  description="Personal takeaways from the Love Your Spouse shelf: The Meaning of Marriage, 7 Principles for Making Marriage Work, and Intended for Pleasure."
+>
+  <a class="overlay-back" href="/">&#8592; Back to Bookshelf</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Love Your Spouse</span>
+    <h1 class="takeaways-title">Love Your Spouse</h1>
+    <p class="takeaways-author" style="margin-bottom: 0.5rem;">Personal Takeaways</p>
+
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+      {books.map((b) => (
+        <a href={`/books/${b.slug}/`} class="overlay-takeaways-btn" style="font-size:0.78rem; padding:0.35rem 0.9rem;">
+          {b.title}
+        </a>
+      ))}
+    </div>
+
+    <div class="overlay-coming-soon">
+      Personal takeaways for this shelf haven't been added yet. Check back soon.
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  html { scroll-behavior: smooth; }
+</style>
