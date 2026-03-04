@@ -16,7 +16,7 @@ type Props = { book: CollectionEntry<'books'> };
 const { book } = Astro.props;
 
 // ─── Shelf-level shared takeaway pages ───────────────────────────────────────
-// These three shelves combine takeaways across all three books in the shelf.
+// All shelves combine takeaways across all three books in the shelf.
 // Books in each shelf redirect to their shared page via immediate JS redirect.
 
 const LOVE_NEIGHBORS_SLUGS = new Set([
@@ -55,13 +55,76 @@ const GROW_IN_WISDOM_SLUGS = new Set([
   'the-power-of-a-humble-life',
 ]);
 
+const LOVE_FAMILY_SLUGS = new Set([
+  'cribsheet',
+  'good-inside',
+  'the-5-love-languages-of-teenagers',
+]);
+
+const BUILD_CAREER_SLUGS = new Set([
+  'crucial-conversations',
+  'the-leadership-challenge',
+  'every-good-endeavor',
+]);
+
+const RUN_SIDE_HUSTLE_SLUGS = new Set([
+  'buy-rehab-rent-refinance-repeat',
+  'the-personal-mba',
+  'testing-business-ideas',
+]);
+
+const MANAGE_FINANCES_SLUGS = new Set([
+  'retire-before-mom-and-dad',
+  'tax-free-wealth',
+  'managing-gods-money',
+]);
+
+const MANAGE_EMOTIONS_SLUGS = new Set([
+  'emotional-first-aid',
+  'untangling-emotions',
+  'if-youre-so-smart',
+]);
+
+const DEVELOP_RESILIENCE_SLUGS = new Set([
+  'atomic-habits',
+  'grit',
+  'walking-with-god-through-pain-and-suffering',
+]);
+
+const BE_ADVENTUROUS_SLUGS = new Set([
+  'microadventures',
+  'wild-at-heart',
+  'the-happiness-of-pursuit',
+]);
+
+const LOVE_SPOUSE_SLUGS = new Set([
+  'the-meaning-of-marriage',
+  '7-principles-for-making-marriage-work',
+  'intended-for-pleasure',
+]);
+
+const SERVE_SLUGS = new Set([
+  'alongside',
+  'love-your-church',
+  'improving-your-serve',
+]);
+
 const redirectTo =
-  LOVE_NEIGHBORS_SLUGS.has(book.slug)        ? '/love-your-neighbors/takeaways/' :
-  DISCIPLE_SLUGS.has(book.slug)              ? '/disciple/takeaways/' :
-  FEED_YOUR_BODY_SLUGS.has(book.slug)        ? '/feed-your-body/takeaways/' :
-  WORSHIP_SLUGS.has(book.slug)               ? '/worship/takeaways/' :
+  LOVE_NEIGHBORS_SLUGS.has(book.slug)      ? '/love-your-neighbors/takeaways/' :
+  DISCIPLE_SLUGS.has(book.slug)            ? '/disciple/takeaways/' :
+  FEED_YOUR_BODY_SLUGS.has(book.slug)      ? '/feed-your-body/takeaways/' :
+  WORSHIP_SLUGS.has(book.slug)             ? '/worship/takeaways/' :
   EXERCISE_YOUR_MUSCLES_SLUGS.has(book.slug) ? '/exercise-your-muscles/takeaways/' :
-  GROW_IN_WISDOM_SLUGS.has(book.slug)        ? '/grow-in-wisdom/takeaways/' :
+  GROW_IN_WISDOM_SLUGS.has(book.slug)      ? '/grow-in-wisdom/takeaways/' :
+  LOVE_FAMILY_SLUGS.has(book.slug)         ? '/love-your-family/takeaways/' :
+  BUILD_CAREER_SLUGS.has(book.slug)        ? '/build-a-career/takeaways/' :
+  RUN_SIDE_HUSTLE_SLUGS.has(book.slug)     ? '/run-a-side-hustle/takeaways/' :
+  MANAGE_FINANCES_SLUGS.has(book.slug)     ? '/manage-your-finances/takeaways/' :
+  MANAGE_EMOTIONS_SLUGS.has(book.slug)     ? '/manage-your-emotions/takeaways/' :
+  DEVELOP_RESILIENCE_SLUGS.has(book.slug)  ? '/develop-resilience/takeaways/' :
+  BE_ADVENTUROUS_SLUGS.has(book.slug)      ? '/be-adventurous/takeaways/' :
+  LOVE_SPOUSE_SLUGS.has(book.slug)         ? '/love-your-spouse/takeaways/' :
+  SERVE_SLUGS.has(book.slug)               ? '/serve/takeaways/' :
   null;
 
 // ─── Individual book takeaways ────────────────────────────────────────────────
