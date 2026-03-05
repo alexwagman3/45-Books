@@ -3,7 +3,7 @@
 ----------
 
 
-## Introduction Resistance is Not Futile
+# Introduction Resistance is Not Futile
 
 
 - In recent years, we’ve seen an explosion of published biomedical evidence on resistance training in the aged, in women, in children, and in people suffering from a broad spectrum of health conditions, ranging from diabetes to hypertension to congestive heart failure to Parkinson’s. What this growing body of data tells us is that everybody who can lift weights should lift weights. This most emphatically includes those in their 40s and beyond.
