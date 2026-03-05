@@ -15,7 +15,7 @@
 # PART 1 - DR. BECKY’S PARENTING PRINCIPLES
 
 
-## Chapter 1: Good Inside
+## CHAPTER 1: Good Inside
 
 - Let me share an assumption I have about you and your kids: you are all good inside. When you call your child “a spoiled brat,” you are still good inside. When your child denies knocking down his sister’s block tower (even though you watched it happen), he is still good inside. And when I say “good inside,” I mean that we all, at our core, are compassionate, loving, and generous. The principle of internal goodness drives all of my work—I hold the belief that kids and parents are good inside, which allows me to be curious about the “why” of their bad behaviors.
 
@@ -30,7 +30,7 @@
 - Finding the MGI teaches parents to attend to what is going on inside of their child (big feelings, big worries, big urges, big sensations) rather than what is going on outside of their child (big words, or sometimes big actions). And when we put this perspective into practice, we teach our children to do the same. We orient them to their internal experience, which includes thoughts, feelings, sensations, urges, memories, and images. Self-regulation skills rely on the ability to recognize internal experience, so by focusing on what’s inside rather than what’s outside, we are building in our children the foundation of healthy coping.
 
 
-## Chapter 2: Two Things Are True
+## CHAPTER 2: Two Things Are True
 
 - We don’t have to choose between two supposedly oppositional realities. We can avoid punishment and see improved behavior, we can parent with a firm set of expectations and still be playful, we can create and enforce boundaries and show our love, we can take care of ourselves and our children. And similarly, we can do what’s right for our family and our kids can be upset; we can say no and care about our kids’ disappointment. This idea of multiplicity, the ability to accept multiple realities at once, is critical to healthy relationships. When there are two people in a room, there are also two sets of feelings, thoughts, needs, and perspectives. Our ability to hold on to multiple truths at once (ours and someone else’s) allows two people in a relationship to feel seen and feel real, even if they are in conflict. Multiplicity is what allows two people to get along and feel close, they each know that their experience will be accepted as true and explored as important, even if those experiences are different. Building strong connections relies on the assumption that no one is right in the absolute, because understanding, not convincing, is what makes people feel secure in a relationship.
 
@@ -53,7 +53,7 @@
 - Bad behavior comes from dysregulated feelings that we cannot manage. What helps us manage the unmanageable? Connection.
 
 
-## Chapter 3: Know Your Job
+## CHAPTER 3: Know Your Job
 
 - Parents have the job of establishing safety through boundaries, validation, and empathy. Children have the job of exploring and learning, through experiencing and expressing their emotions.
 
@@ -76,7 +76,7 @@
 - As kids strengthen that ability to regulate their feelings, those feelings are less likely to manifest as behavior: this is the difference between your child’s saying, “I’m so mad at my sister!” (regulating anger) and your child’s hitting her sister (dysregulation);
 
 
-## Chapter 4: The Early Years Matter
+## CHAPTER 4: The Early Years Matter
 
 - And yes, kids will “remember” all of these years, including years zero to one, one to two, and two to three. They won’t, of course, remember in the way we typically think about memory—they won’t be able to produce a story with words that connects to an experience from their past. But even if kids can’t remember with their words, they can—and do—remember with something more powerful: their bodies.
 
@@ -95,7 +95,7 @@
 - “Children have a developmental tendency to translate experience into identity: I am not loved becomes I am unlovable, and a bad thing happened to me becomes I am bad.” In other words, kids take experiences with their caregivers and infer larger messages about who they are. The emotions parents connect to—meaning the ones we are interested in and will stay present for—tell children that the parts of them feeling these feelings are manageable, lovable, and worthy; the emotions we shut down, punish, reject, or try to make into something “more pleasant,” well, children learn that the parts of them feeling these feelings are destructive, bad, unlovable, or “too much.”
 
 
-## Chapter 5: It’s Not Too Late
+## CHAPTER 5: It’s Not Too Late
 
 - It is not too late to repair and reconnect with your kids and change the trajectory of their development.
 
@@ -106,7 +106,7 @@
 - As we all know, solid relationships aren’t solid because they lack conflict, they’re solid because the people in them possess the ability to reconnect after disagreements and to feel understood again after feeling misunderstood.
 
 
-## Chapter 6: Resilience > Happiness
+## CHAPTER 6: Resilience > Happiness
 
 - Do I want my kids to experience happiness? Without a doubt, yes. I want them to feel happiness as kids and as adults; this is why I’m so focused on building resilience. Resilience, in many ways, is our ability to experience a wide range of emotions and still feel like ourselves. Resilience helps us bounce back from the stress, failure, mistakes, and adversity in our lives.
 
@@ -119,7 +119,7 @@
 - Parents don’t so much need to protect kids from having tough feelings as much as we need to prepare our kids to have those feelings. And the best way to prepare our kids is through honesty and loving presence.
 
 
-## Chapter 7: Behavior Is a Window
+## CHAPTER 7: Behavior Is a Window
 
 - If it were me, I’m pretty sure I would already know that it’s not okay to throw a cereal box; my throwing and yelling was a sign that I was overwhelmed with an emotion, not a sign that I don’t know right from wrong. I wouldn’t need my partner to teach me or lecture me or punish me or shame me in any way. What I would need is to feel safe and good inside again. Then, when I’d cooled down a bit, I would need to reflect on the larger story of how I got to that moment.
 
@@ -134,12 +134,12 @@
 - For many parents, a non-punishing approach like this seems worrisome, or at least counterintuitive. They fear that giving “positive attention” to a “misbehaving” child will only encourage that child to keep engaging in the problematic behavior. As one parent recently told me: “I’m no longer punishing my child, but now we’re in a cycle where she does something bad and as a result she gets special time with me. I don’t want her to learn that this is how she gets my attention, but right now it is how she’s getting it! Help!” I understand both of these concerns. But rather than responding by reducing the connection after these behaviors, I’d think about increasing the connection outside of these behaviors. Behavioral issues are often a call for attention or connection—if those needs are met, that cry for help is no longer necessary.
 
 
-## Chapter 8: Reduce Shame, Increase Connection
+## CHAPTER 8: Reduce Shame, Increase Connection
 
 - This stuck with me: connection first. Connection is the opposite of shame. It is the antidote to shame. Shame is a warning sign of aloneness, danger, and badness; connection is a sign of presence, safety, and goodness. Now, to be clear, connection does not mean approval. Approval is usually about a specific behavior; connection is about our relationship with the person underneath the behavior. And that’s another reason why connection with our children in their difficult moments does not “reinforce” bad behavior: shame has never been a motivator of positive behavior change at any time, in any place, for any type of person.
 
 
-## Chapter 9: Tell the Truth
+## CHAPTER 9: Tell the Truth
 
 - Parents often fear that telling their kids the truth will be too scary or overwhelming, but we tend to have it all wrong when it comes to what scares children. It’s not information so much as feeling confused and alone in the absence of information that terrifies them.
 
@@ -152,7 +152,7 @@
 - Showing our children that we feel the tough stuff, that we struggle with it and still get through, is truly the best lesson you can give them.
 
 
-## Chapter 10: Self-Care
+## CHAPTER 10: Self-Care
 
 - Deep breathing is effective because it regulates a number of important bodily processes, including those involved with lowering stress levels and reducing blood pressure. Diaphragmatic breathing, also known as “belly breathing,” stimulates your vagus nerve, which is the longest and most complex cranial nerve in the body. The vagus nerve is a main component of your parasympathetic nervous system, or your “rest and restore” system (the opposite of your sympathetic or “fight or flight” system), and helps your body access feelings of safety and regulation. That’s just a fancy way of saying that deep belly breathing activates the circuits in our bodies that start the calming-down process.
 
@@ -166,7 +166,7 @@
 # PART 2 - BUILDING CONNECTION AND ADDRESSING BEHAVIORS
 
 
-## Chapter 11: Building Connection Capital
+## CHAPTER 11: Building Connection Capital
 
 - Connection capital flows two ways. Like a bank account, we draw from our connection capital regularly. Parents spend connection capital when we ask kids to clean their rooms, when we tell them we need a few minutes for an unexpected work call, when we say, “Time to leave, sweetie,” or “Screen time is over.” Parents are big connection capital spenders, because we often have to ask kids to do things they don’t want to do and to respect our rules when they’d rather not. This means that parents need to be even bigger connection-builders. We need a strong reserve to draw from so that we don’t run out of funds.
 
@@ -187,7 +187,7 @@
 - Share that you’ve been reflecting. Acknowledge the other person’s experience. State what you would do differently next time. Connect through curiosity now that things feel safer.
 
 
-## Chapter 12: Not Listening
+## CHAPTER 12: Not Listening
 
 - When we say “My kid doesn’t listen,” we’re not really talking about listening. I’ve never heard a parent complain their child doesn’t listen when they say, “Ice-cream sundaes are on the kitchen table!” or “You can start an extra TV show now!” What we’re really talking about in situations like Sonia’s is cooperation. We say “My kid won’t listen,” but what we mean is “My kid won’t cooperate when I want him to do something he doesn’t want to do.” How do we, as adults, behave when someone asks us to do something we don’t want to do? Well, that usually depends on how close we feel, in the moment, to the person making the request. If I’m feeling really good about my marriage and my husband asks me to grab him something on my way home from work, I’ll probably say yes. But if I’ve recently been feeling unappreciated or misunderstood, I’m more likely to tell him I don’t have time. The more connected we feel to someone, the more we want to comply with their requests. Listening is essentially a barometer for the strength of a relationship in any given moment.
 
@@ -200,7 +200,7 @@
 - Humor allows for a change in perspective, which is what we’re looking for when we ask things of our kids. When we infuse playfulness instead of frustration, we join our children in the world they always prefer—one filled with silliness, lightheartedness, and laughter. Frankly, it’s a world we want to be a part of as well. When we bring laughter into the equation, our kids feel more connected to us and are more likely to cooperate.
 
 
-## Chapter 13: Emotional Tantrums
+## CHAPTER 13: Emotional Tantrums
 
 - In the moment of a tantrum, a child is experiencing a feeling, urge, or sensation that overwhelms his capacity to regulate that feeling, urge, or sensation. That’s an important thing to remember: tantrums are biological states of dysregulation, not willful acts of disobedience.
 
@@ -209,7 +209,7 @@
 - “Two things are true: I’m in charge of this decision and my answer is no. You’re in charge of your feelings and you’re allowed to be upset.” The words themselves actually matter less than the idea and the tone. The idea is that we are allowed to make decisions and our kids are allowed to have their own feelings. As for the tone? We don’t want to deliver these words with coldness or aloofness, as if to say, “You’re allowed to be upset and I don’t care.” We want to convey true permission and empathy,
 
 
-## Chapter 14: Aggressive Tantrums (Hitting, Biting, Throwing)
+## CHAPTER 14: Aggressive Tantrums (Hitting, Biting, Throwing)
 
 - The prefrontal cortex of the human brain, which is responsible for the development of language, logic, forward thinking, and perspective (all factors that help us regulate and stay grounded), is extremely underdeveloped in young children. This is why they have such intense emotional explosions.
 
@@ -238,7 +238,7 @@
 - This is when many parents ask, “And then what? What do I do next? Do I tell them how to handle it differently next time?” Nope! The simple act of adding your presence, coherence, and a narrative will change how the experience is stored in a child’s body.
 
 
-## Chapter 15: Sibling Rivalry
+## CHAPTER 15: Sibling Rivalry
 
 - First children often appear self-centered when a new sibling comes into the family, but underneath the “I don’t like her, send her back to the hospital!” or the pleas of “Watch me! Watch me!” is a child whose circuitry is going through a massive shift. Second and third (and fourth, etc.) kids have the opposite wiring: their circuitry is shaped by the presence of someone else constantly in their space, constantly able to do things they cannot (yet) do, constantly competing for time and attention. It’s frustrating to be a second kid. You can’t build a block tower without seeing an older sibling do it more easily, you can’t run in the backyard without seeing a sibling run faster, you can’t work on early reading without seeing your older sibling read effortlessly. There’s no problem to fix here, just a dynamic to understand.
 
@@ -253,7 +253,7 @@
 - Here’s the catch about venting: I have a zero-tolerance policy for siblings’ insulting each other or calling each other names. In my mind, this is bullying, and it’s something I encourage families to take a hard line about.
 
 
-## Chapter 16: Rudeness and Defiance
+## CHAPTER 16: Rudeness and Defiance
 
 - Why are you rude to people sometimes? Why would you talk back to or disobey your boss? I come up with the same reason, every time: I feel misunderstood. I am looking to feel seen and don’t. I feel frustrated that someone else isn’t really hearing me, and my relationship with that person isn’t as strong as it could be in that moment. Knowing what would make me act out helps guide my approach to rudeness or defiance in kids.
 
@@ -262,7 +262,7 @@
 - Responding to your child’s on-the-surface behavior, as if their words are their sole truth, is taking the bait. Seeing your child’s on-the-surface behavior as a sign of something deeper and more vulnerable—seeing the feelings underneath the words, not the words themselves—is not taking the bait. This difference is everything.
 
 
-## Chapter 17: Whining
+## CHAPTER 17: Whining
 
 - Here’s how I see it: children whine when they feel helpless. I often use the formula whining = strong desire + powerlessness.
 
@@ -275,7 +275,7 @@
 - I find that modeling it myself and moving on is both more humane and more effective. What would this look like? When your child says, “Dad, I need my boooooook!” . . . instead of “I need you to say that again in a stronger voice,” try “Dad, can you please grab me that book? Thank you so much.” Then “switch” and reply, “Oh sure, sweetie, no problem.” Deliver the book, take a deep breath, skip the lecture, trust your child to hear the difference and incorporate the change.
 
 
-## Chapter 18: Lying
+## CHAPTER 18: Lying
 
 - Looking at lying through a lens of being disrespected (“Are you lying to me? Do not disrespect me like that!”) totally misses the point—it pits us against our children and locks us into a parent-child power struggle where nobody wins. The reality is that lying is almost never about being defiant or sneaky or sociopathic (even when you’re only saying that in jest). Like so many of the behaviors addressed in this book, lying is much more about a child’s basic desires and their focus on attachment than it is about being manipulative or “pulling a fast one.” Now, I’m not saying you should “let your kids off the hook” when they lie. But my approach to dealing with lying is not about eliciting a confession in the moment. It’s aimed at getting to the core of what’s driving the lying, so we can address that head-on and create an environment where truth-telling becomes more possible. We cannot change a behavior we don’t understand, and punishment, threats, and rage are never components in environments that foster understanding or change.
 
@@ -288,7 +288,7 @@
 - Using the language of wishing in response to a child’s falsehoods changes the direction of the conversation, as it allows for more options than just “telling the truth” and “lying.” Now there’s an in-between place, and your ability to see and vocalize that gray area can soften the intensity of the moment and create a way to connect with your child.
 
 
-## Chapter 19: Fears and Anxiety
+## CHAPTER 19: Fears and Anxiety
 
 - You cannot just “get rid” of anxiety. Anxiety can only be effectively managed by increasing our tolerance for it, allowing it to exist, and understanding its purpose. This makes space for other emotions to emerge, thereby preventing the anxiety from taking over.
 
@@ -301,7 +301,7 @@
 - For kids who struggle with anxiety, mantras can be very helpful in the moment. Whether spoken out loud or recited internally, a mantra focuses their attention on the calming words rather than the source of distress.
 
 
-## Chapter 20: Hesitation and Shyness
+## CHAPTER 20: Hesitation and Shyness
 
 - If you notice that your child’s shyness or hesitation or clinginess bothers you, remind yourself that a child’s willingness to not join the crowd is probably a trait you’ll value in her later on.
 
@@ -312,7 +312,7 @@
 - Our kids will always respond to the versions of themselves we reflect back. When we label kids, saying things like “Oh, she’s shy” or “He never likes to talk to grown-ups, he’s really reserved,” we lock them into roles with a type of rigidity that makes growth difficult. Instead of labeling, provide a generous interpretation of your child’s behavior, especially if someone else smacks on a label. If a family member says, “Aisha, why are you being so shy?,” take a breath, jump in, and share, “Aisha isn’t shy. Aisha is figuring out what feels comfortable to her, and that’s great. She’ll share more about her school year when she’s ready.”
 
 
-## Chapter 21: Frustration Intolerance
+## CHAPTER 21: Frustration Intolerance
 
 - If we want our kids to develop frustration tolerance, we have to develop tolerance for their frustration.
 
@@ -331,7 +331,7 @@
 - In our family, we try to remember that sticking with something hard makes our brains grow.
 
 
-## Chapter 22: Food and Eating Habits
+## CHAPTER 22: Food and Eating Habits
 
 - When parents around the dinner table start talking about what their kids will or will not eat, what they really seem to be assessing is whether they are doing a good job, whether they are doing enough, whether their kids are willing to “take in” what they want to offer them. Understanding this deeper connection between parenting and feeding is, in fact, the first step to reducing the intensity of mealtime. It helps separate what’s actually happening from the deeper feelings that get evoked in our bodies around this issue, and that helps us intervene in a way that’s based on what’s in front of us, rather than on our fears and insecurities.
 
@@ -350,19 +350,19 @@
 - Remind yourself and your child of your job: “My job as a parent is to make decisions that I think are good for you, even when I know you’re not going to like them.”
 
 
-## Chapter 23: Consent
+## CHAPTER 23: Consent
 
 - I recommend all parents strike the following words from their parenting vocabulary (feel free to strike them from all interactions outside of parenting as well!): “dramatic,” “drama queen,” “overly sensitive,” “hysterical,” “disproportionate,” “ridiculous.” These are gaslighting words that tell a child you don’t trust them—which wires them not to trust themself.
 
 
-## Chapter 24: Tears
+## CHAPTER 24: Tears
 
 - Let’s think about fake tears for a moment. What would lead me, an adult, to escalate my expression of emotions? After all, none of us are above this. Well, if I want to have the seriousness of my feelings recognized or my needs known, and I sense that someone is responding to me with disinterest, invalidation, or minimization, then my body would undoubtedly escalate into a more intense expression. I would be desperate to feel seen and understood. When we look at fake tears through this lens, we think less about the on-the-surface expression and more about the underlying unmet needs.
 
 - This is an extremely powerful message to your child: sometimes our body knows things that our mind doesn’t yet understand.
 
 
-## Chapter 25: Building Confidence
+## CHAPTER 25: Building Confidence
 
 - Confidence is our ability to feel at home with ourselves in the widest range of feelings possible.
 
@@ -375,14 +375,14 @@
 - In regard to your child’s sports team, for example, inside stuff might be her effort in practice, her attitude when winning and losing, and her willingness to try new things; outside stuff might be her number of goals or home runs, or labels like “most valuable player.” When it comes to academics, inside stuff might be willingness to try a bonus math problem, spending time on studying, and showing enthusiasm about a subject; outside stuff might be a grade, a test score, or a label like “smartest kid in class.” The more our families focus on inside stuff, the more children value inside stuff too—which ultimately translates to valuing who they are over what they do.
 
 
-## Chapter 26: Perfectionism
+## CHAPTER 26: Perfectionism
 
 - Perfectionism steals a child’s (and adult’s) ability to feel good in the process of learning because it dictates that goodness only comes from successful outcomes.
 
 - After all, there are components of perfectionism—drive and strong-mindedness and conviction—that can feel really good, and we want to help our kids harness these traits without collapsing under the immense pressure perfectionism can add.
 
 
-## Chapter 27: Separation Anxiety
+## CHAPTER 27: Separation Anxiety
 
 - Children associate parental presence with safety, because their bodies tell them: “As long as your parent is near, you have protection.” In moments of separation, children must try to find feelings of security in a new environment or with a new caregiver or teacher, and that’s a tall order. It requires them to hold on to the feelings of safety that come from a parent-child relationship without having that relationship right there in front of them. For separation to feel manageable, children have to internalize—meaning, have within them—the feelings that often come in the presence of a parent, to trust that they are safe in this world even when a parent is not right next to them.
 
@@ -397,7 +397,7 @@
 - Telling the story reminds a child that the moment of separation was part of a larger story, but it didn’t color their entire experience.
 
 
-## Chapter 28: Sleep
+## CHAPTER 28: Sleep
 
 - Remember, the attachment system is based in proximity seeking, because children feel safest when their parents are next to them. Nighttime can feel truly dangerous to kids—it means darkness, aloneness, the slowing down of the body and the speeding up of the mind, the emergence of scary thoughts, and even existential worries about permanence (“Are my parents really there when I can’t see them?”). Sleep is also a time when kids might express anxieties and struggles from other parts of their lives.
 
@@ -406,7 +406,7 @@
 - Think of various ways to infuse your presence into your child’s room and bed area. Maybe you put a family photo next to your child’s sleep area and a photo of your child next to your bed as well. You can introduce this, during the daytime, by saying: “You know what I’ve been thinking about? Sometimes I have a hard time falling asleep and I think of you and miss you! I’d love to have a picture of you right next to my bed. Then I can see you and remind myself that you’re here and I’m safe, and that I’ll see you in the morning!
 
 
-## Chapter 29: Kids Who Don’t Like Talking About Feelings (Deeply Feeling Kids)
+## CHAPTER 29: Kids Who Don’t Like Talking About Feelings (Deeply Feeling Kids)
 
 - For children with these more intense emotions, I use the label “Deeply Feeling Kids” (DFKs)—it reflects the way they experience the world and it also explains why these children often feel overwhelmed and enter more easily into a “threat” or “fight or flight” state.
 

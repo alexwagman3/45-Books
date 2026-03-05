@@ -22,7 +22,7 @@
 - This is not a book for giving people the warm fuzzies. It’s meant to be applied. You don’t have to be brilliant or gifted to pull off these truths in your life. But you do have to be willing.
 
 
-# Chapter 1: Who, Me a Servant? You Gotta Be Kidding!
+# CHAPTER 1: Who, Me a Servant? You Gotta Be Kidding!
 
 
 - Hoarding and flaunting have replaced sharing and caring.
@@ -52,7 +52,7 @@
 - Being real, that’s the major message of this chapter—being who you really are and then allowing the Lord God to develop within you a style of serving that fits you.
 
 
-# Chapter 2: A Case for Unselfishness
+# CHAPTER 2: A Case for Unselfishness
 
 
 - “The trouble with success is that the formula is the same as the one for a nervous breakdown.” And what is that? Work longer hours, push ahead, let nothing hinder your quest—not your marriage or family, not your convictions or conscience, not your health or friends. Be aggressive, and if necessary mean, as you press toward the top. You gotta be smart, slick, and sly if success is the bottom line of your agenda. It’s the same old fortune-fame-power-pleasure line we’ve been fed for decades.
@@ -73,7 +73,7 @@
 - Not a getter, but a giver. Not one who holds a grudge, but a forgiver. Not one who keeps score, but a forgetter. Not a superstar, but a servant.
 
 
-# Chapter 3: The Servant As a Giver
+# CHAPTER 3: The Servant As a Giver
 
 
 - Do nothing from selfishness or empty conceit, but with humility of mind let each of you regard one another as more important than himself; do not merely look out for your own personal interests, but also for the interests of others (Philippians 2:3–4).
@@ -127,7 +127,7 @@
 - Become a giver, and watch God open the hearts of others to Himself.
 
 
-# Chapter 4: The Servant As a Forgiver
+# CHAPTER 4: The Servant As a Forgiver
 
 
 - Forgiveness is not an elective in the curriculum of servanthood. It is a required course, and the exams are always tough to pass.
@@ -148,7 +148,7 @@
 - We are to forgive as we have been forgiven! Release the poison of all that bitterness . . . let it gush out before God, and declare the sincere desire to be free. It’s one of the major steps each of us must take toward becoming God’s model of a servant.
 
 
-# Chapter 5: The Servant As a Forgetter
+# CHAPTER 5: The Servant As a Forgetter
 
 
 - Love is patient, love is kind, and is not jealous; love does not brag and is not arrogant, does not act unbecomingly; it does not seek its own, is not provoked, does not take into account a wrong suffered.
@@ -178,7 +178,7 @@
 - 1. Is there someone or something I have refused to forget, which keeps me from being happy and productive? If your answer is yes, stop and declare it openly to your Lord, asking Him to take away the pain and the bitterness. 2. Am I a victim of self pity, living out my days emotionally paralyzed in anguish and despair? If your answer is yes, stop and consider the consequences of living the rest of your life excusing your depression rather than turning it all over to the only One who can remove it.
 
 
-# Chapter 6: Thinking Like a Servant Thinks
+# CHAPTER 6: Thinking Like a Servant Thinks
 
 
 - That form of mind reprogramming turns a human being into a puppet, a slave without personal dignity, without the privilege to think and to ask questions, and without the joy of serving others willingly under the control and authority of Jesus Christ.
@@ -199,7 +199,7 @@
 - Make me a man who asks of you and of others, what can I do for you?
 
 
-# Chapter 7: Portrait of a Servant, Part One
+# CHAPTER 7: Portrait of a Servant, Part One
 
 
 - What do you want to be when you grow up?” That’s a favorite question we enjoy asking children. Let’s take that same question and ask it another way. Let’s imagine asking Jesus Christ what He wants us to be when we grow up. Suddenly, it’s a whole new question. I honestly believe He would give the same answer to every one of us: “I want you to be different . . . to be a servant.” In all my life I cannot recall anybody ever saying that when he grew up he wanted to be a servant.
@@ -256,7 +256,7 @@
 - Before examining the final four character traits of a servant in the next chapter, let’s ask ourselves these questions (try to answer each one directly and honestly): • Am I really different! • Do I take all this seriously . . . so much so that I am willing to change? • Is it coming through to me that serving others is one of the most Christlike attitudes I can have? • What significant difference will the ideas expressed in this chapter have on my life? The bottom-line question is not “What do you want to be when you grow up?” but “What are you becoming, now that you’re grown?”
 
 
-# Chapter 8: Portrait of a Servant, Part Two
+# CHAPTER 8: Portrait of a Servant, Part Two
 
 
 - “The Merciful”
@@ -308,7 +308,7 @@
     - He has described our calling by explaining our role as: • Poor in spirit • Mourning • Gentle • Hungering and thirsting for righteousness • Merciful • Pure in heart • Peacemakers • Persecuted.
 
 
-# Chapter 9: The Influence of a Servant
+# CHAPTER 9: The Influence of a Servant
 
 
 - Nevertheless, strange as it may seem, He went on to tell that handful of Palestinian peasants (and all godly servants in every generation) that their influence would be nothing short of remarkable. They would be “the salt of the earth” and they would be “the light of the world.” And so shall we! So far-reaching would be the influence of servants in society, their presence would be as significant as salt on food and as light on darkness. Neither is loud or externally impressive, but both are essential.
@@ -329,7 +329,7 @@
 - “I am different.” Probably the greatest tragedy of Christianity through its changing and checkered history has been our tendency to become like the world rather than completely different from it. The prevailing culture has sucked us in like a huge vacuum cleaner, and we have done an amazing job of conforming.
 
 
-# Chapter 10: The Perils of a Servant
+# CHAPTER 10: The Perils of a Servant
 
 
 - . . . always carrying about in the body the dying of Jesus, that the life of Jesus also may be manifested in our body. For we who live are constantly being delivered over to death for Jesus’ sake, that the life of Jesus also may be manifested in our mortal flesh (2 Cor. 4:10–11).
@@ -344,7 +344,7 @@
 - “Why are you planning this?” “What’s the reason behind your doing that?” “Why did you say yes (or no)?” “What is the motive for writing that letter?” “Why are you excited over this opportunity?” “What causes you to bring up that subject?” “Why did you mention his/her name?” “What’s your motive,
 
 
-# Chapter 11: The Obedience of a Servant
+# CHAPTER 11: The Obedience of a Servant
 
 
 - …the most phenomenal Person who ever cast a shadow across earth’s landscape. Without question, He is unique. He is awesome in the truest sense of the term. But what was He like personally down inside His skin? Is there any place, for example, where He describes Himself? The answer is yes. Does that description fit the common idea of human greatness? The answer is no. Unlike most influential, celebrity types, Jesus’ description of Himself doesn’t sound like the popular hype we’ve grown accustomed to hearing.
@@ -386,7 +386,7 @@
 - Just studying about it or discussing it produces no lasting happiness. The fun comes when we roll up our sleeves, wrap the towel around our waist, and wash a few feet . . . quietly . . . graciously . . . cheerfully . . . like Christ who was “gentle” and “humble in heart.”
 
 
-# Chapter 12: The Consequences of Serving
+# CHAPTER 12: The Consequences of Serving
 
 
 - We Americans like things to be logical and fair. We not only like that, we operate our lives on that basis. Logic and fairness are big guns in our society. Meaning this: If I do what is right, good will come to me, and if I do what is wrong, bad things will happen to me. Right brings rewards and wrong brings consequences. That’s a very logical and fair axiom of life, but there’s only one problem with it. It isn’t always true. Life doesn’t work out quite that well.
@@ -419,7 +419,7 @@
 - Here is the first truth to claim when enduring the consequences of suffering: Nothing touches me that has not passed through the hands of my heavenly Father. Nothing. Whatever occurs, God has sovereignly surveyed and approved. We may not know why (we may never know why), but we do know our pain is no accident to Him who guides our lives. He is, in no way, surprised by it all. Before it ever touches us, it passes through Him. The second truth to claim is this: Everything I endure is designed to prepare me for serving others more effectively. Everything. Since my heavenly Father is committed to shaping me into the image of His Son, He knows the ultimate value of this painful experience. It is a necessary part of the preparation process. It is being used to empty our hands of our own resources, our own sufficiency, and turn us back to Him—the faithful Provider. And God knows what will get through to us.
 
 
-# Chapter 13: The Rewards of Serving
+# CHAPTER 13: The Rewards of Serving
 
 
 - Ultimately, we shall spend eternity with God in the place He has prepared for us. And part of that exciting anticipation is His promise to reward His servants for a job well done. I don’t know many believers in Jesus Christ who never think of being with their Lord in heaven, receiving His smile of acceptance, and hearing His “well done, good and faithful servant.” We even refer to one who died in this way: “He has gone home to his reward.”
@@ -488,7 +488,7 @@
 - After receiving these crowns, what then? Listen to Revelation 4:9–11: And when the living creatures give glory and honor and thanks to Him who sits on the throne, to Him who lives forever and ever, the twenty-four elders will fall down before Him who sits on the throne, and will worship Him who lives forever and ever, and will cast their crowns before the throne, saying, “Worthy art Thou, our Lord and our God, to receive glory and honor and power; for Thou didst create all things, and because of Thy will they existed, and were created.” What a scene! All God’s servants are before His throne. What are they doing? Strutting around heaven displaying their crowns? No. Separated from one another, like peacocks, proudly displaying their tangible trophies? No. The servants are bowing in worship, having cast all crowns before their Lord in adoration and praise, ascribing worth and honor to the only One deserving of praise—the Lord God!
 
 
-# Chapter 14: A Challenge to Improve Your Serve
+# CHAPTER 14: A Challenge to Improve Your Serve
 
 
 - It is difficult to cultivate a servant’s heart when you are trying to survive in a chaotic society dominated by selfish pursuits. And the greatest tragedy of such an existence is what it spawns: an independent, self-sufficient, survival-of-the-fittest mentality.

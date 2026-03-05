@@ -23,7 +23,7 @@
 # PART ONE: IN THE BEGINNING
 
 
-## Chapter 1: The First Three Days
+## CHAPTER 1: The First Three Days
 
 - So a bath isn’t a terrible thing, but there is also really no reason to bathe your kid other than some gross out factor. Most of the blood can just kind of be wiped off. I should perhaps not admit this, but they never bathed Finn in the hospital at all, and we still waited the family standard two weeks to actually give him a bath at home.
 
@@ -44,7 +44,7 @@
 - On net, the recommendations increasingly favor delaying the cord cutting, if possible.
 
 
-## Chapter 2: Wait, You Want Me to Take It Home?
+## CHAPTER 2: Wait, You Want Me to Take It Home?
 
 - There are a variety of blankets that will allow you to successfully swaddle your baby so they can’t escape.
 
@@ -71,7 +71,7 @@
 - These reasons, many doctors are reasonably lax about children’s germ exposure after infancy. But virtually all doctors will suggest you try to avoid exposure to illness in the baby’s first couple of months. One reason for this is simply that the smaller the child, the more vulnerable they are to serious complications. But a second reason is that for very young infants, especially those younger than twenty eight days, medical protocols suggest much more aggressive interventions in response to illness.
 
 
-## Chapter 3: Trust Me, Take the Mesh Underwear
+## CHAPTER 3: Trust Me, Take the Mesh Underwear
 
 - There is some evidence that warm compresses on the perineum during the pushing stage of labor can prevent very severe tears.
 
@@ -93,7 +93,7 @@
 # PART TWO: THE FIRST YEAR
 
 
-## Chapter 4: Breast is Best? Breast is Better? Breast is About the Same?
+## CHAPTER 4: Breast is Best? Breast is Better? Breast is About the Same?
 
 - We know breast milk contains antibodies, so it is therefore more plausible that it is protective against some illnesses.
 
@@ -120,7 +120,7 @@
 - “The most convincing evidence on the value of breastfeeding comes from mothers who have done it. They tell of the tremendous satisfaction they experience from knowing that they are providing their babies with something no one else can give them . . . from feeling their closeness.” At least for me, this resonated very strongly. I am happy I nursed my children because, aside from some of the early hot closet incidents, I enjoyed it. It made for many nice moments with them, doing something we could only do together, watching them fall asleep. This is a great reason to do it, and a good reason to try. It’s also a good reason to support women who want to try, and to not shame women who breastfeed in public. But this is not a good reason to judge yourself if you decide breastfeeding isn’t for you.
 
 
-## Chapter 5: Breastfeeding: A How To Guide
+## CHAPTER 5: Breastfeeding: A How To Guide
 
 - The moms who had their infants skin to skin were more likely (72 percent versus 57 percent) to be breastfeeding at six weeks; they also reported less pain while being stitched up after birth.
 
@@ -145,7 +145,7 @@
 - It is possible to work while pumping, in some cases, and I strongly suggest you get a hands free pumping bra. At a minimum you want to be able to read something on your phone. Many people suggest you try to relax, look at pictures of your baby, and generally wind down while pumping. The idea is that this will increase supply. There is no direct evidence for this; one study of moms pumping for babies in the NICU showed that being near their babies increased milk production, but this is pretty distant evidence. Oh, and while you are spending all your time hooked up to this pump, we should probably say that it’s not as effective as your baby at milk removal. Even a really great pump doesn’t replicate the baby. This varies across women, some women can have no problem fully breastfeeding but literally never get any milk from a pump; others find producing enough milk is no problem.
 
 
-## Chapter 6: Sleep Position and Location
+## CHAPTER 6: Sleep Position and Location
 
 - The latest recommendations from the American Academy of Pediatrics are starkly opposed to the toy and blanket filled crib. The AAP says infants should sleep alone in a crib (or bassinet) and should be placed in the crib on their back to sleep. There should be nothing in the crib with the baby. Bumpers, pads that wrap around crib slats to prevent little hands or feet from getting stuck, should not be used. Infants should sleep in their own crib or bassinet, not in the parents’ bed, although the crib or bassinet should be in the room with the parents. These recommendations are broadly part of a safe sleep campaign designed to lower the risk of SIDS
 
@@ -174,14 +174,14 @@
 - Infants who die of SIDS are more likely to be found with blankets over their heads than control infants. The infant clothing industry has come up with a solution to this, which is the “wearable blanket”, basically, a zipped up bag you put your child in. Since there is no real reason to have another kind of blanket, this recommendation seems like a reasonable one to follow.
 
 
-## Chapter 7: Organize Your Baby
+## CHAPTER 7: Organize Your Baby
 
 - In conclusion, many aspects of scheduling will be kid specific, and attempts to organize your baby are likely to meet with some of these variations. But not everything varies. In particular, one thing that doesn’t show as much variation is wake up times. Even at around five or six months, the majority of children wake between six and eight a.m. By the time they get to age two, the range is smaller, six thirty to seven thirty a.m.
 
 - The other thing you realize with your second child is that the unscheduled mess of the first year does end. Your baby will, eventually, arrive at a more predictable sleep schedule. Maybe not right away, maybe not exactly the one you envisioned, but they will get there. And this is perhaps the most reassuring thing of all.
 
 
-## Chapter 8: Vaccination: Yes, Please
+## CHAPTER 8: Vaccination: Yes, Please
 
 - In the 1950s, about five hundred people, mostly children, died of measles each year in the US; 3 to 4 million were sickened. In 2016, zero children in the US died of measles, and there were an estimated eighty six cases. There is a very simple reason for this decline: the development of a measles vaccine. Vaccinations are among the most significant public health triumphs of the past hundred years (public sanitation is another good one, although less controversial). Simply put, millions of lives worldwide have been saved by the introduction of vaccines for diseases like whooping cough, measles, smallpox, and polio. A tremendous amount of discomfort and itching, and also some deaths, have been prevented by the chicken pox vaccine. The vaccine for hepatitis B has reduced liver cancer. Newer vaccines also matter: the HPV vaccine has the potential to significantly lower rates of cervical cancer.
 
@@ -194,7 +194,7 @@
 - There are a number of big studies of this relationship. The largest of them includes 537,000 children, all the children born in Denmark from 1991 to 1998. In the Danish data, the authors were able to link vaccination information to later diagnosis of autism or autism spectrum disorders. They found no evidence that vaccinated children are more likely to be autistic; if anything, the results suggest vaccinated children are less likely to be diagnosed with autism. There are many similar studies; some are included in the IOM report, others postdate it. One study focuses on children who have an older sibling with autism and who are therefore more likely to have it themselves. Again, researchers found no link with the MMR vaccine. There is no mechanism by which this would occur, and controlled studies in monkeys also show no plausible relationship. At the end of the day, there is simply no reason to think autism and vaccinations are linked. It is not fair to say there are no risks associated with vaccination at all. Your child may well get a fever. It is also possible (although really quite unlikely) that this fever would lead to a seizure. It is also possible (although, again, very, very unlikely) that they could have an allergic reaction. But it is reasonable to say there is no evidence of significant long term consequences of vaccines for healthy children.
 
 
-## Chapter 9: Stay at Home Mom? Stay at Work Mom?
+## CHAPTER 9: Stay at Home Mom? Stay at Work Mom?
 
 - By comparing the outcomes of children who are born in the “six month” maternity leave policy to those born in the “year” policy, we can learn about the effects of maternity leave without worrying about underlying differences across parents. The bottom line from this literature is that these parental leave extensions have no effect on child outcomes. No effects on children’s test scores in school, on income later in life, or on anything else. In many cases, these studies have very long follow up periods. We can say, for example, that one year of parental leave versus two years doesn’t influence a child’s high school test scores or earnings in early adulthood. This evidence focuses on parents working in the first years. If we want to see the impact of parents working when their children are older, we are limited to studies that estimate correlations, not causal impacts. Some studies do exist, though, and when we look for evidence on schooling, test scores, school completion, these correlations tend to be about zero. Two parents working full time has a similar effect to one parent working and one not.
 
@@ -203,7 +203,7 @@
 - Childcare is expensive, and most of it is paid in “after tax” income. This means that your income needs to be considerably more than the cost of childcare to break even. To see how this works, think about a family whose total income is $100,000, with each parent making $50,000. This family brings home about $85,000 after taxes. If both parents work and the family pays $1,500 a month for childcare, their total disposable income after childcare is taken into account is $67,000 a year. If one parent stays home, the family makes less (about $46,000 in take home pay), but does not pay for childcare. The difference in take home income is about half what it would be if the couple did not have any children. This calculus becomes more complicated if childcare is more expensive. A full time nanny, especially if you pay the legally required taxes and live in an expensive area, can run to $40,000 or $50,000 a year. For my example family above, that would completely wipe out one parent’s income. They’d be better off financially with one parent staying home.
 
 
-## Chapter 10: Who Should Take Care of the Baby?
+## CHAPTER 10: Who Should Take Care of the Baby?
 
 - In economics, we teach people to “solve the tree.” To do this, you work backward from the bottom. First, decide what nanny you would want if you had to have a nanny (in this case, I gave you three choices). Then you’ve solved that leaf of the tree. Then decide what kind of day care you would want if you had to have day care (here, you’ve got four choices). Then compare those two. Now, rather than comparing the wide range of options in each category, you are facing a very specific choice: Do I prefer my “optimal” day care setup or my “optimal” nanny setup?
 
@@ -222,7 +222,7 @@
 - Looking over the data, to the extent we have any evidence day care is worse, it seems to be worse early on in life, say, in the first year or eighteen months. To the extent day care is better, that seems to be truer later in life, say, after a year or eighteen months. Putting this together could argue for a nanny type arrangement (or a helpful grandparent, or some combination of the two) early on, followed by day care at a slightly older age.
 
 
-## Chapter 11: Sleep Training
+## CHAPTER 11: Sleep Training
 
 - Good news: yes, this method works for improving sleep. There are many, many studies on this, employing a variety of related procedures (many of these are randomized trials). A 2006 review covered nineteen studies of the unfortunately named “Extinction” method, the form of “cry it out” in which you leave and do not return, of which seventeen showed improvements in sleep. Another fourteen studies used “Graduated Extinction”, where you come in to check on the baby at increasingly lengthy intervals, and all showed improvements. A smaller number of studies covered “Extinction with Parental Presence”, in which you stay in the room but let the child cry, and these also showed positive effects. These effects persist through six months or a year in studies that can look this far out. This means that children who are sleep trained are sleeping better (on average) even a year after the training. These methods do not completely solve all sleep problems from day one. And some children respond better than others, as do some parents.
 
@@ -239,7 +239,7 @@
 - Weissbluth, for example, suggests you can begin sleep training as early as eight or ten weeks. At this age, most babies are not able to sleep through the night without eating. You should not expect your two month old to sleep for twelve hours, and you similarly shouldn’t be frustrated or feel like a failure if they do not. The goal of sleep training a ten week old baby is to encourage the baby to fall asleep on their own at the start of the night and then only wake when they are hungry later in the night. On the other hand, a ten  or eleven month old should be able to go through the night without eating, and sleep training babies at that age tends to focus on both their falling asleep on their own and staying asleep through the night. Put simply, the goal of sleep training is not (despite what some would say) to deprive your child of basic needs like food and diaper changes. It is to encourage their going to sleep independently once those needs are met.
 
 
-## Chapter 12: Beyond the Boobs: Introducing Solid Food
+## CHAPTER 12: Beyond the Boobs: Introducing Solid Food
 
 - Children who were exposed to peanuts were far less likely to be allergic to them at the age of five than children who were not. In the group that didn’t get peanuts, 17 percent of children were allergic to peanuts at age five. (Remember, this figure is higher than it would be in the general population because of the way the researchers selected their sample.) However, only 3 percent of the children who were given peanuts were allergic. Since the study was randomized, there was no reason other than the peanut exposure that allergy rates would be different. And these differences showed up in both the high and low allergy risk groups.
 
@@ -269,7 +269,7 @@
 # PART THREE: FROM BABY TO TODDLER
 
 
-## Chapter 13: Early Walking, Late Walking: Physical Milestones
+## CHAPTER 13: Early Walking, Late Walking: Physical Milestones
 
 - Milestones:
 
@@ -302,7 +302,7 @@
 - One thing that has changed since we were children: antibiotics. It used to be common to prescribe antibiotics for cold symptoms, at least some of the time. Not anymore. Colds do not respond to antibiotics (they are caused by a virus), and your doctor shouldn’t (and typically won’t) prescribe them. Globally, overuse of antibiotics is a public health problem, since it contributes to antibiotic resistance. And even for your particular kid, antibiotics aren’t totally risk free, they can contribute to diarrhea, for example. The move toward prescribing antibiotics sparingly is definitely a good thing.
 
 
-## Chapter 14: Baby Einstein vs. the TV Habit
+## CHAPTER 14: Baby Einstein vs. the TV Habit
 
 - In the case of Sesame Street, there is actually good research suggesting that exposure to the show increases school readiness in kids ages three to five.
 
@@ -321,12 +321,12 @@
 - If the alternative to an hour of TV is a frantic and unhappy parent yelling at their kid for an hour, there is good reason to think the TV might actually be better.
 
 
-## Chapter 15: Slow Talking, Fast Talking: Language Development
+## CHAPTER 15: Slow Talking, Fast Talking: Language Development
 
 - Early talking doesn’t guarantee later success, even at four, and late talkers mostly look like everyone else within a few years.
 
 
-## Chapter 16: Potty Training: Stickers vs. M&M’s
+## CHAPTER 16: Potty Training: Stickers vs. M&M’s
 
 - An eighteen month old is much less likely to simply decide they will not poop in the potty no matter what you say. They have less will to defy you. This may make littler kids easier. On the other hand, a three year old can be reasoned with and, yes, bribed. They have more will to defy you, but you can also take advantage of their better ability to understand and control themselves. That may make them easier to deal with.
 
@@ -337,7 +337,7 @@
 - Doctors generally do not worry about lack of nighttime dryness until a child is six years old.
 
 
-## Chapter 17: Toddler Discipline
+## CHAPTER 17: Toddler Discipline
 
 - Before even getting into evidence, though, it’s worth stepping back and thinking about why we want to discipline our kids. What are we trying to accomplish? I think the answer is the same as what we are trying to do with all our other parenting choices: we are trying to raise happy, nice, productive adults. When my kid refuses to clean up a mess and I discipline that behavior, it is not really that I want some help cleaning up. Actually, it would be faster to clean up myself than get her to do it. It’s more that I’m trying to teach her to be someone who takes responsibility for her messes, both the LEGO messes now and the inevitable non LEGO messes she’ll create in the future. This is the discipline as education philosophy espoused by French parenting (thanks, Bringing Up Bébé!). Discipline is not the same as punishment. Yes, there is a punishment component. But it’s in the service of raising better humans, not punishment for its own sake.
 
@@ -356,7 +356,7 @@
 - There is correspondingly no evidence that spanking improves behavior.
 
 
-## Chapter 18: Education
+## CHAPTER 18: Education
 
 - We can begin with a well established fact. There is a large body of literature showing that children whose parents read to them as babies and preschoolers have better performance on reading tests later.
 
@@ -376,7 +376,7 @@
 # PART FOUR: THE HOME FRONT
 
 
-## Chapter 19: Internal Politics
+## CHAPTER 19: Internal Politics
 
 - “In sum, parenthood hastens marital decline. . . .” It is worth noting that these studies do tend to find that people who are happier before they have kids recover better, and that planned pregnancies are less impactful than unplanned ones. And the effects are not enormously large. Many people are still, on net, happy with their spouse. Just, you know, slightly less.
 
@@ -387,14 +387,14 @@
 - Some small scale randomized interventions do show some effectiveness. One is the “marriage checkup.” The idea behind this is to have an annual meeting, possibly facilitated by some professional, to actually discuss your marriage. What do you feel is working? What isn’t working? Are there particular areas of concern or unhappiness? These checkups seem to result in improvements in intimacy (i.e., sex) and marital satisfaction. This makes sense in the abstract; it’s helpful to talk things through methodically with a neutral third party. Beyond this particular intervention, there is other evidence in favor of therapy more generally, group couples therapy, counseling programs beginning before birth and continuing after, to improve relationships. Speaking in broad generalizations, these focus on communication and positive solutions to conflict.
 
 
-## Chapter 20: Expansions
+## CHAPTER 20: Expansions
 
 - When researchers performed this analysis, they found that for the older child, test scores were higher if there was more space between that child and their younger sibling. This may reflect, for example, more parental time invested in reading or other skill development at young ages. These effects, though, were pretty small.
 
 - I think the bulk of the evidence suggests there are some small risks, both short and possibly long term, to very short birth intervals. So waiting until the first child is at least a year old to get pregnant again may be a good idea. It also just may be easier on you as a parent, given the intensity of the infant stage.
 
 
-## Chapter 21: Growing Up and Letting Go
+## CHAPTER 21: Growing Up and Letting Go
 
 - Parenting cannot be about thinking about every possible eventuality, every possible misstep. Sometimes, you just need to let it go. So, yes, it makes sense to take parenting seriously, and to want to make the best choices for your kid and the best choices for you. But there will be many times that you need to just trust that if you’re doing your best, that’s all you can do. Being present and happy with your kids is more important than, say, worrying about bees. At the end, let’s raise a glass to using data where it’s useful, to making the right decisions for our families, to doing our best, and, sometimes, to just trying not to think about it.
 

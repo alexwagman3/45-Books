@@ -3,7 +3,7 @@
 ----------
 
 
-## Chapter 1: We’ve Been Duped
+## CHAPTER 1: We’ve Been Duped
 
 
 - Lie #1: Financial Freedom Requires a BIG Salary
@@ -36,13 +36,13 @@
     - We each have a baseline of happiness. A positive event in our lives, like getting a raise or buying a shiny new thing, may temporarily increase our level of happiness. Gradually, however, we’ll return to our baseline. In other words, that cool new car you bought six months ago today is just a car. The raise you received last year is a distant memory as you fret about whether or not you’ll get a raise this year.
 
 
-## Chapter 2: The Game Plan
+## CHAPTER 2: The Game Plan
 
 
 - If you are in your twenties today, you can use it to retire in your thirties or forties. If you are in your forties or fifties with little savings, you can use it to retire “on time.” You can, if you choose, use what you learn in this book to work a “typical” 45-year career and retire in your sixties or seventies. (You’ll have a truckload of money if you do.) You can also use your Financial Freedom to empower you to do meaningful work you love—at any age.
 
 
-## Chapter 3: A Note to Mom and Dad
+## CHAPTER 3: A Note to Mom and Dad
 
 
 - Rob Berger (retired at 49, and again at 51, and back to work I love at 52)
@@ -51,7 +51,7 @@
 # PART 1 - YOUR SUPERPOWER
 
 
-## Chapter 4: The Money Multiplier
+## CHAPTER 4: The Money Multiplier
 
 
 - Most people see each dollar that enters their lives and nothing more than that—a dollar. What they don’t see is the dollar’s potential.
@@ -72,7 +72,7 @@
 - The Money Multiplier consists of just three parts: Amount, Time, and Money. 
 
 
-## Chapter 5: Tick-Tock
+## CHAPTER 5: Tick-Tock
 
 
 - If we assume a 9.3% return, guess how much one cent would be worth after 225 years. Result: $4,892,563.14 (compounded annually).
@@ -86,7 +86,7 @@
 - The best time to start saving and investing is today. Delaying even one year can cost you thousands of dollars over the long run. Delay for five, 10, or 15 years and the losses really add up. If you are late to the game, there is still hope. 
 
 
-## Chapter 6: Think Small
+## CHAPTER 6: Think Small
 
 
 - One thing he shared with me during the interview was the Rule of 752. Here’s how it works. Take any recurring weekly expense that you have and multiply it by 752. The result is how much you would have if, instead of spending the money, you invested it for 10 years earning a 7% return. There’s no magic here in the number 752. It’s the result of the Money Multiplier applied to a weekly expense and assuming a 7% return.
@@ -101,7 +101,7 @@
 - Seemingly insignificant changes in how you spend money on a weekly basis can go a long way to helping you achieve Financial Freedom. You don’t need a lot of money to start investing. As you’ll learn, even $25 a month will get you started. 
 
 
-## Chapter 7: Investment Returns
+## CHAPTER 7: Investment Returns
 
 
 - Over a 40-year period, for example, an initial investment will double four times at a 7% rate of return (once every 10 years), while it will double five times with a 9% return (once every eight years).
@@ -111,7 +111,7 @@
 
 
 # PART 2 - FINANCIAL FREEDOM
-## Chapter 8: Financial Freedom
+## CHAPTER 8: Financial Freedom
 
 
 - Ultimate Financial Freedom comes when you can live off of your savings and investments without the need to work. It’s as simple as that.
@@ -159,7 +159,7 @@
 - Determine your current level of Financial Freedom. This will require you to know, or to find out, how much you spend each month. Be sure to include periodic expenses, such as gifts and vacations. For your savings, do not include short-term savings you plan to spend on a specific goal, such as buying a home or a car. In this video, I show you a free calculator that I created to help you examine and understand the 7 Levels of Financial Freedom.
 
 
-## Chapter 9: How Much Should You Save?
+## CHAPTER 9: How Much Should You Save?
 
 
 - Saving 10% was popularized by the book, The Richest Man in Babylon, by George S. Clason. Originally published in 1926, it shows that by saving 10% of every dollar that comes into your life, you’ll do just fine. It was true in 1926. It’s still true today. Not to be outdone, the popular Dave Ramsey espouses saving 15% of your income. Remember, he does everything with gazelle-like intensity. In one podcast, Dave stressed that there is nothing magical about 15%. The key is to get serious about saving for retirement. Before Senator Warren was a senator, she wrote a book about personal finance. In her book, All Your Worth: The Ultimate Lifetime Money Plan, she talks about the 50/20/30 budget—50% of our income should go to needs, 30% to wants, and 20% to savings.
@@ -171,7 +171,7 @@
 - There are many reasonable rules of thumb when it comes to how much you should save. Rules of thumb can be a good starting point. We should always think for ourselves, making informed decisions about our finances. 
 
 
-## Chapter 10: Emergencies
+## CHAPTER 10: Emergencies
 
 
 - “There is only one kind of shock worse than the totally unexpected: the expected for which one has refused to prepare.” 
@@ -186,7 +186,7 @@
 - The more you save, the less you spend. The less you spend, the faster you can achieve each level of Financial Freedom, thanks to the Slingshot Effect. Your Saving Rate, and by extension your Spending Rate, is the key to unlocking a lifetime of Financial Freedom, as we will explore in more detail in the next chapter.
 
 
-## Chapter 11: The 4% Rule
+## CHAPTER 11: The 4% Rule
 
 
 - Over the past 100 years or so, inflation has averaged just under 3%. Therefore, we will reduce our assumed 9.3% return (called a nominal return because it’s not adjusted for inflation) by 3%. The resulting 6.3% is referred to as the “real” rate of return because it is adjusted for inflation.
@@ -228,7 +228,7 @@
 - To determine how long it will take us to reach Level 7, all we need are our Saving Rate, Investment Return, and Withdrawal Rate. Our time to Level 7 is very sensitive to changes in our Investment Returns and Withdrawal Rate assumption. 
 
 
-## Chapter 12: Level 7 & Saving Rate
+## CHAPTER 12: Level 7 & Saving Rate
 
 
 - The Latte Factor assumes that we forego our daily latte. Assuming our beverage of choice costs $5, that frees up about $150 a month to save and invest. If we earned a 9.3% nominal return over 45 years, we’d accumulate… $1,231,783.24.
@@ -240,7 +240,7 @@
 # PART 3 - BUYING YOUR FREEDOM
 
 
-## Chapter 13: The Cost of Happiness
+## CHAPTER 13: The Cost of Happiness
 
 
 - What makes you happy? It’s a simple question. It’s also one of the hardest questions in life to answer. In fact, many live their entire lives without ever answering this question. Before reading  any further, answer this question for yourself. What makes you happy? List the top 10 things in your life that make you the happiest.
@@ -249,7 +249,7 @@
 - We shouldn’t be asking how much we need to make to be happy. We should be asking how much we need to spend to be happy.
 
 
-## Chapter 14: Freedom First, Lattes Second
+## CHAPTER 14: Freedom First, Lattes Second
 
 
 - “Do not save what is left after spending, but spend what is left after saving.” – Warren Buffett
@@ -276,7 +276,7 @@
 - If you use transfers, schedule them to occur as soon as you get paid.
 
 
-## Chapter 15: The Money Audit
+## CHAPTER 15: The Money Audit
 
 
 - Write down every monthly bill you have, including the amount. So much of our money is spent without thought. This is particularly true for those who automate their finances. Everything from the mortgage to utilities to cable is paid automatically from our bank account or charged to a credit card. The goal of this first step is to make a complete list of all of these monthly expenses. Here is a list of common monthly bills: Rent or mortgage, Credit card debt, Car loans, School loans. All other debt Utilities (electric, gas, water, trash service), Internet, cable, home phone, and cell phone Netflix, YouTube TV, Hulu, Amazon Prime, and other subscription-based services. Insurance (car, life, health, homeowners).
@@ -309,7 +309,7 @@
 - Conduct a Money Audit at least once a year. Be sure to automate any money saved so that it goes toward your Financial Freedom. 
 
 
-## Chapter 16: The Power of Habit
+## CHAPTER 16: The Power of Habit
 
 
 - Now let’s turn to what I call Lifestyle Expenses.
@@ -354,7 +354,7 @@
     - This could mean increasing your 401(k) contribution. It could mean increasing what you transfer to a savings account. It could mean increasing what you transfer to an investment account. It could also mean increasing how much you are paying on your debt. If you don’t do this, you’ll end up spending the money on something else. And you may not even remember what you spent it on.
 
 
-## Chapter 17: What If? 
+## CHAPTER 17: What If? 
 
 
 - “All life is an experiment. The more experiments you make the better.” –-Ralph Waldo Emerson
@@ -369,7 +369,7 @@
 - Running 21-day experiments is a simple way to test not only whether we can put more money toward our Freedom Fund, but also whether the way we are living today really makes us happy.
 
 
-## Chapter 18: The #1 Freedom Fund Killer
+## CHAPTER 18: The #1 Freedom Fund Killer
 
 
 - In the last chapter we imagined life without a car. I chose cars because they are the #1 Freedom Fund killer. My good friend Jeff Rose of GoodFinancialCents.com describes car payments as the #1 thing that’s killing our wealth. In this chapter I’m going to show you why.
@@ -390,7 +390,7 @@
 # PART 4 - INVESTING
 
 
-## Chapter 19: Stocks & Bonds
+## CHAPTER 19: Stocks & Bonds
 
 
 - At first glance, lending the money seems safer than buying part of the company. In the world of investing, he would buy a Bond that represents the money he is lending to the dry cleaners. He would have a contract that requires the company to pay him interest and to return the money lent to the company when the bond Matures, that is, when the term of the bond comes to an end. If the company fails to pay the interest when due, or the principal when the bond matures, we can file a lawsuit to recoup our money. Depending on the terms of the bond, we can even lay claim to the company’s assets (remember all that equipment a dry cleaners needs in order to operate) to recover our money. Bonds are not without risk. We’ve already identified one risk—the company fails to pay us. Yes, we can sue, but if things go really bad for the dry cleaners, they may not have the assets to pay us even if we win the lawsuit. This risk of not getting paid on our bond is called Credit Risk. There’s another risk more serious than the first. It’s called Interest Rate Risk. Let’s assume we agree to lend $100,000 to the dry cleaners for 10 years in exchange for annual interest payments of 7%. The dry cleaners makes interest payments every year and repays the principal of the loan after 10 years when the bond matures. At the time we made this deal, 7% was a competitive interest rate for similar bonds. Now fast forward two years. Let’s imagine interest rates have gone up. On a similar bond, investors are now getting 10% interest. Ouch. We are stuck with eight years left before the bond matures, and we are earning 3% less than the going rate for similar bonds.
@@ -420,7 +420,7 @@
 - In the long run, stocks perform better than bonds. In the short term, stocks are more volatile than bonds.
 
 
-## Chapter 20: Mutual Funds
+## CHAPTER 20: Mutual Funds
 
 
 - Broadly speaking, there are two types of mutual funds: Actively Managed Mutual Funds and Index Mutual Funds. 
@@ -453,7 +453,7 @@
 - A Short Term bond fund is one with a duration of less than three years. A short term bond fund’s interest rate risk would be considered low. An Intermediate Term bond fund is one with an average duration of about three to 10 years. And a Long Term bond fund has an average duration of more than 10 years.
 
 
-## Chapter 21: Mutual Fund Fees
+## CHAPTER 21: Mutual Fund Fees
 
 
 - “Most institutional and individual investors will find the best way to own common stock is through an index fund that charges minimal fees.” – Warren Buffet
@@ -483,7 +483,7 @@
 - High fees can add years, even a decade, to the time it takes you to reach Level 7 Financial Freedom. Index funds offer both low fees and better performance.
 
 
-## Chapter 22: Investing Made Easy
+## CHAPTER 22: Investing Made Easy
 
 
 - We have just four goals to keep in mind as we decide how to invest. Diversification: We don’t want to put all of our eggs in one basket. We have no idea whether U.S. stocks or foreign stocks will do better over the next few decades. The same is true for big or small companies. How will REITs perform? I have no idea. Because we don’t know the future, we want to cover all of our bases. We do that by investing in different asset classes. As you’ll see, that’s very easy to do. Equities: History tells us that stocks outperform bonds over the long term. We already know how this difference would affect our journey to Level 7 Financial Freedom. The point is this: we want more of our money invested in stocks than we have invested in bonds. Low Cost: We want to keep our costs as low as possible. It’s one of the reasons we favor index funds over actively managed funds. Simplicity: Finally, we want to keep it simple. There are really complicated ways to invest, just like there are complicated ways to do just about anything. We value simplicity. It’s easier to understand and manage. And besides, life is complicated enough.
@@ -513,7 +513,7 @@
 - I’ll mention one more option for those with an adventurous spirit. This is the portfolio I’ve used for years. Here are the investment types with the percentages of assets that I invested in each: U.S. Large Cap Stocks (30%) U.S. Small Cap Value Stocks (10%) U.S. Bonds (20%) Foreign Developed Country Stocks (20%) Emerging Market Stocks (10%) REITs (10%). Here are the specific funds I used to create my 6-Fund Portfolio: Vanguard 500 Index Fund Admiral Shares (FVIAX) Vanguard Emerging Markets Stock Index Fund Admiral Shares (VEMAX) Vanguard Developed Markets Index Fund Admiral Shares (VTMGX) Vanguard Intermediate-Term Bond Index Fund Admiral Shares (VBILX) Vanguard Real Estate Index Fund Admiral Shares (VGSLX) Vanguard Small Cap Value Index Fund Admiral Shares (VSIAX). This approach does take more work. Remember, as market values change, you need to rebalance your portfolio from time to time. Once a year is more than enough. It’s not a lot of work, but it’s work. A TDR Fund is easier. So which one should you pick? There is no "right" answer. For those starting out, I think a TDR Fund inside a retirement account is a great solution. Ultimately, you want to go with a portfolio that you'll stick to no matter how the market performs.
 
 
-## Chapter 23: Retirement Accounts
+## CHAPTER 23: Retirement Accounts
 
 
 - “Don’t simply retire from something; have something to retire to.” – Harry Emerson Fosdick
@@ -585,7 +585,7 @@
 - Save one month of expenses before anything else. This takes priority over retirement savings. Keep your emergency fund in a high yield online savings account. They pay the best rates and separating your emergency fund from your checking account protects it from moments where you may be tempted to spend it.
 
 
-## Chapter 24: How to Evaluate a Mutual Fund
+## CHAPTER 24: How to Evaluate a Mutual Fund
 
 
 - The only tool we’ll be using is Morningstar.com. 
@@ -600,7 +600,7 @@
 - It charges just 3 basis points in fees, no load fee, and invests in intermediate-term mostly U.S. bonds. A quick visit to the “Portfolio” link reveals that more than 90% of the fund is invested in U.S. bonds. Perfect. Let’s add it to our 3-Fund Portfolio. Now all we need is a total international stock fund. A quick scan of our available funds reveals the “FID INTL INDEX (FSPSX)” fund. Morningstar tells us this fund charges just five basis points in fees and invests in a blend (both growth and value) of large foreign based companies. We can jump to the “Portfolio” tab to learn more about the fund’s investments. Here we learn, for example, how much of the fund is invested in the Americas, Europe, and Asia. And there you have it. A perfect 3-Fund Portfolio based on low cost Fidelity funds. And you can follow the same process to find emerging market funds, small cap funds, REITs, or anything else your 401(k) may offer.
 
 
-## Chapter 25: Let’s Do This
+## CHAPTER 25: Let’s Do This
 
 
 - “The best time to plant a tree is twenty years ago. The second best time is now.” 
@@ -612,7 +612,7 @@
 - Fidelity offers several index funds at very low cost. And recently it introduced some index funds that have no costs. Its TDR funds are on the expensive side, so I’d avoid them. If you want a TDR fund, Fidelity is not your best choice. There is no minimum investment required to open an IRA at Fidelity, but some mutual funds do have minimum investment requirements.
 
 
-## Chapter 26: You
+## CHAPTER 26: You
 
 
 - “It’s one thing to shoot yourself in the foot. Just don’t reload the gun.” – Senator Lindsey Graham
@@ -639,7 +639,7 @@
 - Last, never stop learning about investing and finances. I’ve been at this for 30+ years and I learn new things all the time. Read the Wall Street Journal, even once a week. Read a good book on investing, even just one a year. You don’t have to be a money geek like I am. But don’t stick your head in the sand either.
 
 
-## Chapter 27: Getting Investment Help
+## CHAPTER 27: Getting Investment Help
 
 
 - Some investment professionals earn fees through commissions paid to them from the investments they sell you. That’s the purpose of the Load Fee that some mutual fund companies charge, and a portion of it goes to the investment broker. The same is true for expensive insurance products, like indexed annuities, that many commissioned brokers try to push on unsuspecting victims (I guess you know where I stand on indexed annuities). One criticism of this fee structure is the potential for conflicts of interest. By earning their fee through commissions, these investment professionals have a powerful incentive to sell you only investments that pay them a fee. They will almost never recommend, for example, a low-cost index fund. Why? They can’t earn a fee from the sale. The solution, in theory, is to hire an investment professional who charges you directly for their services. Enter the fee-only investment advisor.
@@ -651,7 +651,7 @@
 # PART 5 - PRACTICAL CONSIDERATIONS
 
 
-## Chapter 28: The Progress Principle
+## CHAPTER 28: The Progress Principle
 
 
 - “Of all the things that can boost emotions, motivation, and perceptions during a workday, the single most important is making progress in meaningful work. And the more frequently people experience that sense of progress, the more likely they are to be creatively productive in the long run. Whether they are trying to solve a major scientific mystery or simply produce a high-quality product or service, everyday progress—even a small win—can make all the difference in how they feel and perform.”
@@ -666,7 +666,7 @@
 - Called The Progress Principle, seeing regular improvements, however small, builds our confidence and encourages us to keep moving toward bigger goals. Think outside the box when it comes to small wins, such as saving one-half of your next raise.
 
 
-## Chapter 29: Debt
+## CHAPTER 29: Debt
 
 
 - “Every time you borrow money, you’re robbing your future self.” 
@@ -681,7 +681,7 @@
 - As a rule of thumb, we should not borrow more than one to one-and-a-half times our expected first year income. Consider that before you sign the loan documents.
 
 
-## Chapter 30: How to Get Out of Debt
+## CHAPTER 30: How to Get Out of Debt
 
 
 - Getting out of debt is simple. Note that I didn’t say it was easy. But it is simple. Here are the four steps: Stop going into more debt. Get rid of debt. Refinance debt. Pay down debt.
@@ -711,7 +711,7 @@
 - I recommend that you calculate the difference between these two approaches. It’s easy to do with this free Debt Snowball Calculator.
 
 
-## Chapter 31: Priorities
+## CHAPTER 31: Priorities
 
 
 - In most cases, investing should not take a backseat to paying off debt. That's not to say you shouldn't make more than the minimum payments on your debt. Generally, however, tackling your debt shouldn't come at the expense of saving and investing. 
@@ -721,7 +721,7 @@
 
 
 
-## Chapter 32: Yes, but...
+## CHAPTER 32: Yes, but...
 
 
 - The key is to see yourself as an investor, regardless of your age. Investing isn't for old people. Investing is for anybody, at any age, who wants to take control of their money and achieve Financial Freedom. The sooner you start, the easier it is.
@@ -730,7 +730,7 @@
 - 1. Your objections to saving and investing are common. At first, just about everybody has objections, but it's critical to your future that you work through them. 2. Remember that "the obstacle is the way." Find what's keeping you from investing and run toward it. 3. You'll have many financial goals throughout your life. Investing to achieve Financial Freedom should be first.
 
 
-## Chapter 33: To Level 7 and Beyond!
+## CHAPTER 33: To Level 7 and Beyond!
 
 
 - What if I could be just as happy with less stuff? What if I could have complete control over what made me happy and what didn't make me happy? What if the things I thought were making me happy really weren't? Even worse, what if they made life less joyful?

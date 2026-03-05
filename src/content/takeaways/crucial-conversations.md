@@ -13,7 +13,7 @@
 - The single biggest problem in communication is the illusion that it has taken place. —GEORGE BERNARD SHAW
 
 
-## Chapter 1: What’s a Crucial Conversation? And Who Cares?
+## CHAPTER 1: What’s a Crucial Conversation? And Who Cares?
 
 
 - First, opinions vary. For example, you’re talking with your boss about a possible promotion. She thinks you’re not ready; you think you are. Second, stakes are high. You’re in a meeting with four co-workers, and you’re trying to pick a new marketing strategy. You’ve got to do something different, or your company is in trouble. Third, emotions run strong. You’re in the middle of a casual discussion with your spouse, and he or she brings up an “ugly incident” that took place at yesterday’s neighborhood party.
@@ -75,7 +75,7 @@
 - Our lives begin to end the day we become silent about things that matter. —MARTIN LUTHER KING JUNIOR.
 
 
-## Chapter 2: Mastering Crucial Conversations (The Power of Dialogue)
+## CHAPTER 2: Mastering Crucial Conversations (The Power of Dialogue)
 
 
 - He didn’t resort to silence like his colleagues, nor did he try to force his arguments on others. Somehow he managed to achieve absolute candor, but he did so in a way that showed deep respect for Chris.
@@ -114,7 +114,7 @@
 - A problem well-stated is a problem half-solved. —CHARLES KETTERING
 
 
-## Chapter 3: Choose Your Topic (How to Be Sure You Hold the Right Conversation)
+## CHAPTER 3: Choose Your Topic (How to Be Sure You Hold the Right Conversation)
 
 
 - Crucial Conversations are most successful when they’re focused on one issue. Because human interactions are inherently complex, focusing a Crucial Conversation on a single topic takes effort. It requires us to thoughtfully unbundle and then prioritize the issues at hand.
@@ -159,7 +159,7 @@
 - When you place a bookmark, you make a conscious choice about what you want to talk about. And you register clearly with the other person that you will return to the bookmarked issue later. Never allow the conversation to shift or the topic to change without acknowledging you’ve done it.
 
 
-## Chapter 4: Start With Heart (How to Stay Focused on What You Really Want)
+## CHAPTER 4: Start With Heart (How to Stay Focused on What You Really Want)
 
 
 - Change begins with your heart.
@@ -177,7 +177,7 @@
 - Present your brain with a more complex problem. Finally, combine the two into an and question that forces you to search for more creative and productive options than silence or violence: “How can we have a candid conversation and strengthen our relationships?”
 
 
-## Chapter 5: Master My Stories (How to Stay in Dialogue When You’re Angry, Scared, or Hurt)
+## CHAPTER 5: Master My Stories (How to Stay in Dialogue When You’re Angry, Scared, or Hurt)
 
 
 - Emotions don’t settle upon you like a fog. They are not foisted upon you by others. No matter how comfortable it might make you feel to say it, others don’t make you mad. You make you mad. You make you scared, annoyed, insulted, or hurt. You and only you create your emotions.
@@ -249,7 +249,7 @@
 # PART II: HOW TO OPEN YOUR MOUTH
 
 
-## Chapter 6: Learn to Look (How to Notice When Safety Is at Risk)
+## CHAPTER 6: Learn to Look (How to Notice When Safety Is at Risk)
 
 
 - The best at dialogue immediately turn their attention to why others might not feel safe.
@@ -282,7 +282,7 @@
 - How do you expand your data stream? Start by asking for more data. For example: •   Email. “I haven’t heard back from you in a couple of days in response to the email I sent you. I am not sure how to interpret your silence. How are you feeling about the proposal?” •   Telephone. “I wish I could see your face right now. I don’t know how you’re hearing my message, and I would hate for you to misinterpret it. Can you help me understand what you’re thinking right now?” •   Direct messaging. “When I read the comment that you posted on my social media account, I wasn’t sure how to take it. It seemed like you might be upset. Are you?” When you see signs of silence or violence in virtual communication, ask for more data.
 
 
-## Chapter 7: Make It Safe (How to Make It Safe to Talk About Almost Anything)
+## CHAPTER 7: Make It Safe (How to Make It Safe to Talk About Almost Anything)
 
 
 - If you spot safety risks as they happen, you can step out of the conversation, build safety, and then find a way to talk just about anything with just about anyone.
@@ -345,7 +345,7 @@
 - Creating safety doesn’t resolve all our issues; it simply creates the space to give dialogue a chance.
 
 
-## Chapter 8: State My Path (How to Speak Persuasively, Not Abrasively)
+## CHAPTER 8: State My Path (How to Speak Persuasively, Not Abrasively)
 
 
 - Our hearts need to be in the right place, and our heads need to be focused on the right topic.
@@ -408,7 +408,7 @@
 - One of the best ways to persuade others is with your ears—by listening to them. —DEAN RUSK
 
 
-## Chapter 9: Explore Others’ Paths (How to Listen When Others Blow Up or Clam Up)
+## CHAPTER 9: Explore Others’ Paths (How to Listen When Others Blow Up or Clam Up)
 
 
 - Thoughts are all electricity. Emotions add chemistry. Once the chemicals that fuel emotions are released, they hang around in the bloodstream for a time—in some cases, long after thoughts have changed. So be patient while the chemistry catches up with the electricity.
@@ -456,7 +456,7 @@
 - It can also help to set that expectation up front. For example, when Uncle Carl launches into his latest diatribe, take a moment to set some boundaries for the conversation. Let him know that you want to hear his perspective and ask him if he is willing to hear yours in return.
 
 
-## Chapter 10: Retake Your Pen (How to Be Resilient When Hearing Tough Feedback)
+## CHAPTER 10: Retake Your Pen (How to Be Resilient When Hearing Tough Feedback)
 
 
 - If you live by the compliment, you’ll die by the criticism.
@@ -480,7 +480,7 @@
 # PART III: HOW TO FINISH
 
 
-## Chapter 11: Move to Action (How to Turn Crucial Conversations into Action and Results)
+## CHAPTER 11: Move to Action (How to Turn Crucial Conversations into Action and Results)
 
 
 - Having more meaning in the pool, even jointly owning it, doesn’t guarantee that we all agree on what we’re going to do with the meaning. We often fail to convert the ideas into action for two reasons: 
@@ -517,7 +517,7 @@
 - When you hold people accountable, not only do you increase their motivation and ability to deliver on promises, but you create a culture of integrity.
 
 
-## Chapter 12: Yeah, but (Advice for Tough Cases)
+## CHAPTER 12: Yeah, but (Advice for Tough Cases)
 
 
 - Generally speaking, a vast majority of these problems go away if they’re privately, respectfully, and firmly discussed. Your biggest challenge will be the respect part. If you put up with this behavior for too long, you’ll be inclined to tell a more and more potent Villain Story about the offender.
@@ -547,7 +547,7 @@
 - www.cruciallearning.com/blog
 
 
-## Chapter 13: Putting It All Together (Tools for Preparing and Learning)
+## CHAPTER 13: Putting It All Together (Tools for Preparing and Learning)
 
 
 - Perhaps the most common way that the language of dialogue finds itself into everyday conversation is with the statement, “I think we’ve moved away from dialogue.”

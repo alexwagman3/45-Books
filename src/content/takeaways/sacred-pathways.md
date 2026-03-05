@@ -7,7 +7,7 @@
 # PART 1: THE JOURNEY OF THE SOUL
 
 
-## Chapter 1: LOVING GOD
+## CHAPTER 1: LOVING GOD
 
 
 - “I can’t imagine any doctor who graduated from a United States medical school in the past thirty years prescribing penicillin for that ailment. Apparently this doctor knows just one or two medicines and is prescribing the same one for virtually everything.” This experience taught me the folly of using one medicine to treat every malady. It took some time, however, for the spiritual analogy to become clear. Over and over again we give Christians the same spiritual prescription: “You want to grow as a Christian? All you have to do is develop a quiet time and come to church every weekend.”
@@ -133,7 +133,7 @@
     - Intellectuals need their minds to be stirred before their hearts come truly alive. They are likely to be studying (and, in some instances, arguing either for or against) topics such as Calvinism, infant baptism, ordination of women, and predestination. These Christians live in the world of concepts. Some intellectuals, influenced by a personality type that is shy or withdrawn, might avoid intellectual confrontation but still be “fed” primarily by intellectual activity. “Faith” is something to be understood as much as experienced. They may feel closest to God when they first understand something new about him.
 
 
-## Chapter 2: WHERE IS YOUR GETHSEMANE?
+## CHAPTER 2: WHERE IS YOUR GETHSEMANE?
 
 
 - Likewise, mature Christians often display many, if not all, of the spiritual temperaments. As I describe each one in detail in later chapters, you’ll notice that I cite Jesus as an example of all of them. Regardless of our predominant spiritual temperament, all of us could learn a great deal from how others are nourished by God and how others meet and love God.
@@ -172,7 +172,7 @@
 # PART 2: THE NINE SACRED PATHWAYS
 
 
-## Chapter 3: NATURALISTS (LOVING GOD OUTDOORS)
+## CHAPTER 3: NATURALISTS (LOVING GOD OUTDOORS)
 
 
 - Where we worship can have a profound impact on the quality of our worship. The naturalist seeks to leave the formal architecture and the padded pews to enter an entirely new “cathedral,” a place that God himself has built: the outdoors. Any place that has some trees or a stream or, at minimum, open skies, can be God’s cathedral.
@@ -232,7 +232,7 @@
     - The distinction between pantheism and true Christian worship can be seen through an analogy of a mother missing a child who has recently left for college. The mother walks into her daughter’s room, taking time to appreciate all that her daughter has left behind. She breathes in her daughter’s pleasant scent; her eyes linger on the posters, the bed, a few clothes left behind. Her daughter isn’t in the room, but the room reminds her that her daughter is. No doubt she feels closer to her daughter here than she would in any other part of the house. A part of her daughter has been left behind — not materially but evidentially — in how her daughter has arranged the furniture, in how she has decorated the walls, in the things she has collected.
 
 
-## Chapter 4: SENSATES (LOVING GOD WITH THE SENSES) 
+## CHAPTER 4: SENSATES (LOVING GOD WITH THE SENSES) 
 
 
 - As I’ve lived and studied the Christian life, I’ve found that some Christians are moved more by sensuous worship experiences than by anything else. By sensuous I’m referring to the five senses — taste, touch, smell, sound, and sight. When we reduce all Christian worship to mere intellectual assent, we force Christians to worship God in a stunted and muted existence. When we embrace the use of the senses — which God created, after all — we open up entirely new avenues of worship.
@@ -325,7 +325,7 @@
     - Worshiping Worship:. The senses can be very misleading, especially if we confuse sensory stimulation with a true commitment of the will. On the other hand, using sensory stimulation as an aid to worship doesn’t necessarily mean the Christian is dependent on it or would be lost without it.
 
 
-## Chapter 5: TRADITIONALISTS (LOVING GOD THROUGH RITUAL AND SYMBOL)
+## CHAPTER 5: TRADITIONALISTS (LOVING GOD THROUGH RITUAL AND SYMBOL)
 
 
 - For all our suspicion of religious practices, we must remember that God invented (and at times commanded) much of them.
@@ -433,7 +433,7 @@
     - Deifying Rites: People have a tendency to virtually deify something just because it’s the way it’s always been done, even if they no longer understand why it is done.
 
 
-## Chapter 6: ASCETICS (LOVING GOD IN SOLITUDE AND SIMPLICITY)
+## CHAPTER 6: ASCETICS (LOVING GOD IN SOLITUDE AND SIMPLICITY)
 
 
 - John the Baptist immediately comes to mind when we think of the solitary and the ascetic, but Jesus also had these tendencies. Before he launched himself into his public ministry, Jesus spent forty days in solitude and fasting (Matthew 4:1). He taught that prayer should be done in secret (Matthew 6:5 – 6). He assumed that his disciples would eventually fast (Matthew 6:16 – 17). And he returned to solitude at difficult moments in his ministry
@@ -529,7 +529,7 @@
     - Our need for spiritual refreshment, then, must be balanced with our obligation to reach out to others.
 
 
-## Chapter 7: ACTIVISTS (LOVING GOD THROUGH CONFRONTATION)
+## CHAPTER 7: ACTIVISTS (LOVING GOD THROUGH CONFRONTATION)
 
 
 - When I think of Moses, Elijah, Habakkuk, and Peter, I think of men who have challenged me with their courage and leadership yet encouraged me through their weaknesses.
@@ -556,7 +556,7 @@
     - Elitism and Resentment: “Because they did not go out with us, we will not share with them the plunder we recovered,” they said (1 Samuel 30:22). David stepped in. “No, my brothers, you must not do that with what the LORD has given us. He has protected us and handed over to us the forces that came against us” (verse 23). Notice what David is saying. Paraphrased, it’s this: “You’re forgetting something, men. God, not our own strength, gave us this victory so everyone is going to share.”
 
 
-## Chapter 8: CAREGIVERS (LOVING GOD BY LOVING OTHERS) 
+## CHAPTER 8: CAREGIVERS (LOVING GOD BY LOVING OTHERS) 
 
 
 - Something moved inside me, and I realized, not in an idealized way, but with full understanding, why ancient monks often considered people with disabilities to be especially holy. The lessons they can teach us are profound.
@@ -627,7 +627,7 @@
     - Paul writes to Timothy, “If anyone does not provide for his relatives, and especially for his immediate family, he has denied the faith and is worse than an unbeliever” (1 Timothy 5:8). If we are truly loving God and not just serving to satisfy our own needs, we will be content to care for those at home first.
 
 
-## Chapter 9: ENTHUSIASTS (LOVING GOD WITH MYSTERY AND CELEBRATION)
+## CHAPTER 9: ENTHUSIASTS (LOVING GOD WITH MYSTERY AND CELEBRATION)
 
 
 - I have talked with many other Christians who have heard from God in their sleep. A dream may have provided clear direction, a new insight into an ongoing struggle, or an encouragement or a rebuke, and I have talked with many whose faith has been strengthened by such experiences. That God speaks through dreams is well established in Scripture. God spoke to Jacob, Joseph, Solomon, and Daniel through dreams. Joel prophesied that when the Spirit of God would be poured out on believers, “your old men will dream dreams, your young men will see visions” (Joel 2:28).
@@ -663,7 +663,7 @@
     - But I have to admit, I don’t celebrate God one-tenth as much as he deserves to be celebrated. And I have a sinful tendency to lapse into a practical “atheism,” believing in God, but not expecting him to move in supernatural ways. I believe enthusiasts have a precious gift and a special calling, and I hope they will never stop celebrating and never stop believing, even in the darkest night.
 
 
-## Chapter 10: CONTEMPLATIVES (LOVING GOD THROUGH ADORATION)
+## CHAPTER 10: CONTEMPLATIVES (LOVING GOD THROUGH ADORATION)
 
 
 - They want to enjoy God and learn to love him in ever deeper ways. Contemplatives remind us that God does not seek obedient but dispassionate servants but rather those who experience a passionate love that is so strong it burns all other bonds.
@@ -690,7 +690,7 @@
 - I have run into a situation in marriage counseling a number of times. The couple is unhappy. The wife is dissatisfied and the husband cannot see why. He goes into a long recital of all he is doing for her. He is holding down two or three jobs, building a new house, buying her everything. But to all this the wife quietly replies: If only he would stop for a few minutes and give me himself! I sometimes think that God, as he sees us rushing about in all our doing of good, says to himself: If only they would stop for a few minutes and give me themselves!
 
 
-## Chapter 11: INTELLECTUALS (LOVING GOD WITH THE MIND)
+## CHAPTER 11: INTELLECTUALS (LOVING GOD WITH THE MIND)
 
 
 - Let the wise listen and add to their learning, and let the discerning get guidance —  for understanding proverbs and parables, the sayings and riddles of the wise. The fear of the LORD is the beginning of knowledge, but fools despise wisdom and discipline. Proverbs 1:5 – 7
@@ -732,7 +732,7 @@
 # PART 3: UNDERSTANDING YOUR SACRED PATHWAY
 
 
-## Chapter 12: TENDING THE GARDEN OF THE SOUL
+## CHAPTER 12: TENDING THE GARDEN OF THE SOUL
 
 
 - Discovering our strong tendencies and predominant spiritual temperament gives us the information we need to construct a comprehensive plan for spiritual growth.

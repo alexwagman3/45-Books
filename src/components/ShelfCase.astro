@@ -16,7 +16,7 @@ const { label, books } = Astro.props;
     <div class="shelf-group">
       {books.map((b) => (
         <BookSpine
-          title={b.data.title}
+          title={b.data.spineTitle ?? b.data.title}
           author={b.data.author}
           slug={b.slug}
           bookColor={b.data.bookColor}

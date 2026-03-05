@@ -4,7 +4,7 @@
 ----------
 
 
-## Chapter 1: The Best of News: A Reason to Get Up in the Morning
+## CHAPTER 1: The Best of News: A Reason to Get Up in the Morning
 
 
 - Mark records Jesus’ words this way: “The time has come. The kingdom of God is near. Repent and believe the good news!” (Mark 1:15). It is tempting to think that this is merely Jesus’ way of introducing himself, but his announcement is more than that. It gives all of us who endure the harsh realities of the Fall the only valid reason to get up in the morning. It offers hope that is wonderfully practical and intensely personal. The news begins with these words: “The time has come.” Jesus is saying, “This is what God has been working on. All of history has been moving toward this one moment.” God had not forgotten or lost interest in humanity. Since that horrible first fall into sin, he had been bringing the world to this day.
@@ -40,7 +40,7 @@
 - And as he changes us, he allows us to be part of what he is doing in the lives of others. As you respond to the Redeemer’s work in your life, you can learn to be an instrument in his hands.
 
 
-## Chapter 2: In the Hands of the Redeemer
+## CHAPTER 2: In the Hands of the Redeemer
 
 
 - He didn’t see himself as one of God’s instruments, only as one of God’s conduits—a passive channel connecting one thing to another. An instrument is a tool that is actively used to change something, and God has called all of his people to be instruments of change in his redemptive hands. Embedded in the larger story of redemption is a principle we must not miss: God uses ordinary people to do extraordinary things in the lives of others. What mission board, what ministry, what local church would use the people God used in Scripture? There was Moses (an exiled murderer), Gideon (fearful and hiding), David (the shepherd boy with no military training), Peter (who publicly denied Christ), and Paul (persecutor of the church), to name a few. Along with these are untold numbers of little people God used in big ways to fulfill his plan on earth. God never intended us to simply be the objects of his love. We are also called to be instruments of that love in the lives of others.
@@ -100,7 +100,7 @@
 - This is the work of the kingdom of God: people in the hands of the Redeemer, daily functioning as his tools of lasting change.
 
 
-## Chapter 3: Do We Really Need Help?
+## CHAPTER 3: Do We Really Need Help?
 
 
 - We know that God has called us to be part of his kingdom work, but he hasn’t given us a neat formula to follow. He hasn’t given us “seven steps to personal and relational perfection.” Instead, he has told us to place our hope in the presence and work of Jesus the Redeemer. Both the helper and the person needing help depend on his power and wisdom for change.
@@ -142,7 +142,7 @@
 - Third, the power of sin has been broken, but the blinding presence of sin remains. Therefore, we need to live in humble, honest community with one another, where personal ministry is part of the daily culture.
 
 
-## Chapter 4: The Heart Is the Target
+## CHAPTER 4: The Heart Is the Target
 
 
 - When you say that you are getting to know someone, you are not saying that you have a deeper knowledge of his ears or nose! You are talking about the inner person, the heart. You know how the person thinks, what he wants, what makes him happy or sad. You can predict what he is feeling at any given moment. Because the Bible says your heart is the essential you, any ministry of change must target the heart.
@@ -184,7 +184,7 @@
 - Every human being is a worshiper, in active pursuit of the thing that rules his heart. This worship shapes everything we do and say, who we are, and how we live. This is why the heart is always our target in personal ministry.
 
 
-## Chapter 5: Understanding Your Heart Struggle
+## CHAPTER 5: Understanding Your Heart Struggle
 
 
 - You kill and covet, but you cannot have what you want. You quarrel and fight. You do not have, because you do not ask God. When you ask, you do not receive, because you ask with wrong motives, that you may spend what you get on your pleasures.
@@ -232,7 +232,7 @@
 - As we place our stories within this great story of the compassion and love of Christ, we will understand who we are and live as we were meant to live.
 
 
-## Chapter 6: Following the Wonderful Counselor
+## CHAPTER 6: Following the Wonderful Counselor
 
 
 - Every aspect of my existence was meant to be filled with the glory of God. Everything I think, every decision I make, every word I speak was meant to be shaped by a humble acknowledgement of his claim on my life. I was created to live for his glory.
@@ -271,7 +271,7 @@
 # Love
 
 
-## Chapter 7: Building Relationships by Entering Their World
+## CHAPTER 7: Building Relationships by Entering Their World
 
 
 - We want ministry that doesn’t demand love that is, well, so demanding! We don’t want to serve others in a way that requires so much personal sacrifice. We would prefer to lob grenades of truth into people’s lives rather than lay down our lives for them. But this is exactly what Christ did for us. Can we expect to be called to do anything less? Hear again the words of Paul in 1 Corinthians 13: If I speak in the tongues of men and of angels, but have not love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but have not love, I am nothing. If I give all I possess to the poor and surrender my body to the flames, but have not love, I gain nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres. Love never fails . . . Now we see but a poor reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope, and love. But the greatest of these is love.
@@ -325,7 +325,7 @@
 - Are we willing to be splashed by the mud because we find joy in serving Christ, even when we realize we have gotten dirty?
 
 
-## Chapter 8: Building Relationships by Identifying with Suffering
+## CHAPTER 8: Building Relationships by Identifying with Suffering
 
 
 - The Bible clearly declares that God is sovereign over all things—even suffering. Many of us mistakenly think that God has nothing to do with the bad things that happen in our world. Yet Scripture takes us in a completely different direction. It roots our hope in the reality that God is not the author of our suffering, but he is with us in our suffering (Ex. 4:11; 1 Sam. 2:2–7; Dan. 4:34–35; Prov. 16:9; Ps. 60:3; Isa. 45:7; Lam. 3:28; Amos 3:6; Acts 4:27–28; Eph. 1:11).
@@ -390,7 +390,7 @@
 # Know
 
 
-## Chapter 9: Getting to Know People
+## CHAPTER 9: Getting to Know People
 
 
 - Think about it. Most of the conversations you had today were mundane and rather self-protective. We spend most of our time talking about things that are of little personal consequence—the weather, politics, sports, and entertainment. There is nothing wrong with this except that it allows us to hide who we really are. A person may be terribly distraught about her marriage, yet when people ask how she is, she will quickly answer, “Fine, how are you?” The person asking doesn’t really want to know and the person answering doesn’t really want to tell. They are co-conspirators in a casual relationship. Whether it is over the back of a pew, in passing at a school function, or over the phone, we are all skilled at newsy but personally protective conversations. There are many reasons why our relationships are trapped in the casual. One is that, in our busyness, we despair of squeezing ten dollar conversations into ten cent moments. There are times when we would like to tell our story, but there doesn’t seem to be an opportunity to do so. We all deal with the disconnect between our public reputation and our private struggles. We wonder what people would think if they really knew us. Another reason we keep things casual is that we buy the lie that we are unique and struggle in ways that no one else does. We get tricked by people’s public personas and forget that behind closed doors they live real lives just like us.
@@ -426,7 +426,7 @@
 - Because of this, we all need people who love us enough to ask, listen, and, having listened, to ask more.
 
 
-## Chapter 10: Discovering Where Change is Needed
+## CHAPTER 10: Discovering Where Change is Needed
 
 
 - Why would God put the world’s most significant, demanding, and difficult human relationship (marriage) smack dab in the middle of the world’s most important process (sanctification)? If he did it so that people would realize their individual dreams, it would have made sense to get them fully sanctified before facing the trials of marriage. But God hasn’t made a mistake. He is working on a greater dream, so he tries and troubles us. He lets our dreams slip through our fingers so that as we learn to love each other, we grow more deeply in love with him.
@@ -444,7 +444,7 @@
 # Speak
 
 
-## Chapter 11: The Goals of Speaking the Truth in Love
+## CHAPTER 11: The Goals of Speaking the Truth in Love
 
 
 - Leviticus 19:15–18 discusses God’s intentions for this aspect of relationships and personal ministry. Do not pervert justice; do not show partiality to the poor or favoritism to the great, but judge your neighbor fairly. Do not go about spreading slander among your people. Do not do anything that endangers your neighbor’s life. I am the LORD. Do not hate your brother in your heart. Rebuke your neighbor frankly so you will not share in his guilt. Do not seek revenge or bear a grudge against one of your people, but love your neighbor as yourself. I am the LORD.
@@ -474,7 +474,7 @@
 - Yet Paul says (Romans 2:4) that it is God’s kindness (goodness) that leads us to repentance. He also says (2 Corinthians 5:14) that it is the love of Christ that compels us to no longer live for ourselves, but for him. The grace of the gospel is what turns our hearts, because the gospel is God’s magnificent promise of forgiveness in Christ. This draws us out of hiding into the light of truth, where true confession and repentance can take place.
 
 
-## Chapter 12: The Process of Speaking the Truth in Love
+## CHAPTER 12: The Process of Speaking the Truth in Love
 
 
 - Our goal is to encourage people to look at their behavior and examine their hearts with biblical eyes.
@@ -538,7 +538,7 @@
 # Do 
 
 
-## Chapter 13: Establishing Agenda and Clarifying Responsibility
+## CHAPTER 13: Establishing Agenda and Clarifying Responsibility
 
 
 - The difficulties now, the suffering now, the disappointments now, and the blessings now are all preparation for the wedding then.
@@ -559,7 +559,7 @@
 - The Christian life can really be boiled down to two words: trust and obey. I must always entrust the things that are out of my control to God (Circle of Concern), and I must always be faithful to obey his clear and specific commands
 
 
-## Chapter 14: Instilling Identity with Christ and Providing Accountability
+## CHAPTER 14: Instilling Identity with Christ and Providing Accountability
 
 
 - All of this is important in times of change because we always live out of some kind of identity, and the identities we assign ourselves powerfully influence our responses to life. As people pursue the process of lifelong change, they need to live out of a gospel identity.

@@ -16,6 +16,7 @@ const books = defineCollection({
     bookColor: z.string(),
     bookSize: BookSizeEnum,
     titleSize: TitleSizeEnum.default('default'),
+    spineTitle: z.string().optional(),
     hasExcerpts: z.boolean().default(false),
     hasTakeaways: z.boolean().default(false),
     metaDescription: z.string().optional(),
