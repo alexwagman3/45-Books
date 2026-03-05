@@ -20,7 +20,7 @@
 - We need leaders who can unite us and ignite us.
 
 
-## Chapter 1: When Leaders Are at Their Best
+## CHAPTER 1: When Leaders Are at Their Best
 
 
 - “At the very beginning of a journey like this,” he said, “it's about getting to know each other personally.” It's about knowing who these people are that are working with me, knowing their values, what they love to do, what they care about, and what they stand for. I also love the opportunity to introduce myself, not as a leader or as a strategist or as the analyst or whatever we're trying to do, but just as somebody who is with them as a real human trying to have a greater experience in life and trying to make the world a better place.
@@ -78,7 +78,7 @@
 
 
 
-## Chapter 2: Credibility Is the Foundation of Leadership
+## CHAPTER 2: Credibility Is the Foundation of Leadership
 
 
 - Leaders mobilize others to want to struggle for shared aspirations, and this means that, fundamentally, leadership is a relationship. Leadership is a relationship between those who aspire to lead and those who choose to follow.
@@ -171,7 +171,7 @@
 # Practice 1: Model the Way
 
 
-## Chapter 3: Clarify Values
+## CHAPTER 3: Clarify Values
 
 
 - What would you say if someone were to ask you, “What is your leadership philosophy?” Are you prepared right now to say what your leadership philosophy is? If you aren't, you should be. If you are, you need to reaffirm it on a daily basis.
@@ -201,7 +201,7 @@
 - Model the Way begins with clarifying values by finding your voice and affirming shared values. This means you must: Identify the values you use to guide choices and decisions. Find your own authentic way of talking about what is important to you. Help others to articulate why they do what they do, and what they care about. Provide opportunities for people to talk about their values with others on the team. Build consensus around values, principles, and standards. Make sure that people are adhering to agreed-upon values and standards.
 
 
-## Chapter 4: Set the Example
+## CHAPTER 4: Set the Example
 
 
 - No one will believe you're serious until they see you doing what you're asking of others.
@@ -280,7 +280,7 @@
 # Practice 2: Inspire a Shared Vision
 
 
-## Chapter 5: Envision the Future
+## CHAPTER 5: Envision the Future
 
 
 - Call it what you will—vision, purpose, mission, legacy, dream, aspiration, calling, or personal agenda—the intent is the same. If you are going to be an exemplary leader, you have to be able to imagine a positive future.
@@ -347,7 +347,7 @@
 - To Inspire a Shared Vision, you must envision the future by imagining exciting and ennobling possibilities. This means you must: Determine what drives you and where your passions lie in order to identify what you care enough about to imagine how it could be better in the future, compelling you forward. Reflect on your experiences, looking for the major themes in your life and understanding what you find worthwhile. Stop, look, and listen to what is going on right now—the important trends, major topics of conversation, and social discontents. Spend a higher percentage of your time focused on the future, imagining the exciting possibilities. Listen deeply to what is important to others in their future and to what gives their lives meaning and purpose. Involve others in crafting a shared vision of the future. Don't make it a top-down process.
 
 
-## Chapter 6: Enlist Others
+## CHAPTER 6: Enlist Others
 
 
 - Whether you’re trying to mobilize thousands of people in the community or one person in the workplace, to Enlist Others you must act on these two essentials: ‘Appeal to common ideals’ and ‘Animate the vision’
@@ -407,7 +407,7 @@
 # Practice 3: Challenge the Process
 
 
-## Chapter 7: Search for Opportunities
+## CHAPTER 7: Search for Opportunities
 
 
 - Exemplary leaders embrace the commitment to Search for Opportunities to ensure that extraordinary things happen. They make sure they engage in these two essentials: ‘Seize the initiative’ and ‘Exercise outsight’
@@ -473,7 +473,7 @@
 - To Challenge the Process, you must search for opportunities by seizing the initiative and look outward for innovative ways to improve. This means you must: Do something each day so that you are better than you were the day before. Seek firsthand experiences outside your comfort zone and skill set. Always be asking, “What's new? What's next? What's better?” and not just for yourself but also for those around you. Find a significant purpose for addressing your challenging and most difficult assignments. Ask questions, seek advice, and listen to diverse perspectives. Be adventurous; don't let routines become ruts.
 
 
-## Chapter 8: Experiment and Take Risks
+## CHAPTER 8: Experiment and Take Risks
 
 
 - Exemplary leaders make the commitment to Experiment and Take Risks. They know that making extraordinary things happen requires that leaders ‘Generate small wins’ and ‘Learn from experience’.
@@ -527,7 +527,7 @@
 # Practice 4: Enable Others to Act
 
 
-## Chapter 9: Foster Collaboration
+## CHAPTER 9: Foster Collaboration
 
 
 - Exemplary leaders make the commitment to Foster Collaboration by engaging in these essentials: ‘Create a climate of trust’ and ‘Facilitate relationships’
@@ -590,7 +590,7 @@
 - Exemplary leaders Foster Collaboration by building trust and facilitating relationships. This means you must: Extend trust to others, even if they haven't already extended it to you. Spend time getting to know your constituents and find out what makes them tick. Show concern for the problems and aspirations others have. Listen, listen, and listen some more. Structure projects so that there is a common goal that requires cooperation, making sure that people understand how they are interdependent with one another. Find ways to get people together face to face and increase the durability of their relationship.
 
 
-## Chapter 10: Strengthen Others
+## CHAPTER 10: Strengthen Others
 
 
 - To Strengthen Others, exemplary leaders engage in two essentials. They ‘Enhance self-determination’ and ‘Develop competence and confidence’.
@@ -671,7 +671,7 @@
 # Practice 5: Encourage the Heart
 
 
-## Chapter 11: Recognize Contributions
+## CHAPTER 11: Recognize Contributions
 
 
 - To Recognize Contributions, you need to utilize these two essentials: ‘Expect the best’ and ‘Personalize recognition’.
@@ -734,7 +734,7 @@
 - To Encourage the Heart, you must recognize contributions by showing appreciation for individual excellence. This means you must: Maintain high expectations about what individuals and teams can accomplish. Communicate your positive expectations clearly and regularly. Create an environment that makes it comfortable to receive and give feedback. Find out the types of encouragement that make the most difference. Don't assume you know. Ask. Take the time to inquire and observe. Be creative when it comes to recognition. Be spontaneous. Have fun. Make saying “thank you” a natural part of your everyday behavior.
 
 
-## Chapter 12: Celebrate the Values and Victories
+## CHAPTER 12: Celebrate the Values and Victories
 
 
 - Exemplary leaders make a commitment to Celebrate the Values and Victories by mastering these essentials: ‘Create a spirit of community’ and ‘Be personally involved’.
@@ -800,7 +800,7 @@
 - To Encourage the Heart, you must celebrate the values and victories by creating a spirit of community. This means you must: Find, and also create, occasions to bring people together to publicly celebrate accomplishments. Take actions that demonstrate that you “have people's backs” and ensure they feel “part of the whole.” Make fun a portion of your work environment—laugh and enjoy yourself, along with others. Get personally involved in as many recognitions and celebrations as possible. Show you care by being visible in the tough times. Never pass up an opportunity to relate publicly true stories about how people in your organization went above and beyond the call of duty. Calendar celebrations and look, as well, for spontaneous opportunities to link shared values with victories.
 
 
-## Chapter 13: Leadership Is Everyone's Business
+## CHAPTER 13: Leadership Is Everyone's Business
 
 
 - We ask them to identify the person they'd select as their most important leadership role model, and select from a list of eight possible categories from which these leaders might come.

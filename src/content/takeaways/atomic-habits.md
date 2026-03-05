@@ -15,7 +15,7 @@
 
 
 # Section 1: The Fundamentals (Why Tiny Changes Make a Big Difference)
-## Chapter 1: The Surprising Power of Atomic Habits
+## CHAPTER 1: The Surprising Power of Atomic Habits
 
 
 - “The whole principle came from the idea that if you broke down everything you could think of that goes into riding a bike, and then improve it by 1 percent, you will get a significant increase when you put them all together.”
@@ -116,7 +116,7 @@
     - You do not rise to the level of your goals. You fall to the level of your systems.
 
 
-## Chapter 2: How Your Habits Shape Your Identity (and Vice Versa)
+## CHAPTER 2: How Your Habits Shape Your Identity (and Vice Versa)
 
 
 - Changing our habits is challenging for two reasons: (1) we try to change the wrong thing and (2) we try to change our habits in the wrong way. 
@@ -188,7 +188,7 @@
 - Building better habits isn’t about littering your day with life hacks. It’s not about flossing one tooth each night or taking a cold shower each morning or wearing the same outfit each day. It’s not about achieving external measures of success like earning more money, losing weight, or reducing stress. Habits can help you achieve all of these things, but fundamentally they are not about having something. They are about becoming someone.
 
 
-## Chapter 3: How to Build Better Habits in 4 Simple Steps
+## CHAPTER 3: How to Build Better Habits in 4 Simple Steps
 
 
 - Habits do not restrict freedom. They create it. In fact, the people who don’t have their habits handled are often the ones with the least amount of freedom. Without good financial habits, you will always be struggling for the next dollar. Without good health habits, you will always seem to be short on energy. Without good learning habits, you will always feel like you’re behind the curve. If you’re always being forced to make decisions about simple tasks—when should I work out, where do I go to write, when do I pay the bills—then you have less time for freedom. It’s only by making the fundamentals of life easier that you can create the mental space needed for free thinking and creativity.
@@ -213,7 +213,7 @@
 
 
 # Section 2: The 1st Law (Make It Obvious)
-## Chapter 4: The Man Who Didn’t Look Right
+## CHAPTER 4: The Man Who Didn’t Look Right
 
 
 - Pointing-and-Calling is so effective because it raises the level of awareness from a nonconscious habit to a more conscious level. Because the train operators must use their eyes, hands, mouth, and ears, they are more likely to notice problems before something goes wrong. My wife does something similar. Whenever we are preparing to walk out the door for a trip, she verbally calls out the most essential items in her packing list. “I’ve got my keys. I’ve got my wallet. I’ve got my glasses. I’ve got my husband.”
@@ -222,7 +222,7 @@
 - If you want to cut back on your junk food habit but notice yourself grabbing another cookie, say out loud, “I’m about to eat this cookie, but I don’t need it. Eating it will cause me to gain weight and hurt my health.” Hearing your bad habits spoken aloud makes the consequences seem more real.
 
 
-## Chapter 5: The Best Way to Start a New Habit
+## CHAPTER 5: The Best Way to Start a New Habit
 
 
 - 91 percent of the third group exercised at least once per week—more than double the normal rate. The sentence they filled out is what researchers refer to as an implementation intention, which is a plan you make beforehand about when and where to act. That is, how you intend to implement a particular habit. The cues that can trigger a habit come in a wide range of forms—the feel of your phone buzzing in your pocket, the smell of chocolate chip cookies, the sound of ambulance sirens—but the two most common cues are time and location. Implementation intentions leverage both of these cues. Broadly speaking, the format for creating an implementation intention is: “When situation X arises, I will perform response Y.”
@@ -270,7 +270,7 @@
 - The 1st Law of Behavior Change is to make it obvious. Strategies like implementation intentions and habit stacking are among the most practical ways to create obvious cues for your habits and design a clear plan for when and where to take action.
 
 
-## Chapter 6: Motivation Is Overrated; Environment Often Matters More
+## CHAPTER 6: Motivation Is Overrated; Environment Often Matters More
 
 
 - Every habit is context dependent.
@@ -312,7 +312,7 @@
 - If you want behaviors that are stable and predictable, you need an environment that is stable and predictable.
 
 
-## Chapter 7: The Secret to Self-Control
+## CHAPTER 7: The Secret to Self-Control
 
 
 - If you’re overweight, a smoker, or an addict, you’ve been told your entire life that it is because you lack self-control—maybe even that you’re a bad person. The idea that a little bit of discipline would solve all our problems is deeply embedded in our culture. Recent research, however, shows something different. When scientists analyze people who appear to have tremendous self-control, it turns out those individuals aren’t all that different from those who are struggling. Instead, “disciplined” people are better at structuring their lives in a way that does not require heroic willpower and self-control. In other words, they spend less time in tempting situations. The people with the best self-control are typically the ones who need to use it the least. It’s easier to practice self-restraint when you don’t have to use it very often. So, yes, perseverance, grit, and willpower are essential to success, but the way to improve these qualities is not by wishing you were a more disciplined person, but by creating a more disciplined environment.
@@ -336,7 +336,7 @@
 # Section 3: The 2nd Law (Make It Attractive)
 
 
-## Chapter 8: How to Make a Habit Irresistible
+## CHAPTER 8: How to Make a Habit Irresistible
 
 
 - Dopamine is released not only when you experience pleasure, but also when you anticipate it. Gambling addicts have a dopamine spike right before they place a bet, not after they win. Cocaine addicts get a surge of dopamine when they see the powder, not after they take it. Whenever you predict that an opportunity will be rewarding, your levels of dopamine spike in anticipation. And whenever dopamine rises, so does your motivation to act.
@@ -366,7 +366,7 @@
 - Doing the thing you need to do means you get to do the thing you want to do.
 
 
-## Chapter 9: The Role of Family and Friends in Shaping Your Habits
+## CHAPTER 9: The Role of Family and Friends in Shaping Your Habits
 
 
 - Behaviors are attractive when they help us fit in. We imitate the habits of three groups in particular: The close. The many. The powerful.
@@ -390,7 +390,7 @@
 - We are also motivated to avoid behaviors that would lower our status. We trim our hedges and mow our lawn because we don’t want to be the slob of the neighborhood. When our mother comes to visit, we clean up the house because we don’t want to be judged. We are continually wondering “What will others think of me?” and altering our behavior based on the answer.
 
 
-## Chapter 10: How to Find and Fix the Causes of Your Bad Habits
+## CHAPTER 10: How to Find and Fix the Causes of Your Bad Habits
 
 
 - Some of our underlying motives include: Conserve energy, Obtain food and water, Find love and reproduce, Connect and bond with others, Win social acceptance and approval, Reduce uncertainty, and Achieve status and prestige. A craving is just a specific manifestation of a deeper underlying motive. Your brain did not evolve with a desire to smoke cigarettes or to check Instagram or to play video games. At a deep level, you simply want to reduce uncertainty and relieve anxiety, to win social acceptance and approval, or to achieve status.
@@ -423,7 +423,7 @@
 # Section 4: The 3rd Law (Make It Easy)
 
 
-## Chapter 11: Walk Slowly, but Never Backward
+## CHAPTER 11: Walk Slowly, but Never Backward
 
 
 - I refer to this as the difference between being in motion and taking action. The two ideas sound similar, but they’re not the same. When you’re in motion, you’re planning and strategizing and learning. Those are all good things, but they don’t produce a result. Action, on the other hand, is the type of behavior that will deliver an outcome. If I outline twenty ideas for articles I want to write, that’s motion. If I actually sit down and write an article, that’s action. If I search for a better diet plan and read a few books on the topic, that’s motion. If I actually eat a healthy meal, that’s action. Sometimes motion is useful, but it will never produce an outcome by itself. It doesn’t matter how many times you go talk to the personal trainer, that motion will never get you in shape. Only the action of working out will get the result you’re looking to achieve.
@@ -444,7 +444,7 @@
 - The amount of time you have been performing a habit is not as important as the number of times you have performed it.
 
 
-## Chapter 12: The Law of Least Effort
+## CHAPTER 12: The Law of Least Effort
 
 
 - Conventional wisdom holds that motivation is the key to habit change. Maybe if you really wanted it, you’d actually do it. But the truth is, our real motivation is to be lazy and to do what is convenient. And despite what the latest productivity best seller will tell you, this is a smart strategy, not a dumb one. Energy is precious, and the brain is wired to conserve it whenever possible. It is human nature to follow the Law of Least Effort, which states that when deciding between two similar options, people will naturally gravitate toward the option that requires the least amount of work.
@@ -483,7 +483,7 @@
 - If sticking your phone in another room doesn’t seem like enough, tell a friend or family member to hide it from you for a few hours. Ask a coworker to keep it at their desk in the morning and give it back to you at lunch. It is remarkable how little friction is required to prevent unwanted behavior. 
 
 
-## Chapter 13: How to Stop Procrastinating by Using the Two-Minute Rule
+## CHAPTER 13: How to Stop Procrastinating by Using the Two-Minute Rule
 
 
 - Every day, there are a handful of moments that deliver an outsized impact. I refer to these little choices as decisive moments. The moment you decide between ordering takeout or cooking dinner. The moment you choose between driving your car or riding your bike. The moment you decide between starting your homework or grabbing the video game controller. These choices are a fork in the road.
@@ -509,7 +509,7 @@
 - Becoming an Early Riser Phase 1: Be home by 10 p.m. every night. Phase 2: Have all devices (TV, phone, etc.) turned off by 10 p.m. every night. Phase 3: Be in bed by 10 p.m. every night (reading a book, talking with your partner). Phase 4: Lights off by 10 p.m. every night. Phase 5: Wake up at 6 a.m. every day.
 
 
-## Chapter 14: How to Make Good Habits Inevitable and Bad Habits Impossible
+## CHAPTER 14: How to Make Good Habits Inevitable and Bad Habits Impossible
 
 
 - If you find yourself continually struggling to follow through on your plans, then you can take a page from Victor Hugo and make your bad habits more difficult by creating what psychologists call a commitment device. A commitment device is a choice you make in the present that controls your actions in the future. It is a way to lock in future behavior, bind you to good habits, and restrict you from bad ones.
@@ -533,7 +533,7 @@
 # Section 5: The 4th Law (Make It Satisfying)
 
 
-## Chapter 15: The Cardinal Rule of Behavior Change
+## CHAPTER 15: The Cardinal Rule of Behavior Change
 
 
 - We are more likely to repeat a behavior when the experience is satisfying. This is entirely logical. Feelings of pleasure—even minor ones like washing your hands with soap that smells nice and lathers well—are signals that tell the brain: “This feels good. Do this again, next time.” Pleasure teaches your brain that a behavior is worth remembering and repeating.
@@ -560,7 +560,7 @@
 - The more a habit becomes part of your life, the less you need outside encouragement to follow through. Incentives can start a habit. Identity sustains a habit. That said, it takes time for the evidence to accumulate and a new identity to emerge. Immediate reinforcement helps maintain motivation in the short term while you’re waiting for the long-term rewards to arrive.
 
 
-## Chapter 16: How to Stick with Good Habits Every Day
+## CHAPTER 16: How to Stick with Good Habits Every Day
 
 
 - Dyrsmid began each morning with two jars on his desk. One was filled with 120 paper clips. The other was empty. As soon as he settled in each day, he would make a sales call. Immediately after, he would move one paper clip from the full jar to the empty jar and the process would begin again. “Every morning I would start with 120 paper clips in one jar and I would keep dialing the phone until I had moved them all to the second jar,” he told me.
@@ -599,7 +599,7 @@
 - This is why non-scale victories can be effective for weight loss. The number on the scale may be stubborn, so if you focus solely on that number, your motivation will sag. But you may notice that your skin looks better or you wake up earlier or your sex drive got a boost. All of these are valid ways to track your improvement. If you’re not feeling motivated by the number on the scale, perhaps it’s time to focus on a different measurement—one that gives you more signals of progress.
 
 
-## Chapter 17: How an Accountability Partner Can Change Everything
+## CHAPTER 17: How an Accountability Partner Can Change Everything
 
 
 - Throughout our discussion of the 4th Law of Behavior Change we have covered the importance of making good habits immediately satisfying. Fisher’s proposal is an inversion of the 4th Law: Make it immediately unsatisfying.
@@ -620,7 +620,7 @@
 # Section 6: Advanced Tactics (How to Go from Being Merely Good to Being Truly Great)
 
 
-## Chapter 18: The Truth About Talent (When Genes Matter and When They Don’t)
+## CHAPTER 18: The Truth About Talent (When Genes Matter and When They Don’t)
 
 
 - In short: genes do not determine your destiny. They determine your areas of opportunity. As physician Gabor Mate notes, “Genes can predispose, but they don’t predetermine.” The areas where you are genetically predisposed to success are the areas where habits are more likely to be satisfying. The key is to direct your effort toward areas that both excite you and match your natural skills, to align your ambition with your ability. The obvious question is, “How do I figure out where the odds are in my favor? How do I identify the opportunities and habits that are right for me?” The first place we will look for an answer is by understanding your personality.
@@ -653,7 +653,7 @@
 - In summary, one of the best ways to ensure your habits remain satisfying over the long-run is to pick behaviors that align with your personality and skills. Work hard on the things that come easy.
 
 
-## Chapter 19: The Goldilocks Rule: How to Stay Motivated in Life and Work
+## CHAPTER 19: The Goldilocks Rule: How to Stay Motivated in Life and Work
 
 
 - Why is it that some people, like Martin, stick with their habits—whether practicing jokes or drawing cartoons or playing guitar—while most of us struggle to stay motivated? How do we design habits that pull us in rather than ones that fade away? Scientists have been studying this question for many years. While there is still much to learn, one of the most consistent findings is that the way to maintain motivation and achieve peak levels of desire is to work on tasks of “just manageable difficulty.” The human brain loves a challenge, but only if it is within an optimal zone of difficulty. If you love tennis and try to play a serious match against a four-year-old, you will quickly become bored. It’s too easy. You’ll win every point. In contrast, if you play a professional tennis player like Roger Federer or Serena Williams, you will quickly lose motivation because the match is too difficult. Now consider playing tennis against someone who is your equal. As the game progresses, you win a few points and you lose a few. You have a good chance of winning, but only if you really try.
@@ -696,7 +696,7 @@
 - Professionals take action even when the mood isn’t right. They might not enjoy it, but they find a way to put the reps in.
 
 
-## Chapter 20: The Downside of Creating Good Habits
+## CHAPTER 20: The Downside of Creating Good Habits
 
 
 - As a habit becomes automatic, you become less sensitive to feedback.

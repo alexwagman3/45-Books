@@ -6,7 +6,7 @@
 # PART 1: WHAT GRIT IS AND WHY IT MATTERS
 
 
-## Chapter 1: SHOWING UP
+## CHAPTER 1: SHOWING UP
 
 
 - The highly accomplished were paragons of perseverance.
@@ -33,7 +33,7 @@
 - Putting together this finding with the other data I’d collected, I came to a fundamental insight that would guide my future work: Our potential is one thing. What we do with it is quite another.
 
 
-## Chapter 2: DISTRACTED BY TALENT
+## CHAPTER 2: DISTRACTED BY TALENT
 
 
 - Outliers, Galton concluded, are remarkable in three ways: they demonstrate unusual “ability” in combination with exceptional “zeal” and “the capacity for hard labor.”
@@ -48,7 +48,7 @@
 - One way to interpret these stories is that talent is great, but tests of talent stink. There’s certainly an argument to be made that tests of talent, and tests of anything else psychologists study, including grit, are highly imperfect. But another conclusion is that the focus on talent distracts us from something that is at least as important, and that is effort. 
 
 
-## Chapter 3: EFFORT COUNTS TWICE
+## CHAPTER 3: EFFORT COUNTS TWICE
 
 
 - A few years ago, I read a study of competitive swimmers titled “The Mundanity of Excellence.” The title of the article encapsulates its major conclusion: the most dazzling human achievements are, in fact, the aggregate of countless individual elements, each of which is, in a sense, ordinary. Dan Chambliss, the sociologist who completed the study, observed: “Superlative performance is really a confluence of dozens of small skills or activities, each one learned or stumbled upon, which have been carefully drilled into habit and then are fitted together in a synthesized whole. There is nothing extraordinary or superhuman in any one of those actions; only the fact that they are done consistently and correctly, and all together, produce excellence.” But mundanity is a hard sell.
@@ -75,7 +75,7 @@
 - I would add that skill is not the same thing as achievement, either. Without effort, your talent is nothing more than your unmet potential. Without effort, your skill is nothing more than what you could have done but didn’t. 
 
 
-## Chapter 4: HOW GRITTY ARE YOU?
+## CHAPTER 4: HOW GRITTY ARE YOU?
 
 
 - Developing real expertise, figuring out really hard problems, it all takes time—longer than most people imagine. And then, you know, you’ve got to apply those skills and produce goods or services that are valuable to people. 
@@ -123,7 +123,7 @@
 - “High (but not the highest intelligence), combined with the greatest degree of persistence, will achieve greater eminence than the highest degree of intelligence with somewhat less persistence.”
 
 
-## Chapter 5: GRIT GROWS
+## CHAPTER 5: GRIT GROWS
 
 
 - Very recently, researchers in London let me know they’d administered the Grit Scale to more than two thousand pairs of teenage twins living in the United Kingdom. This study estimated the heritability of the perseverance subscale to be 37 percent and the passion subscale to be 20 percent. These estimates are on par for heritability estimates for other personality traits, and in the simplest terms, this means that some of the variation in grit in the population can be attributed to genetic factors, and the rest can be attributed to experience.
@@ -165,7 +165,7 @@
 # PART 2: GROWING GRIT FROM THE INSIDE OUT
 
 
-## Chapter 6: INTEREST
+## CHAPTER 6: INTEREST
 
 
 - Follow your passion is a popular theme of commencement speeches. I’ve sat through my fair share, both as a student and professor. I’d wager that at least half of all speakers, maybe more, underscore the importance of doing something you love.
@@ -225,7 +225,7 @@
 - However, if you want to stay engaged for more than a few years in any endeavor, you’ll need to find a way to enjoy the nuances that only a true aficionado can appreciate. “The old in the new is what claims the attention,” said William James. “The old with a slightly new turn.” In sum, the directive to follow your passion is not bad advice. But what may be even more useful is to understand how passions are fostered in the first place.
 
 
-## Chapter 7: PRACTICE
+## CHAPTER 7: PRACTICE
 
 
 - Considering all the studies showing that gritty people typically stick with their commitments longer than others, it seemed like the major advantage of grit was, simply, more time on task. At the same time, I could think of a lot of people who’d racked up decades of experience in their jobs but nevertheless seemed to stagnate at a middling level of competence. I’m sure you can, too. Think about it. Do you know anyone who’s been doing something for a long, long time—maybe their entire professional lives—and yet the best you can say of their skill is that they’re pretty much okay and not bad enough to fire? As a colleague of mine likes to joke: some people get twenty years of experience, while others get one year of experience, twenty times in a row.
@@ -312,7 +312,7 @@
 - Elena and Deborah ask teachers to model emotion-free mistake making.
 
 
-## Chapter 8: PURPOSE
+## CHAPTER 8: PURPOSE
 
 
 - Interest is one source of passion. Purpose, the intention to contribute to the well-being of others, is another. The mature passions of gritty people depend on both.
@@ -366,7 +366,7 @@
 - Finally, Bill Damon recommends finding inspiration in a purposeful role model.
 
 
-## Chapter 9: HOPE
+## CHAPTER 9: HOPE
 
 
 - Grit depends on a different kind of hope. It rests on the expectation that our own efforts can improve our future. I have a feeling tomorrow will be better is different from I resolve to make tomorrow better. The hope that gritty people have has nothing to do with luck and everything to do with getting up again. 
@@ -456,7 +456,7 @@
 # PART 3: GROWING GRIT FROM THE OUTSIDE IN
 
 
-## Chapter 10: PARENTING FOR GRIT
+## CHAPTER 10: PARENTING FOR GRIT
 
 
 - Much of sticking with things is believing you can do it. That belief comes from self-worth. And that comes from how others have made us feel in our lives.
@@ -480,7 +480,7 @@
 - I’m giving you these comments because I have very high expectations and I know that you can reach them.
 
 
-## Chapter 11: THE PLAYING FIELDS OF GRIT
+## CHAPTER 11: THE PLAYING FIELDS OF GRIT
 
 
 - Like a lot of parents, I had a strong intuition that grit is enhanced by doing activities like ballet, piano, football, or really any structured extracurricular activity. These activities possess two important features that are hard to replicate in any other setting. First, there’s an adult in charge—ideally, a supportive and demanding one—who is not the parent. Second, these pursuits are designed to cultivate interest, practice, purpose, and hope. The ballet studio, the recital hall, the dojo, the basketball court, the gridiron—these are the playing fields of grit.
@@ -522,7 +522,7 @@
 - This brings me to the second part of the Hard Thing Rule: You can quit. But you can’t quit until the season is over, the tuition payment is up, or some other “natural” stopping point has arrived. You must, at least for the interval to which you’ve committed yourself, finish whatever you begin. In other words, you can’t quit on a day when your teacher yells at you, or you lose a race, or you have to miss a sleepover because of a recital the next morning. You can’t quit on a bad day. And, finally, the Hard Thing Rule states that you get to pick your hard thing. Nobody picks it for you because, after all, it would make no sense to do a hard thing you’re not even vaguely interested in. 
 
 
-## Chapter 12: A CULTURE OF GRIT
+## CHAPTER 12: A CULTURE OF GRIT
 
 
 - When you and John Schneider are looking for a player, tell me: What is that philosophy, what does it mean to be a Seahawk?” 
@@ -576,7 +576,7 @@
 - If each person’s grit enhances grit in others, then, over time, you might expect what social scientist Jim Flynn calls a “social multiplier” effect.
 
 
-## Chapter 13: CONCLUSION
+## CHAPTER 13: CONCLUSION
 
 
 - Let me close with a few final thoughts. The first is that you can grow your grit. I see two ways to do so. On your own, you can grow your grit “from the inside out”: You can cultivate your interests. You can develop a habit of daily challenge-exceeding-skill practice. You can connect your work to a purpose beyond yourself. And you can learn to hope when all seems lost. You can also grow your grit “from the outside in.” Parents, coaches, teachers, bosses, mentors, friends—developing your personal grit depends critically on other people.

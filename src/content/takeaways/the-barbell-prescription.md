@@ -24,7 +24,7 @@
 # PART 1: WHY (FROM EXERCISE PRESCRIPTION TO TRAINING PROGRAM)
 
 
-## Chapter 1: The Sick Aging Phenotype
+## CHAPTER 1: The Sick Aging Phenotype
 
 
 - Aging in the postmodern era can result in either the healthiest “seniors” the world has ever seen, or a ghastly and increasingly common syndrome of maladaptive aging, which we shall call the Sick Aging Phenotype. The Sick Aging Phenotype is a complex of interrelated and synergistic processes, in which the metabolic syndrome, muscle and bone loss, frailty, loss of function and independence, and an ever-growing stew of pharmaceuticals conspire to destroy the health and quality of life of the aging adult.
@@ -74,7 +74,7 @@
 - When I see patients who display this phenotype in the emergency department, they invariably present with a plastic bag full of powerful medicines, many of which work antagonistically or synergistically in unwholesome ways.
 
 
-## Chapter 2: Exercise Medicine
+## CHAPTER 2: Exercise Medicine
 
 
 - Exercise has beneficial effects at every stratum of biological organization, from the molecular and cellular levels to the realm of neuropsychiatric health.
@@ -119,7 +119,7 @@
 - Think about the way we dose most medicines. As the patient gets sicker, we increase the dose or, worse still, add another medicine. If the patient improves, the doctor tries to decrease the dose and number of medications (or should). Exercise medicine is the exact opposite. When exercise medicine is used properly, the dose goes up as the patient gets healthier. We start weak and deconditioned. We begin an exercise regimen. Our strength and fitness improve. So we can work out a little harder, increasing the dose. The increased dose improves our strength and conditioning still further, allowing us to increase the dose again. This “inverted dosing” of exercise medicine is incredibly important. It illustrates the principle of progressive overload, which is fundamental to the administration of exercise medicine,
 
 
-## Chapter 3: From Prescription to Program: Safety and Dosing
+## CHAPTER 3: From Prescription to Program: Safety and Dosing
 
 
 - At the most fundamental level, exercise is physical activity. Going for a walk is exercise. Yoga is exercise. Cleaning out the garage is exercise. So are jogging, lifting weights, fencing, badminton, and Pilates. All of these are better than being a couch potato. But it should be obvious that not all forms of exercise are created equal. Put another way, exercise medicine comes in different formulations, with different dosing strengths, routes of administration, efficacies, and side-effect profiles.
@@ -134,7 +134,7 @@
 - Exercise medicine must be safe, effective, efficient, quantifiable, and precisely prescribed and administered to achieve specific physiological and performance goals. That’s called training.
 
 
-## Chapter 4: Enduring Resistance, Resisting Endurance: Comprehensive Training
+## CHAPTER 4: Enduring Resistance, Resisting Endurance: Comprehensive Training
 
 
 - We need a program that hits all the General Fitness Attributes: strength, power, mobility, balance, endurance, and body composition.
@@ -173,7 +173,7 @@
 - Whatever we call it, we’re talking about the ability to get out of bed, snatch a child from danger, lift a box overhead into a cupboard, pick up a heavy bag of groceries, leap for joy, play Frisbee with the dog, remodel the bathroom, row a boat across the fishing pond, or make love to our spouse.
 
 
-## Chapter 5: Specificity and Effectiveness: Your Physiological 401k
+## CHAPTER 5: Specificity and Effectiveness: Your Physiological 401k
 
 
 - Although fat loss is associated in the public and medical minds with aerobic exercise, there is growing recognition that resistance training can increase fat loss and decrease fat gains by maximizing muscle mass and muscle energy expenditure. 
@@ -200,7 +200,7 @@
 - When you’re sixty or seventy, you’re not going to need to be able to run 20 miles, or 10, or even 3. You’re going to need muscle, bone, strength, power, mobility, balance, and yes, some endurance.
 
 
-## Chapter 6: Simplicity and Efficiency: From Black Iron to Grey Steel
+## CHAPTER 6: Simplicity and Efficiency: From Black Iron to Grey Steel
 
 
 - Our exercise medicine should be as simple and efficient as possible. The number of exercises should be kept to a minimum. The complexity of programming (the formula for progress in the program) should be kept to a minimum. The program should permit significant progress with 2 to 3 days per week of training, and total weekly training time should be kept to a minimum. Despite its simplicity, the program should be comprehensive with regard to the musculoskeletal and energy systems, and should apply training stresses sufficient to drive progressive, long-term improvements in the maximal number of fitness attributes (strength, power, endurance, mobility, balance, and body composition).
@@ -236,7 +236,7 @@
 # PART 2: WHAT (AN INTRODUCTION TO THE EXERCISES)
 
 
-## Chapter 7: Elementary Iron
+## CHAPTER 7: Elementary Iron
 
 
 - There are many materials available for instruction in barbell training. Rippetoe’s text and videos (available on StartingStrength.com), are far superior to any other instructional materials available anywhere.
@@ -248,7 +248,7 @@
 - Athletes must warm up with light weight, always starting with the empty bar (except for deadlifts) before progressing to heavier loads or performing the exercises at the weights prescribed for that day. Increases in weight over time must always be judicious, and are guided by the program, not by the athlete’s exuberance or ego.
 
 
-## Chapter 8: A Brief Overview of the Squat
+## CHAPTER 8: A Brief Overview of the Squat
 
 
 - The squat is performed with a shoulder width stance with the toes pointing out at about 30 degrees.
@@ -272,7 +272,7 @@
 - The difference in carrying position between high-bar and low-bar may seem relatively minor and inconsequential. It isn’t. Even a few inches of change in bar position on the torso (from just beneath the scapular spine to the top of traps) significantly shifts how the bar will align with the athlete’s center of gravity during the exercise. This affects the back angle – and the effectiveness of the movement – quite profoundly.
 
 
-## Chapter 9: A Brief Overview of the Deadlift
+## CHAPTER 9: A Brief Overview of the Deadlift
 
 
 - A huge amount of muscle is involved, including the muscles of the legs, hips, buttocks, lower back, abdomen, upper back, and chest. The squat may be the King of Exercises, but the deadlift is the Queen,
@@ -296,7 +296,7 @@
 - Training the deadlift as we have described it loads the back, and therefore strengthens the back, and makes the athlete stronger and harder to break. And that is the whole point.
 
 
-## Chapter 10: A Brief Overview of the Press
+## CHAPTER 10: A Brief Overview of the Press
 
 
 - The standing overhead press (or simply the press) is an exercise in which the bar is held in the hands at the shoulders and lifted overhead, to a position directly above the shoulder joints and over the middle of the foot. For general strength training, the press can and should be performed so as to recruit muscle tissue from the entire body. Because the press describes such a long range of motion and such a long potential moment arm, it demands balance and stabilizing contributions from the muscles of the lower extremities, hips, back, abdomen, chest, shoulders, and arms. It is an excellent exercise for the development of upper body strength, balance, mobility, and proprioception.
@@ -317,7 +317,7 @@
 - if you don’t put more weight on the bar than you’re ready for, and if you set it up the same way each time with proper grip, breathing and stance, the press won’t hurt your shoulders.
 
 
-## Chapter 11: A Brief Overview of the Bench Press
+## CHAPTER 11: A Brief Overview of the Bench Press
 
 
 - Of the four primary barbell exercises, the bench is the only one that is not a structural exercise, and it describes the shortest range of motion. However, it allows considerable weight to be handled, and produces marked improvements in upper body strength. The bench trains the anterior muscles of the chest and shoulders, and also trains the muscles of the upper extremity, particularly the triceps.
@@ -359,7 +359,7 @@
 - Microloading should be used to the extent possible. For most Masters, 5-pound increases on a barbell bench are significant.
 
 
-## Chapter 12: A Brief Overview of the Power Clean and Power Snatch
+## CHAPTER 12: A Brief Overview of the Power Clean and Power Snatch
 
 
 - In the snatch, a barbell is pulled from the floor to a position overhead in a single, uninterrupted movement. The bar is caught with straight elbows – it may not be pressed out to full extension – and it is usually (but not always) racked with the lifter in a deep overhead squat position, to reduce the distance the lifter has to pull the heavy weight. The lifter stands erect to finish the lift. In the clean and jerk, the barbell is pulled from the floor and caught on the shoulders, usually (but not always) in a deep front squat position, again to shorten the distance the bar has to be pulled. This is the clean portion of the lift. The lifter then stands erect and slams the bar overhead in a single sharp, explosive movement (the jerk), once again racking the load on fully extended arms.
@@ -389,7 +389,7 @@
 - Particularly fit and active Masters who engage in sports or professions that demand expression of power (track and field, combat sports, rugby, soccer, military and police work, etc.) may productively train these movements, but these individuals tend to be the exception rather than the rule.
 
 
-## Chapter 13: Assistance Exercises
+## CHAPTER 13: Assistance Exercises
 
 
 - Assistance exercises are frequently misunderstood and misused. Their proper role is to supplement and support progress in the primary barbell movements, but all too often they end up becoming the core of a strength training “program.” This is unfortunate, because they are completely unsuited for such a role. These movements typically recruit less muscle, use a shorter range of motion, impose less comprehensive training stresses, promote less general adaptation, and have far less potential for progressive development than the squat, deadlift, and pressing movements. When you see somebody in a gym whose workout consists of barbell curls, leg presses, lat pull-downs, dips, and maybe bench presses, you’re looking at somebody who is, in the words of Jim Wendler, “majoring in the minors.”
@@ -431,7 +431,7 @@
 # PART 3: HOW (PROGRAMMING FOR STRENGTH AND CONDITIONING)
 
 
-## Chapter 14: Programming
+## CHAPTER 14: Programming
 
 
 - When adjustment to a program is necessary, change one training variable at a time.
@@ -440,7 +440,7 @@
 - For the Masters Athlete in particular, there is little to be gained by comparing one’s own progress to that of others, other than to see what might be possible or detrimental. Train yourself to be the best you can be, beginning from your own unique starting line and progressing on your own unique journey.
 
 
-## Chapter 15: Adaptation
+## CHAPTER 15: Adaptation
 
 
 - Any rational training program, whatever its modality, and whatever its training goals, is nothing more than a cycle of applying a physical stress, recovering and adapting to the stress, and then increasing the stress to drive progress.
@@ -455,7 +455,7 @@
 - The older the trainee, the less efficient he will be in recovery. The Masters Athlete simply cannot tolerate training stresses of the same dose or frequency as his younger counterparts. It is this relative lack of efficiency in the recovery phase that partially explains why older adults can’t productively train as often, or increase their strength as quickly.
 
 
-## Chapter 16: Recovery: The Forgotten Training Variables
+## CHAPTER 16: Recovery: The Forgotten Training Variables
 
 
 - The principal components of effective recovery are active rest, adequate nutrition, quality sleep, hydration, and stress reduction.
@@ -542,7 +542,7 @@
 - Chronic stress suppresses anabolism and has unhealthy effects on cardiovascular parameters.
 
 
-## Chapter 17: Elements of Program Design and Execution
+## CHAPTER 17: Elements of Program Design and Execution
 
 
 - Sets of 1 to 3 reps at high intensity are classically associated with the production of raw strength and power. Sets of 8 to 12 reps at moderate intensity are used to increase muscle mass and size (hypertrophy).
@@ -557,13 +557,13 @@
 - We can’t overemphasize the importance of recording your work. Training is a long-term, highly structured project in adjusting your physiology and performance to optimize your health.
 
 
-## Chapter 18: Athlete Program Categories: Novice, Intermediate, and Beyond
+## CHAPTER 18: Athlete Program Categories: Novice, Intermediate, and Beyond
 
 
 - Any increase in physical activity virtually guarantees short-term increases in strength for the rank novice. This phenomenon is known as the novice effect: any physical activity that requires even the most minimal amount of effort and exertion will yield some positive effects for a completely untrained adult. The novice effect is responsible for much of the confusion about physical exercise that we find not only around the water cooler, but also in the exercise physiology literature.
 
 
-## Chapter 19: The Novice Master
+## CHAPTER 19: The Novice Master
 
 
 - The Starting Strength model prescribes a 3-day per week program that traditionally occurs on Monday, Wednesday, and Friday.
@@ -577,7 +577,7 @@
 - If the trainee has been using the Starting Strength model (or some very close variation), the trainee will rarely if ever need to add additional work to the program in order to get progress going again. If the trainee is struggling to progress on the standard novice program, it will be for 1 of 3 reasons: 1. Excessive training stress within the workout. 2 Insufficient recovery between sessions. 3. Greed.
 
 
-## Chapter 20: The Novice Over 60 and Common Novice Variants
+## CHAPTER 20: The Novice Over 60 and Common Novice Variants
 
 
 - An athlete in his sixties, however, will be far more likely to require recovery intervals that extend beyond 72 hours and/or reductions in training volume, to make progress beyond the rank novice phase.
@@ -586,13 +586,13 @@
 - We find that bench presses affect presses less than presses affect bench presses, probably because presses exhaust the triceps more than bench presses. And once the reserves in the triceps are gone, all hope for effective benching during that session evaporates. For this reason alone, it makes sense to bench first and press second. Moreover, after heavy benches, the nervous system will be “primed” for a lighter pressing variation after dealing with the heavier weight of the bench at the beginning of the workout.
 
 
-## Chapter 21: The Novice Over 70 and Remedial Variants
+## CHAPTER 21: The Novice Over 70 and Remedial Variants
 
 
 - A program based around just two major barbell movements will seem quite limited – and it is – but still represents a full-body workout with the potential to produce massive increases in strength and preserve muscle mass and function. Bench presses work the pectorals, triceps, and deltoids. Deadlifts effectively train the hamstrings, glutes, quads, low back, upper back, forearms, and abdominals. That’s the lion’s share of muscle mass.
 
 
-## Chapter 22: The Intermediate Master
+## CHAPTER 22: The Intermediate Master
 
 
 - Even short breaks from training tend to be a more significant setback for older trainees. A week of missed training for the flu might mean 2 to 3 weeks of training just to get back to where he left off.
@@ -614,7 +614,7 @@
 - For each cycle of 3 weeks the goal is to end by completing the target weight for 3 sets of 5 reps. Once this is achieved, 2 to 5 pounds are added to the bar for the next week, but the goal for the next week is not 3 sets of 5, it’s 5 sets of 3 reps. The total workload remains the same, but doing triples at the new weight is easier than doing 5s at the new weight. Again, this keeps weight on the bar and maintains total volume, but allows the Master a bit of physical and mental respite after achieving a new 3 sets of 5 maximum. The second week, the weight on the bar stays the same, and 16 reps are done using 4 sets of 4 reps. This additional rep for each set will be slightly more difficult than the previous week and paves the way for a new 3 sets of 5 personal record on the last week of the cycle. By this week, the trainee has handled this load on 2 previous occasions so he should be well-prepared, mentally and physically.
 
 
-## Chapter 23: The Texas Method
+## CHAPTER 23: The Texas Method
 
 
 - This approach is suitable for intermediate Masters who have made strength acquisition their primary athletic focus (as opposed to some other sport- or profession-specific goals), and who are willing and able to train on a fairly grueling program.
@@ -660,7 +660,7 @@
 - Just as sets and reps on the Texas Method can get stagnant, so can the selection of exercises. Usually a stalled lift is best unstuck through modification of either volume or intensity. These changes can be applied to volume day, intensity day, or both. But sometimes an athlete is buried in such a rut on an exercise that nothing seems to work to get it going again. When this occurs, the substitution of a supplemental exercise may be indicated. A supplemental exercise will almost always be barbell-based and will resemble the parent movement both in performance and in load as closely as possible. Depending on the movement, and the degree of regression that may have set in on the primary exercise, the supplemental movement can be used as a replacement on either volume or intensity day.
 
 
-## Chapter 24: Heavy-Light-Medium and Split Programs
+## CHAPTER 24: Heavy-Light-Medium and Split Programs
 
 
 - Heavy-Light-Medium programs spread the Stress-Recovery-Adaptation cycle over a one week training period to produce a versatile intermediate training approach that is less grueling than the Texas Method and therefore more suitable for the majority of Masters.
@@ -678,7 +678,7 @@
 
 ![](https://paper-attachments.dropboxusercontent.com/s_9B1E346E87CC8E08D698622372103A93A595F1417D975610F86FE5E7CFA81D31_1696905448346_Screenshot+2023-10-09+at+9.37.15+PM.png)
 
-## Chapter 25: The Advanced Master
+## CHAPTER 25: The Advanced Master
 
 
 - Training at this level is not conducted for health or fitness, but rather to optimize performance for competition.
@@ -694,7 +694,7 @@
 - This approach keeps both volume and intensity at appropriate levels, but creates enough fluctuation that the trainee does not go stale over the course of a long series of repeated cycles.
 
 
-## Chapter 26: Conditioning
+## CHAPTER 26: Conditioning
 
 
 - Conditioning, also known as endurance training or “cardio,” is an essential component of the complete exercise prescription, magnifying the metabolic, cardiovascular, and performance benefits of strength training. Conditioning is far more sport- and vocation-specific than strength training, and for many athletes the best training recommendation is to “lift weights and play your sport.” For Masters who practice low-intensity sports or who train solely for health, however, this prescription does not suffice. Evaluation of the various modalities available through the prism of our exercise prescription criteria indicates that high-intensity interval training (HIIT) alternatives are superior to low-intensity, long slow distance exercises. Conditioning at high intensity confers the health benefits of low-intensity training in less time, while producing less interference with strength training and promoting more comprehensive bioenergetic and performance adaptations. Multiple modalities for HIIT conditioning are available. The authors prefer sled work for its simplicity and lack of eccentric component. Intervals with Concept2 rowers, Airdyne bikes, and standard stationary bikes are also recommended.
@@ -783,7 +783,7 @@
 - Even for most novices, after several weeks of consistent daily walks, it will no longer serve as an effective conditioning stimulus, but rather as active rest. Increased levels of conditioning will only be achieved through more intense modalities.
 
 
-## Chapter 27: The Female Master
+## CHAPTER 27: The Female Master
 
 
 - Female athletes have less strength, neuromuscular efficiency, power production, and muscle mass than men, and have less upper body strength relative to lower body strength. On the other hand, they are able to perform multiple repetitions at a higher percentage of their 1RM, tend to recover faster, and can tolerate higher training frequency and volume overall. Many female Masters can use the programs presented in this book as written. When indicated, the most common modifications for the female Master will be to switch from a 3 sets of 5 to 5 sets of 3 set design for high-volume training stress, switch from sets of 5 to sets of 1 to 3 for high-intensity and low-volume training stress, and increase the volume or frequency of deadlifts.

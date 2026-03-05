@@ -38,7 +38,7 @@
 
 
 
-## Chapter 1: Awakening
+## CHAPTER 1: Awakening
 
 
 - LESSON: ADVENTURE IS FOR EVERYONE.
@@ -87,7 +87,7 @@
 
 
 
-## Chapter 2: The Great Discontent 
+## CHAPTER 2: The Great Discontent 
 
 
 - Discontent is the first necessity of progress. —THOMAS A. EDISON 
@@ -133,7 +133,7 @@
 
 
 
-## Chapter 3: The Calling
+## CHAPTER 3: The Calling
 
 
 - LESSON: EVERYONE HAS A CALLING. FOLLOW YOUR PASSION. 
@@ -152,7 +152,7 @@
 
 
 
-## Chapter 4: Defining Moments
+## CHAPTER 4: Defining Moments
 
 
 - He had decided to live forever, or die in the attempt. —JOSEPH HELLER 
@@ -180,7 +180,7 @@
 # PART 2 - JOURNEY
 
 
-## Chapter 5: Self-Reliance 
+## CHAPTER 5: Self-Reliance 
 
 
 - LESSON: NOT EVERYONE NEEDS TO BELIEVE IN YOUR DREAM. BUT YOU DO. 
@@ -216,7 +216,7 @@
 
 
 
-## Chapter 6: Everyday Adventure
+## CHAPTER 6: Everyday Adventure
 
 
 - Do one thing every day that scares you. —ELEANOR ROOSEVELT 
@@ -294,7 +294,7 @@
 
 
 
-## Chapter 7: Time and Money 
+## CHAPTER 7: Time and Money 
 
 
 - LESSON: BEFORE BEGINNING A QUEST, COUNT THE COST.
@@ -353,7 +353,7 @@
 
 
 
-## Chapter 8: Life Listing 
+## CHAPTER 8: Life Listing 
 
 
 - LESSON: WE’RE MOTIVATED BY PROGRESS AND ACHIEVEMENT. IT FEELS GOOD TO CHECK THINGS OFF.
@@ -437,7 +437,7 @@
 
 
 
-## Chapter 9: Forward Motion 
+## CHAPTER 9: Forward Motion 
 
 
 - LESSON: “QUESTS ARE BORING. ALL YOU HAVE TO DO IS PUT ONE FOOT IN FRONT OF THE OTHER” 
@@ -459,7 +459,7 @@
 
 
 
-## Chapter 10: The Love of the Craft 
+## CHAPTER 10: The Love of the Craft 
 
 
 - LESSON: EFFORT CAN BE ITS OWN REWARD. Some people are motivated by achievement, others by process—but still others are motivated by a specific blend of both. These people are all about making things and sharing them with the world, over and over. Why create? Because you can.
@@ -484,7 +484,7 @@
 
 
 
-## Chapter 11: Joining Forces 
+## CHAPTER 11: Joining Forces 
 
 
 - In this world, there are things you can only do alone, and things you can only do with somebody else. It’s important to combine the two in just the right amount. —HARUKI MURAKAMI 
@@ -500,7 +500,7 @@
 
 
 
-## Chapter 12: Rebel for a Cause 
+## CHAPTER 12: Rebel for a Cause 
 
 
 - The most subversive people are those who ask questions. —JOSTEIN GAARDER 
@@ -516,7 +516,7 @@
 
 
 
-## Chapter 13: The Long Road 
+## CHAPTER 13: The Long Road 
 
 
 - LESSON: THE MIDDLE OF A QUEST CAN BE THE HARDEST PART. DON’T GIVE UP TOO SOON! 
@@ -547,7 +547,7 @@
 
 
 
-## Chapter 14: Misadventures 
+## CHAPTER 14: Misadventures 
 
 
 - LESSON: CHOOSE YOUR FAILURES, AND HAVE THE RIGHT KIND OF DISASTERS. 
@@ -572,7 +572,7 @@
 # PART 3 - DESTINATION 
 
 
-## Chapter 15: Transformation 
+## CHAPTER 15: Transformation 
 
 
 - When you have completed 95 percent of your journey, you are only halfway there. —JAPANESE PROVERB 
@@ -620,7 +620,7 @@
 - Remember Pursuing a quest can boost your confidence and establish your independence.   Those who pursue quests find themselves focusing more and expanding their vision as they go along. “I’m glad I did it” was the most common statement from people who’d completed a quest.
 
 
-## Chapter 16 Homecomings
+## CHAPTER 16 Homecomings
 
 
 - LESSON: MAKE A PLAN FOR THE NEXT STEP.
@@ -668,7 +668,7 @@
 - Remember Sometimes quests don’t tie up well. Sometimes it’s hard at the end. If it’s hard to explain the totality of a quest, focus on a few stories. The real world is what you make of it. After completing a quest, the next steps are up to you.
 
 
-## Chapter 17 Finale
+## CHAPTER 17 Finale
 
 
 - LESSON: THE END IS THE BEGINNING. 

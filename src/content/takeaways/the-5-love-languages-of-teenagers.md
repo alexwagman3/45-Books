@@ -14,7 +14,7 @@
 - I am not suggesting that parents do not love their teenagers; I am suggesting that thousands of teenagers do not feel that love. For most parents, it is not a matter of sincerity but rather lack of information on how to communicate love effectively on an emotional level.
 
 
-## Chapter 1: Understanding Today’s Teenagers
+## CHAPTER 1: Understanding Today’s Teenagers
 
 - From the early days of emerging teenage culture to its contemporary counterpart, the underlying themes have been the same: independence and self identity. Throughout the years, teenagers in our American society have been active in searching for their identity while trying to establish independence from their parents.
 
@@ -52,7 +52,7 @@
 - The good news is that contemporary teenagers are looking to parents for guidance. In a recent survey, teens reported that parents have more influence than peers do in the following areas: whether to attend college, whether to attend religious services, whether to do homework, and whether to drink. Parents also had an impact on the teens’ job or career plans. Friends had more influence on their decisions in terms of immediate issues such as whether or not to cut classes, who to date, hairstyles, and what kind of clothes they wore.
 
 
-## Chapter 2: The Key: Love from Parents
+## CHAPTER 2: The Key: Love from Parents
 
 - Deep within the soul of the teenager is the desire to feel connected, accepted, and nurtured by parents. When this happens, the teenager feels loved. When the teen does not feel connected, accepted, and nurtured, his inner emotional tank is empty, and that emptiness will greatly affect the behavior of the teen.
 
@@ -71,7 +71,7 @@
 - Nurturing parents have a positive attitude. I do not mean that they deny the realities of life, but they choose to see the hand of God behind the scenes of human events. They look for the sun behind the clouds and they communicate this spirit to their teenagers.
 
 
-## Chapter 3: Love Language #1 (Words of Affirmation)
+## CHAPTER 3: Love Language #1 (Words of Affirmation)
 
 - Parents who treat the teenager in the same manner in which they treated the child will not experience the same results they received earlier. When the teenager does not respond as the child responded, the parents are now pushed to try something different. Without proper training, parents almost always revert to efforts at coercion, which often lead to arguments, loss of temper, and perhaps verbal abuse. Such behavior is emotionally devastating to the teenager whose primary love language is words of affirmation. The parents’ efforts to verbally argue the teenager into submission are in reality pushing the teenager toward rebellion.
 
@@ -103,7 +103,7 @@
 - Talk about a goal your teenager would like to reach and verbally encourage them to explore it. • Put a sticky note with some encouraging words on the cereal box they will see in the morning. • Make a habit of mentioning something specific you’ve observed that highlights your teenager’s accomplishments. Examples include, “I really enjoyed the way you picked up your clothes without my asking you,” or “I appreciate that you worked so hard to finish your paper for school on time.” • Ask what your teenager wants to do after high school. If your daughter says, “I want to work as a physical therapist, helping people recover from difficult injuries,” verbally encourage her to find what would be involved in reaching this goal. • Copy or cut out inspirational quotes as you find them in publications and simply attach a note that says, “This really reminded me of you.” • If you are artistic, create a painting or drawing that shows how much you love your teenager. • Take a favorite piece of artwork or special note from your teenager to be professionally framed. Then hang it in your home or office. • When you have to be out of town for work or other reasons, leave a series of short notes for your teenager, one for each day you are apart. • Text your teenager whenever you think of them just to say, “I love you.” • Place their trophies, best school papers, and other standout works in areas they recognize as important to you such as the refrigerator, the office, or a special scrapbook. • When your teenager is feeling down, share five reasons why you are proud of them. • Keep a picture keychain (or pictures on your phone) with current pictures of your teenager and talk about them with your friends, especially when your teenager is around. • Create an encouragement jar that you and your teenager can use to drop in notes of praise and read together on a regular basis. • When a teenager makes a mistake trying to do something helpful, first use words to recognize that you knew of their good intentions.
 
 
-## Chapter 4: Love Language #2 (Physical Touch)
+## CHAPTER 4: Love Language #2 (Physical Touch)
 
 - One such occasion is when your teenager has succeeded in a major accomplishment. It may be any number of occasions: a victory on the athletic field, a successful piano recital, an exceptionally well executed dance performance, the completion of a major paper for school, the passing of an algebra exam, the securing of a driver’s license. These are the times when teenagers are usually open to loving physical touch from parents.
 
@@ -121,7 +121,7 @@
 - • Hold hands during family prayers. • Develop a unique handshake or greeting that is only used between you and your teenager. Use it regularly when you say goodbye or meet after being apart. • If your teenager is under stress, gently stroke their head to relax them as your son or daughter tells you about their situation. • Hug and kiss your teenager every day when they leave for school for as long as they will let you, but be sensitive to their resistance, especially when in public. • Shortly after disciplining your teenager, take a moment to give them a hug to show them the discipline was a consequence of their wrong choice and not against them as a person. • Give each other a high five or similar congratulations whenever you catch your teenager doing something positive. • Purchase a gift for your teenager that is touch oriented, such as a soft pillow, blanket, or sweater. • Play games or sports together that require physical touch. This will allow both shared time together as well as touch that is meaningful without appearing forced. • Offer to give your teenager a shoulder massage when they experience an especially difficult day. • For father and son, playful wrestling can often express love, but only if this is an activity enjoyed by the teenager. • Provide a positive “pat on the back” as a way of communicating love when your teenager accomplishes something significant. (This can also often be helpful when your teenager has not accomplished a goal. Strive to be unconditional in offering love.) • If you see your teenager already in bed, walk in and pull their blankets up around them.
 
 
-## Chapter 5: Love Language #3 (Quality Time)
+## CHAPTER 5: Love Language #3 (Quality Time)
 
 - Real, quality time means giving the teenager your undivided attention. Nothing else matters in those moments.
 
@@ -195,7 +195,7 @@
 - The biggest commitment in showing love to a teenager desiring quality time is a commitment to change your personal schedule. Sometimes talking together in the car after school or practice to discuss the day is all that is needed, but here are several more creative ideas for your times together. • Ask very specific questions about your teenager’s day that require more than a “yes” or “no” answer. • Stop what you are doing to make eye contact with your teenager as they tell you something important. • Have your teenager record special events on her phone. Then watch the video together to see what memories she captured. • Have your teenager tell you of places they would like to go and why. Then surprise them occasionally by letting them choose one or arranging it for them ahead of time. • Turn off your television show to watch your teenager’s favorite show with them. • If your teenager is driving, take a road trip together to a location of their choosing. • Cook something together for a snack, such as cookies or brownies. • Find silly things to laugh about and laugh about them a lot. • Make a snack for yourself when you make one for your teenager. Then talk about their day together as you eat. • If you have more than one child, arrange for care of the others and take your teenager out for a quick breakfast before school or for a smoothie after school. • Go a few minutes early to pick up your teenager from hockey practice or Student Council. Stay late talking together about his involvement and get to know others involved in the group or on the team, such as teammates, coaches, or teachers. Tell the coach or teacher you appreciate his hard work. • If your family is musically talented, sing or play instruments together at home instead of watching television. Even better, choose a specific time each week and make it a tradition. • Keep your scheduled times with your teenager on your device and make those dates high priority. • Surprise your teenager with tickets or a trip to a special place. A camping trip, basketball game, or trip to the mall can build lifelong memories. Take pictures of the event to further strengthen this surprise. • If possible, take your teenager to your workplace one day. Introduce your teenager to your coworkers, include them in your meetings, and talk about what it’s like to serve in your particular company. • Create “traditions” with your teenager, such as eating ice cream at the same store each time or walking together at a particular park. • Choose one or two board games or card games that you regularly play together. • Focus family vacations to include significant time being together versus a trip focused on divided parent and teenager activities. • Occasionally take family walks or bike rides together. Seek opportunities to spend time together that also include exercise. • Share more meals together as a family at the table. Make dinnertime a special occasion with lots of pleasant talk about the day. Family prayer can also strengthen this practice. Don't give up "tucking in" your teenager at night. You may no longer read bedtime stories, but you can still talk about the day or pray together. Spend time doing homework together. This both improves their grades and creates additional quality time (you might also learn something new). Plant something together. For those with outdoor oriented teenagers, time together in a flower garden, planting summer vegetables, or landscaping the yard can create lifelong positive memories. Make photo albums or a scrapbook together  either in a book or on your computer. Talk together about the memories you shared in the process.
 
 
-## Chapter 6: Love Language #4 (Acts of Service)
+## CHAPTER 6: Love Language #4 (Acts of Service)
 
 - Parents sometimes ask, “If I continue with acts of service to my teenager, how will he learn to do things for himself and how will he learn to serve others?” The answer to that question is found in modeling and guiding. We model unconditional love when we do things for the teenager that we know they would like for us to do so long as we believe these actions are good for the teenager. However, we must choose these acts of service wisely. Otherwise, we create a dependent teenager who takes but never learns to give. For example, cooking a meal is an act of service, but teaching a teenager how to cook a meal is an even greater act of service.
 
@@ -211,7 +211,7 @@
 - Acknowledge your teenager’s uniqueness by shopping together for new paint colors for their room and helping them paint it. • Help your teenager practice for their sports team, such as pitch and catch for baseball, or help rebounding free throws for teenagers participating in basketball. • Assist your teenager on a tough homework assignment. • Make a favorite snack when your teenager is having a difficult day. • Do a chore that usually is your teen’s responsibility when they’re especially loaded with homework or have tests coming up. • Occasionally wake up a half hour earlier to make a special surprise breakfast for your teenager. (Make sure she has time!) • Begin teaching your teenager the importance of serving others through regular involvement in a local community group or church ministry. For the independent teenager, allow them to research different opportunities and select the place of service. • When running late for school or other meeting, help your teenager quickly finish what needs to be done so they can arrive on time. • During a time when your teenager is sick, go the extra step by setting up their favorite movie or making their favorite soup. • Connect your teenager with one of your friends or family members who can help them in an area of interest such as dance lessons, soccer, or piano playing. • Choose one special area in which you determine to always serve your teenager above and beyond normal expectations. Examples could include making sure school lunch is always made or making a favorite dessert on a regular basis. • Start a “birthday dinner” tradition where you make your teenager any meal they want on their birthday. • Help your teenager create flash cards for their upcoming test or quiz. Work together with your teenager until they feel confident with the material. • If your teenager calls you at work and is in a crisis, sacrifice more time than usual to listen to their situation.
 
 
-## Chapter 7: Love Language #5 (Gifts)
+## CHAPTER 7: Love Language #5 (Gifts)
 
 - The purpose of gift giving is not simply to get an object from one person’s possession to another. The purpose is to express emotional love. We want the person to sense deeply, “I care about you, I think you are important, I love you.” These emotional messages are enhanced when attention is given to the ceremony accompanying the passing of the gift. Parents of teenagers will do well to remember this. When we diminish the ceremony, we diminish the emotional power of the gift. Johnny requests a pair of basketball shoes. Mom or Dad drives Johnny to the mall and buys the shoes. Johnny wears them as he leaves the store, and that’s that. No ceremony at all. Many teenagers have become accustomed to this procedure. Such gifts communicate little emotional love. If all gifts are given in this manner, it creates an entitlement mentality in the teenager’s mind: I’m a teenager. My parents owe it to me to get me whatever I want. There is little appreciation on the part of the teenager and the gift has little emotional meaning. However, if the shoes are taken home, wrapped creatively, presented in the presence of other family members as an expression of love, and accompanied by words of affirmation and physical touch, then the gift suddenly becomes a strong vehicle of emotional love.
 
@@ -225,7 +225,7 @@
 - Select presents that fit the interests of your teenager, choosing gifts that are perceived as appropriate by your teenager. • When on a shopping trip, give your teenager a set “allowance” that you will pay toward an item they select. • Keep a small collection of inexpensive gifts packed away for your teenager. Then give them one at a time as you sense there is a need. • Carry candy or gum you can give away as a small gift when away from home. • Make a special meal you know your teenager likes, go to a special restaurant, or make their favorite dessert. • Start a collection of unique gift boxes and wrapping papers that can be used to package even the most simple of presents. • When away from home, mail a small package to your teenager with their name on it in large letters. • Keep a “gift bag” of small, inexpensive gifts your teenager can choose from as a reward for doing something positive. These gifts can also include “coupons” for special privileges, like allowing three friends to stay over that weekend or choosing where the family eats the next time you go out. • Give your teenager a “song,” either one you make up or a special song you select that reminds you of them. • Create a scavenger hunt for a gift that includes a map and clues along the way to the main surprise. • Hide a small gift in your teenager’s coat pocket with an encouraging note attached. • If you are away from your teenager a few days, leave a small package for each day with a special gift and note reminding how much you love them. • Instead of spending money on a larger gift for a birthday, host a large birthday party with their friends, encouraging each person to bring a gift or card. • Consider a gift that lasts, such as a tree you can plant together, a board game you can play together in the future, or a picture they can hang in their room. • Buy a ring or necklace for your teenager to wear that is just from you. • For a birthday or Christmas, shop together for a special gift that includes your teenager’s opinion in the process. This special gift plus personal involvement in the decision can create a highly meaningful gift. • During the Christmas holiday season, shop together to purchase a gift for someone in need, partnering with Angel Tree, The Salvation Army, or a similar organization. • Give hints leading toward a special upcoming gift. A “countdown” of notes such as, “Only four more days until present day,” help create huge anticipation and a tremendous amount of love for those who especially enjoy receiving gifts. • Send flowers or candy to be delivered at school with a note that recognizes an academic or extracurricular achievement.
 
 
-## Chapter 8: Discover Your Teenager’s Primary Love Language
+## CHAPTER 8: Discover Your Teenager’s Primary Love Language
 
 - When a person is receiving enough of his primary love language, the secondary love language then becomes more important.
 
@@ -242,7 +242,7 @@
 - Another experiment is to give the teen choices between two options and keep a record of what they choose. For example, a father says to his thirteen year old son, “I have two hours free this afternoon. Would you like to fly your new kite together or go to the store for batteries for your new camera?” The choice is between a gift and quality time. The father does what the son chooses and keeps a record as to whether he chose the gift or quality time.
 
 
-## Chapter 9: Anger and Teenagers
+## CHAPTER 9: Anger and Teenagers
 
 - Why am I angry? What wrong has the other person committed? Am I judging their behavior without having all the facts? Do I really know their motive? Has my teen misbehaved or am I being overly sensitive? Are my expectations too high for the developmental level of my teen?
 
@@ -255,7 +255,7 @@
 - For the parent, this means becoming a teenager for a moment, remembering the insecurities, the mood shifts, the desire for independence and self identity, the importance of being accepted by peers, and the desperate need for love and understanding from parents. The parent who does not seek to have empathy with his teen will have difficulty affirming the teenager’s feelings of anger.
 
 
-## Chapter 10: Loving Your Teen in Single Parent and Blended Families
+## CHAPTER 10: Loving Your Teen in Single Parent and Blended Families
 
 - The important issue for the custodial parent is to focus on the teenager’s emotions, not the teenager’s behavior. This is exactly the opposite of what we typically do.
 
@@ -272,7 +272,7 @@
 - Teenagers learn responsibility when consequences are enforced.
 
 
-## Chapter 11: Love and the Desire for Independence
+## CHAPTER 11: Love and the Desire for Independence
 
 - Our goal is to encourage the teenager’s independence while at the same time meeting the teen’s need for love.
 
@@ -309,7 +309,7 @@
 - If the parent recognizes this right to independent thought and is willing to invest the time and create the atmosphere for meaningful dialogue in a loving setting, the teenager will continue to be “plugged in” to parental influence. If, however, parents draw lines in the sand, make dogmatic proclamations about what teenagers are going to believe and do, the parents will create adversarial relationships with their teens.
 
 
-## Chapter 12: Love and the Need for Responsibility
+## CHAPTER 12: Love and the Need for Responsibility
 
 - Adults are allowed the freedom of living in a house as long as they take the responsibility of paying the monthly mortgage payments. The electric company allows freedom to have the lights on as long as the customer takes the responsibility of paying the monthly bill. All of life is organized around the principles of freedom and responsibility. The two never stray far from each other. Of course, it is a major part of parenting to help the teenager make this discovery.
 
@@ -410,7 +410,7 @@
 - Consequences for violation should be stringent. It should be pointed out to the teenager that illegal drugs are in violation of state and federal laws. If the teenager is found in possession of illegal drugs, he may suffer not only parental consequences but also judicial consequences. One parent suggested that the first offense would remove driving privileges for one month. The second offense, three months. The third offense, the car that had been purchased by the parent would be sold and never replaced by the parent.
 
 
-## Chapter 13: Loving When Your Teen Fails
+## CHAPTER 13: Loving When Your Teen Fails
 
 - “Good parenting is doing the right thing when a child does the wrong thing.”
 

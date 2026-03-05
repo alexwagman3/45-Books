@@ -34,7 +34,7 @@
 - Exercise has a profound impact on cognitive abilities and mental health. It is simply one of the best treatments we have for most psychiatric problems.
 
 
-# Chapter 1: Welcome to the Revolution (A Case Study on Exercise and the Brain)
+# CHAPTER 1: Welcome to the Revolution (A Case Study on Exercise and the Brain)
 
 
 - And so are her Zero Hour classmates: at the end of the semester, they’ll show a 17 percent improvement in reading and comprehension, compared with a 10.7 percent improvement among the other literacy students who opted to sleep in and take standard phys ed. The administration is so impressed that it incorporates Zero Hour into the high school curriculum as a first-period literacy class called Learning Readiness PE. And the experiment continues. The literacy students are split into two classes: one second period, when they’re still feeling the effects of the exercise, and one eighth period. As expected, the second-period literacy class performs best.
@@ -46,7 +46,7 @@
 - “One of the things that too many people forget is that you have to find something that allows a student to feel comfortable at excelling.”
 
 
-# Chapter 2: Learning (Grow Your Brain Cells)
+# CHAPTER 2: Learning (Grow Your Brain Cells)
 
 
 - What allows us to absorb the material is where the revolutionary new science comes into play. In addition to priming our state of mind, exercise influences learning directly, at the cellular level, improving the brain’s potential to log in and process new information. Darwin taught us that learning is the survival mechanism we use to adapt to constantly changing environments. Inside the microenvironment of the brain, that means forging new connections between cells to relay information. When we learn something, whether it’s a French word or a salsa step, cells morph in order to encode that information; the memory physically becomes part of the brain.
@@ -118,7 +118,7 @@
 - The same would hold true for learning tango. The fact that you have to react to another person puts further demands on your attention, judgment, and precision of movement, exponentially increasing the complexity of the situation. Add in the fun and social aspect, and you’re activating the brain and the muscles all the way down through the system.
 
 
-# Chapter 3: Stress (The Greatest Challenge)
+# CHAPTER 3: Stress (The Greatest Challenge)
 
 
 - Neurons get broken down and built up just like muscles—stressing them makes them more resilient. This is how exercise forces the body and mind to adapt.
@@ -175,7 +175,7 @@
 - In recent years, doctors have started recommending exercise for cancer patients, both to help boost the immune response and to fend off stress and depression. Nobody says exercise cures cancer, but research suggests that activity is clearly a factor in some forms of the disease: twenty-three of thirty-five studies show an increased risk of breast cancer for those women who are inactive; physically active people have 50 percent less chance of developing colon cancer; and active men over sixty-five have a 70 percent lower chance of developing the advanced, typically fatal form of prostate cancer. It all comes back to the evolutionary paradox that even though it’s much easier to survive in the modern world, we experience more stress. The fact that we’re much less active than our ancestors were only exacerbates matters. Just keep in mind that the more stress you have, the more your body needs to move to keep your brain running smoothly.
 
 
-# Chapter 4: Anxiety (Nothing to Panic About)
+# CHAPTER 4: Anxiety (Nothing to Panic About)
 
 
 - When you’re facing an upcoming speech or a brewing confrontation with your boss, anxiety sharpens your attention so you can meet the challenge. The physical symptoms range from feeling tense, jittery, and short of breath to experiencing a racing heart, sweating, and, in the case of full-blown panic attacks, severe chest pains. Emotionally, what you feel is fear.
@@ -226,7 +226,7 @@
 - A lot of people who are treated for panic disorder can go on to have a completely different kind of life. The farther they get from their last panic episode, the less likely they are to have another panic episode. The same holds true for any brand and any degree of anxiety. The more your life changes, the more you engage with the world, the more likely you are to put the anxiety behind you for good.
 
 
-# Chapter 5: Depression (Move Your Mood)
+# CHAPTER 5: Depression (Move Your Mood)
 
 
 - Overall, I think of depression as an erosion of connections—in your life as well as between your brain cells.
@@ -283,7 +283,7 @@
 - It’s a process, and the best strategy is to take it one step—and then one stride—at a time. Start slowly and build on it. At its core, depression is defined by an absence of moving toward anything, and exercise is the way to divert those negative signals and trick the brain into coming out of hibernation.
 
 
-# Chapter 6: Attention Deficit (Running from Distraction)
+# CHAPTER 6: Attention Deficit (Running from Distraction)
 
 
 - While it’s true that people with ADHD “just need to get motivated,” it’s also true that, like every other aspect of our psychology, motivation is biological. What about the child who can’t pay attention in class but can sit perfectly still for hours playing a video game? Or the woman who “spaces out” when her husband is talking but has no trouble focusing on magazine gossip about Brad and Angelina? Obviously, they can pay attention when they want to, right? Not exactly. If we were to look at functional MRI (fMRI) scans of the brains of these people—and scientists have—we would see distinct differences in activity at the reward center in each situation. The reward center is a cluster of dopamine neurons called the nucleus accumbens, which is responsible for doling out pleasure or satisfaction signals to the prefrontal cortex, and thus providing the necessary drive or motivation to focus. The sort of stimulation that will activate the reward center enough to capture the brain’s attention varies from person to person. 
@@ -338,7 +338,7 @@
 
 
 - I tell my patients they need to develop militant vigilance in terms of scheduling and structure. If you set up your environment in a certain way, you can corral your attention through your own actions and become more productive. Arrange your day and your surroundings in a way that encourages focus and accomplishment. 
-# Chapter 7: Addiction (Reclaiming the Biology of Self-Control)
+# CHAPTER 7: Addiction (Reclaiming the Biology of Self-Control)
 
 
 - Scientists are now characterizing behavior such as gambling, compulsive shopping, and even overeating in the same biological terms they use to explain substance abuse. The common denominator is an out-of-control reward system, which some people are born with and some people develop.
@@ -377,7 +377,7 @@
 - If you haven’t been in the habit of exercising, it can be helpful to join a gym or hire a personal trainer, because spending the money is a strong motivator. If you have an addiction to food, try a quick walk around the block or a few minutes with a jump rope or even a set of thirty jumping jacks—anything to snap your mind out of the cycle of thinking about the reward.
 
 
-# Chapter 8: Hormonal Changes (The Impact on Women’s Brain Health)
+# CHAPTER 8: Hormonal Changes (The Impact on Women’s Brain Health)
 
 
 - “The week before my period I have to do an hour of cardio four days a week or I can’t stand myself.”
@@ -401,7 +401,7 @@
 - The advice that surprises people the most, I think, is that it’s important to keep up exercise during pregnancy, a recommendation that has finally been endorsed by the American College of Obstetricians and Gynecologists. Its guidelines specify thirty minutes of moderate-intensity aerobic activity every day during pregnancy for healthy women. Obviously, it’s important to get clearance directly from your obstetrician, but it’s safe for most women. Likewise, I can’t stress enough the importance of picking up your routine as soon as possible after the baby is born, ideally within a few weeks. Although it seems contradictory, moving will actually reduce fatigue. And for women like my patient Stacy, it melts away anxiety and depression. When women are younger, one of the big motivations to exercise is to stay trim, and that’s fine. Use whatever gets you going. But the message I want to leave you with is that even as your body changes, exercise will keep your mind firm and taught. And in this state of mental fitness, you’ll be well equipped to handle the hormonal fluctuations that every woman experiences throughout her life.
 
 
-# Chapter 9: Aging (The Wise Way)
+# CHAPTER 9: Aging (The Wise Way)
 
 
 - The average seventy-five-year-old suffers from three chronic medical conditions and takes five prescription medicines, according to the Centers for Disease Control (CDC). Among those over sixty-five, most suffer from hypertension; more than two-thirds are overweight; and nearly 20 percent have diabetes (which triples the chance of developing heart disease). The leading killers are heart disease, cancer, and stroke; together they account for 61 percent of all deaths in this age group. We already know that smoking, inactivity, and eating poorly are root causes of these bodily diseases. Likewise, the latest research is clear about how lifestyle influences the mental hazards that come with aging. The same things that kill the body kill the brain, which neuroscientist Mark Mattson, of the National Institute on Aging, sees as a positive. “I think the good news—if we take it seriously—is that many of the same factors that can reduce our risk for cardiovascular disease and diabetes also reduce the risk for age-related neurodegenerative disorders,” he says. The measures we would take to guard against diabetes, for example, also balance insulin levels in the brain and shore up neurons against metabolic stress. Running to lower our blood pressure and strengthen our heart also keeps the capillaries in the brain from collapsing or corroding and causing a stroke. Lifting weights to prevent osteoporosis from devouring our bones releases growth factors that make dendrites bloom. Conversely, taking omega-3 fatty acids for mental acuity strengthens our bones. The mental and physical diseases we face in old age are tied together through the cardiovascular system and metabolic system. A failure of these underlying connections explains why people who are obese are twice as likely to suffer from dementia, and why those with heart disease are at far greater risk of developing Alzheimer’s, the most common form of dementia.
@@ -489,7 +489,7 @@
 - Volunteering is beneficial because it involves social contact, which is inherently challenging for the brain. Anything that keeps you in contact with other people helps you live better and longer—statistics show a tight inverse relationship between sociability and mortality. Novel experiences demand more from your brain, and this builds its ability to compensate. You get more Miracle-Gro, more connections, more neurons, and more possibilities.
 
 
-# Chapter 10: The Regimen (Build Your Brain)
+# CHAPTER 10: The Regimen (Build Your Brain)
 
 
 - The point I’ve tried to make—that exercise is the single most powerful tool you have to optimize your brain function—is based on evidence I’ve gathered from hundreds and hundreds of research papers, most of them published only within the past decade.

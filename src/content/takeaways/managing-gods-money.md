@@ -24,7 +24,7 @@
 # Section 1: Money and Possessions 
 
 
-## Chapter 1: Starting Right (A Biblical Mind-Set about Money)
+## CHAPTER 1: Starting Right (A Biblical Mind-Set about Money)
 
 
 - Many who say, “I have nothing to give,” spend large amounts of discretionary income on cars, clothes, coffee, entertainment, phones, computers, and so on. They have nothing to give when they’re done spending, precisely because they’re never done spending. Then, when they run out of money, they think it’s because they didn’t have enough.
@@ -60,7 +60,7 @@
 - According to Romans 14:12, “Each of us will give a personal account to God.” One day we will all have to answer these and other questions: What did I do with all that wealth? What has my handling of money and possessions accomplished for eternity?
 
 
-## Chapter 2: Ownership (It All Belongs to God)
+## CHAPTER 2: Ownership (It All Belongs to God)
 
 
 - A distraught man frantically rode his horse up to John Wesley, shouting, “Mr. Wesley, Mr. Wesley, something terrible has happened! Your house has burned to the ground!” Weighing the news for the moment, Wesley replied, “No. The Lord’s house burned to the ground. That means one less responsibility for me.” We might say, “Get real,” but Wesley’s reaction didn’t stem from a denial of reality. Rather, it sprang from life’s most basic reality—that God is the owner of all things, and we are simply his stewards.
@@ -84,7 +84,7 @@
 - If I’m God’s money manager, I’m not God. Money isn’t God. God is God. So God, money, and I are each put in our rightful place.
 
 
-## Chapter 3: Stewardship (It’s under Our Management)
+## CHAPTER 3: Stewardship (It’s under Our Management)
 
 
 - In this parable, Jesus doesn’t tell us to stay away from “worldly wealth” but to use it strategically. He says to use it “to gain friends for yourselves, so that when it is gone, you will be welcomed into eternal dwellings” (Luke 16:9).
@@ -114,7 +114,7 @@
 # Section 2: Perspectives That Impede Faithful Money Management
 
 
-## Chapter 4: “Money Is Bad” (A False Spirituality)
+## CHAPTER 4: “Money Is Bad” (A False Spirituality)
 
 
 - Two equally incorrect beliefs about money are that it is always evil and that it is always good. But doesn’t the Bible say that “money is the root of all evil”? No, it does not. What it says is this: “The love of money is the root of all kinds of evil” (1 Timothy 6:10).
@@ -129,7 +129,7 @@
 - Generating income is a necessary and God-ordained part of life in the present world and is therefore not unspiritual. We should commend those who choose to live simply or strategically so that a larger portion of their income helps the needy. But we should neither disdain income production nor withdraw from “the system,” as if economics were sinful. If we do, we’ll end up contributing to poverty rather than alleviating it. We must all battle materialism—not by withdrawing from society, but by serving God faithfully within it.
 
 
-## Chapter 5: “It’s All about Money” (The False God of Materialism)
+## CHAPTER 5: “It’s All about Money” (The False God of Materialism)
 
 
 - God created us to love people and use things, but materialists love things and use people.
@@ -144,7 +144,7 @@
 - Don’t be greedy, for a greedy person is an idolater, worshiping the things of this world” (Colossians 3:5). Greed surfaces in possessiveness and covetousness. Possessiveness relates to what we have, being selfish with what we own, not quick to share. Covetousness relates to what we want—longing for and being preoccupied with having what God hasn’t given us, having a passion to possess what is not ours. It takes time to hover over our things, and that time must come from elsewhere—time we might spend cultivating intimacy with God, time in his Word and in prayer, time with family, time visiting the needy, time with people who need Christ. Every item I add to my possessions is one more thing to think about, talk about, clean, repair, display, rearrange, and replace when it goes bad.
 
 
-## Chapter 6: Materialism (Ten Fatal Dangers)
+## CHAPTER 6: Materialism (Ten Fatal Dangers)
 
 
 - Materialism blinds us to our spiritual poverty. It’s a fruitless attempt to find meaning outside of God, the Source of all life and the giver of all good gifts.
@@ -180,7 +180,7 @@
 - After all, those who indulge their material appetites are not likely to curb their sexual appetites.
 
 
-## Chapter 7: Battling Materialism in Christian Families
+## CHAPTER 7: Battling Materialism in Christian Families
 
 
 - For Christians to choose not to provide for their children or truly needy relatives is to deny the faith and become worse than an unbeliever (1 Timothy 5:8, 16). Likewise, it’s the responsibility of grown children, not the state or an insurance company, to take care of their parents and other relatives in their old age or illness.
@@ -198,7 +198,7 @@
 - Our children will not remember what we did for them nearly as much as they’ll remember what we did with them.
 
 
-## Chapter 8: Rethinking Prosperity Theology (Hint: God Is Not Our Genie)
+## CHAPTER 8: Rethinking Prosperity Theology (Hint: God Is Not Our Genie)
 
 
 - God blesses you who are poor, for the Kingdom of God is yours. God blesses you who are hungry now, for you will be satisfied. God blesses you who weep now, for in due time you will laugh. What blessings await you when people hate you and exclude you and mock you and curse you as evil because you follow the Son of Man. When that happens, be happy! Yes, leap for joy! For a great reward awaits you in heaven. And remember, their ancestors treated the ancient prophets that same way. What sorrow awaits you who are rich, for you have your only happiness now. What sorrow awaits you who are fat and prosperous now, for a time of awful hunger awaits you. What sorrow awaits you who laugh now, for your laughing will turn to mourning and sorrow. What sorrow awaits you who are praised by the crowds, for their ancestors also praised false prophets. (Luke 6:20-26)
@@ -219,7 +219,7 @@
 # Section 3: Our Stewardship in Eternity’s Light
 
 
-## Chapter 9: Two Treasuries, Two Perspectives, Two Masters (Choosing between Two Kingdoms)
+## CHAPTER 9: Two Treasuries, Two Perspectives, Two Masters (Choosing between Two Kingdoms)
 
 
 - Only when we look at our lives with an eternal perspective will we be able to make eternally wise, countercultural choices that may not be easy today but will pay off in the long tomorrow.
@@ -258,7 +258,7 @@
 - “He is no fool who gives what he cannot keep to gain what he cannot lose.”
 
 
-## Chapter 10: God’s Steward’s Eternal Destiny (Heaven)
+## CHAPTER 10: God’s Steward’s Eternal Destiny (Heaven)
 
 
 - Since you have been raised to new life with Christ, set your sights on the realities of heaven, where Christ sits in the place of honor at God’s right hand. (Colossians 3:1-4).
@@ -267,7 +267,7 @@
 - After entering Heaven, the martyrs look down on Earth and clearly remember their lives, fully aware of what’s happening there. When the Lamb broke the fifth seal, I saw under the altar the souls of all who had been martyred for the word of God and for being faithful in their testimony. They shouted to the Lord and said, “O Sovereign Lord, holy and true, how long before you judge the people who belong to this world and avenge our blood for what they have done to us?” Then a white robe was given to each of them. And they were told to rest a little longer until the full number of their brothers and sisters—their fellow servants of Jesus who were to be martyred—had joined them. (Revelation 6:9-11)
 
 
-## Chapter 11: God’s Steward’s Eternal Rewards
+## CHAPTER 11: God’s Steward’s Eternal Rewards
 
 
 - Suppose years ago, when my daughters were teenagers, I told them, “If you put in a full day of yard work Saturday, I’ll pay you sixty dollars and take you out to a nice dinner.” Would they be wrong to want to receive that sixty dollars? Would they be wrong to look forward to going out to a nice dinner with their dad? Of course not! I’m their father, I made the offer, and I want them to desire those rewards! Now, it would be inappropriate if my daughters refused to work unless and until I offered them rewards. But that’s not the case—rewarding them was my idea, not theirs. In fact, my own joy would be lessened if they didn’t want the rewards I offered them—particularly that special dinner together. “But God doesn’t owe us anything,” people argue. “He has the right to expect us to work for him with no thought of reward.” True, we should be willing and happy to serve him even without compensation. Jesus addresses this when he says, “So you also, when you have done everything you were told to do, should say, ‘We are unworthy servants; we have only done our duty’” (Luke 17:10). But what turns this debate on its head is one simple fact—it wasn’t our idea that God reward us. It was his idea!
@@ -279,7 +279,7 @@
 # Section 4: Giving and Sharing God’s Money and Possessions
 
 
-## Chapter 12: Tithing (The Training Wheels of Giving)
+## CHAPTER 12: Tithing (The Training Wheels of Giving)
 
 
 - New Testament giving goes far beyond tithing (something that people holding both extreme positions fail to recognize). However, the principle of tithing was ingrained in the beliefs and lifestyles of the early Christians, most of whom grew up in Jewish homes.
@@ -318,7 +318,7 @@
 - Gross is the total amount God provides; net is what is left after taxes and other deductions. Some say that money we don’t see is not true income. But are we not the beneficiaries of taxes and insurance and other withholdings from our paychecks?
 
 
-## Chapter 13: Freewill Giving (Overflow of the Grace-Filled Heart)
+## CHAPTER 13: Freewill Giving (Overflow of the Grace-Filled Heart)
 
 
 - In a passage about financial giving to the needy, Paul says, “For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sakes he became poor, so that you through his poverty might become rich” (2 Corinthians 8:9).
@@ -357,7 +357,7 @@
 - Generous giving isn’t meant to become a badge, something done for recognition or feeding pride. An incident in the early church makes this painfully clear. A man named Barnabas sold a field and brought all the money to the apostles for the church to use. Perhaps he was praised for it. In any case, Ananias and Sapphira also sold a piece of property. They decided to keep some of the money for themselves. That was their right, but when they brought the money to the apostles, they claimed it to be the entire amount of the sale. Presumably they were hoping to be praised. But they did not get what they hoped for: Now a man named Ananias, together with his wife Sapphira, also sold a piece of property. With his wife’s full knowledge he kept back part of the money for himself, but brought the rest and put it at the apostles’ feet. Then Peter said, “Ananias, how is it that Satan has so filled your heart that you have lied to the Holy Spirit and have kept for yourself some of the money you received for the land? Didn’t it belong to you before it was sold? . . . You have not lied to men but to God.” When Ananias heard this, he fell down and died. . . . Three hours later his wife came in, not knowing what had happened. Peter asked her, “Tell me, is this the price you and Ananias got for the land?” “Yes,” she said, “that is the price.” Peter said to her, “How could you agree to test the Spirit of the Lord? Look! The feet of the men who buried your husband are at the door, and they will carry you out also.” Then the young men came in and, finding her dead, carried her out and buried her beside her husband. (Acts 5:1-10)
 
 
-## Chapter 14: Helping the Poor and Spreading the Gospel (Supporting God’s Work with God’s Wealth)
+## CHAPTER 14: Helping the Poor and Spreading the Gospel (Supporting God’s Work with God’s Wealth)
 
 
 - All the nations will be gathered in his presence, and he will separate the people as a shepherd separates the sheep from the goats. He will place the sheep at his right hand and the goats at his left. Then the King will say to those on his right, “Come, you who are blessed by my Father, inherit the Kingdom prepared for you from the creation of the world. For I was hungry, and you fed me. I was thirsty, and you gave me a drink. I was a stranger, and you invited me into your home. I was naked, and you gave me clothing. I was sick, and you cared for me. I was in prison, and you visited me.” Then these righteous ones will reply, “Lord, when did we ever see you hungry and feed you? Or thirsty and give you something to drink? Or a stranger and show you hospitality? Or naked and give you clothing? When did we ever see you sick or in prison and visit you?” And the King will say, “I tell you the truth, when you did it to one of the least of these my brothers and sisters, you were doing it to me! Then the King will turn to those on the left and say, ‘Away with you, you cursed ones, into the eternal fire prepared for the devil and his demons. For I was hungry, and you didn’t feed me. I was thirsty, and you didn’t give me a drink. I was a stranger, and you didn’t invite me into your home. I was naked, and you didn’t give me clothing. I was sick and in prison, and you didn’t visit me.’ Then they will reply, ‘Lord, when did we ever see you hungry or thirsty or a stranger or naked or sick or in prison, and not help you?’ And he will answer, ‘I tell you the truth, when you refused to help the least of these my brothers and sisters, you were refusing to help me.’ And they will go away into eternal punishment, but the righteous will go into eternal life.” (Matthew 25:32-46)
@@ -408,7 +408,7 @@
 # Section 5: Wisely Handling God’s Money and Possessions
 
 
-## Chapter 15: Discipleship (Choosing a Strategic Lifestyle)
+## CHAPTER 15: Discipleship (Choosing a Strategic Lifestyle)
 
 
 - One day as Jesus was walking along the shore of the Sea of Galilee, he saw Simon and his brother Andrew throwing a net into the water, for they fished for a living. Jesus called out to them, “Come, follow me, and I will show you how to fish for people!” And they left their nets at once and followed him. A little farther up the shore Jesus saw Zebedee’s sons, James and John, in a boat repairing their nets. He called them at once, and they also followed him, leaving their father, Zebedee, in the boat with the hired men. (Mark 1:16-20)
@@ -438,7 +438,7 @@
 - I’m thankful that in the midst of his command that the rich be generous, Paul tells them to put their hope in God, “who richly gives us all we need for our enjoyment” (1 Timothy 6:17). Even in wartime, soldiers take leave when possible. Our battle lasts a lifetime, so I’m grateful to have recreational items, including a bicycle and a tennis racket. Our family spends money on vacations that aren’t “necessary” but serve to renew us. My wife and I sometimes go out to dinner, enriching our relationship. These things aren’t essential, yet they contribute to physical health and mental and emotional refreshment.
 
 
-## Chapter 16: Debt (Finding Freedom and Wisdom)
+## CHAPTER 16: Debt (Finding Freedom and Wisdom)
 
 
 - “Just as the rich rule the poor, so the borrower is servant to the lender” (Proverbs 22:7). But we’re told, “You were bought with a price; do not become slaves of human masters” (1 Corinthians 7:23). God says borrowers put themselves in servitude to lenders; then he tells us we should be slaves only to him, not men. Isn’t that a powerful warning against going into debt?
@@ -474,7 +474,7 @@
 - Why not discipline yourself not to buy unless you’ve wanted something over a period of time? Waiting eliminates most impulsive buying. I’ve found that many things which attract me today hold no interest three months later. Look at garage sales, and you get the picture. Setting a waiting period gives God the opportunity to provide what we want, to provide something different or better, or to show us that we don’t need it and should use the money differently.
 
 
-## Chapter 17: Questions and Answers about Debt
+## CHAPTER 17: Questions and Answers about Debt
 
 
 - Jesus told us what is more important than anything else: “You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the great and first commandment. And a second is like it: You shall love your neighbor as yourself” (Matthew 22:37-39). Accordingly, God says there is one debt to which all our money and possessions must be unreservedly committed, yet which we can never retire: “Owe nothing to anyone—except for your obligation to love one another. If you love your neighbor, you will fulfill the requirements of God’s law” (Romans 13:8). Our indebtedness to God is to be treated as indebtedness to others so that we keep both God and others in mind as we manage his money. In order to best fulfill that spiritual debt, we must free ourselves from the burdens that come with financial debt.
@@ -501,7 +501,7 @@
 - 1. Repent. Acknowledge that you’ve taken your cues from the world, not God. Change your mind and your actions regarding money, things, needs, wants, giving, saving, spending, and debt. 2. Immediately give God the first-fruits. When we give to God the first and best of our income, we say in effect to him, “I recognize your ownership and trust you to bless my obedience.” It’s self-contradictory to seek God’s blessing on your finances while putting yourself under his curse by withholding the tithe (and even the freewill offerings) he directs you to give. 3. Incur no new debts. Operate on this principle: “If I can’t afford it now, it isn’t God’s will now.” 4. Systematically eliminate existing debts. Prepare a realistic budget. Make a specific plan to get out of debt. Seek wise financial counsel. Liquidate unnecessary assets. It won’t happen overnight, but with a good plan and determination you can and will get out of debt. 5. Perform plastic surgery on your credit cards. If the card makes spending easier or you can’t pay the balance in full each month, cut it up. 6. Stop rationalizing your debt habit. Houses and cars are the strongest temptations for some, whereas furniture, clothing, or electronic equipment tempts others. Recognize your weakness, and don’t let it master you. When it comes to houses, remember this: The Carpenter of Nazareth is making the perfect home for you in Heaven (John 14:2-3). It’s not here and now; it’s then and there! Consider that God may want you to use his money here and now to send building materials ahead (Matthew 6:19-21). 7. List your debts and, if necessary, contact your creditors. Establish a schedule that’s workable within your budget to repay your creditors. By comparing the different interest rates on your debts, prioritize your debt reduction, then pay off most quickly those with the highest interest. 8. If you’ve done everything else and there still isn’t enough money, consider new ways to increase your income. (I’ve been assuming you are doing all you can to work for a living and earn a wage; if you aren’t, obviously, that’s where you should start.) Liquidate unnecessary assets, and use the funds to reduce debt.
 
 
-## Chapter 18: Preparing for the Future (Savings Accounts and Retirement Funds)
+## CHAPTER 18: Preparing for the Future (Savings Accounts and Retirement Funds)
 
 
 - Proverbs 21:20 says, “Fools spend whatever they get.”
@@ -555,7 +555,7 @@
 - Five minutes after we die, we’ll know exactly how we should have lived. But God has given us his Word so we don’t have to wait to die to find out. And he’s given us his Spirit to empower us to live that way now. In this light, ask yourself, “What will I one day wish I would have given away while I still had the chance?” When you come up with an answer, why not give it away now? Why not spend the rest of your life closing the gap between what you’ll wish you’d given and what you really are giving?
 
 
-## Chapter 19: Looking for Returns (Gambling and Investing)
+## CHAPTER 19: Looking for Returns (Gambling and Investing)
 
 
 - Many Christians don’t evaluate the source of their mutual funds’ income. This certainly isn’t easy when there are so many companies with so many names. Most Christians would think it was wrong to invest in Playboy magazine. But the Houston-based Internet company Telescan specializes in data retrieval tools that it uses in partnership with Playboy’s Web sites. Consider Paul’s words to two separate churches about being careful regarding partnerships: “Don’t team up with those who are unbelievers. How can righteousness be a partner with wickedness? How can light live with darkness? Take no part in the worthless deeds of evil and darkness; instead, expose them” (2 Corinthians 6:14; Ephesians 5:11).
@@ -564,7 +564,7 @@
 - Many people sincerely desire to make profitable investments now and give substantial amounts to God’s work later. I have often been asked, “Rather than give now, shouldn’t I hang on to the money, hoping my investments will do well and I’ll have more to give to God’s Kingdom in five or ten years?” In some cases this appears to have been wise. But my observation over many years is that countless good intentions are never realized. That leads me to say this: If you postpone giving, aren’t you postponing God’s blessing? If your heart goes where you put your treasure, are you putting your treasure on Earth, not Heaven? Shouldn’t you give now to be sure the money goes to God’s Kingdom? Considering the market may plummet, your heart my change, or you may die, by holding onto this money now, are you willing to risk that it will never end up where God wanted you to put it?
 
 
-## Chapter 20: Inheritance or Heritage (What to Leave Behind and What to Send Ahead)
+## CHAPTER 20: Inheritance or Heritage (What to Leave Behind and What to Send Ahead)
 
 
 - In Old Testament times, it was essential that parents pass land ownership to their children and grandchildren. Many people were too poor to buy land. With no inheritance, they would end up enslaved or unable to care for their parents and grandparents, who normally lived on the property with them. Hence they were told, “A good man leaves an inheritance for his children’s children” (Proverbs 13:22). What’s different about inheritances in our culture? Today in America and many other affluent countries, inheritances are usually windfalls coming to people who • live separately from their parents; • have regular sources of income generated by their own work, skills, saving, and investing; and • have far more than they need. Even if they are managing the family business, a windfall isn’t needed for them to continue.
@@ -591,7 +591,7 @@
 # Section 6: Passing the Baton of Wise Stewardship
 
 
-## Chapter 21: In the Family (Teaching Children How to Manage God’s Money and Possessions)
+## CHAPTER 21: In the Family (Teaching Children How to Manage God’s Money and Possessions)
 
 
 - Children shouldn’t always be paid for their chores. However, there are many “extras” that can legitimately be rewarded financially, and children can take on jobs outside the home as they grow older, including washing cars, mowing lawns, cleaning house, or babysitting.
@@ -630,7 +630,7 @@
 - Suppose your child wants a brand-new bicycle like his friends have. One way to teach him the cost of having nice things is to tell him that if he really wants it, you’ll loan him the money at the going rate of interest. Work out a payment schedule with him, showing him how much this bicycle will actually cost him and how long it will take to pay it off. At this point, he may back out of the deal. But if he doesn’t, let him go ahead. By the time he pays off the debt from miscellaneous chores — perhaps as much as six months down the road — he will never forget the cost of borrowing. 
 
 
-## Chapter 22: In the Church (Cultivating a Culture of Stewardship and Giving) 
+## CHAPTER 22: In the Church (Cultivating a Culture of Stewardship and Giving) 
 
 
 - Jesus told us never to give in order to be seen by others (Matthew 6:1). Yet maybe ten minutes earlier in the same sermon, he said, “You are the light of the world — like a city on a hilltop that cannot be hidden. No one lights a lamp and then puts it under a basket. Instead, a lamp is placed on a stand, where it gives light to everyone in the house. In the same way, let your good deeds shine out for all to see, so that everyone will praise your heavenly Father” (Matthew 5:14-16). Jesus commands us to let our good deeds shine so everyone can see them. Why? So everyone will praise God, not us! In other words, there is a way to talk about every good deed, including giving, that does not involve self-praise but instead brings praise to God and illumination and encouragement to others. 
