@@ -9,7 +9,7 @@
 - Lie #1: Financial Freedom Requires a BIG Salary
 
 
-- Lie #1 tells us we are destined to live paycheck-to-paycheck. This lie is easy for us to believe. Our minds play a trick on us. Let me explain. Imagine somebody making $50,000 a year their entire adult life. Even if they saved 10 percent a year ($5,000), how could they ever become a millionaire? If they worked for 45 years, they would have saved $225,000. Sure, they may have invested their money and made some interest, but it couldn’t possibly take them from $225,000 to $1 million. Or could it? Would you believe that it could take them to $3,421,620.11? That’s what our $50,000 a year earner would accumulate over their working years if they invested $5,000 a year (about $416 a month) and earned an average investment return.
+    - Lie #1 tells us we are destined to live paycheck-to-paycheck. This lie is easy for us to believe. Our minds play a trick on us. Let me explain. Imagine somebody making $50,000 a year their entire adult life. Even if they saved 10 percent a year ($5,000), how could they ever become a millionaire? If they worked for 45 years, they would have saved $225,000. Sure, they may have invested their money and made some interest, but it couldn’t possibly take them from $225,000 to $1 million. Or could it? Would you believe that it could take them to $3,421,620.11? That’s what our $50,000 a year earner would accumulate over their working years if they invested $5,000 a year (about $416 a month) and earned an average investment return.
 
 
 - Lie #2: Financial Freedom Takes 40 Years (or Longer) to Achieve
