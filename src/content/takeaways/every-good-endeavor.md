@@ -24,7 +24,7 @@
 - This book captures some foundational ways of thinking about God, Jesus, the Holy Spirit; who we are in relation to that Trinity; and how all this affects the work we were created to do. How we work—in the context of our particular culture, time in history, vocation, and organization—is something we all need to be thinking through in our own communities. But the answers will all hang on this essential theology: the knowledge of who God is, his relation to man, his plan for the world, and how the good news (or gospel) of Christ turns our lives and the way we work upside down.
 
 
-**INTRODUCTION: THE IMPORTANCE OF RECOVERING VOCATION**
+## INTRODUCTION: THE IMPORTANCE OF RECOVERING VOCATION
 
 
 - To make a real difference [there would have to be] a reappropriation of the idea of vocation or calling, a return in a new way to the idea of work as a contribution to the good of all and not merely as a means to one’s own advancement. 
@@ -64,9 +64,9 @@
 
 
 
-## PART ONE: GOD’S PLAN FOR WORK
+# PART ONE: GOD’S PLAN FOR WORK
 
-**ONE: THE DESIGN OF WORK** 
+## CHAPTER ONE: THE DESIGN OF WORK
 
 
 - Thus the heavens and the earth were finished, and all the host of them. And on the seventh day God finished his work that he had done, and he rested on the seventh day from all his work that he had done. So God blessed the seventh day and made it holy, because on it God rested from all his work that he had done in creation. . . . The Lord God took the man and put him in the garden of Eden to work it and keep it. Genesis 2:1–3, 15. In the Beginning, There Was Work
@@ -105,7 +105,7 @@
 - “Of course work is important, and of course it isn’t the only thing in life.” But it is crucial to grasp these truths well. For in a fallen world, work is frustrating and exhausting; one can easily jump to the conclusion that work is to be avoided or simply endured. And because our disordered hearts crave affirmation and validation, it is just as tempting to be thrust in the opposite direction—making life all about career accomplishment and very little else. In fact, overwork is often a grim attempt to get our lifetime’s worth of work out of the way early, so we can put work behind us. These attitudes will only make work more stultifying and unsatisfying in the end.
 
 
-**TWO: THE DIGNITY OF WORK** 
+## CHAPTER TWO: THE DIGNITY OF WORK
 
 
 - We learn not only that work has dignity in itself, but also that all kinds of work have dignity. God’s own work in Genesis 1 and 2 is “manual” labor, as he shapes us out of the dust of the earth, deliberately putting a spirit in a physical body, and as he plants a garden (Genesis 2:8).
@@ -117,7 +117,7 @@
 - We were built for work and the dignity it gives us as human beings, regardless of its status or pay.
 
 
-**THREE: WORK AS CULTIVATION** 
+## CHAPTER THREE: WORK AS CULTIVATION
 
 
 - Human beings “filling the earth” means something far more than plants and animals filling the earth. It means civilization, not just procreation. We get the sense that God does not want merely more individuals of the human species; he also wants the world to be filled with a human society. He could have just spoken the word and created millions of people in thousands of human settlements, but he didn’t. He made it our job to develop and build this society.
@@ -129,7 +129,7 @@
 - The naming of the animals in chapter 2, verses 19–20 is an invitation to enter into his creativity. Why didn’t God just name the animals himself? After all, in Genesis 1, God names things, “calling” the light “Day” and the darkness “Night”—so he was clearly capable of naming the animals as well. Yet he invites us to continue his work of developing creation, to develop all the capacities of human and physical nature to build a civilization that glorifies him. Through our work we bring order out of chaos, create new entities, exploit the patterns of creation, and interweave the human community. So whether splicing a gene or doing brain surgery or collecting the rubbish or painting a picture, our work further develops, maintains, or repairs the fabric of the world. In this way, we connect our work to God’s work.
 
 
-**FOUR: WORK AS SERVICE** 
+## CHAPTER FOUR: WORK AS SERVICE
 
 
 - Nevertheless, each person should live as a believer in whatever situation the Lord has assigned to them, just as God has called them. This is the rule I lay down in all the churches. 1 Corinthians 7:17
@@ -166,9 +166,9 @@
 
 
 
-## PART TWO: OUR PROBLEMS WITH WORK
+# PART TWO: OUR PROBLEMS WITH WORK
 
-**FIVE: WORK BECOMES FRUITLESS**
+## CHAPTER FIVE: WORK BECOMES FRUITLESS
 
 
 - God had warned Adam and Eve that if they ate of the tree, they would die. Most readers assume that God is speaking of immediate physical death, so it is surprising to us when Adam and Eve eat of the tree and they do not slump lifeless to the ground. But that would happen in due course, for eventual physical shutdown is one aspect of the comprehensive death and decay that now comes to every aspect of human life. Nothing works now as it should. Sin leads to the disintegration of every area of life: spiritual, physical, social, cultural, psychological, temporal, eternal.
@@ -183,7 +183,7 @@
 - Tolkien’s dream and the resulting story, “Leaf by Niggle,” are simply a depiction of this hope. Niggle imagined a beautiful tree that he never was able to produce in paint during his life, so he died weeping that his picture, the great work of his life, was not completed. No one would ever see it. And yet, when he got to the heavenly country—there was the tree! This was Tolkien’s way of saying, to us as well as to himself, that our deepest aspirations in work will come to complete fruition in God’s future.
 
 
-**SIX: WORK BECOMES POINTLESS**
+## CHAPTER SIX: WORK BECOMES POINTLESS
 
 
 - So I hated life, because the work that is done under the sun was grievous to me. All of it is meaningless, a chasing after the wind. Ecclesiastes 2:17
@@ -216,7 +216,7 @@
 - “There is nothing better for a person than to enjoy their work, because that is their lot” (Ecclesiastes 3:22). Yes, work is our inescapable “lot,” and so satisfaction in that realm is essential to a satisfactory life. But how do we get that satisfaction in light of all that we have against us? The answer: “to find satisfaction in all their toil—this is the gift of God” (Ecclesiastes 3:13). How can we secure this gift? Qoheleth provides a hint. Fools fold their hands and ruin themselves. Better one handful with tranquility than two handfuls with toil and chasing after the wind. Ecclesiastes 4:5–6 Qoheleth commends, literally, “one handful of quietness”—by contrast with two alternatives. One is the “two handfuls” of wealth that come from “toil and chasing after the wind”. The other is the “empty handful” of wealth that comes from the idleness of the fool who does not toil at all. Qoheleth concedes that satisfaction in work in a fallen world is always a miraculous gift of God—and yet we have a responsibility to pursue this gift through a particular balance. Tranquility without toil will not bring us satisfaction; neither will toil without tranquility. There will be both toil and tranquility. How we attain such a balanced life is one of the main themes of Scripture. First, it means recognizing and renouncing our tendency to make idols of money and power (see Ecclesiastes 4:4—“I saw that all toil and all achievement spring from one person’s envy of another. This too is meaningless, a chasing after the wind”). Second, it means putting relationships in their proper place.
 
 
-**SEVEN: WORK BECOMES SELFISH**
+## CHAPTER SEVEN: WORK BECOMES SELFISH
 
 
 - “Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves; otherwise we will be scattered over the face of the whole earth.” Genesis 11:2–4. One of the reasons work is both fruitless and pointless is the powerful inclination of the human heart to make work, and its attendant benefits, the main basis of one’s meaning and identity. When this happens, work is no longer a way to create and bring out the wonders of the created order, as Calvin would say, or to be an instrument of God’s providence, serving the basic needs of our neighbor, as Luther would say. Instead it becomes a way to distinguish myself from my neighbor, to show the world and prove to myself that I’m special. It is a way to accumulate power and security, and to exercise control over my destiny.
@@ -267,7 +267,7 @@
 - Esther is called Queen Esther fourteen times; thirteen of those happen after she says, “If I perish, I perish.” She becomes a person of greatness not by trying to make a name for herself; and you will become a person of greatness not by trying to make yourself into one, but by serving the One who said to his Father, “For your sake, thy will be done.”
 
 
-**EIGHT: WORK REVEALS OUR IDOLS**
+## CHAPTER EIGHT: WORK REVEALS OUR IDOLS
 
 
 - Because we can set up idols in our hearts (Ezekiel 14:3–7), we recognize that “making an image” of something is not necessarily a physical process but is certainly a spiritual and psychological one. It means imagining and trusting anything to deliver the control, security, significance, satisfaction, and beauty that only the real God can give. It means turning a good thing into an ultimate thing.
@@ -307,9 +307,9 @@
 
 
 
-## PART THREE: THE GOSPEL AND WORK
+# PART THREE: THE GOSPEL AND WORK
 
-**NINE: A NEW STORY FOR WORK**
+## CHAPTER NINE: A NEW STORY FOR WORK
 
 
 - So whether you eat or drink or whatever you do, do it all for the glory of God. 1 Corinthians 10:31
@@ -345,7 +345,7 @@
 - Are you thinking about your work through the lenses of a Christian worldview? Are you asking questions such as: • What’s the story line of the culture in which I live and the field where I work? Who are the protagonists and antagonists? • What are the underlying assumptions about meaning, morality, origin, and destiny? • What are the idols? The hopes? The fears? • How does my particular profession retell this story line, and what part does the profession itself play in the story? • What parts of the dominant worldviews are basically in line with the gospel, so that I can agree with and align with them? • What parts of the dominant worldviews are irresolvable without Christ? Where, in other words, must I challenge my culture? How can Christ complete the story in a different way? • How do these stories affect both the form and the content of my work personally? How can I work not just with excellence but also with Christian distinctiveness in my work? • What opportunities are there in my profession for (a) serving individual people, (b) serving society at large, (c) serving my field of work, (d) modeling competence and excellence, and (e) witnessing to Christ?
 
 
-**TEN: A NEW CONCEPTION OF WORK**
+## CHAPTER TEN: A NEW CONCEPTION OF WORK
 
 
 - Whatever you do, do well. Ecclesiastes 9:10 (NLT)
@@ -366,7 +366,7 @@
 - Leonard Bernstein’s second-order beliefs were secular and naturalistic. But on a TV broadcast he famously said, “Listening to Beethoven’s Fifth, you get the feeling there’s something right with the world, something that checks throughout, something that follows its own laws consistently, something we can trust, that will never let us down.” He was saying that music gave him not simply emotion, but meaning. Despite the fact that his formal beliefs were that life was a cosmic accident, and therefore there could be no meaning to anything, music made him feel that there was meaning to it all, that it did matter how he lived! His first-order beliefs were bubbling up despite his second-order beliefs, as they do for everyone.
 
 
-**ELEVEN: A NEW COMPASS FOR WORK** 
+## CHAPTER ELEVEN: A NEW COMPASS FOR WORK
 
 ****
 - On the day of your fasting, you do as you please and exploit all your workers. . . . Is not this the kind of fasting I have chosen: to loose the chains of injustice and untie the cords of the yoke, to set the oppressed free and break every yoke? Is it not to share your food with the hungry and to provide the poor wanderer with shelter—when you see the naked, to clothe him? Isaiah 58:3–7
@@ -423,7 +423,7 @@
 - As we have seen, the triune nature of God, and our being made in his image, means that human life is fundamentally relational. But contemporary capitalism increasingly has the power to eliminate the intimacy and accountability of human relationships. So in the marketplace, as in every field, there is an urgent need for those with a powerful compass.
 
 
-**TWELVE: NEW POWER FOR WORK** 
+## CHAPTER TWELVE: NEW POWER FOR WORK
 
 
 - “For many of us, being productive and doing becomes an attempt at redemption. That is, through our work, we try to build our worth, security, and meaning.” Many people are trying to get a sense of self through productivity and success—but that burns them out. For others the motivation is to bring home a paycheck so they can enjoy “real life”—but that makes work into a pointless grind. These motivations are what we could call the “work beneath the work.” And they are what make work so physically and emotionally exhausting in the end.
@@ -465,7 +465,7 @@
 - In the Christian view, the way to find your calling is to look at the way you were created. Your gifts have not emerged by accident, but because the Creator gave them to you. But what if you’re not at the point of running in the Olympics or leading on a world stage? What if you’re struggling under an unfair boss or a tedious job that doesn’t take advantage of all your gifts? It’s liberating to accept that God is fully aware of where you are at any moment and that by serving the work you’ve been given you are serving him.
 
 
-**EPILOGUE: LEADING PEOPLE TO INTEGRATE FAITH AND WORK**
+## EPILOGUE: LEADING PEOPLE TO INTEGRATE FAITH AND WORK
 
 
 - Change 
