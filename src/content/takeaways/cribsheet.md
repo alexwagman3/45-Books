@@ -20,7 +20,7 @@
 - The goal of this book is not to fight against any particular piece of advice but against the idea of not explaining why. Armed with the evidence and a way to think about decisions, you can make choices that are right for your family. If you’re happy with your choices, that’s the path to happier and more relaxed parenting. And, hopefully, to a bit more sleep.
 
 
-# Part One: In the Beginning
+# PART ONE: IN THE BEGINNING
 
 
 ## Chapter 1: The First Three Days
@@ -90,7 +90,7 @@
 - Treatment for postpartum depression proceeds in stages. For mild depression, the first line of treatment is to try to treat without drugs. There is some evidence that exercise or massage can be helpful. Or, perhaps most important, sleep. For new parents, in particular, lack of sleep can be a huge contributor to mild depression.
 
 
-# Part Two: The First Year
+# PART TWO: THE FIRST YEAR
 
 
 ## Chapter 4: Breast is Best? Breast is Better? Breast is About the Same?
@@ -266,7 +266,7 @@
 - The general wisdom of vitamin supplementation (for anyone, adults, children, babies) is complicated. It is true that if you are deficient in particular vitamins, it can cause serious problems. Vitamin D deficiency causes rickets. Vitamin C deficiency famously causes scurvy, as was first recognized in sailors who went months without eating any fresh vegetables or fruit. However, if you eat a typical varied diet, even one that’s pretty unhealthy by many standards, you are very unlikely to be seriously deficient in any of these vitamins. Your toddler or young child does not generally need a multivitamin (no Flintstones gummies for them). If they eat only a very limited diet, it is possible a multivitamin would be necessary, but this would be unusual. Even a child who seems like a very picky eater will be getting enough vitamins to sustain them. A baby who is breastfed will get most vitamins this way as well. The two possible exceptions to this are vitamin D and iron. Vitamin D is not present in many foods, and is not present in high concentrations in breast milk. People do get vitamin D through sun exposure, but since many of us live in houses in cold places and not on the savanna, sun exposure isn’t always consistent. As a result, a lot of infants and children are considered deficient in vitamin D. This could be as much as a quarter or more of white children, and higher among children of color (darker skin lowers vitamin D absorption from the sun). Deficiency here is defined as having a blood concentration of vitamin D below some cutoff level. What is less clear is whether this really has much actual health impact. Relatively few studies have looked at the actual outcomes associated with vitamin D, like bone growth. In two that did, very small randomized trials of supplementation, there were no impacts on bone growth or bone health, even though supplementation did increase the concentrations of vitamin D in babies. This isn’t to say you shouldn’t use vitamin D supplements. And certainly rickets does occur, primarily in developing countries with serious nutritional limits. But it does suggest that if you miss a day here or there, you shouldn’t panic.
 
 
-# Part Three: From Baby to Toddler
+# PART THREE: FROM BABY TO TODDLER
 
 
 ## Chapter 13: Early Walking, Late Walking: Physical Milestones
@@ -373,7 +373,7 @@
 - All this is to say that, again, we simply do not have a lot of concrete data to guide you. Further complicating both research and decision making, it is possible, even likely, that the best type of preschool will vary by individual child.
 
 
-# Part Four: The Home Front
+# PART FOUR: THE HOME FRONT
 
 
 ## Chapter 19: Internal Politics

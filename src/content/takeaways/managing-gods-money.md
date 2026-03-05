@@ -1,5 +1,4 @@
 # Managing God's Money: A Biblical Guide
-By Randy Alcorn
 
 ----------
 
