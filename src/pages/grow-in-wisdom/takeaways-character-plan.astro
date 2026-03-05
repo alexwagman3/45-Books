@@ -26,17 +26,17 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <a class="cp-nav-link" href="#trait-courageous">Courageous</a>
     </div>
 
-    <div class="cp-grid">
+    <!-- Row 1: Loving · Humble · Self-Controlled · Hopeful -->
+    <div class="cp-row">
 
-      <!-- LOVING -->
       <article class="cp-card" id="trait-loving">
         <div class="cp-card-top">
           <h2 class="cp-trait">Loving</h2>
           <p class="cp-descriptors">Unconditional · Sacrificial · Forgiving</p>
           <div class="cp-framework-name">The Love Audit</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall one interaction where love was tested.</p>
+        <p class="cp-recall">Recall one interaction where love was tested.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Examine</span>
             <p>What did I want that I wasn't getting? What story am I telling myself?</p>
@@ -49,23 +49,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Release</span>
             <p>Write a forgiveness statement towards this person. What is one concrete way I can express unconditional love through this situation or in the next one?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Love is seeing the person, not just the problem.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Love is seeing the person, not just the problem.
         </div>
         <div class="cp-scripture">"Love one another as I have loved you." — Jn. 13:34</div>
       </article>
 
-      <!-- HUMBLE -->
       <article class="cp-card" id="trait-humble">
         <div class="cp-card-top">
           <h2 class="cp-trait">Humble</h2>
           <p class="cp-descriptors">Accountable · Teachable · Selfless</p>
           <div class="cp-framework-name">The Mirror &amp; Window</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a moment you felt superior, defensive, or needed to be right.</p>
+        <p class="cp-recall">Recall a moment you felt superior, defensive, or needed to be right.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Mirror (Inward)</span>
             <p>What was I protecting or promoting about myself? What weakness or limitation am I reluctant to admit?</p>
@@ -78,23 +77,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Ground</span>
             <p>What is one specific way I will elevate someone else tomorrow?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Humility is not thinking less of yourself, it's thinking of yourself less.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Humility is not thinking less of yourself, it's thinking of yourself less.
         </div>
         <div class="cp-scripture">"Count others more significant." — Phil. 2:3</div>
       </article>
 
-      <!-- SELF-CONTROLLED -->
       <article class="cp-card" id="trait-self-controlled">
         <div class="cp-card-top">
           <h2 class="cp-trait">Self-Controlled</h2>
           <p class="cp-descriptors">Disciplined · Patient · Measured</p>
           <div class="cp-framework-name">The Impulse Autopsy</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a moment you acted on impulse or reacted too quickly.</p>
+        <p class="cp-recall">Recall a moment you acted on impulse or reacted too quickly.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Trace</span>
             <p>What was the trigger? What emotion drove the impulse? What is that emotion trying to tell me?</p>
@@ -107,23 +105,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Prepare</span>
             <p>What specific if-then plan will I commit to when this trigger arises in the future? What boundary can I set before this happens again?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Self-control is caring more about the person you're becoming than the comfort you're craving.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Self-control is caring more about the person you're becoming than the comfort you're craving.
         </div>
         <div class="cp-scripture">"Fruit of the Spirit is self-control." — Gal. 5:22</div>
       </article>
 
-      <!-- HOPEFUL -->
       <article class="cp-card" id="trait-hopeful">
         <div class="cp-card-top">
           <h2 class="cp-trait">Hopeful</h2>
           <p class="cp-descriptors">Optimistic · Resilient · Eager</p>
           <div class="cp-framework-name">The Redemption Lens</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a disappointment or fear that lingered beyond the moment itself.</p>
+        <p class="cp-recall">Recall a disappointment or fear that lingered beyond the moment itself.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Acknowledge</span>
             <p>Where am I feeling stuck, and what is despair telling me here? How permanent does this feel on a 0–10 scale?</p>
@@ -136,23 +133,27 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Project</span>
             <p>What is one possible future outcome I haven't considered? Between where I am and where I want to be, what is the next right thing to hope for or do?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Hope is refusing to confuse today's pain with tomorrow's truth.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Hope is refusing to confuse today's pain with tomorrow's truth.
         </div>
         <div class="cp-scripture">"His mercies are new every morning." — Lam. 3:23</div>
       </article>
 
-      <!-- WISE -->
+    </div><!-- /.cp-row -->
+
+    <!-- Row 2: Wise · Joyful · Peaceful · Courageous -->
+    <div class="cp-row">
+
       <article class="cp-card" id="trait-wise">
         <div class="cp-card-top">
           <h2 class="cp-trait">Wise</h2>
           <p class="cp-descriptors">Discerning · Prudent · Understanding</p>
           <div class="cp-framework-name">The Decision Dissection</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a decision you made today (or avoided) where wisdom was required.</p>
+        <p class="cp-recall">Recall a decision you made today (or avoided) where wisdom was required.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Observe</span>
             <p>What facts did I actually have? What assumptions did I add? What emotions were influencing my judgment?</p>
@@ -165,23 +166,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Extract</span>
             <p>What are the second- and third-order effects of this decision? What alternative exists beyond the options I am (or was) considering?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Wisdom is loving the right things in the right order.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Wisdom is loving the right things in the right order.
         </div>
         <div class="cp-scripture">"If any lacks wisdom, let him ask God." — Jas. 1:5</div>
       </article>
 
-      <!-- JOYFUL -->
       <article class="cp-card" id="trait-joyful">
         <div class="cp-card-top">
           <h2 class="cp-trait">Joyful</h2>
           <p class="cp-descriptors">Grateful · Present · Light-hearted</p>
           <div class="cp-framework-name">The Joy Reframe</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a moment today where joy felt absent, fragile, or easily lost.</p>
+        <p class="cp-recall">Recall a moment today where joy felt absent, fragile, or easily lost.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Notice</span>
             <p>Where did my attention drift toward complaint, scarcity, or irritation? What story was I telling myself that diminished joy?</p>
@@ -194,23 +194,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Embody</span>
             <p>What is one concrete way I can choose joy, be present, or express gratitude in the next 24 hours?</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Joy is not having the best of everything, but making the best of everything.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Joy is not having the best of everything, but making the best of everything.
         </div>
         <div class="cp-scripture">"Rejoice in the Lord always." — Phil. 4:4</div>
       </article>
 
-      <!-- PEACEFUL -->
       <article class="cp-card" id="trait-peaceful">
         <div class="cp-card-top">
           <h2 class="cp-trait">Peaceful</h2>
           <p class="cp-descriptors">Calm · Slow to Anger · Gentle</p>
           <div class="cp-framework-name">The Inner Weather Report</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a moment today where you felt anxious, tense, reactive, or internally unsettled.</p>
+        <p class="cp-recall">Recall a moment today where you felt anxious, tense, reactive, or internally unsettled.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Name</span>
             <p>What situation triggered the unrest? What was happening in my body (tight chest, shallow breath, racing thoughts)?</p>
@@ -223,23 +222,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Exhale</span>
             <p>Which thoughts are helping me respond wisely, and which are fueling unnecessary distress? Breathe in slowly; as you breathe out, consciously set down the latter and the tension they carry.</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Peace is regulating your body so your mind can see clearly.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Peace is regulating your body so your mind can see clearly.
         </div>
         <div class="cp-scripture">"Perfect peace whose mind is stayed on you." — Isa. 26:3</div>
       </article>
 
-      <!-- COURAGEOUS -->
       <article class="cp-card" id="trait-courageous">
         <div class="cp-card-top">
           <h2 class="cp-trait">Courageous</h2>
           <p class="cp-descriptors">Honest · Brave · Adventurous</p>
           <div class="cp-framework-name">The Discipline of Bravery</div>
         </div>
-        <div class="cp-card-body">
-          <p class="cp-recall">Recall a moment today where you withheld something true, kind, or needed.</p>
+        <p class="cp-recall">Recall a moment today where you withheld something true, kind, or needed.</p>
+        <div class="cp-steps">
           <div class="cp-step">
             <span class="cp-step-label">Surface</span>
             <p>Identify the specific fear present (rejection, conflict, failure, vulnerability, loss of control). What is the worst realistic outcome?</p>
@@ -252,15 +250,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <span class="cp-step-label">Commit</span>
             <p>What is one step—however small—I can take tomorrow to move toward what I've been avoiding? Choose the action and schedule it.</p>
           </div>
-          <div class="cp-remember">
-            <span class="cp-remember-label">Remember</span>
-            Courage is not the absence of fear but the realization that something else matters more.
-          </div>
+        </div>
+        <div class="cp-remember">
+          <span class="cp-remember-label">Remember</span>
+          Courage is not the absence of fear but the realization that something else matters more.
         </div>
         <div class="cp-scripture">"Be strong and courageous." — Deut. 31:6</div>
       </article>
 
-    </div><!-- /.cp-grid -->
+    </div><!-- /.cp-row -->
 
     <!-- AI Prompt -->
     <div class="cp-ai-prompt">
@@ -313,22 +311,32 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     border-color: #6a6156;
   }
 
-  /* ─── Trait card grid ───────────────────────────────────────── */
-  .cp-grid {
+  /* ─── Card row — each row is its own subgrid context ────────── */
+  /*
+   * Each .cp-row is a 4-column grid.
+   * Each .cp-card spans 5 row tracks (header / recall / steps / remember / scripture).
+   * grid-template-rows: subgrid on the card tells each section to size by the
+   * tallest sibling in that track across all 4 cards — so all four alignment
+   * lines are perfectly level.
+   */
+  .cp-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
-    margin-bottom: 3rem;
+    column-gap: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   /* ─── Individual card ───────────────────────────────────────── */
   .cp-card {
+    /* Span exactly 5 row tracks and use the parent's implicit rows */
+    grid-row: span 5;
+    display: grid;
+    grid-template-rows: subgrid;
+
     background: rgba(255, 255, 255, 0.45);
     border: 1px solid rgba(199, 187, 170, 0.45);
     border-radius: 6px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
     transition: box-shadow 0.25s;
   }
 
@@ -336,7 +344,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     box-shadow: 0 4px 20px rgba(70, 61, 52, 0.09);
   }
 
-  /* ─── Card header ───────────────────────────────────────────── */
+  /* ─── Row 1 — Card header ───────────────────────────────────── */
   .cp-card-top {
     background: rgba(70, 61, 52, 0.04);
     border-bottom: 1px solid rgba(199, 187, 170, 0.4);
@@ -375,24 +383,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     border-radius: 2px;
   }
 
-  /* ─── Card body ─────────────────────────────────────────────── */
-  .cp-card-body {
-    padding: 1.1rem 1.2rem 0.9rem;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
-  }
-
+  /* ─── Row 2 — Recall prompt ─────────────────────────────────── */
   .cp-recall {
     font-family: 'EB Garamond', serif;
     font-size: 0.9rem;
     color: #5e554b;
     line-height: 1.65;
     font-style: italic;
-    padding-bottom: 0.75rem;
+    padding: 0.9rem 1.2rem;
     border-bottom: 1px solid rgba(199, 187, 170, 0.3);
-    margin-bottom: 0;
+    margin: 0;
+  }
+
+  /* ─── Row 3 — Steps ─────────────────────────────────────────── */
+  .cp-steps {
+    padding: 1rem 1.2rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
   }
 
   .cp-step {
@@ -418,7 +426,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     margin: 0;
   }
 
-  /* ─── Remember block ────────────────────────────────────────── */
+  /* ─── Row 4 — Remember block ────────────────────────────────── */
   .cp-remember {
     font-family: 'DM Sans', sans-serif;
     font-size: 0.8rem;
@@ -426,9 +434,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     line-height: 1.6;
     background: rgba(183, 156, 92, 0.06);
     border-left: 2px solid #c2a86d;
-    padding: 0.6rem 0.85rem;
-    border-radius: 0 3px 3px 0;
-    margin-top: auto;
+    border-top: 1px solid rgba(199, 187, 170, 0.3);
+    padding: 0.7rem 0.85rem 0.7rem 1rem;
   }
 
   .cp-remember-label {
@@ -441,7 +448,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     margin-bottom: 0.3rem;
   }
 
-  /* ─── Scripture footer ──────────────────────────────────────── */
+  /* ─── Row 5 — Scripture footer ──────────────────────────────── */
   .cp-scripture {
     font-family: 'EB Garamond', serif;
     font-size: 0.8rem;
@@ -486,17 +493,39 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     margin: 0;
   }
 
-  /* ─── Responsive ────────────────────────────────────────────── */
+  /* ─── Responsive — 2 columns (tablet) ──────────────────────── */
   @media (max-width: 1100px) {
-    .cp-grid {
+    .cp-row {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
+  /* ─── Responsive — 1 column (mobile) ───────────────────────── */
   @media (max-width: 640px) {
-    .cp-grid {
+    .cp-row {
       grid-template-columns: 1fr;
-      gap: 1rem;
+    }
+
+    /*
+     * On a single column, subgrid rows still work but each card is alone in
+     * its band so there's nothing to align against — reset to natural block
+     * layout so the card just fits its content without extra white space.
+     */
+    .cp-card {
+      grid-row: auto;
+      display: block;
+    }
+
+    .cp-recall {
+      padding: 0.85rem 1rem;
+    }
+
+    .cp-steps {
+      padding: 0.9rem 1rem 0.85rem;
+    }
+
+    .cp-remember {
+      padding: 0.65rem 0.85rem 0.65rem 0.95rem;
     }
 
     .cp-ai-prompt {
