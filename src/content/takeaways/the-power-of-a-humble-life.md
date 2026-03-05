@@ -1,5 +1,4 @@
 # The Power of a Humble Life
-By Richard E. Simmons
 
 ----------
 

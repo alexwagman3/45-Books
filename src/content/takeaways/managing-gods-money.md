@@ -1,10 +1,9 @@
 # Managing God's Money: A Biblical Guide
-By Randy Alcorn
 
 ----------
 
 
-## Introduction
+# Introduction
 
 
 - The Bible emphatically demonstrates that how we view our money and possessions is of utmost importance. What we do with them will influence eternity.

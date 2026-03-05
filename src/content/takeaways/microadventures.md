@@ -1,5 +1,4 @@
 # Microadventures: Local Discoveries for Great Escapes 
-By Alastair Humphreys
 
 ----------
 

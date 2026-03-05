@@ -1,5 +1,4 @@
 # Retire Before Mom and Dad: The Simple Numbers Behind A Lifetime of Financial Freedom
-By Rob Berger
 
 ----------
 
@@ -49,7 +48,7 @@ By Rob Berger
 - Rob Berger (retired at 49, and again at 51, and back to work I love at 52)
 
 
-# Part 1 - Your Superpower
+# PART 1 - YOUR SUPERPOWER
 
 
 ## Chapter 4: The Money Multiplier
@@ -111,7 +110,7 @@ By Rob Berger
 - Instead of accumulating a Freedom Fund of more than $1.7 million, that “small” 1% difference lowered our Freedom Fund to $1,213,503.86. We lost $494,568.90. The rate of return on our investments matters. A lot. And seemingly small changes, multiplied over time, will have a huge, life-changing effect on our Freedom Fund.
 
 
-# Part 2 - Financial Freedom
+# PART 2 - FINANCIAL FREEDOM
 ## Chapter 8: Financial Freedom
 
 
@@ -238,7 +237,7 @@ By Rob Berger
 - Every dollar we save has a Slingshot Effect—it increases our savings and it decreases our Freedom Fund goal.
 
 
-# Part 3 - Buying Your Freedom
+# PART 3 - BUYING YOUR FREEDOM
 
 
 ## Chapter 13: The Cost of Happiness
@@ -388,7 +387,7 @@ By Rob Berger
 - Cars are expensive. Any way you can reduce your car expense can go a long way to supercharging your journey to Level 7. Freedom first, cars second.
 
 
-# Part 4 - Investing
+# PART 4 - INVESTING
 
 
 ## Chapter 19: Stocks & Bonds
@@ -649,7 +648,7 @@ By Rob Berger
 - The best option is to handle your own investments. If you want help, however, you must consider the cost. Traditional commissioned and even fee-only advisors are just too expensive for Freedom Fighters. 
 
 
-# Part 5 - Practical Considerations
+# PART 5 - PRACTICAL CONSIDERATIONS
 
 
 ## Chapter 28: The Progress Principle

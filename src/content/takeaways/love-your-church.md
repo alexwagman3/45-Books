@@ -4,7 +4,7 @@
 ----------
 ****
 
-## Introduction: What Your Church Is
+# Introduction: What Your Church Is
 ****
 
 - If you’re reading this book, then I want you to know that I have an agenda: I want people to love Jesus and his church—and to know how to love their church. That’s it.

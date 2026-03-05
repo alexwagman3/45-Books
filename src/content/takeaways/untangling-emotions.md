@@ -1,5 +1,4 @@
 # Untangling Emotions: "God's Gift of Emotions” 
-By J. Alasdair Groves and Winston T. Smith
 
 ----------
 

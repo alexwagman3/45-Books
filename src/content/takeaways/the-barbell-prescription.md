@@ -1,10 +1,9 @@
 # The Barbell Prescription: Strength Training for Life After 40
-By Jonathon M Sullivan and Andy Baker
 
 ----------
 
 
-## Introduction Resistance is Not Futile
+# Introduction Resistance is Not Futile
 
 
 - In recent years, we’ve seen an explosion of published biomedical evidence on resistance training in the aged, in women, in children, and in people suffering from a broad spectrum of health conditions, ranging from diabetes to hypertension to congestive heart failure to Parkinson’s. What this growing body of data tells us is that everybody who can lift weights should lift weights. This most emphatically includes those in their 40s and beyond.
@@ -22,7 +21,7 @@ By Jonathon M Sullivan and Andy Baker
 - We’re not promising perfect health, or even longevity. Getting strong won’t bring back your eyesight, restore your bald spot, shrink your prostate, or smooth your wrinkles. Aging always ends in decline and death. Bad luck and disease can strike down even the strongest, just as a bad market can ruin a rich man who has invested wisely. But getting old, even very old, doesn’t have to guarantee frailty, loss of independence, weakness and misery. It is possible, in fact it is essential, to save strong healthy tissue for the years when we’ll need it most. With discipline, hard work, and a little luck, we can compress the morbidity of aging into a tiny sliver of our life cycle, remaining strong and resilient well into our final years. Instead of dwindling into an atrophic puddle of sick fat, we can make our ending like a failed last rep at the end of a final workout. Strong, vigorous and useful, to the last. Time always wins in the end. But we hope to convince you that resistance is not futile.
 
 
-# Part 1: WHY (From Exercise Prescription to Training Program)
+# PART 1: WHY (FROM EXERCISE PRESCRIPTION TO TRAINING PROGRAM)
 
 
 ## Chapter 1: The Sick Aging Phenotype
@@ -234,7 +233,7 @@ By Jonathon M Sullivan and Andy Baker
 - After the initial stage of training, which is devoted entirely to the rapid accumulation of strength, a conditioning component will be added. This may simply be the athlete’s sport of choice: tennis, swimming, biking, hiking, martial arts, etc. But the General Exercise Prescription fills this requirement through the addition of a high-intensity interval conditioning (HIIT) component, which can be pursued using a number of modalities, including a stationary bike, kettlebells, rowers, or sleds (our preferred option).
 
 
-# Part 2: WHAT (An Introduction to the Exercises)
+# PART 2: WHAT (AN INTRODUCTION TO THE EXERCISES)
 
 
 ## Chapter 7: Elementary Iron
@@ -429,7 +428,7 @@ By Jonathon M Sullivan and Andy Baker
 - One popular method, covered in detail in Starting Strength: Basic Barbell Training is a weekly rotation between halting deadlifts and rack pulls. These exercises split the range of motion of the deadlift into two overlapping components which can be trained heavily but separately, reducing the demand on recovery capacity. Both exercises use partial ranges of motion – but when combined they cover the complete range of motion from floor to lockout. Halting deadlifts begin on the floor and are pulled to just above knee height and then returned to the floor. Rack pulls begin just below the knees (set on the pins of a power rack) and are pulled to lockout. Alternating these two exercises allows the trainee to pull heavy on a weekly basis without overtraining on the full movement.
 
 
-# Part 3: HOW (Programming for Strength and Conditioning)
+# PART 3: HOW (PROGRAMMING FOR STRENGTH AND CONDITIONING)
 
 
 ## Chapter 14: Programming

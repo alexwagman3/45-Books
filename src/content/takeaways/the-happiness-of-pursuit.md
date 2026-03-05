@@ -4,7 +4,7 @@
 ----------
 
 
-# Part 1 - Beginnings
+# PART 1 - BEGINNINGS
 
 
 ## Prologue: On the Road 
@@ -177,7 +177,7 @@
 
 
 
-# Part 2 - Journey
+# PART 2 - JOURNEY
 
 
 ## Chapter 5: Self-Reliance 
@@ -569,7 +569,7 @@
 
 
 
-# Part 3 - Destination 
+# PART 3 - DESTINATION 
 
 
 ## Chapter 15: Transformation 

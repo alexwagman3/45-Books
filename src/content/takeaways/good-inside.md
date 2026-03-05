@@ -12,7 +12,7 @@
 - It turns out, switching our parenting mindset from “consequences” to “connection” does not have to mean ceding family control to our children. While I resist time-outs, punishments, consequences, and ignoring, there’s nothing about my parenting style that’s permissive or fragile. My approach promotes firm boundaries, parental authority, and sturdy leadership, all while maintaining positive relationships, trust, and respect.
 
 
-# Part 1 - Dr. Becky’s Parenting Principles
+# PART 1 - DR. BECKY’S PARENTING PRINCIPLES
 
 
 ## Chapter 1: Good Inside
@@ -163,7 +163,7 @@
 - Permit: Give yourself permission to have your feeling in whatever way it’s showing up. I know this sounds silly, but it’s so powerful. Tell yourself, out loud or internally, “I have full permission to feel like life is hard,” or “I’m allowed to feel exactly as I do,” or “It’s okay to feel like parenting is totally unenjoyable right now.” Now, remember: we can permit our anger and still remind ourselves to use a calm voice; we can permit our frustration and still remind ourselves to gaze kindly at our kids.
 
 
-# Part 2 - Building Connection and Addressing Behaviors
+# PART 2 - BUILDING CONNECTION AND ADDRESSING BEHAVIORS
 
 
 ## Chapter 11: Building Connection Capital

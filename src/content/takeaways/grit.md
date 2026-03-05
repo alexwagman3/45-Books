@@ -1,10 +1,9 @@
 # Grit: The Power of Passion and Perseverance
-By Angela Duckworth 
 
 ----------
 
 
-# Part 1: WHAT GRIT IS AND WHY IT MATTERS
+# PART 1: WHAT GRIT IS AND WHY IT MATTERS
 
 
 ## Chapter 1: SHOWING UP
@@ -163,7 +162,7 @@ By Angela Duckworth
 - The four psychological assets of interest, practice, purpose, and hope are not You have it or you don’t commodities. You can learn to discover, develop, and deepen your interests. You can acquire the habit of discipline. You can cultivate a sense of purpose and meaning. And you can teach yourself to hope. You can grow your grit from the inside out. 
 
 
-# Part 2: GROWING GRIT FROM THE INSIDE OUT
+# PART 2: GROWING GRIT FROM THE INSIDE OUT
 
 
 ## Chapter 6: INTEREST
@@ -454,7 +453,7 @@ By Angela Duckworth
 - Let me offer one final suggestion for teaching yourself hope: Ask for a helping hand.
 
 
-# Part 3: GROWING GRIT FROM THE OUTSIDE IN
+# PART 3: GROWING GRIT FROM THE OUTSIDE IN
 
 
 ## Chapter 10: PARENTING FOR GRIT

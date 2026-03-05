@@ -5,7 +5,7 @@
 ----------
 ****
 
-## Introduction
+# Introduction
 
 - The root cause of many—if not most—human problems lies in how people behave when we disagree about high-stakes, emotional issues.
 

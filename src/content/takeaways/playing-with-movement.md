@@ -1,5 +1,4 @@
 # Playing With Movement: How to Explore the Many Dimensions of Physical Health and Performance
-By Todd Hargrove
 
 ----------
 
