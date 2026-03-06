@@ -6,24 +6,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   title="Worship — Weekly Prayer Plan"
   description="A full weekly prayer plan that rotates through seven distinct postures — Ask, Study, Intercede, Bless, Repent, Praise, and Meditate — each with a descriptive guide and reflection questions."
 >
-  <a class="overlay-back" href="/worship/takeaways/">&#8592; Back to Takeaways</a>
-  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
-
   <div class="takeaways-content pp-page">
     <span class="takeaways-tag">Worship</span>
     <h1 class="takeaways-title">Weekly Prayer Plan</h1>
     <p class="pp-subtitle">Seven postures. One complete prayer life.</p>
-
-    <!-- Quick-jump nav -->
-    <div class="pp-nav">
-      <a class="pp-nav-link" href="#day-monday">Monday</a>
-      <a class="pp-nav-link" href="#day-tuesday">Tuesday</a>
-      <a class="pp-nav-link" href="#day-wednesday">Wednesday</a>
-      <a class="pp-nav-link" href="#day-thursday">Thursday</a>
-      <a class="pp-nav-link" href="#day-friday">Friday</a>
-      <a class="pp-nav-link" href="#day-saturday">Saturday</a>
-      <a class="pp-nav-link" href="#day-sunday">Sunday</a>
-    </div>
 
     <div class="pp-grid">
 
@@ -188,6 +174,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <style>
   html { scroll-behavior: smooth; }
 
+  /* ─── Page wrapper ───────────────────────────────────────────── */
+  .pp-page {
+    padding-top: 2rem;
+  }
+
   /* ─── Page header ───────────────────────────────────────────── */
   .pp-subtitle {
     font-family: 'EB Garamond', serif;
@@ -196,37 +187,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     color: #7a7368;
     margin-bottom: 2rem;
     line-height: 1.6;
-  }
-
-  /* ─── Quick-jump nav ────────────────────────────────────────── */
-  .pp-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.75rem;
-    border-bottom: 1px solid rgba(183, 156, 92, 0.2);
-  }
-
-  .pp-nav-link {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.65rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #7a7368;
-    background: rgba(70, 61, 52, 0.04);
-    border: 1px solid rgba(199, 187, 170, 0.5);
-    padding: 0.3rem 0.75rem;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-
-  .pp-nav-link:hover {
-    background: #6a6156;
-    color: #f3efe9;
-    border-color: #6a6156;
   }
 
   /* ─── Card grid ─────────────────────────────────────────────── */
