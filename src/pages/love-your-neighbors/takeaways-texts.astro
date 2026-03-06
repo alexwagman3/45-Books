@@ -3,12 +3,263 @@ import { readFileSync } from 'node:fs';
 import { join }         from 'node:path';
 import BaseLayout       from '../../layouts/BaseLayout.astro';
 
-const textsRaw  = readFileSync(join(process.cwd(), 'src/data/texts-content.txt'), 'utf-8');
-const textsHtml = textsRaw
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/\n/g, '<br>');
+// Strip UTF-8 BOM if present
+const raw = readFileSync(join(process.cwd(), 'src/data/texts-content.txt'), 'utf-8').replace(/^\uFEFF/, '');
+
+/* ── Utilities ──────────────────────────────────────────────── */
+function esc(s: string): string {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function slugify(s: string): string {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+/* ── Parse file into top-level sections ─────────────────────── */
+interface Section {
+  title: string;
+  id: string;
+  content: string;
+}
+
+function parseSections(text: string): Section[] {
+  const sections: Section[] = [];
+  // Top-level section header: starts at col 0 with a letter (not "- "), ends with ":"
+  const lines = text.split('\n');
+  let currentTitle: string | null = null;
+  let currentStart = 0;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    // Match top-level header: no leading whitespace, no leading "- ", ends with ":"
+    if (/^[A-Za-z].*:\s*$/.test(line) && !/^- /.test(line)) {
+      if (currentTitle !== null) {
+        const content = lines.slice(currentStart, i).join('\n').trim();
+        sections.push({ title: currentTitle, id: 'section-' + slugify(currentTitle), content });
+      }
+      currentTitle = line.replace(/:\s*$/, '').trim();
+      currentStart = i + 1;
+    }
+  }
+  // Last section
+  if (currentTitle !== null) {
+    const content = lines.slice(currentStart).join('\n').trim();
+    sections.push({ title: currentTitle, id: 'section-' + slugify(currentTitle), content });
+  }
+  return sections;
+}
+
+/* ── Render section content to HTML ─────────────────────────── */
+function renderContent(content: string): string {
+  const lines = content.split('\n');
+
+  // Detect sub-category blocks: lines like "- SubCat:" at col 0
+  const subCatLines = lines.filter(l => /^- [A-Z].*:\s*$/.test(l));
+  if (subCatLines.length >= 2) {
+    return renderSubCategories(lines);
+  }
+
+  const html: string[] = [];
+  // Split into blocks by 2+ blank lines
+  const blocks = content.split(/\n{2,}/);
+
+  for (const block of blocks) {
+    const trimmed = block.trim();
+    if (!trimmed) continue;
+
+    const blockLines = trimmed.split('\n');
+
+    // Sub-header: single non-blank line ending with ":", short enough to be a label
+    const firstTrimmed = blockLines[0].trim();
+    if (
+      blockLines.filter(l => l.trim()).length === 1 &&
+      /^[A-Za-z].*:\s*$/.test(firstTrimmed) &&
+      firstTrimmed.length < 70
+    ) {
+      html.push(`<div class="texts-subheader">${esc(firstTrimmed.replace(/:\s*$/, ''))}</div>`);
+      continue;
+    }
+
+    // Block starts with a sub-header (first line ends with ":", remaining has content)
+    if (
+      /^[A-Za-z].*:\s*$/.test(firstTrimmed) &&
+      firstTrimmed.length < 70 &&
+      blockLines.length > 1
+    ) {
+      html.push(`<div class="texts-subheader">${esc(firstTrimmed.replace(/:\s*$/, ''))}</div>`);
+      const rest = blockLines.slice(1).join('\n').trim();
+      if (rest) html.push(renderContent(rest));
+      continue;
+    }
+
+    // Bullet list block
+    const bulletLines = blockLines.filter(l => /^\s*- /.test(l));
+    const nonEmptyLines = blockLines.filter(l => l.trim());
+    if (bulletLines.length > 0 && bulletLines.length >= nonEmptyLines.length * 0.5) {
+      const firstBulletIdx = blockLines.findIndex(l => /^\s*- /.test(l));
+      if (firstBulletIdx > 0) {
+        const intro = blockLines.slice(0, firstBulletIdx).join('\n').trim();
+        if (intro) {
+          html.push(`<div class="dd-item texts-message">${esc(intro).replace(/\n/g, '<br>')}</div>`);
+        }
+      }
+      const bullets = bulletLines.map(l => l.replace(/^\s*- /, '').trim());
+      const lis = bullets.map(b => `<li>${esc(b)}</li>`).join('');
+      html.push(`<ul class="texts-bullet-list">${lis}</ul>`);
+
+      const lastBulletIdx = blockLines.reduce((max, l, i) => /^\s*- /.test(l) ? i : max, -1);
+      if (lastBulletIdx >= 0 && lastBulletIdx < blockLines.length - 1) {
+        const outro = blockLines.slice(lastBulletIdx + 1).join('\n').trim();
+        if (outro) {
+          html.push(`<div class="dd-item texts-message">${esc(outro).replace(/\n/g, '<br>')}</div>`);
+        }
+      }
+      continue;
+    }
+
+    // Numbered list block
+    if (blockLines.some(l => /^\s*\d+\. /.test(l))) {
+      const firstNumIdx = blockLines.findIndex(l => /^\s*\d+\. /.test(l));
+      if (firstNumIdx > 0) {
+        const intro = blockLines.slice(0, firstNumIdx).join('\n').trim();
+        if (intro) {
+          html.push(`<div class="dd-item texts-message">${esc(intro).replace(/\n/g, '<br>')}</div>`);
+        }
+      }
+      const numItems = blockLines.filter(l => /^\s*\d+\. /.test(l)).map(l => l.replace(/^\s*\d+\. /, '').trim());
+      const lis = numItems.map(i => `<li>${esc(i)}</li>`).join('');
+      html.push(`<ol class="texts-numbered-list">${lis}</ol>`);
+
+      const lastNumIdx = blockLines.reduce((max, l, i) => /^\s*\d+\. /.test(l) ? i : max, -1);
+      if (lastNumIdx >= 0 && lastNumIdx < blockLines.length - 1) {
+        const outro = blockLines.slice(lastNumIdx + 1).join('\n').trim();
+        if (outro) {
+          html.push(`<div class="dd-item texts-message">${esc(outro).replace(/\n/g, '<br>')}</div>`);
+        }
+      }
+      continue;
+    }
+
+    // URL-only block
+    if (nonEmptyLines.every(l => /^https?:\/\//.test(l.trim()))) {
+      const urls = nonEmptyLines.map(l => l.trim());
+      const links = urls.map(u => `<a href="${esc(u)}" class="texts-url" target="_blank" rel="noopener">${esc(u)}</a>`).join('');
+      html.push(`<div class="texts-urls">${links}</div>`);
+      continue;
+    }
+
+    // Regular message
+    html.push(`<div class="dd-item texts-message">${esc(trimmed).replace(/\n/g, '<br>')}</div>`);
+  }
+
+  return html.join('');
+}
+
+/* ── Render "Follow-Up" style sub-category blocks ───────────── */
+function renderSubCategories(lines: string[]): string {
+  const html: string[] = [];
+  let subCatTitle: string | null = null;
+  let subItems: string[] = [];
+
+  const flushSubCat = () => {
+    if (subCatTitle !== null) {
+      const itemsHtml = subItems
+        .map(t => `<div class="dd-item texts-message">${esc(t).replace(/\n/g, '<br>')}</div>`)
+        .join('');
+      html.push(`<div class="texts-subcategory">
+        <div class="texts-subcategory-title">${esc(subCatTitle)}</div>
+        ${itemsHtml}
+      </div>`);
+    }
+  };
+
+  let currentItem: string[] = [];
+
+  const flushItem = () => {
+    const t = currentItem.join('\n').trim();
+    if (t) subItems.push(t);
+    currentItem = [];
+  };
+
+  for (const line of lines) {
+    const lineTrimmed = line.trim();
+
+    // Sub-category header: "- SubCat:" at col 0
+    if (/^- [A-Za-z].*:\s*$/.test(line)) {
+      flushItem();
+      flushSubCat();
+      subCatTitle = line.replace(/^- /, '').replace(/:\s*$/, '').trim();
+      subItems = [];
+      continue;
+    }
+
+    if (!lineTrimmed) {
+      flushItem();
+      continue;
+    }
+
+    // Item within sub-category
+    if (subCatTitle !== null) {
+      const t = line.replace(/^\s+- /, '').trimStart();
+      currentItem.push(t);
+    }
+  }
+
+  flushItem();
+  flushSubCat();
+  return html.join('');
+}
+
+/* ── Section icons ───────────────────────────────────────────── */
+const ICONS: Record<string, string> = {
+  'Birthdays': '&#127874;',
+  "Birthday Thank-You's": '&#128591;',
+  'Just Announced Pregnancy': '&#128116;',
+  'Newborn Baby': '&#128118;',
+  'Professional/Work': '&#128188;',
+  'College': '&#127891;',
+  'For My Wedding': '&#128141;',
+  "For Someone Else's Wedding": '&#127867;',
+  'Anniversary Wishes': '&#128145;',
+  'Baby Shower Thank-Yous': '&#127873;',
+  'Random Compliment': '&#11088;',
+  'Mourning/Loss': '&#128153;',
+  'Follow Up Check-In Texts for Tough Stressful Situations': '&#129309;',
+  'Well Wishes': '&#128140;',
+  "Simple Thank You's": '&#128591;',
+  "Veteran's Day": '&#127988;',
+};
+
+/* ── Build HTML ──────────────────────────────────────────────── */
+const sections = parseSections(raw);
+
+const navHtml = `<div class="texts-nav-wrapper" id="texts-top">
+  <div class="texts-nav-label">Jump to a Section</div>
+  <div class="texts-nav-grid">
+    ${sections.map(s => {
+      const icon = ICONS[s.title] ?? '';
+      return `<a href="#${s.id}" class="texts-nav-btn">${icon ? `<span class="texts-nav-icon">${icon}</span>` : ''}${esc(s.title)}</a>`;
+    }).join('')}
+  </div>
+</div>`;
+
+const sectionsHtml = sections.map(s => {
+  const contentHtml = renderContent(s.content);
+  return `<div class="texts-section" id="${s.id}">
+    <div class="texts-section-header">
+      <span class="texts-section-icon">${ICONS[s.title] ?? ''}</span>
+      <div class="dd-category-title texts-section-title">${esc(s.title)}</div>
+      <a href="#texts-top" class="texts-top-link" aria-label="Back to top">&#8593; Top</a>
+    </div>
+    <div class="texts-section-body">${contentHtml}</div>
+  </div>`;
+}).join('');
+
+const pageHtml = navHtml + sectionsHtml;
 ---
 
 <BaseLayout
@@ -22,11 +273,9 @@ const textsHtml = textsRaw
   <div class="takeaways-content">
     <span class="takeaways-tag">Love Your Neighbors</span>
     <h1 class="takeaways-title">The Art of Showing Up with Words</h1>
-    <p style="font-size:.9rem;color:#7A7368;font-style:italic;margin-bottom:2.5rem;font-family:'EB Garamond',serif">Real messages for every major life event — blueprints for your own voice</p>
-    <div class="dd-category" id="dd-unabridged-source-library">
-      <div class="dd-category-title">Unabridged Source Library</div>
-      <div class="dd-item dd-item-raw" set:html={textsHtml}></div>
-    </div>
+    <p class="texts-subtitle">Real messages for every major life event — blueprints for your own voice</p>
+
+    <Fragment set:html={pageHtml} />
   </div>
 
   <div class="dd-page-nav">
@@ -34,3 +283,254 @@ const textsHtml = textsRaw
     <a class="dd-nav-btn dd-nav-next" href="/love-your-neighbors/takeaways-questions/">Asking Good Questions &#8594;</a>
   </div>
 </BaseLayout>
+
+<style>
+/* ── Page subtitle ───────────────────────────────────────────── */
+.texts-subtitle {
+  font-size: 0.9rem;
+  color: #7a7368;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  font-family: 'EB Garamond', serif;
+}
+
+/* ── Navigation wrapper — top only, never sticky ────────────── */
+.texts-nav-wrapper {
+  margin-bottom: 3rem;
+  padding: 1.5rem 1.75rem;
+  background: rgba(183, 156, 92, 0.05);
+  border: 1px solid rgba(183, 156, 92, 0.2);
+  border-radius: 8px;
+}
+
+.texts-nav-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 1rem;
+}
+
+.texts-nav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.texts-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.9rem;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(199, 187, 170, 0.6);
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #5c5449;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+  line-height: 1.3;
+}
+
+.texts-nav-btn:hover {
+  background: #6a6156;
+  color: #f3efe9;
+  border-color: #6a6156;
+}
+
+.texts-nav-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+/* ── Section container ───────────────────────────────────────── */
+.texts-section {
+  margin-bottom: 3.5rem;
+  scroll-margin-top: 1rem;
+}
+
+.texts-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid rgba(183, 156, 92, 0.2);
+}
+
+.texts-section-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.texts-section-title {
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.texts-top-link {
+  flex-shrink: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: #b79c5c;
+  text-decoration: none;
+  opacity: 0.65;
+  transition: opacity 0.2s;
+}
+
+.texts-top-link:hover {
+  opacity: 1;
+}
+
+/* ── Message cards ───────────────────────────────────────────── */
+.texts-message {
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(199, 187, 170, 0.3);
+  border-left: 3px solid rgba(183, 156, 92, 0.25);
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 0.65rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.93rem;
+  color: #5e554b;
+  line-height: 1.78;
+  max-width: 82ch;
+}
+
+/* ── Sub-header labels (within sections) ─────────────────────── */
+.texts-subheader {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.texts-subheader::after {
+  content: '';
+  flex: 1;
+  max-width: 120px;
+  height: 1px;
+  background: rgba(183, 156, 92, 0.2);
+}
+
+/* ── Bullet list ─────────────────────────────────────────────── */
+.texts-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  max-width: 82ch;
+}
+
+.texts-bullet-list li {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.93rem;
+  color: #5e554b;
+  line-height: 1.75;
+  padding: 0.55rem 1rem 0.55rem 1.6rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(199, 187, 170, 0.15);
+}
+
+.texts-bullet-list li:first-child {
+  border-top: 1px solid rgba(199, 187, 170, 0.15);
+}
+
+.texts-bullet-list li::before {
+  content: '\2014';
+  position: absolute;
+  left: 0.5rem;
+  color: #b79c5c;
+}
+
+/* ── Numbered list ───────────────────────────────────────────── */
+.texts-numbered-list {
+  padding-left: 1.75rem;
+  margin: 0 0 0.75rem;
+  max-width: 82ch;
+}
+
+.texts-numbered-list li {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.93rem;
+  color: #5e554b;
+  line-height: 1.75;
+  margin-bottom: 0.45rem;
+  padding-left: 0.25rem;
+}
+
+/* ── Sub-categories (Follow-Up section) ─────────────────────── */
+.texts-subcategory {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba(183, 156, 92, 0.3);
+}
+
+.texts-subcategory-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.7rem;
+  padding-top: 0.15rem;
+}
+
+/* ── URL lists ───────────────────────────────────────────────── */
+.texts-urls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.texts-url {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  color: #b79c5c;
+  text-decoration: underline;
+  word-break: break-all;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.texts-url:hover {
+  opacity: 1;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 520px) {
+  .texts-nav-wrapper {
+    padding: 1.1rem 1rem;
+  }
+
+  .texts-nav-btn {
+    font-size: 0.65rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .texts-message {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+</style>
