@@ -1,6 +1,6 @@
 # 45 Book Summaries
 
-> **Wisdom translated into action.**
+> **Deep wisdom, distilled into daily habits.**
 
 A personal bookshelf website featuring curated summaries and takeaways from 45 books, organized across five life pillars.
 
