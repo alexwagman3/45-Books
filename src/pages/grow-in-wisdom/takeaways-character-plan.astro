@@ -5,6 +5,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <BaseLayout
   title="Grow in Wisdom — Weekly Character Plan"
   description="Deep dive: a full 8-trait weekly character formation plan built around Loving, Humble, Self-Controlled, Hopeful, Wise, Joyful, Peaceful, and Courageous — each with a four-step reflection framework."
+  canonicalPath="/grow-in-wisdom/takeaways-character-plan/"
 >
   <a class="overlay-back" href="/grow-in-wisdom/takeaways/">&#8592; Back to Takeaways</a>
   <a class="overlay-close" href="/" aria-label="Close">&times;</a>
@@ -14,8 +15,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <h1 class="takeaways-title">Weekly Character Plan</h1>
     <p class="cp-subtitle">God's will for your life is to be conformed to the image of His Son.</p>
 
-    <!-- Quick-jump nav -->
-    <div class="cp-nav">
+    <nav class="cp-nav">
       <a class="cp-nav-link" href="#trait-loving">Loving</a>
       <a class="cp-nav-link" href="#trait-humble">Humble</a>
       <a class="cp-nav-link" href="#trait-self-controlled">Self-Controlled</a>
@@ -24,10 +24,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <a class="cp-nav-link" href="#trait-joyful">Joyful</a>
       <a class="cp-nav-link" href="#trait-peaceful">Peaceful</a>
       <a class="cp-nav-link" href="#trait-courageous">Courageous</a>
-    </div>
+    </nav>
 
-    <!-- Row 1: Loving · Humble · Self-Controlled · Hopeful -->
-    <div class="cp-row">
+    <div class="cp-grid">
 
       <article class="cp-card" id="trait-loving">
         <div class="cp-card-top">
@@ -141,11 +140,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <div class="cp-scripture">"His mercies are new every morning." — Lam. 3:23</div>
       </article>
 
-    </div><!-- /.cp-row -->
-
-    <!-- Row 2: Wise · Joyful · Peaceful · Courageous -->
-    <div class="cp-row">
-
       <article class="cp-card" id="trait-wise">
         <div class="cp-card-top">
           <h2 class="cp-trait">Wise</h2>
@@ -258,257 +252,292 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <div class="cp-scripture">"Be strong and courageous." — Deut. 31:6</div>
       </article>
 
-    </div><!-- /.cp-row -->
+    </div><!-- /.cp-grid -->
 
-    <!-- AI Prompt -->
     <div class="cp-ai-prompt">
       <span class="cp-ai-label">AI Prompt</span>
       <p>Guide me through the framework for [INSERT TRAIT] one section at a time. Analyze my answers—if I'm being surface-level or letting myself off easy, push back and ask follow-up questions. Don't move on until we've gone deep. End by helping me apply the specific scripture and core truth to my situation.</p>
     </div>
 
-  </div><!-- /.takeaways-content -->
+  </div><!-- /.cp-page -->
 </BaseLayout>
 
 <style>
-  /* ─── Page header ───────────────────────────────────────────── */
-  .cp-subtitle {
-    font-family: 'EB Garamond', serif;
-    font-size: 1rem;
-    font-style: italic;
-    color: #7a7368;
-    margin-bottom: 2rem;
-    line-height: 1.6;
+/* ── Page wrapper ─────────────────────────────────────────────── */
+.cp-page {
+  max-width: 1040px;
+}
+
+/* ── Subtitle ─────────────────────────────────────────────────── */
+.cp-subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #7a7368;
+  margin: 0 0 1.75rem;
+  line-height: 1.6;
+}
+
+/* ── Quick-jump nav ───────────────────────────────────────────── */
+.cp-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
+}
+
+.cp-nav-link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a7368;
+  background: rgba(70, 61, 52, 0.04);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  padding: 0.38rem 0.85rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.cp-nav-link:hover {
+  background: #6a6156;
+  color: #f3efe9;
+  border-color: #6a6156;
+}
+
+/* ── Card grid ────────────────────────────────────────────────── */
+.cp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Individual card ──────────────────────────────────────────── */
+.cp-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  border-left: 3px solid #c2a86d;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.cp-card:hover {
+  box-shadow: 0 5px 22px rgba(70, 61, 52, 0.1);
+}
+
+/* ── Card header ──────────────────────────────────────────────── */
+.cp-card-top {
+  padding: 1.1rem 1.25rem 1rem;
+  background: rgba(183, 156, 92, 0.07);
+  border-bottom: 1px solid rgba(183, 156, 92, 0.15);
+}
+
+.cp-trait {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #3d3830;
+  margin: 0 0 0.25rem;
+  line-height: 1.2;
+}
+
+.cp-descriptors {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  color: #9e8c78;
+  margin: 0 0 0.85rem;
+  letter-spacing: 0.01em;
+}
+
+.cp-framework-name {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  background: rgba(183, 156, 92, 0.13);
+  border: 1px solid rgba(183, 156, 92, 0.3);
+  padding: 0.22rem 0.65rem;
+  border-radius: 2px;
+}
+
+/* ── Recall prompt ────────────────────────────────────────────── */
+.cp-recall {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.93rem;
+  color: #5e554b;
+  line-height: 1.65;
+  font-style: italic;
+  padding: 0.85rem 1.25rem;
+  background: rgba(233, 227, 216, 0.4);
+  border-bottom: 1px solid rgba(199, 187, 170, 0.3);
+  margin: 0;
+}
+
+.cp-recall::before {
+  content: 'Recall';
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.56rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Steps ────────────────────────────────────────────────────── */
+.cp-steps {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+
+.cp-step {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.25);
+}
+
+.cp-step:first-child {
+  padding-top: 0;
+}
+
+.cp-step:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.cp-step-label {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.25rem;
+}
+
+.cp-step p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #5e554b;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── Remember block ───────────────────────────────────────────── */
+.cp-remember {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #4f4a44;
+  line-height: 1.6;
+  background: rgba(183, 156, 92, 0.07);
+  border-top: 1px solid rgba(183, 156, 92, 0.18);
+  padding: 0.75rem 1.1rem;
+  margin-top: auto;
+}
+
+.cp-remember-label {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Scripture footer ─────────────────────────────────────────── */
+.cp-scripture {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #9e8c78;
+  text-align: center;
+  padding: 0.7rem 1.25rem 0.8rem;
+  border-top: 1px solid rgba(199, 187, 170, 0.35);
+  background: rgba(70, 61, 52, 0.02);
+}
+
+/* ── AI Prompt ────────────────────────────────────────────────── */
+.cp-ai-prompt {
+  background: rgba(70, 61, 52, 0.04);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cp-ai-label {
+  flex-shrink: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #f3efe9;
+  background: #6a6156;
+  padding: 0.3rem 0.65rem;
+  border-radius: 2px;
+  margin-top: 0.1rem;
+}
+
+.cp-ai-prompt p {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.93rem;
+  color: #5e554b;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Responsive: tablet → 1 column ───────────────────────────── */
+@media (max-width: 720px) {
+  .cp-grid {
+    grid-template-columns: 1fr;
   }
 
-  /* ─── Quick-jump nav ────────────────────────────────────────── */
-  .cp-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.75rem;
-    border-bottom: 1px solid rgba(183, 156, 92, 0.2);
-  }
-
-  .cp-nav-link {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.65rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #7a7368;
-    background: rgba(70, 61, 52, 0.04);
-    border: 1px solid rgba(199, 187, 170, 0.5);
-    padding: 0.3rem 0.75rem;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: all 0.2s;
-  }
-
-  .cp-nav-link:hover {
-    background: #6a6156;
-    color: #f3efe9;
-    border-color: #6a6156;
-  }
-
-  /* ─── Card row ──────────────────────────────────────────────── */
-  .cp-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
-    margin-bottom: 1.25rem;
-  }
-
-  /* ─── Individual card ───────────────────────────────────────── */
-  .cp-card {
-    display: flex;
-    flex-direction: column;
-    background: rgba(255, 255, 255, 0.45);
-    border: 1px solid rgba(199, 187, 170, 0.45);
-    border-left: 3px solid #c2a86d;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: box-shadow 0.25s;
-  }
-
-  .cp-card:hover {
-    box-shadow: 0 4px 20px rgba(70, 61, 52, 0.09);
-  }
-
-  /* ─── Row 1 — Card header ───────────────────────────────────── */
-  .cp-card-top {
-    background: rgba(183, 156, 92, 0.07);
-    border-bottom: 1px solid rgba(183, 156, 92, 0.15);
-    padding: 0.9rem 1.1rem 0.75rem;
-  }
-
-  .cp-trait {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #3d3830;
-    letter-spacing: 0.02em;
-    margin-bottom: 0.2rem;
-    text-transform: uppercase;
-  }
-
-  .cp-descriptors {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.68rem;
-    color: #9e8c78;
-    font-style: italic;
-    margin-bottom: 0.75rem;
-    letter-spacing: 0.01em;
-  }
-
-  .cp-framework-name {
-    display: inline-block;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.6rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #f3efe9;
-    background: #8a7e6e;
-    padding: 0.25rem 0.65rem;
-    border-radius: 2px;
-  }
-
-  /* ─── Row 2 — Recall prompt ─────────────────────────────────── */
-  .cp-recall {
-    font-family: 'EB Garamond', serif;
-    font-size: 0.9rem;
-    color: #5e554b;
-    line-height: 1.65;
-    font-style: italic;
-    padding: 0.9rem 1.2rem;
-    border-bottom: 1px solid rgba(199, 187, 170, 0.3);
-    margin: 0;
-  }
-
-  /* ─── Row 3 — Steps ─────────────────────────────────────────── */
-  .cp-steps {
-    padding: 1rem 1.2rem 0.9rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
-  }
-
-  .cp-step {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
-  .cp-step-label {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.58rem;
-    font-weight: 700;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: #b79c5c;
-  }
-
-  .cp-step p {
-    font-family: 'EB Garamond', serif;
-    font-size: 0.88rem;
-    color: #5e554b;
-    line-height: 1.65;
-    margin: 0;
-  }
-
-  /* ─── Row 4 — Remember block ────────────────────────────────── */
-  .cp-remember {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.8rem;
-    color: #5e554b;
-    line-height: 1.6;
-    background: rgba(183, 156, 92, 0.06);
-    border-left: 2px solid #c2a86d;
-    border-top: 1px solid rgba(199, 187, 170, 0.3);
-    padding: 0.7rem 0.85rem 0.7rem 1rem;
-  }
-
-  .cp-remember-label {
-    display: block;
-    font-size: 0.56rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #b79c5c;
-    margin-bottom: 0.3rem;
-  }
-
-  /* ─── Row 5 — Scripture footer ──────────────────────────────── */
-  .cp-scripture {
-    font-family: 'EB Garamond', serif;
-    font-size: 0.8rem;
-    font-style: italic;
-    color: #9e8c78;
-    text-align: center;
-    padding: 0.75rem 1.2rem 0.85rem;
-    border-top: 1px solid rgba(199, 187, 170, 0.35);
-    background: rgba(70, 61, 52, 0.02);
-  }
-
-  /* ─── AI Prompt ─────────────────────────────────────────────── */
   .cp-ai-prompt {
-    background: rgba(70, 61, 52, 0.04);
-    border: 1px solid rgba(199, 187, 170, 0.45);
-    border-radius: 6px;
-    padding: 1.25rem 1.5rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* ── Responsive: mobile refinements ──────────────────────────── */
+@media (max-width: 480px) {
+  .cp-trait {
+    font-size: 1.2rem;
   }
 
-  .cp-ai-label {
-    flex-shrink: 0;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.58rem;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #f3efe9;
-    background: #6a6156;
-    padding: 0.3rem 0.65rem;
-    border-radius: 2px;
-    margin-top: 0.1rem;
+  .cp-card-top {
+    padding: 0.9rem 1rem 0.85rem;
   }
 
-  .cp-ai-prompt p {
-    font-family: 'EB Garamond', serif;
-    font-size: 0.93rem;
-    color: #5e554b;
-    line-height: 1.75;
-    margin: 0;
+  .cp-recall,
+  .cp-steps {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
-  /* ─── Responsive — 1 column (mobile) ───────────────────────── */
-  @media (max-width: 640px) {
-    .cp-row {
-      grid-template-columns: 1fr;
-    }
-
-    .cp-recall {
-      padding: 0.85rem 1rem;
-    }
-
-    .cp-steps {
-      padding: 0.9rem 1rem 0.85rem;
-    }
-
-    .cp-remember {
-      padding: 0.65rem 0.85rem 0.65rem 0.95rem;
-    }
-
-    .cp-ai-prompt {
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .cp-trait {
-      font-size: 1rem;
-    }
+  .cp-remember {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+}
 </style>
