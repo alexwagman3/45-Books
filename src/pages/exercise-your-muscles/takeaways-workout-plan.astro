@@ -10,279 +10,552 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <a class="overlay-back" href="/exercise-your-muscles/takeaways/">&#8592; Back to Takeaways</a>
   <a class="overlay-close" href="/" aria-label="Close">&times;</a>
 
-  <div class="takeaways-content">
+  <div class="takeaways-content wp-wrap">
+
     <span class="takeaways-tag">Exercise Your Muscles</span>
     <h1 class="takeaways-title">Weekly Workout Plan</h1>
 
-    <div class="dd-topic-list">
-      <a class="dd-topic-link" href="#eym-plan-table">7-Day Schedule</a>
-      <a class="dd-topic-link" href="#eym-workout-a">Workout A</a>
-      <a class="dd-topic-link" href="#eym-workout-b">Workout B</a>
-      <a class="dd-topic-link" href="#eym-vo2-rowing">VO2 Max Rowing</a>
-      <a class="dd-topic-link" href="#eym-zone2">Zone 2 Cardio</a>
-    </div>
+    <p class="wp-subtitle">The 7-Day Optimal Balance Schedule &middot; 30 minutes &middot; Strength + Cardio + Recovery</p>
 
-    <div class="tk-section" id="eym-plan-table">
-      <div class="tk-section-title">7-Day Schedule</div>
-      <div class="fyb-table-wrap">
-        <table class="fyb-table" style="min-width:700px">
-          <thead>
-            <tr>
-              <th style="width:10%">Day</th>
-              <th style="width:18%">Session</th>
-              <th style="width:30%">Exercises</th>
-              <th style="width:14%">Protocol</th>
-              <th style="width:12%">Duration</th>
-              <th style="width:16%">Source</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="fyb-day">Monday</td>
-              <td><strong>Strength A</strong></td>
-              <td>
-                <ul>
-                  <li>Squat</li>
-                  <li>Superset: Bench Press ↔ Barbell Row</li>
-                </ul>
-              </td>
-              <td>3 × 6–8 reps</td>
-              <td>~30 min</td>
-              <td>Sullivan</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Tuesday</td>
-              <td><strong>Strength B</strong></td>
-              <td>
-                <ul>
-                  <li>Squat</li>
-                  <li>Superset: Overhead Press ↔ Deadlift</li>
-                </ul>
-              </td>
-              <td>3 × 6–8 reps</td>
-              <td>~30 min</td>
-              <td>Sullivan</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Wednesday</td>
-              <td><strong>VO2 Max Rowing</strong></td>
-              <td>
-                <ul>
-                  <li>Rowing machine intervals</li>
-                  <li>Max effort sprints with active rest</li>
-                </ul>
-              </td>
-              <td>8 × 1 min on / 2 min off</td>
-              <td>~30 min</td>
-              <td>Ratey</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Thursday</td>
-              <td><strong>Strength A</strong></td>
-              <td>
-                <ul>
-                  <li>Squat</li>
-                  <li>Superset: Bench Press ↔ Barbell Row</li>
-                </ul>
-              </td>
-              <td>3 × 6–8 reps</td>
-              <td>~30 min</td>
-              <td>Sullivan</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Friday</td>
-              <td><strong>Strength B</strong></td>
-              <td>
-                <ul>
-                  <li>Squat</li>
-                  <li>Superset: Overhead Press ↔ Deadlift</li>
-                </ul>
-              </td>
-              <td>3 × 6–8 reps</td>
-              <td>~30 min</td>
-              <td>Sullivan</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Saturday</td>
-              <td><strong>Zone 2 Cardio</strong></td>
-              <td>
-                <ul>
-                  <li>Bike, row, or incline walk</li>
-                  <li>Conversational pace — you can hold a full sentence</li>
-                </ul>
-              </td>
-              <td>130–150 bpm steady state</td>
-              <td>30–45 min</td>
-              <td>Ratey / Hargrove</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Sunday</td>
-              <td><strong>Full Recovery</strong></td>
-              <td>
-                <ul>
-                  <li>No lifting, no cardio</li>
-                  <li>Optional: light mobility or walking</li>
-                </ul>
-              </td>
-              <td>—</td>
-              <td>Rest</td>
-              <td>Sullivan</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    <nav class="wp-nav">
+      <a class="wp-nav-link" href="#monday">Monday</a>
+      <a class="wp-nav-link" href="#tuesday">Tuesday</a>
+      <a class="wp-nav-link" href="#wednesday">Wednesday</a>
+      <a class="wp-nav-link" href="#thursday">Thursday</a>
+      <a class="wp-nav-link" href="#friday">Friday</a>
+      <a class="wp-nav-link" href="#saturday">Saturday</a>
+      <a class="wp-nav-link" href="#sunday">Sunday</a>
+    </nav>
 
-    <div class="tk-section" id="eym-workout-a">
-      <div class="tk-section-title">Workout A — Push / Pull Superset</div>
-      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1rem">Performed Monday and Thursday. Three compound barbell movements. The bench press and barbell row are run as a superset — complete one set of bench, rest briefly, then one set of row. Rotate until all 3 sets of each are done. Squats are performed first, straight sets.</p>
-      <div class="fyb-table-wrap">
-        <table class="fyb-table" style="min-width:580px">
-          <thead>
-            <tr>
-              <th style="width:28%">Exercise</th>
-              <th style="width:18%">Sets × Reps</th>
-              <th style="width:18%">Rest</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="fyb-day">Squat</td>
-              <td>3 × 6–8</td>
-              <td>2–3 min</td>
-              <td>Straight sets. Add weight when all 3 sets hit 8 reps.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Bench Press <span style="color:#b79c5c;font-size:0.75rem">↕ Superset</span></td>
-              <td>3 × 6–8</td>
-              <td>60–90 sec between supersets</td>
-              <td>Alternate with Barbell Row. Push until form breaks down.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Barbell Row <span style="color:#b79c5c;font-size:0.75rem">↕ Superset</span></td>
-              <td>3 × 6–8</td>
-              <td>60–90 sec between supersets</td>
-              <td>Pronated grip. Pull to lower chest. Keep back flat.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    <div class="wp-grid">
 
-    <div class="tk-section" id="eym-workout-b">
-      <div class="tk-section-title">Workout B — Push / Pull Superset</div>
-      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1rem">Performed Tuesday and Friday. Three compound barbell movements. The overhead press and deadlift are run as a superset — complete one set of press, rest, then one set of deadlift. Squats are performed first, straight sets.</p>
-      <div class="fyb-table-wrap">
-        <table class="fyb-table" style="min-width:580px">
-          <thead>
-            <tr>
-              <th style="width:28%">Exercise</th>
-              <th style="width:18%">Sets × Reps</th>
-              <th style="width:18%">Rest</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="fyb-day">Squat</td>
-              <td>3 × 6–8</td>
-              <td>2–3 min</td>
-              <td>Straight sets. Same progression — add weight when all 3 × 8.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Overhead Press <span style="color:#b79c5c;font-size:0.75rem">↕ Superset</span></td>
-              <td>3 × 6–8</td>
-              <td>60–90 sec between supersets</td>
-              <td>Strict press. No leg drive. Bar path straight up from shoulders.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Deadlift <span style="color:#b79c5c;font-size:0.75rem">↕ Superset</span></td>
-              <td>3 × 6–8</td>
-              <td>60–90 sec between supersets</td>
-              <td>Conventional pull. Reset on the floor each rep. Back stays neutral.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+      <!-- MONDAY -->
+      <article class="wp-card" id="monday">
+        <div class="wp-card-head">
+          <span class="wp-day">Monday</span>
+          <h3 class="wp-session">Upper Body Push/Pull</h3>
+          <div class="wp-focus">Horizontal Focus</div>
+        </div>
+        <div class="wp-exercises">
 
-    <div class="tk-section" id="eym-vo2-rowing">
-      <div class="tk-section-title">VO2 Max Rowing — Wednesday</div>
-      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1rem">Ratey's research shows that high-intensity aerobic exercise produces the largest spike in BDNF and HGH — and rowing hits it without the joint stress of running. The protocol is simple: row at maximum sustainable effort for 1 minute, recover for 2 minutes, repeat 8 times. Total session runs about 30 minutes with warmup and cooldown.</p>
-      <div class="fyb-table-wrap">
-        <table class="fyb-table" style="min-width:500px">
-          <thead>
-            <tr>
-              <th style="width:22%">Phase</th>
-              <th style="width:20%">Duration</th>
-              <th style="width:20%">Intensity</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="fyb-day">Warmup</td>
-              <td>5 min</td>
-              <td>Easy / Zone 1</td>
-              <td>Light rowing to get the blood moving. No effort yet.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Intervals × 8</td>
-              <td>1 min on / 2 min off</td>
-              <td>Max effort / Easy recovery</td>
-              <td>Drive as hard as you can for 60 seconds. Row easy for 2 min. Repeat 8 times.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Cooldown</td>
-              <td>5 min</td>
-              <td>Easy / Zone 1</td>
-              <td>Slow easy rowing to bring heart rate down.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Bench Press</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Superset A1</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 heavy reps. Barbell or dumbbell. 45 sec rest before A2.</p>
+            <span class="wp-badge wp-badge--superset">Superset A</span>
+          </div>
 
-    <div class="tk-section" id="eym-zone2">
-      <div class="tk-section-title">Zone 2 Cardio — Saturday</div>
-      <p style="font-family:'EB Garamond',serif;font-size:.95rem;color:#5E554B;line-height:1.8;margin-bottom:1rem">Zone 2 builds the aerobic base that makes everything else work better — without generating enough fatigue to interfere with strength gains. The test: you should be able to speak in full sentences the entire time. If you have to pause mid-sentence, slow down. Any low-impact modality works.</p>
-      <div class="fyb-table-wrap">
-        <table class="fyb-table" style="min-width:500px">
-          <thead>
-            <tr>
-              <th style="width:25%">Modality</th>
-              <th style="width:20%">Duration</th>
-              <th style="width:25%">Target Heart Rate</th>
-              <th>Pacing Cue</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="fyb-day">Stationary Bike</td>
-              <td>30–45 min</td>
-              <td>130–150 bpm</td>
-              <td>Easy enough to hold a full conversation without pausing.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Rowing Machine</td>
-              <td>30–45 min</td>
-              <td>130–150 bpm</td>
-              <td>Same rule. If breathing gets labored, back off the pace.</td>
-            </tr>
-            <tr>
-              <td class="fyb-day">Incline Walk</td>
-              <td>30–45 min</td>
-              <td>130–150 bpm</td>
-              <td>Treadmill at 3–4% grade. No running needed to hit Zone 2.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Bent-Over Rows</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Superset A2</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 heavy reps. Barbell or dumbbell. 45 sec rest, repeat A1.</p>
+            <span class="wp-badge wp-badge--superset">Superset A</span>
+          </div>
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Push-Ups</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">To absolute failure.</p>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- TUESDAY -->
+      <article class="wp-card" id="tuesday">
+        <div class="wp-card-head">
+          <span class="wp-day">Tuesday</span>
+          <h3 class="wp-session">Lower Body</h3>
+          <div class="wp-focus">Testosterone Generator</div>
+        </div>
+        <div class="wp-exercises">
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Barbell Back Squats</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Main Lift</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 reps. 90 sec rest. Do not superset — lift heavy safely.</p>
+            <span class="wp-badge wp-badge--heavy">Heavy</span>
+          </div>
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Bulgarian Split Squats</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+                <span class="wp-role">Superset A1</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">10 reps. Fixes imbalances, great for knee longevity.</p>
+          </div>
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Hanging Leg Raises</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+                <span class="wp-role">Superset A2</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">10 reps. Or Ab Wheel Rollouts.</p>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- WEDNESDAY -->
+      <article class="wp-card" id="wednesday">
+        <div class="wp-card-head">
+          <span class="wp-day">Wednesday</span>
+          <h3 class="wp-session">VO2 Max Intervals</h3>
+          <div class="wp-focus">Rowing Machine</div>
+        </div>
+        <div class="wp-exercises">
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Rowing Warm-Up</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 min easy pace</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">Easy, controlled strokes. Focus on form — drive with legs, lean back, pull to chest.</p>
+            <span class="wp-badge wp-badge--cardio">Cardio</span>
+          </div>
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Rowing Intervals</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">9 Rounds</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">1:40 hard effort &rarr; 0:20 rest. Repeat &times; 9. Max sustainable output each interval.</p>
+            <span class="wp-badge wp-badge--intervals">Intervals</span>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- THURSDAY -->
+      <article class="wp-card" id="thursday">
+        <div class="wp-card-head">
+          <span class="wp-day">Thursday</span>
+          <h3 class="wp-session">Upper Body Push/Pull</h3>
+          <div class="wp-focus">Vertical Focus</div>
+        </div>
+        <div class="wp-exercises">
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Overhead Press</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Superset A1</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 reps. Standing barbell or dumbbells. Forces core to stabilize.</p>
+            <span class="wp-badge wp-badge--superset">Superset A</span>
+          </div>
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Weighted Pull-Ups / Lat Pulldowns</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Superset A2</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 reps. 45 sec rest between exercises.</p>
+            <span class="wp-badge wp-badge--superset">Superset A</span>
+          </div>
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Dumbbell Hammer Curls</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">10 reps. Builds bicep and elbow tendon health.</p>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- FRIDAY -->
+      <article class="wp-card" id="friday">
+        <div class="wp-card-head">
+          <span class="wp-day">Friday</span>
+          <h3 class="wp-session">Lower Body Posterior Chain</h3>
+          <div class="wp-focus">Bulletproofing</div>
+        </div>
+        <div class="wp-exercises">
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Romanian Deadlifts</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">4 Sets</span>
+                <span class="wp-role">Main Lift</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">6–8 reps. Or Trap-Bar Deadlifts. 90 sec rest. Core braced.</p>
+            <span class="wp-badge wp-badge--heavy">Heavy</span>
+          </div>
+
+          <div class="wp-exercise">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Kettlebell Swings</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+                <span class="wp-role">Superset A1</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">15 reps. Explosive hip power.</p>
+          </div>
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Face Pulls</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">3 Sets</span>
+                <span class="wp-role">Superset A2</span>
+              </div>
+            </div>
+            <p class="wp-ex-desc">15 reps. Cable or band. Key for shoulder health and reversing desk posture.</p>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- SATURDAY + SUNDAY (full width) -->
+      <article class="wp-card wp-card--full" id="saturday">
+        <div class="wp-card-head">
+          <span class="wp-day">Saturday</span>
+          <h3 class="wp-session">Zone 2 Steady State</h3>
+          <div class="wp-focus">Heart Health &amp; Recovery</div>
+        </div>
+        <div class="wp-two-col">
+
+          <div class="wp-col-block">
+            <div class="wp-exercise wp-exercise--last">
+              <div class="wp-ex-top">
+                <span class="wp-ex-name">Outdoor or Indoor Bike Ride</span>
+                <div class="wp-ex-meta">
+                  <span class="wp-sets">30 min &mdash; alternative</span>
+                </div>
+              </div>
+              <p class="wp-ex-desc">Easy to moderate effort outside, or a low-intensity Peloton ride. Stay in Zone 2 — resist the urge to push hard the day before rest day.</p>
+              <span class="wp-badge wp-badge--zone2">Zone 2</span>
+            </div>
+          </div>
+
+          <div class="wp-col-block wp-col-block--alt">
+            <div class="wp-exercise wp-exercise--last">
+              <div class="wp-ex-top">
+                <span class="wp-ex-name">Sunday &mdash; Rest &amp; Recovery</span>
+              </div>
+              <p class="wp-ex-desc">Zero intense exercise. Follow a 30-min guided stretch or yoga routine on YouTube. Focus on hip flexors, hamstrings, and thoracic spine rotation. Muscle is torn in the gym — it's built while you rest.</p>
+              <span class="wp-badge wp-badge--recovery">Recovery</span>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </div><!-- .wp-grid -->
+
+  </div><!-- .wp-wrap -->
 </BaseLayout>
 
 <style>
-  html { scroll-behavior: smooth; }
+/* ── Page wrapper ─────────────────────────────────────────────── */
+.wp-wrap {
+  max-width: 1080px;
+}
+
+/* ── Subtitle ─────────────────────────────────────────────────── */
+.wp-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #7a7368;
+  margin-top: -0.75rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.02em;
+}
+
+/* ── Jump nav ─────────────────────────────────────────────────── */
+.wp-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
+}
+
+.wp-nav-link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a7368;
+  background: rgba(70, 61, 52, 0.04);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  padding: 0.38rem 0.85rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.wp-nav-link:hover {
+  background: #6a6156;
+  color: #f3efe9;
+  border-color: #6a6156;
+}
+
+/* ── Card grid ────────────────────────────────────────────────── */
+.wp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+/* ── Individual day card ──────────────────────────────────────── */
+.wp-card {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  border-left: 3px solid #c2a86d;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.wp-card--full {
+  grid-column: 1 / -1;
+}
+
+/* ── Card header ──────────────────────────────────────────────── */
+.wp-card-head {
+  padding: 0.9rem 1.1rem 0.7rem;
+  background: rgba(183, 156, 92, 0.07);
+  border-bottom: 1px solid rgba(183, 156, 92, 0.15);
+}
+
+.wp-day {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.2rem;
+}
+
+.wp-session {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #3d3830;
+  line-height: 1.25;
+  margin: 0 0 0.2rem 0;
+}
+
+.wp-focus {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  color: #7a7368;
+  font-style: italic;
+}
+
+/* ── Exercises list ───────────────────────────────────────────── */
+.wp-exercises {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* ── Two-column layout for Saturday card ─────────────────────── */
+.wp-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex: 1;
+}
+
+.wp-col-block {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wp-col-block--alt {
+  border-left: 1px solid rgba(199, 187, 170, 0.3);
+}
+
+/* ── Single exercise row ──────────────────────────────────────── */
+.wp-exercise {
+  padding: 0.85rem 1.1rem 0.75rem;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.wp-exercise--last {
+  border-bottom: none;
+  flex: 1;
+}
+
+.wp-ex-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.wp-ex-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #3d3830;
+  flex-shrink: 0;
+}
+
+.wp-ex-meta {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.wp-sets {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #1a56c4;
+}
+
+.wp-role {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #1a56c4;
+}
+
+.wp-sets + .wp-role::before {
+  content: '·';
+  margin-right: 0.4rem;
+  color: #b79c5c;
+}
+
+.wp-ex-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  color: #5e554b;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ── Badges ───────────────────────────────────────────────────── */
+.wp-badge {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  align-self: flex-start;
+  margin-top: 0.1rem;
+}
+
+.wp-badge--superset {
+  background: rgba(26, 86, 196, 0.08);
+  color: #1a56c4;
+  border: 1px solid rgba(26, 86, 196, 0.2);
+}
+
+.wp-badge--heavy {
+  background: rgba(26, 86, 196, 0.08);
+  color: #1a56c4;
+  border: 1px solid rgba(26, 86, 196, 0.2);
+}
+
+.wp-badge--cardio {
+  background: rgba(22, 163, 74, 0.08);
+  color: #16a34a;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+}
+
+.wp-badge--intervals {
+  background: rgba(22, 163, 74, 0.08);
+  color: #16a34a;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+}
+
+.wp-badge--zone2 {
+  background: rgba(22, 163, 74, 0.08);
+  color: #16a34a;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+}
+
+.wp-badge--recovery {
+  background: rgba(183, 156, 92, 0.12);
+  color: #8a6d1e;
+  border: 1px solid rgba(183, 156, 92, 0.3);
+}
+
+/* ── Responsive: tablet ───────────────────────────────────────── */
+@media (max-width: 860px) {
+  .wp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wp-card--full {
+    grid-column: auto;
+  }
+}
+
+/* ── Responsive: mobile ───────────────────────────────────────── */
+@media (max-width: 560px) {
+  .wp-two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .wp-col-block--alt {
+    border-left: none;
+    border-top: 1px solid rgba(199, 187, 170, 0.3);
+  }
+
+  .wp-ex-top {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+html { scroll-behavior: smooth; }
 </style>
