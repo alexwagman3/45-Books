@@ -285,6 +285,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     </div><!-- .wp-grid -->
 
+    <div class="wp-po-section">
+      <h2 class="wp-po-title">Progressive Overload</h2>
+      <p class="wp-po-body">Your muscles adapt to any fixed stimulus within weeks — what was hard becomes easy, and growth stops. Progressive overload is the deliberate, incremental increase of training stress over time: more weight, more reps, shorter rest, or greater range of motion. It works by exploiting the SAID principle (Specific Adaptation to Imposed Demands) — your body builds only what's required to handle the load you impose. In practice: once you hit the top of your rep range with good form, add 5 lbs next session. Small, consistent increments compound into dramatic long-term strength and muscle gains.</p>
+    </div>
+
   </div><!-- .wp-wrap -->
 </BaseLayout>
 
@@ -502,4 +507,30 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 }
 
 html { scroll-behavior: smooth; }
+
+/* ── Progressive Overload section ────────────────────────────── */
+.wp-po-section {
+  margin-top: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(199, 187, 170, 0.45);
+  border-left: 3px solid #c2a86d;
+  border-radius: 5px;
+}
+
+.wp-po-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #3d3830;
+  margin: 0 0 0.75rem 0;
+}
+
+.wp-po-body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #5e554b;
+  line-height: 1.7;
+  margin: 0;
+}
 </style>
