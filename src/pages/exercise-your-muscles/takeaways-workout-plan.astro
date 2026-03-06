@@ -17,16 +17,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
     <p class="wp-subtitle">The 7-Day Optimal Balance Schedule &middot; 30 minutes &middot; Strength + Cardio + Recovery</p>
 
-    <nav class="wp-nav">
-      <a class="wp-nav-link" href="#monday">Monday</a>
-      <a class="wp-nav-link" href="#tuesday">Tuesday</a>
-      <a class="wp-nav-link" href="#wednesday">Wednesday</a>
-      <a class="wp-nav-link" href="#thursday">Thursday</a>
-      <a class="wp-nav-link" href="#friday">Friday</a>
-      <a class="wp-nav-link" href="#saturday">Saturday</a>
-      <a class="wp-nav-link" href="#sunday">Sunday</a>
-    </nav>
-
     <div class="wp-grid">
 
       <!-- MONDAY -->
@@ -247,36 +237,47 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </article>
 
-      <!-- SATURDAY + SUNDAY (full width) -->
-      <article class="wp-card wp-card--full" id="saturday">
+      <!-- SATURDAY -->
+      <article class="wp-card" id="saturday">
         <div class="wp-card-head">
           <span class="wp-day">Saturday</span>
           <h3 class="wp-session">Zone 2 Steady State</h3>
           <div class="wp-focus">Heart Health &amp; Recovery</div>
         </div>
-        <div class="wp-two-col">
+        <div class="wp-exercises">
 
-          <div class="wp-col-block">
-            <div class="wp-exercise wp-exercise--last">
-              <div class="wp-ex-top">
-                <span class="wp-ex-name">Outdoor or Indoor Bike Ride</span>
-                <div class="wp-ex-meta">
-                  <span class="wp-sets">30 min &mdash; alternative</span>
-                </div>
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Outdoor or Indoor Bike Ride</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">30 min &mdash; alternative</span>
               </div>
-              <p class="wp-ex-desc">Easy to moderate effort outside, or a low-intensity Peloton ride. Stay in Zone 2 — resist the urge to push hard the day before rest day.</p>
-              <span class="wp-badge wp-badge--zone2">Zone 2</span>
             </div>
+            <p class="wp-ex-desc">Easy to moderate effort outside, or a low-intensity Peloton ride. Stay in Zone 2 — resist the urge to push hard the day before rest day.</p>
+            <span class="wp-badge wp-badge--zone2">Zone 2</span>
           </div>
 
-          <div class="wp-col-block wp-col-block--alt">
-            <div class="wp-exercise wp-exercise--last">
-              <div class="wp-ex-top">
-                <span class="wp-ex-name">Sunday &mdash; Rest &amp; Recovery</span>
+        </div>
+      </article>
+
+      <!-- SUNDAY -->
+      <article class="wp-card" id="sunday">
+        <div class="wp-card-head">
+          <span class="wp-day">Sunday</span>
+          <h3 class="wp-session">Rest &amp; Recovery</h3>
+          <div class="wp-focus">Active Recovery</div>
+        </div>
+        <div class="wp-exercises">
+
+          <div class="wp-exercise wp-exercise--last">
+            <div class="wp-ex-top">
+              <span class="wp-ex-name">Guided Stretch or Yoga</span>
+              <div class="wp-ex-meta">
+                <span class="wp-sets">30 min</span>
               </div>
-              <p class="wp-ex-desc">Zero intense exercise. Follow a 30-min guided stretch or yoga routine on YouTube. Focus on hip flexors, hamstrings, and thoracic spine rotation. Muscle is torn in the gym — it's built while you rest.</p>
-              <span class="wp-badge wp-badge--recovery">Recovery</span>
             </div>
+            <p class="wp-ex-desc">Zero intense exercise. Follow a 30-min guided stretch or yoga routine on YouTube. Focus on hip flexors, hamstrings, and thoracic spine rotation. Muscle is torn in the gym — it's built while you rest.</p>
+            <span class="wp-badge wp-badge--recovery">Recovery</span>
           </div>
 
         </div>
@@ -301,37 +302,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   margin-top: -0.75rem;
   margin-bottom: 2rem;
   letter-spacing: 0.02em;
-}
-
-/* ── Jump nav ─────────────────────────────────────────────────── */
-.wp-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 2.75rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
-}
-
-.wp-nav-link {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #7a7368;
-  background: rgba(70, 61, 52, 0.04);
-  border: 1px solid rgba(199, 187, 170, 0.45);
-  padding: 0.38rem 0.85rem;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.wp-nav-link:hover {
-  background: #6a6156;
-  color: #f3efe9;
-  border-color: #6a6156;
 }
 
 /* ── Card grid ────────────────────────────────────────────────── */
@@ -395,23 +365,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   display: flex;
   flex-direction: column;
   flex: 1;
-}
-
-/* ── Two-column layout for Saturday card ─────────────────────── */
-.wp-two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  flex: 1;
-}
-
-.wp-col-block {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.wp-col-block--alt {
-  border-left: 1px solid rgba(199, 187, 170, 0.3);
 }
 
 /* ── Single exercise row ──────────────────────────────────────── */
@@ -542,15 +495,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 /* ── Responsive: mobile ───────────────────────────────────────── */
 @media (max-width: 560px) {
-  .wp-two-col {
-    grid-template-columns: 1fr;
-  }
-
-  .wp-col-block--alt {
-    border-left: none;
-    border-top: 1px solid rgba(199, 187, 170, 0.3);
-  }
-
   .wp-ex-top {
     flex-direction: column;
     gap: 0.2rem;
