@@ -7,24 +7,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   description="Deep dive: a full 8-trait weekly character formation plan built around Loving, Humble, Self-Controlled, Hopeful, Wise, Joyful, Peaceful, and Courageous — each with a four-step reflection framework."
   canonicalPath="/grow-in-wisdom/takeaways-character-plan/"
 >
-  <a class="overlay-back" href="/grow-in-wisdom/takeaways/">&#8592; Back to Takeaways</a>
-  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
-
   <div class="takeaways-content cp-page">
     <span class="takeaways-tag">Grow in Wisdom</span>
     <h1 class="takeaways-title">Weekly Character Plan</h1>
     <p class="cp-subtitle">God's will for your life is to be conformed to the image of His Son.</p>
-
-    <nav class="cp-nav">
-      <a class="cp-nav-link" href="#trait-loving">Loving</a>
-      <a class="cp-nav-link" href="#trait-humble">Humble</a>
-      <a class="cp-nav-link" href="#trait-self-controlled">Self-Controlled</a>
-      <a class="cp-nav-link" href="#trait-hopeful">Hopeful</a>
-      <a class="cp-nav-link" href="#trait-wise">Wise</a>
-      <a class="cp-nav-link" href="#trait-joyful">Joyful</a>
-      <a class="cp-nav-link" href="#trait-peaceful">Peaceful</a>
-      <a class="cp-nav-link" href="#trait-courageous">Courageous</a>
-    </nav>
 
     <div class="cp-grid">
 
@@ -266,6 +252,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 /* ── Page wrapper ─────────────────────────────────────────────── */
 .cp-page {
   max-width: 1040px;
+  padding-top: 2rem;
 }
 
 /* ── Subtitle ─────────────────────────────────────────────────── */
@@ -276,37 +263,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   color: #7a7368;
   margin: 0 0 1.75rem;
   line-height: 1.6;
-}
-
-/* ── Quick-jump nav ───────────────────────────────────────────── */
-.cp-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 2.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
-}
-
-.cp-nav-link {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #7a7368;
-  background: rgba(70, 61, 52, 0.04);
-  border: 1px solid rgba(199, 187, 170, 0.45);
-  padding: 0.38rem 0.85rem;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.cp-nav-link:hover {
-  background: #6a6156;
-  color: #f3efe9;
-  border-color: #6a6156;
 }
 
 /* ── Card grid ────────────────────────────────────────────────── */
