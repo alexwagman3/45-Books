@@ -311,31 +311,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     border-color: #6a6156;
   }
 
-  /* ─── Card row — each row is its own subgrid context ────────── */
-  /*
-   * Each .cp-row is a 4-column grid.
-   * Each .cp-card spans 5 row tracks (header / recall / steps / remember / scripture).
-   * grid-template-rows: subgrid on the card tells each section to size by the
-   * tallest sibling in that track across all 4 cards — so all four alignment
-   * lines are perfectly level.
-   */
+  /* ─── Card row ──────────────────────────────────────────────── */
   .cp-row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 1.25rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
     margin-bottom: 1.25rem;
   }
 
   /* ─── Individual card ───────────────────────────────────────── */
   .cp-card {
-    /* Span exactly 5 row tracks and use the parent's implicit rows */
-    grid-row: span 5;
-    display: grid;
-    grid-template-rows: subgrid;
-
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.45);
     border: 1px solid rgba(199, 187, 170, 0.45);
-    border-radius: 6px;
+    border-left: 3px solid #c2a86d;
+    border-radius: 5px;
     overflow: hidden;
     transition: box-shadow 0.25s;
   }
@@ -346,9 +337,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   /* ─── Row 1 — Card header ───────────────────────────────────── */
   .cp-card-top {
-    background: rgba(70, 61, 52, 0.04);
-    border-bottom: 1px solid rgba(199, 187, 170, 0.4);
-    padding: 1.1rem 1.2rem 1rem;
+    background: rgba(183, 156, 92, 0.07);
+    border-bottom: 1px solid rgba(183, 156, 92, 0.15);
+    padding: 0.9rem 1.1rem 0.75rem;
   }
 
   .cp-trait {
@@ -493,27 +484,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     margin: 0;
   }
 
-  /* ─── Responsive — 2 columns (tablet) ──────────────────────── */
-  @media (max-width: 1100px) {
-    .cp-row {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
   /* ─── Responsive — 1 column (mobile) ───────────────────────── */
   @media (max-width: 640px) {
     .cp-row {
       grid-template-columns: 1fr;
-    }
-
-    /*
-     * On a single column, subgrid rows still work but each card is alone in
-     * its band so there's nothing to align against — reset to natural block
-     * layout so the card just fits its content without extra white space.
-     */
-    .cp-card {
-      grid-row: auto;
-      display: block;
     }
 
     .cp-recall {
