@@ -6,8 +6,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   title="Worship — Monday: Ask"
   description="50 personal prayer prompts and scriptures to pray over yourself for your Monday Ask practice."
 >
+  <a class="overlay-back" href="/worship/takeaways-weekly-prayer-plan/">&#8592; Back to Weekly Prayer Plan</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
   <div class="takeaways-content pg-page">
-    <a href="/worship/takeaways-weekly-prayer-plan/" class="pg-back">← Back to Weekly Prayer Plan</a>
 
     <div class="pg-header">
       <div class="pg-day-badge">Monday · Ask</div>
@@ -223,20 +225,6 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   max-width: 860px;
   padding-top: 1.5rem;
 }
-
-/* ── Back link ─────────────────────────────────────────────────── */
-.pg-back {
-  display: inline-block;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: #9a8e82;
-  text-decoration: none;
-  margin-bottom: 1.75rem;
-  letter-spacing: 0.01em;
-  transition: color 0.15s;
-}
-.pg-back:hover { color: #b79c5c; }
 
 /* ── Header ────────────────────────────────────────────────────── */
 .pg-header {
