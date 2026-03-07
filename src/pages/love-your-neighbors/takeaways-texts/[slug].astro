@@ -1,0 +1,270 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { raw, parseSections, renderContent, esc, ICONS } from '../../../lib/texts-utils';
+
+export async function getStaticPaths() {
+  const sections = parseSections(raw);
+  return sections.map(s => ({
+    params: { slug: s.slug },
+    props: { section: s },
+  }));
+}
+
+const { section } = Astro.props;
+const { html: contentHtml } = renderContent(section.content);
+const icon = ICONS[section.title] ?? '';
+
+// Prev/next within sections for navigation
+const sections = parseSections(raw);
+const idx = sections.findIndex(s => s.slug === section.slug);
+const prev = idx > 0 ? sections[idx - 1] : null;
+const next = idx < sections.length - 1 ? sections[idx + 1] : null;
+---
+
+<BaseLayout
+  title={`${section.title} — Message Templates`}
+  description={`Message templates and text ideas for: ${section.title}. Real words for every situation.`}
+  canonicalPath={`/love-your-neighbors/takeaways-texts/${section.slug}/`}
+>
+  <a class="overlay-back" href="/love-your-neighbors/takeaways-texts/">&#8592; Back to All Categories</a>
+  <a class="overlay-close" href="/" aria-label="Close">&times;</a>
+
+  <div class="takeaways-content">
+    <span class="takeaways-tag">Love Your Neighbors</span>
+
+    <div class="cat-header">
+      {icon && <span class="cat-icon" set:html={icon} />}
+      <h1 class="takeaways-title cat-title">{section.title}</h1>
+    </div>
+    <p class="texts-subtitle">Message templates and real examples — use as a blueprint for your own voice</p>
+
+    <div class="texts-section-body">
+      <Fragment set:html={contentHtml} />
+    </div>
+  </div>
+
+  <div class="dd-page-nav">
+    {prev
+      ? <a class="dd-nav-btn dd-nav-prev" href={`/love-your-neighbors/takeaways-texts/${prev.slug}/`}>&#8592; {prev.title}</a>
+      : <span class="dd-nav-btn dd-nav-prev dd-nav-disabled">&#8592; First category</span>
+    }
+    {next
+      ? <a class="dd-nav-btn dd-nav-next" href={`/love-your-neighbors/takeaways-texts/${next.slug}/`}>{next.title} &#8594;</a>
+      : <span class="dd-nav-btn dd-nav-next dd-nav-disabled">Last category &#8594;</span>
+    }
+  </div>
+</BaseLayout>
+
+<style>
+/* ── Category header ─────────────────────────────────────────── */
+.cat-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cat-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.cat-title {
+  margin: 0;
+}
+
+/* ── Page subtitle ───────────────────────────────────────────── */
+.texts-subtitle {
+  font-size: 1rem;
+  color: #7a7368;
+  font-style: italic;
+  margin-bottom: 2.75rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.6;
+}
+
+/* ── Message cards ───────────────────────────────────────────── */
+.texts-message {
+  padding: 1.1rem 1.4rem;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(199, 187, 170, 0.65);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  color: #4f4742;
+  line-height: 1.82;
+  max-width: 82ch;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.texts-message:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+  border-color: rgba(183, 156, 92, 0.35);
+}
+
+/* ── Sub-header labels ───────────────────────────────────────── */
+.texts-subheader {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.texts-subheader::before {
+  content: '';
+  width: 18px;
+  height: 2px;
+  background: rgba(183, 156, 92, 0.5);
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+
+.texts-subheader::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(183, 156, 92, 0.15);
+}
+
+/* ── Bullet list ─────────────────────────────────────────────── */
+.texts-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  max-width: 82ch;
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(199, 187, 170, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.texts-bullet-list li {
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  color: #4f4742;
+  line-height: 1.75;
+  padding: 0.65rem 1.2rem 0.65rem 2rem;
+  position: relative;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.18);
+  transition: background 0.15s;
+}
+
+.texts-bullet-list li:last-child {
+  border-bottom: none;
+}
+
+.texts-bullet-list li:hover {
+  background: rgba(183, 156, 92, 0.04);
+}
+
+.texts-bullet-list li::before {
+  content: '\2014';
+  position: absolute;
+  left: 0.75rem;
+  color: #b79c5c;
+  opacity: 0.7;
+}
+
+/* ── Numbered list ───────────────────────────────────────────── */
+.texts-numbered-list {
+  padding-left: 1.75rem;
+  margin: 0 0 0.75rem;
+  max-width: 82ch;
+}
+
+.texts-numbered-list li {
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  color: #4f4742;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+.texts-numbered-list li::marker {
+  color: #b79c5c;
+  font-weight: 600;
+}
+
+/* ── Sub-categories ──────────────────────────────────────────── */
+.texts-subcategory {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(199, 187, 170, 0.3);
+  border-left: 3px solid rgba(183, 156, 92, 0.45);
+  border-radius: 0 8px 8px 0;
+}
+
+.texts-subcategory-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.15);
+}
+
+/* ── URL lists ───────────────────────────────────────────────── */
+.texts-urls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.texts-url {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  color: #b79c5c;
+  text-decoration: underline;
+  word-break: break-all;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.texts-url:hover {
+  opacity: 1;
+}
+
+/* ── Section body ────────────────────────────────────────────── */
+.texts-section-body {
+  padding-left: 0.25rem;
+}
+
+/* ── Disabled nav button ─────────────────────────────────────── */
+.dd-nav-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 520px) {
+  .texts-message {
+    padding: 0.9rem 1.1rem;
+    font-size: 0.96rem;
+  }
+
+  .texts-bullet-list li {
+    font-size: 0.96rem;
+  }
+
+  .cat-icon {
+    font-size: 1.5rem;
+  }
+}
+</style>
