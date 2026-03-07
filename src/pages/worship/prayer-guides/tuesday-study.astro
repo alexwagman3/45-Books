@@ -1,0 +1,292 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Worship — Tuesday: Study"
+  description="A structured Bible study framework with questions for context, observation, key message, and application."
+>
+  <div class="takeaways-content pg-page">
+    <a href="/worship/takeaways-weekly-prayer-plan/" class="pg-back">← Back to Weekly Prayer Plan</a>
+
+    <div class="pg-header">
+      <div class="pg-day-badge">Tuesday · Study</div>
+      <h1 class="pg-title">Simple Questions to Ask Every Time You Open Your Bible</h1>
+      <p class="pg-intro">The difference between reading and studying the Bible involves two additional activities: asking questions of the text and writing down your insights.</p>
+    </div>
+
+    <!-- SUMMARY -->
+    <section class="pg-section">
+      <h2 class="pg-section-label">Before You Begin</h2>
+      <p class="pg-prompt-lead">Briefly summarize what you just read:</p>
+      <div class="pg-write-line"></div>
+      <div class="pg-write-line"></div>
+    </section>
+
+    <!-- CONTEXT -->
+    <section class="pg-section pg-section--alt">
+      <h2 class="pg-section-label">Context</h2>
+      <div class="pg-question-list">
+        <div class="pg-question">
+          <p>Who wrote this text and what do we know about them?</p>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>Who is the intended audience and what do we know about them?</p>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What was going on at the time culturally and historically?</p>
+          <div class="pg-write-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASSAGES THAT STAND OUT -->
+    <section class="pg-section">
+      <h2 class="pg-section-label">Passages That Stand Out</h2>
+      <div class="pg-question-list">
+        <div class="pg-question">
+          <p>Which passage in this chapter jumped out to you? Why?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What is one passage that encourages or inspires you? Why?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What is one passage that challenges or convicts you? Why?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What is one passage that surprises or confuses you? Why?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY MESSAGE -->
+    <section class="pg-section pg-section--alt">
+      <h2 class="pg-section-label">Key Message</h2>
+      <div class="pg-question-list">
+        <div class="pg-question">
+          <p>What do you think is the key message of this chapter?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What does God want you to understand or believe?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>Are there truths in this chapter that contradict ideas we hear in the world? If so, what are they?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>How does this chapter connect to other parts of this book and the rest of the Bible?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>What contrasts emerge between what this passage <em>could</em> have said and what it <em>actually</em> says — and what does that reveal about its central message?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPLICATION -->
+    <section class="pg-section">
+      <h2 class="pg-section-label">Application</h2>
+      <div class="pg-question-list">
+        <div class="pg-question">
+          <p>How would embodying this truth impact you if you took it seriously?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>How would it change your daily choices or interactions?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>How would it change your thoughts or attitudes?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+        <div class="pg-question">
+          <p>Why might God be showing this to you now?</p>
+          <div class="pg-write-line"></div>
+          <div class="pg-write-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <blockquote class="pg-closing-quote">
+      "Your word is a lamp to my feet and a light to my path."
+      <cite>— Psalm 119:105</cite>
+    </blockquote>
+
+  </div>
+</BaseLayout>
+
+<style>
+/* ── Page wrapper ──────────────────────────────────────────────── */
+.pg-page {
+  max-width: 860px;
+  padding-top: 1.5rem;
+}
+
+/* ── Back link ─────────────────────────────────────────────────── */
+.pg-back {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #9a8e82;
+  text-decoration: none;
+  margin-bottom: 1.75rem;
+  letter-spacing: 0.01em;
+  transition: color 0.15s;
+}
+.pg-back:hover { color: #b79c5c; }
+
+/* ── Header ────────────────────────────────────────────────────── */
+.pg-header {
+  margin-bottom: 2rem;
+}
+.pg-day-badge {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  background: rgba(183, 156, 92, 0.1);
+  border: 1px solid rgba(183, 156, 92, 0.3);
+  padding: 0.22rem 0.65rem;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+.pg-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #3d3830;
+  margin: 0 0 0.6rem;
+  line-height: 1.25;
+}
+.pg-intro {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.02rem;
+  font-style: italic;
+  color: #7a7368;
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* ── Sections ──────────────────────────────────────────────────── */
+.pg-section {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(199, 187, 170, 0.4);
+  border-left: 3px solid #c2a86d;
+  border-radius: 6px;
+  padding: 1.4rem 1.5rem 1.2rem;
+  margin-bottom: 1rem;
+}
+.pg-section--alt {
+  background: rgba(233, 227, 216, 0.25);
+}
+.pg-section-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  margin: 0 0 1.1rem;
+}
+
+/* ── Question list ─────────────────────────────────────────────── */
+.pg-question-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.pg-question {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(199, 187, 170, 0.22);
+}
+.pg-question:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.pg-question p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  color: #3d3830;
+  line-height: 1.6;
+  margin: 0 0 0.65rem;
+  font-weight: 500;
+}
+.pg-question em {
+  font-style: italic;
+  color: #5e554b;
+}
+
+/* ── Write lines ───────────────────────────────────────────────── */
+.pg-write-line {
+  height: 1px;
+  background: rgba(199, 187, 170, 0.5);
+  margin: 0.55rem 0;
+  border-radius: 1px;
+}
+
+/* ── Prompt lead ───────────────────────────────────────────────── */
+.pg-prompt-lead {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  color: #3d3830;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0 0 0.65rem;
+}
+
+/* ── Closing quote ─────────────────────────────────────────────── */
+.pg-closing-quote {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.08rem;
+  font-style: italic;
+  color: #7a7368;
+  text-align: center;
+  border: none;
+  border-top: 1px solid rgba(199, 187, 170, 0.4);
+  border-bottom: 1px solid rgba(199, 187, 170, 0.4);
+  padding: 1.5rem 1rem;
+  margin: 0 0 2.5rem;
+  line-height: 1.75;
+}
+.pg-closing-quote cite {
+  display: block;
+  font-size: 0.82rem;
+  font-style: normal;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  color: #b79c5c;
+  margin-top: 0.5rem;
+  letter-spacing: 0.04em;
+}
+
+/* ── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .pg-title { font-size: 1.45rem; }
+  .pg-section { padding: 1.1rem 1.1rem 1rem; }
+}
+</style>

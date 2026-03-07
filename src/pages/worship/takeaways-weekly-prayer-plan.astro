@@ -38,6 +38,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <p>Lord, what do You want me to take away from this time?</p>
           </div>
         </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/monday-ask/" class="pp-deeper-btn">Open Prayer Prompts →</a>
+        </div>
       </article>
 
       <!-- TUESDAY -->
@@ -61,6 +64,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           <div class="pp-step">
             <p>How can the key message shape my thoughts, decisions, or attitudes this week?</p>
           </div>
+        </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/tuesday-study/" class="pp-deeper-btn">Open Bible Study Guide →</a>
         </div>
       </article>
 
@@ -86,6 +92,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <p>Name one area in the world where I'm longing for God to move.</p>
           </div>
         </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/wednesday-intercede/" class="pp-deeper-btn">Open Intercession Inventory →</a>
+        </div>
       </article>
 
       <!-- THURSDAY -->
@@ -109,6 +118,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           <div class="pp-step">
             <p>If Jesus physically walked into my day today, where would He go, and who would He stop for?</p>
           </div>
+        </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/thursday-bless/" class="pp-deeper-btn">Open Blessing Guide →</a>
         </div>
       </article>
 
@@ -134,6 +146,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <p>Is there a conversation, confession, or confrontation I'm avoiding?</p>
           </div>
         </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/friday-repent/" class="pp-deeper-btn">Open Repentance Guide →</a>
+        </div>
       </article>
 
       <!-- SATURDAY -->
@@ -158,6 +173,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <p>Which attribute or name of God am I most drawn to as I reflect on the week?</p>
           </div>
         </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/saturday-praise/" class="pp-deeper-btn">Open Gratitude Inventory →</a>
+        </div>
       </article>
 
       <!-- SUNDAY -->
@@ -181,6 +199,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           <div class="pp-step">
             <p>Where in nature can I savor God's presence and creation today?</p>
           </div>
+        </div>
+        <div class="pp-card-footer">
+          <a href="/worship/prayer-guides/sunday-meditate/" class="pp-deeper-btn">Open Sabbath Devotional →</a>
         </div>
       </article>
 
@@ -328,6 +349,33 @@ html { scroll-behavior: smooth; }
   color: #5e554b;
   line-height: 1.65;
   margin: 0;
+}
+
+/* ── Card footer / deeper button ─────────────────────────────── */
+.pp-card-footer {
+  padding: 0.85rem 1.25rem 1rem;
+  border-top: 1px solid rgba(199, 187, 170, 0.25);
+}
+
+.pp-deeper-btn {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #b79c5c;
+  border: 1px solid rgba(183, 156, 92, 0.45);
+  border-radius: 3px;
+  padding: 0.4rem 0.85rem;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.pp-deeper-btn:hover {
+  background: rgba(183, 156, 92, 0.12);
+  color: #8a6f30;
+  border-color: rgba(183, 156, 92, 0.65);
 }
 
 /* ── Responsive: tablet → 1 column ───────────────────────────── */
