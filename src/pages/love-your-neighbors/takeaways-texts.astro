@@ -242,7 +242,7 @@ const navHtml = `<div class="texts-nav-wrapper" id="texts-top">
   <div class="texts-nav-grid">
     ${sections.map(s => {
       const icon = ICONS[s.title] ?? '';
-      return `<a href="#${s.id}" class="texts-nav-btn">${icon ? `<span class="texts-nav-icon">${icon}</span>` : ''}${esc(s.title)}</a>`;
+      return `<a href="#${s.id}" class="texts-nav-btn">${icon ? `<span class="texts-nav-icon">${icon}</span>` : ''}<span>${esc(s.title)}</span></a>`;
     }).join('')}
   </div>
 </div>`;
@@ -274,6 +274,17 @@ const pageHtml = navHtml + sectionsHtml;
     <span class="takeaways-tag">Love Your Neighbors</span>
     <h1 class="takeaways-title">The Art of Showing Up with Words</h1>
     <p class="texts-subtitle">Real messages for every major life event — blueprints for your own voice</p>
+    <div class="texts-count-bar">
+      <span class="texts-count-item">&#127874; Birthdays</span>
+      <span class="texts-count-divider">&middot;</span>
+      <span class="texts-count-item">&#128591; Thank-Yous</span>
+      <span class="texts-count-divider">&middot;</span>
+      <span class="texts-count-item">&#128153; Grief &amp; Loss</span>
+      <span class="texts-count-divider">&middot;</span>
+      <span class="texts-count-item">&#129309; Check-Ins</span>
+      <span class="texts-count-divider">&middot;</span>
+      <span class="texts-count-item">&#128140; Well Wishes</span>
+    </div>
 
     <Fragment set:html={pageHtml} />
   </div>
@@ -287,84 +298,127 @@ const pageHtml = navHtml + sectionsHtml;
 <style>
 /* ── Page subtitle ───────────────────────────────────────────── */
 .texts-subtitle {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #7a7368;
   font-style: italic;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
   font-family: 'EB Garamond', serif;
+  line-height: 1.6;
 }
 
-/* ── Navigation wrapper — top only, never sticky ────────────── */
-.texts-nav-wrapper {
-  margin-bottom: 3rem;
-  padding: 1.5rem 1.75rem;
-  background: rgba(183, 156, 92, 0.05);
-  border: 1px solid rgba(183, 156, 92, 0.2);
+/* ── Category summary bar ────────────────────────────────────── */
+.texts-count-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+  margin-bottom: 2.5rem;
+  padding: 0.8rem 1.1rem;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(199, 187, 170, 0.35);
   border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  color: #7a7368;
+}
+
+.texts-count-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
+.texts-count-divider {
+  color: rgba(183, 156, 92, 0.45);
+  font-size: 0.9rem;
+}
+
+/* ── Navigation wrapper ──────────────────────────────────────── */
+.texts-nav-wrapper {
+  margin-bottom: 3.5rem;
+  padding: 1.75rem 2rem;
+  background: linear-gradient(135deg, rgba(183, 156, 92, 0.06), rgba(199, 187, 170, 0.08));
+  border: 1px solid rgba(183, 156, 92, 0.22);
+  border-radius: 12px;
 }
 
 .texts-nav-label {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.58rem;
   font-weight: 700;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
   color: #b79c5c;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.texts-nav-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(183, 156, 92, 0.2);
 }
 
 .texts-nav-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
   gap: 0.5rem;
 }
 
 .texts-nav-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.35rem;
-  padding: 0.45rem 0.9rem;
-  background: rgba(255, 255, 255, 0.45);
-  border: 1px solid rgba(199, 187, 170, 0.6);
-  border-radius: 999px;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(199, 187, 170, 0.5);
+  border-radius: 8px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 500;
   color: #5c5449;
   text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-  white-space: nowrap;
-  line-height: 1.3;
+  transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.15s;
+  line-height: 1.35;
 }
 
 .texts-nav-btn:hover {
   background: #6a6156;
   color: #f3efe9;
   border-color: #6a6156;
+  transform: translateY(-1px);
 }
 
 .texts-nav-icon {
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   line-height: 1;
+  flex-shrink: 0;
 }
 
 /* ── Section container ───────────────────────────────────────── */
 .texts-section {
-  margin-bottom: 3.5rem;
-  scroll-margin-top: 1rem;
+  margin-bottom: 4rem;
+  scroll-margin-top: 1.5rem;
 }
 
 .texts-section-header {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.65rem;
-  border-bottom: 2px solid rgba(183, 156, 92, 0.2);
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, rgba(183, 156, 92, 0.08), rgba(199, 187, 170, 0.06));
+  border: 1px solid rgba(183, 156, 92, 0.18);
+  border-left: 4px solid rgba(183, 156, 92, 0.55);
+  border-radius: 0 8px 8px 0;
 }
 
 .texts-section-icon {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1;
   flex-shrink: 0;
 }
@@ -374,7 +428,8 @@ const pageHtml = navHtml + sectionsHtml;
   padding: 0;
   border: none;
   flex: 1;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
 }
 
 .texts-top-link {
@@ -382,53 +437,72 @@ const pageHtml = navHtml + sectionsHtml;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.62rem;
   font-weight: 500;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: #b79c5c;
   text-decoration: none;
-  opacity: 0.65;
-  transition: opacity 0.2s;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(183, 156, 92, 0.3);
+  border-radius: 4px;
+  opacity: 0.75;
+  transition: opacity 0.2s, background 0.2s;
 }
 
 .texts-top-link:hover {
   opacity: 1;
+  background: rgba(183, 156, 92, 0.1);
 }
 
 /* ── Message cards ───────────────────────────────────────────── */
 .texts-message {
-  padding: 1rem 1.25rem;
-  background: rgba(255, 255, 255, 0.28);
-  border: 1px solid rgba(199, 187, 170, 0.3);
-  border-left: 3px solid rgba(183, 156, 92, 0.25);
-  border-radius: 0 5px 5px 0;
-  margin-bottom: 0.65rem;
+  padding: 1.1rem 1.4rem;
+  background: rgba(255, 255, 255, 0.52);
+  border: 1px solid rgba(199, 187, 170, 0.4);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
   font-family: 'EB Garamond', serif;
-  font-size: 0.93rem;
-  color: #5e554b;
-  line-height: 1.78;
+  font-size: 1rem;
+  color: #4f4742;
+  line-height: 1.82;
   max-width: 82ch;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  position: relative;
+}
+
+.texts-message:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+  border-color: rgba(183, 156, 92, 0.35);
 }
 
 /* ── Sub-header labels (within sections) ─────────────────────── */
 .texts-subheader {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #b79c5c;
-  margin-top: 1.75rem;
-  margin-bottom: 0.75rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.75rem;
+}
+
+.texts-subheader::before {
+  content: '';
+  width: 18px;
+  height: 2px;
+  background: rgba(183, 156, 92, 0.5);
+  border-radius: 1px;
+  flex-shrink: 0;
 }
 
 .texts-subheader::after {
   content: '';
   flex: 1;
-  max-width: 120px;
   height: 1px;
-  background: rgba(183, 156, 92, 0.2);
+  background: rgba(183, 156, 92, 0.15);
 }
 
 /* ── Bullet list ─────────────────────────────────────────────── */
@@ -437,28 +511,37 @@ const pageHtml = navHtml + sectionsHtml;
   padding: 0;
   margin: 0 0 0.75rem;
   max-width: 82ch;
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(199, 187, 170, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .texts-bullet-list li {
   font-family: 'EB Garamond', serif;
-  font-size: 0.93rem;
-  color: #5e554b;
+  font-size: 1rem;
+  color: #4f4742;
   line-height: 1.75;
-  padding: 0.55rem 1rem 0.55rem 1.6rem;
+  padding: 0.65rem 1.2rem 0.65rem 2rem;
   position: relative;
-  background: rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(199, 187, 170, 0.15);
+  border-bottom: 1px solid rgba(199, 187, 170, 0.18);
+  transition: background 0.15s;
 }
 
-.texts-bullet-list li:first-child {
-  border-top: 1px solid rgba(199, 187, 170, 0.15);
+.texts-bullet-list li:last-child {
+  border-bottom: none;
+}
+
+.texts-bullet-list li:hover {
+  background: rgba(183, 156, 92, 0.04);
 }
 
 .texts-bullet-list li::before {
   content: '\2014';
   position: absolute;
-  left: 0.5rem;
+  left: 0.75rem;
   color: #b79c5c;
+  opacity: 0.7;
 }
 
 /* ── Numbered list ───────────────────────────────────────────── */
@@ -470,29 +553,38 @@ const pageHtml = navHtml + sectionsHtml;
 
 .texts-numbered-list li {
   font-family: 'EB Garamond', serif;
-  font-size: 0.93rem;
-  color: #5e554b;
-  line-height: 1.75;
-  margin-bottom: 0.45rem;
-  padding-left: 0.25rem;
+  font-size: 1rem;
+  color: #4f4742;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+.texts-numbered-list li::marker {
+  color: #b79c5c;
+  font-weight: 600;
 }
 
 /* ── Sub-categories (Follow-Up section) ─────────────────────── */
 .texts-subcategory {
-  margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  border-left: 3px solid rgba(183, 156, 92, 0.3);
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(199, 187, 170, 0.3);
+  border-left: 3px solid rgba(183, 156, 92, 0.45);
+  border-radius: 0 8px 8px 0;
 }
 
 .texts-subcategory-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #b79c5c;
-  margin-bottom: 0.7rem;
-  padding-top: 0.15rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.15);
 }
 
 /* ── URL lists ───────────────────────────────────────────────── */
@@ -517,20 +609,51 @@ const pageHtml = navHtml + sectionsHtml;
   opacity: 1;
 }
 
+/* ── Section body spacing ────────────────────────────────────── */
+.texts-section-body {
+  padding-left: 0.25rem;
+}
+
 /* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 680px) {
+  .texts-nav-grid {
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  }
+
+  .texts-nav-wrapper {
+    padding: 1.25rem 1.1rem;
+  }
+}
+
 @media (max-width: 520px) {
+  .texts-count-bar {
+    display: none;
+  }
+
   .texts-nav-wrapper {
     padding: 1.1rem 1rem;
   }
 
+  .texts-nav-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .texts-nav-btn {
-    font-size: 0.65rem;
-    padding: 0.4rem 0.75rem;
+    font-size: 0.68rem;
+    padding: 0.55rem 0.75rem;
+  }
+
+  .texts-section-header {
+    padding: 0.85rem 1rem;
   }
 
   .texts-message {
-    padding: 0.8rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.96rem;
+  }
+
+  .texts-bullet-list li {
+    font-size: 0.96rem;
   }
 }
 </style>
