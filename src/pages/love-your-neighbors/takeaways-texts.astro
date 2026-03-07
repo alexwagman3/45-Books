@@ -274,17 +274,6 @@ const pageHtml = navHtml + sectionsHtml;
     <span class="takeaways-tag">Love Your Neighbors</span>
     <h1 class="takeaways-title">The Art of Showing Up with Words</h1>
     <p class="texts-subtitle">Real messages for every major life event — blueprints for your own voice</p>
-    <div class="texts-count-bar">
-      <span class="texts-count-item">&#127874; Birthdays</span>
-      <span class="texts-count-divider">&middot;</span>
-      <span class="texts-count-item">&#128591; Thank-Yous</span>
-      <span class="texts-count-divider">&middot;</span>
-      <span class="texts-count-item">&#128153; Grief &amp; Loss</span>
-      <span class="texts-count-divider">&middot;</span>
-      <span class="texts-count-item">&#129309; Check-Ins</span>
-      <span class="texts-count-divider">&middot;</span>
-      <span class="texts-count-item">&#128140; Well Wishes</span>
-    </div>
 
     <Fragment set:html={pageHtml} />
   </div>
@@ -306,33 +295,6 @@ const pageHtml = navHtml + sectionsHtml;
   line-height: 1.6;
 }
 
-/* ── Category summary bar ────────────────────────────────────── */
-.texts-count-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 0.6rem;
-  margin-bottom: 2.5rem;
-  padding: 0.8rem 1.1rem;
-  background: rgba(255, 255, 255, 0.35);
-  border: 1px solid rgba(199, 187, 170, 0.35);
-  border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.72rem;
-  color: #7a7368;
-}
-
-.texts-count-item {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  white-space: nowrap;
-}
-
-.texts-count-divider {
-  color: rgba(183, 156, 92, 0.45);
-  font-size: 0.9rem;
-}
 
 /* ── Navigation wrapper ──────────────────────────────────────── */
 .texts-nav-wrapper {
@@ -345,9 +307,9 @@ const pageHtml = navHtml + sectionsHtml;
 
 .texts-nav-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.58rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #b79c5c;
   margin-bottom: 1.25rem;
@@ -373,14 +335,14 @@ const pageHtml = navHtml + sectionsHtml;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.6rem 0.9rem;
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px solid rgba(199, 187, 170, 0.5);
+  padding: 0.65rem 1rem;
+  background: #f5f1eb;
+  border: 1px solid #c7bbaa;
   border-radius: 8px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 500;
-  color: #5c5449;
+  color: #4f4742;
   text-decoration: none;
   transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.15s;
   line-height: 1.35;
@@ -412,9 +374,8 @@ const pageHtml = navHtml + sectionsHtml;
   margin-bottom: 1.75rem;
   padding: 1rem 1.25rem;
   background: linear-gradient(135deg, rgba(183, 156, 92, 0.08), rgba(199, 187, 170, 0.06));
-  border: 1px solid rgba(183, 156, 92, 0.18);
-  border-left: 4px solid rgba(183, 156, 92, 0.55);
-  border-radius: 0 8px 8px 0;
+  border: 1px solid rgba(183, 156, 92, 0.25);
+  border-radius: 8px;
 }
 
 .texts-section-icon {
@@ -455,8 +416,8 @@ const pageHtml = navHtml + sectionsHtml;
 /* ── Message cards ───────────────────────────────────────────── */
 .texts-message {
   padding: 1.1rem 1.4rem;
-  background: rgba(255, 255, 255, 0.52);
-  border: 1px solid rgba(199, 187, 170, 0.4);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(199, 187, 170, 0.65);
   border-radius: 8px;
   margin-bottom: 0.75rem;
   font-family: 'EB Garamond', serif;
@@ -477,9 +438,9 @@ const pageHtml = navHtml + sectionsHtml;
 /* ── Sub-header labels (within sections) ─────────────────────── */
 .texts-subheader {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #b79c5c;
   margin-top: 2.25rem;
@@ -626,10 +587,6 @@ const pageHtml = navHtml + sectionsHtml;
 }
 
 @media (max-width: 520px) {
-  .texts-count-bar {
-    display: none;
-  }
-
   .texts-nav-wrapper {
     padding: 1.1rem 1rem;
   }
