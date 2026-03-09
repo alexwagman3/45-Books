@@ -19,6 +19,12 @@ const sections = parseSections(raw);
 const idx = sections.findIndex(s => s.slug === section.slug);
 const prev = idx > 0 ? sections[idx - 1] : null;
 const next = idx < sections.length - 1 ? sections[idx + 1] : null;
+
+const navHtml = sections.map(s => {
+  const sIcon = ICONS[s.title] ?? '';
+  const isActive = s.slug === section.slug;
+  return `<a href="/love-your-neighbors/takeaways-texts/${s.slug}/" class="pp-nav-link${isActive ? ' pp-nav-link--active' : ''}">${sIcon ? `<span class="texts-nav-icon">${sIcon}</span>` : ''}<span>${esc(s.title)}</span></a>`;
+}).join('');
 ---
 
 <BaseLayout
@@ -37,6 +43,10 @@ const next = idx < sections.length - 1 ? sections[idx + 1] : null;
       <h1 class="takeaways-title cat-title">{section.title}</h1>
     </div>
     <p class="texts-subtitle">Message templates and real examples — use as a blueprint for your own voice</p>
+
+    <nav class="pp-nav">
+      <Fragment set:html={navHtml} />
+    </nav>
 
     <div class="texts-section-body">
       <Fragment set:html={contentHtml} />
@@ -72,6 +82,52 @@ const next = idx < sections.length - 1 ? sections[idx + 1] : null;
 
 .cat-title {
   margin: 0;
+}
+
+/* ── Section nav (pp-nav style) ──────────────────────────────── */
+.pp-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
+}
+
+.pp-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a7368;
+  background: rgba(70, 61, 52, 0.04);
+  border: 1px solid rgba(199, 187, 170, 0.5);
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.pp-nav-link:hover {
+  background: #6a6156;
+  color: #f3efe9;
+  border-color: #6a6156;
+}
+
+.pp-nav-link--active {
+  background: #6a6156;
+  color: #f3efe9;
+  border-color: #6a6156;
+}
+
+.texts-nav-icon {
+  font-size: 0.9rem;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 /* ── Page subtitle ───────────────────────────────────────────── */

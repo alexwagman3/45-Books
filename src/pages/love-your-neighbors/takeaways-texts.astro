@@ -5,14 +5,11 @@ import { raw, parseSections, renderContent, esc, ICONS } from '../../lib/texts-u
 const PREVIEW_LIMIT = 5;
 const sections = parseSections(raw);
 
-const navHtml = `<div class="texts-nav-wrapper" id="texts-top">
-  <div class="texts-nav-label">Jump to a Section</div>
-  <div class="texts-nav-grid">
-    ${sections.map(s => {
-      const icon = ICONS[s.title] ?? '';
-      return `<a href="#${s.id}" class="texts-nav-btn">${icon ? `<span class="texts-nav-icon">${icon}</span>` : ''}<span>${esc(s.title)}</span></a>`;
-    }).join('')}
-  </div>
+const navHtml = `<div class="pp-nav" id="texts-top">
+  ${sections.map(s => {
+    const icon = ICONS[s.title] ?? '';
+    return `<a href="#${s.id}" class="pp-nav-link">${icon ? `<span class="texts-nav-icon">${icon}</span>` : ''}<span>${esc(s.title)}</span></a>`;
+  }).join('')}
 </div>`;
 
 const sectionsHtml = sections.map(s => {
@@ -70,67 +67,42 @@ const pageHtml = navHtml + sectionsHtml;
 }
 
 
-/* ── Navigation wrapper ──────────────────────────────────────── */
-.texts-nav-wrapper {
-  margin-bottom: 3.5rem;
-  padding: 1.75rem 2rem;
-  background: linear-gradient(135deg, rgba(183, 156, 92, 0.06), rgba(199, 187, 170, 0.08));
-  border: 1px solid rgba(183, 156, 92, 0.22);
-  border-radius: 12px;
-}
-
-.texts-nav-label {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: #b79c5c;
-  margin-bottom: 1.25rem;
+/* ── Navigation (pp-nav style) ───────────────────────────────── */
+.pp-nav {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
+}
+
+.pp-nav-link {
+  display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-}
-
-.texts-nav-label::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: rgba(183, 156, 92, 0.2);
-}
-
-.texts-nav-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-  gap: 0.5rem;
-}
-
-.texts-nav-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1rem;
-  background: #f5f1eb;
-  border: 1px solid #c7bbaa;
-  border-radius: 8px;
+  gap: 0.35rem;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.65rem;
   font-weight: 500;
-  color: #4f4742;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a7368;
+  background: rgba(70, 61, 52, 0.04);
+  border: 1px solid rgba(199, 187, 170, 0.5);
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
   text-decoration: none;
-  transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.15s;
-  line-height: 1.35;
+  transition: all 0.2s;
 }
 
-.texts-nav-btn:hover {
+.pp-nav-link:hover {
   background: #6a6156;
   color: #f3efe9;
   border-color: #6a6156;
-  transform: translateY(-1px);
 }
 
 .texts-nav-icon {
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   line-height: 1;
   flex-shrink: 0;
 }
@@ -376,28 +348,10 @@ const pageHtml = navHtml + sectionsHtml;
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */
-@media (max-width: 680px) {
-  .texts-nav-grid {
-    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
-  }
-
-  .texts-nav-wrapper {
-    padding: 1.25rem 1.1rem;
-  }
-}
-
 @media (max-width: 520px) {
-  .texts-nav-wrapper {
-    padding: 1.1rem 1rem;
-  }
-
-  .texts-nav-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .texts-nav-btn {
-    font-size: 0.68rem;
-    padding: 0.55rem 0.75rem;
+  .pp-nav-link {
+    font-size: 0.6rem;
+    padding: 0.28rem 0.6rem;
   }
 
   .texts-section-header {
