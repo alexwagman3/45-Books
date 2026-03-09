@@ -44,9 +44,9 @@ const navHtml = sections.map(s => {
     </div>
     <p class="texts-subtitle">Message templates and real examples — use as a blueprint for your own voice</p>
 
-    <nav class="pp-nav">
+    <div class="pp-nav">
       <Fragment set:html={navHtml} />
-    </nav>
+    </div>
 
     <div class="texts-section-body">
       <Fragment set:html={contentHtml} />
@@ -65,7 +65,7 @@ const navHtml = sections.map(s => {
   </div>
 </BaseLayout>
 
-<style>
+<style is:global>
 /* ── Category header ─────────────────────────────────────────── */
 .cat-header {
   display: flex;
