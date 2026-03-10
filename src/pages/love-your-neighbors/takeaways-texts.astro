@@ -217,7 +217,7 @@ const pageHtml = navHtml + sectionsHtml;
   list-style: none;
   padding: 0;
   margin: 0 0 0.75rem;
-  max-width: 62ch;
+  max-width: 82ch;
   background: transparent;
   border: none;
   border-radius: 0;
@@ -239,6 +239,13 @@ const pageHtml = navHtml + sectionsHtml;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.texts-message,
+.texts-bullet-list li {
+  width: 100%;
+  max-width: 82ch;
+  box-sizing: border-box;
 }
 
 .texts-bullet-list li:hover {

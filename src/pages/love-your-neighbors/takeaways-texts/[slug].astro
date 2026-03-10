@@ -221,6 +221,13 @@ const navHtml = sections.map(s => {
   transition: box-shadow 0.2s, border-color 0.2s;
 }
 
+.texts-message,
+.texts-bullet-list li {
+  width: 100%;
+  max-width: 82ch;
+  box-sizing: border-box;
+}
+
 .texts-bullet-list li:hover {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
   border-color: rgba(183, 156, 92, 0.35);
