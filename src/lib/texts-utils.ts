@@ -83,6 +83,9 @@ function renderSubCategories(lines: string[], limit?: number): RenderResult {
       continue;
     }
     if (currentGroup) {
+      if (/^\s+- /.test(line) && currentItem.length > 0) {
+        flushItem();
+      }
       const t = line.replace(/^\s+- /, '').trimStart();
       currentItem.push(t);
     }
