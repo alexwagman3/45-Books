@@ -228,8 +228,7 @@ export function renderContent(content: string, limit?: number): RenderResult {
 export const ICONS: Record<string, string> = {
   'Birthdays': '&#127874;',
   "Birthday Thank-You's": '&#128591;',
-  'Just Announced Pregnancy': '&#128116;',
-  'Newborn Baby': '&#128118;',
+  'Just Announced Pregnancy / Birth': '&#128118;',
   'Professional/Work': '&#128188;',
   'College': '&#127891;',
   'For My Wedding': '&#128141;',
