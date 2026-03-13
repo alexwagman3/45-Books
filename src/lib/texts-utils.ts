@@ -235,7 +235,6 @@ export const ICONS: Record<string, string> = {
   "For Someone Else's Wedding": '&#127867;',
   'Anniversary Wishes': '&#128145;',
   'Baby Shower Thank-Yous': '&#127873;',
-  'Random Compliment': '&#11088;',
   'Mourning/Loss': '&#128153;',
   'Follow Up Check-In Texts for Tough Stressful Situations': '&#129309;',
   'Well Wishes': '&#128140;',
