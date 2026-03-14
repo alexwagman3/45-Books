@@ -15,12 +15,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <span class="takeaways-tag">Feed Your Body</span>
     <h1 class="takeaways-title">Weekly Dinner Plan</h1>
 
-    <nav class="dp-nav">
-      <a class="dp-nav-link" href="#week1">Week 1</a>
-      <a class="dp-nav-link" href="#week2">Week 2</a>
-      <a class="dp-nav-link" href="#lunch">Lunch Options</a>
-    </nav>
-
     <!-- ═══════════════════════════════════════════ WEEK 1 ══ -->
     <section class="dp-week" id="week1">
       <h2 class="dp-week-title">Week 1</h2>
@@ -556,37 +550,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 /* ── Page wrapper ─────────────────────────────────────────────── */
 .dp-wrap {
   max-width: 1080px;
-}
-
-/* ── Jump nav ─────────────────────────────────────────────────── */
-.dp-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 2.75rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(183, 156, 92, 0.2);
-}
-
-.dp-nav-link {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #7a7368;
-  background: rgba(70, 61, 52, 0.04);
-  border: 1px solid rgba(199, 187, 170, 0.45);
-  padding: 0.38rem 0.85rem;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.dp-nav-link:hover {
-  background: #6a6156;
-  color: #f3efe9;
-  border-color: #6a6156;
 }
 
 /* ── Week section ─────────────────────────────────────────────── */
